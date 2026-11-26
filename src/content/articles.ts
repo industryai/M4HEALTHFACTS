@@ -379,49 +379,62 @@ export const articles: Article[] = [
   },
   {
     slug: "freie-zucker-ernaehrung",
-    title: "Zucker in der Ernährung: Freie Zucker richtig einordnen",
+    title: "Zucker in der Ernährung: Freie Zucker erkennen und reduzieren",
     category: "ernaehrung",
-    tags: ["Zucker", "Ernährung", "Getränke", "DGE"],
-    intro: "Nicht jeder Zucker in Lebensmitteln ist gleich einzuordnen. Fachgesellschaften unterscheiden unter anderem zwischen freien Zuckern und natürlich enthaltenen Zuckern in ganzen Lebensmitteln.",
-    excerpt: "Was mit freien Zuckern gemeint ist, wo sie vorkommen und wie sich die Empfehlungen im Alltag umsetzen lassen.",
-    readingMinutes: 6,
+    tags: ["Zucker", "Ernährung", "Freie Zucker", "Getränke", "DGE", "WHO"],
+    intro: "Zucker ist nicht gleich Zucker: Für die gesundheitliche Bewertung ist entscheidend, ob er Lebensmitteln zugesetzt wird oder natürlicherweise in ganzen Lebensmitteln vorkommt. Dieser Ratgeber erklärt freie Zucker, Empfehlungen und alltagstaugliche Wege zu einer geringeren Zufuhr.",
+    excerpt: "Wo freie Zucker stecken, wie sie sich von natürlichem Zucker unterscheiden und was die Empfehlungen für den Alltag bedeuten.",
+    readingMinutes: 9,
     publishedAt: "2026-11-26",
     updatedAt: "2026-11-26",
     keyFacts: [
-      "Die DGE empfiehlt, weniger als zehn Prozent der täglichen Energiezufuhr über freie Zucker aufzunehmen.",
-      "Freie Zucker finden sich unter anderem in Süßigkeiten, Limonaden, Sirup und Fruchtsäften.",
-      "Natürlich in ganzem Obst und ungesüßter Milch vorkommende Zucker zählen nicht zu den freien Zuckern.",
+      "DGE, DAG und DDG empfehlen, weniger als zehn Prozent der täglichen Energiezufuhr aus freien Zuckern aufzunehmen.",
+      "Die WHO empfiehlt ebenfalls weniger als zehn Prozent und sieht unter fünf Prozent als zusätzliche Orientierung für weiteren Nutzen.",
+      "Freie Zucker stecken auch in Honig, Sirup, Fruchtsäften und Fruchtsaftkonzentraten.",
+      "Zucker in intaktem Obst und ungesüßter Milch zählt nicht zu den freien Zuckern.",
+      "Zuckerhaltige Getränke sind eine wichtige Quelle freier Zucker und lassen sich oft einfach ersetzen."
     ],
     sections: [
-      {
-        id: "freie-zucker",
-        heading: "Was sind freie Zucker?",
-        paragraphs: [
-          "Als freie Zucker gelten unter anderem Zucker, der Lebensmitteln zugesetzt wird, sowie Zucker in Honig, Sirup und Fruchtsäften. Davon zu unterscheiden sind Zucker, die natürlicherweise in intaktem Obst und Gemüse oder in ungesüßter Milch vorkommen.",
-        ],
-      },
-      {
-        id: "empfehlung",
-        heading: "Welche Menge wird empfohlen?",
-        paragraphs: [
-          "Die Deutsche Gesellschaft für Ernährung, die Deutsche Adipositas-Gesellschaft und die Deutsche Diabetes Gesellschaft empfehlen, die Zufuhr freier Zucker auf weniger als zehn Prozent der Gesamtenergiezufuhr zu begrenzen.",
-          "Das ist eine Orientierung für die gesamte Ernährung und keine Aufforderung, Obst oder ungesüßte Milchprodukte zu meiden.",
-        ],
-      },
-      {
-        id: "alltag",
-        heading: "Wie lässt sich die Empfehlung umsetzen?",
-        paragraphs: [
-          "Ein praktischer Ansatz ist, zuckerhaltige Getränke seltener zu trinken und bei verpackten Lebensmitteln die Zutatenliste zu beachten. Wasser und ungesüßte Getränke können im Alltag eine einfache Alternative sein.",
-          "Es geht nicht um einzelne Lebensmittel oder Verbote, sondern um das Ernährungsmuster über längere Zeit.",
-        ],
-      },
+      { id: "zuckerarten", heading: "Zucker ist nicht gleich Zucker", paragraphs: ["Zucker bezeichnet verschiedene süß schmeckende Kohlenhydrate, darunter Glukose, Fruktose, Saccharose und Laktose. Sie kommen natürlicherweise in Lebensmitteln vor oder werden bei der Herstellung zugesetzt. Für die Ernährungsempfehlungen ist insbesondere die Unterscheidung zwischen freien Zuckern und Zucker in der ursprünglichen Struktur ganzer Lebensmittel wichtig.", "Die Einordnung bezieht sich nicht darauf, ob ein Zucker chemisch „natürlich“ oder „künstlich“ ist. Entscheidend ist vielmehr, in welcher Form er aufgenommen wird und ob er Lebensmitteln zugesetzt wurde oder in der Zellstruktur eines unverarbeiteten Lebensmittels gebunden vorkommt."] },
+      { id: "freie-zucker", heading: "Was sind freie Zucker?", paragraphs: ["Nach der Definition der Weltgesundheitsorganisation zählen zu freien Zuckern alle Mono- und Disaccharide, die Hersteller, Köche oder Verbraucher Lebensmitteln und Getränken zusetzen. Dazu kommen Zucker, die natürlicherweise in Honig, Sirup, Fruchtsäften und Fruchtsaftkonzentraten enthalten sind.", "Nicht zu den freien Zuckern zählen die Zucker in frischem, ganzem Obst und Gemüse sowie die natürlich vorkommende Laktose in Milch. Bei Fruchtsaft ist die Einordnung anders: Auch ohne zugesetzten Zucker zählt der enthaltene Zucker zu den freien Zuckern, weil die natürliche Lebensmittelstruktur verändert wurde."] },
+      { id: "empfehlungen", heading: "Wie viel freie Zucker sind empfehlenswert?", paragraphs: ["DGE, Deutsche Adipositas-Gesellschaft und Deutsche Diabetes Gesellschaft empfehlen, weniger als zehn Prozent der täglichen Energiezufuhr aus freien Zuckern aufzunehmen. Bei einem Energiebedarf von 2.000 Kilokalorien entspricht das weniger als 50 Gramm pro Tag. Der tatsächliche Energiebedarf ist individuell unterschiedlich; die Zahl ist daher nur ein Rechenbeispiel.", "Die WHO empfiehlt ebenfalls eine Begrenzung auf weniger als zehn Prozent der Gesamtenergiezufuhr. Eine weitere Reduktion auf unter fünf Prozent – bei 2.000 Kilokalorien weniger als 25 Gramm täglich – kann zusätzlichen gesundheitlichen Nutzen bringen, insbesondere im Hinblick auf Karies. Diese Werte sind Orientierungen für die Gesamtzufuhr und keine scharfe Grenze zwischen gesund und krank.", "Die Empfehlungen beziehen sich auf freie Zucker insgesamt, nicht auf sämtliche Kohlenhydrate. Stärkehaltige Lebensmittel wie Kartoffeln, Vollkorngetreide und Hülsenfrüchte müssen deshalb nicht pauschal gemieden werden."] },
+      { id: "gesundheitliche-folgen", heading: "Welche gesundheitlichen Folgen kann ein hoher Zuckerkonsum haben?", paragraphs: ["Eine dauerhaft hohe Aufnahme freier Zucker kann die Energiezufuhr erhöhen und eine Gewichtszunahme begünstigen, insbesondere wenn die zusätzliche Energie nicht durch andere Lebensmittel oder Aktivität ausgeglichen wird. Zuckerhaltige Getränke können dabei besonders relevant sein, weil sie häufig wenig sättigen.", "Freie Zucker sind außerdem ein wichtiger Risikofaktor für Karies. Bakterien im Zahnbelag verstoffwechseln Zucker und bilden Säuren, die den Zahnschmelz angreifen. Häufige Zuckerexposition über den Tag kann die Zähne wiederholt belasten.", "Zucker allein erklärt nicht das Risiko für Diabetes oder Herz-Kreislauf-Erkrankungen. Entscheidend sind das gesamte Ernährungsmuster, Körpergewicht, Bewegung, genetische Faktoren und weitere Lebensumstände. Eine sachliche Bewertung vermeidet sowohl Verharmlosung als auch pauschale Schuldzuweisungen."] },
+      { id: "getraenke", heading: "Zuckerhaltige Getränke als häufige Quelle", paragraphs: ["Limonaden, Cola, Energy-Drinks, gesüßte Tees und Fruchtnektare können erhebliche Mengen freie Zucker enthalten. Auch Fruchtsäfte ohne Zuckerzusatz zählen wegen ihres natürlichen Zuckergehalts zu den freien Zuckern. Die Bezeichnung „ohne Zuckerzusatz“ bedeutet deshalb nicht automatisch zuckerarm.", "Wasser und ungesüßter Tee sind geeignete Alltagsgetränke. Wer bisher regelmäßig süße Getränke trinkt, kann schrittweise die Menge reduzieren, kleinere Portionen wählen oder ungesüßte Alternativen ausprobieren."] },
+      { id: "etiketten", heading: "Zucker auf Zutatenlisten und Nährwerttabellen erkennen", paragraphs: ["In der Zutatenliste kann Zucker unter verschiedenen Bezeichnungen erscheinen, etwa Saccharose, Glukose, Dextrose, Fruktose, Maltose, Glukosesirup, Fruktosesirup, Honig oder Agavendicksaft. Die Zutaten werden grundsätzlich in absteigender Reihenfolge ihres Gewichts aufgeführt.", "Die Nährwerttabelle nennt unter „Kohlenhydrate – davon Zucker“ die Gesamtmenge an Zucker pro 100 Gramm oder 100 Milliliter. Sie unterscheidet dabei nicht zwischen zugesetztem und natürlichem Zucker. Für die Einordnung müssen daher Zutatenliste und Produktart gemeinsam betrachtet werden.", "Begriffe wie „natürlich gesüßt“, „mit Honig“ oder „ohne raffinierten Zucker“ bedeuten nicht, dass ein Produkt frei von freien Zuckern ist. Honig, Sirup und Fruchtsaftkonzentrat zählen ebenfalls dazu."] },
+      { id: "alltag", heading: "Freie Zucker im Alltag reduzieren", paragraphs: ["Ein praktikabler erster Schritt ist, süße Getränke seltener zu trinken und Wasser als Standardgetränk zu wählen. Naturjoghurt kann statt gesüßter Varianten mit frischem Obst, Nüssen oder Gewürzen kombiniert werden. Beim Backen und Kochen lässt sich die Zuckermenge häufig schrittweise reduzieren.", "Achten Sie besonders auf regelmäßig konsumierte Produkte wie Frühstückscerealien, Müsliriegel, Desserts, süße Aufstriche, Fertigsaucen und Getränke. Nicht jedes Produkt muss vollständig gestrichen werden. Entscheidend ist die gesamte Ernährungsweise über längere Zeit.", "Ganzes Obst muss wegen seines natürlichen Zuckergehalts nicht gemieden werden. Es liefert außerdem Ballaststoffe und weitere Nährstoffe. Fruchtsaft sollte dagegen eher als gelegentliche kleinere Portion betrachtet werden und nicht automatisch Wasser ersetzen."] },
+      { id: "kinder", heading: "Zucker und Kinder", paragraphs: ["Bei Kindern ist es sinnvoll, süße Getränke und häufige zuckerreiche Zwischenmahlzeiten zu begrenzen. Wasser und ungesüßte Getränke sollten früh als normale Alltagsoption etabliert werden. Eine ausgewogene Ernährung und regelmäßige Zahnpflege sind wichtige Bestandteile der Gesundheitsvorsorge.", "Strenge Verbote oder Beschämung sind wenig hilfreich. Besser sind passende Lebensmittel im Haushalt, altersgerechte Erklärungen und ein Vorbild durch Erwachsene. Bei Säuglingen und Kleinkindern gelten besondere Ernährungsempfehlungen; Honig ist für Kinder unter zwölf Monaten wegen des Risikos von Säuglingsbotulismus ungeeignet."] },
+      { id: "haeufige-fragen", heading: "Häufige Fragen zu Zucker", paragraphs: ["**Ist Fruchtzucker gesünder als Haushaltszucker?** Fruktose ist ein Zucker und zählt als freier Zucker, wenn sie zugesetzt wird. Die Bezeichnung „Fruchtzucker“ macht ein Produkt nicht automatisch gesünder.", "**Ist Honig eine gesündere Alternative?** Honig enthält zwar weitere Bestandteile, zählt mit seinen Zuckern aber zu den freien Zuckern. Er sollte nicht unbegrenzt verwendet werden.", "**Zählt Zucker in Obst zur empfohlenen Grenze?** Zucker in intaktem ganzem Obst zählt nicht zu den freien Zuckern. Fruchtsaft und Fruchtsaftkonzentrat zählen dagegen dazu.", "**Sind Light-Getränke notwendig, um Zucker zu reduzieren?** Nicht unbedingt. Wasser und ungesüßte Getränke sind einfache Standardalternativen. Süßstoffe sind nicht erforderlich, um eine ausgewogene Ernährung zu erreichen.", "**Muss ich komplett auf Zucker verzichten?** Nein. Die Empfehlungen zielen auf eine Begrenzung der freien Zucker, nicht auf ein vollständiges Verbot oder den Verzicht auf ganze Früchte und Milchprodukte."] },
+      { id: "medizinischer-hinweis", heading: "Medizinischer Hinweis", paragraphs: ["Dieser Beitrag dient der allgemeinen Ernährungsinformation und ersetzt keine individuelle Ernährungsberatung oder ärztliche Behandlung. Menschen mit Diabetes, Essstörungen, besonderen Stoffwechselerkrankungen oder anderen medizinischen Anforderungen sollten Ernährungsempfehlungen mit qualifiziertem Fachpersonal abstimmen."] }
     ],
     sources: [
       {
         title: "Quantitative Empfehlung zur Zuckerzufuhr in Deutschland",
         publisher: "Deutsche Gesellschaft für Ernährung (DGE), Deutsche Adipositas-Gesellschaft (DAG) und Deutsche Diabetes Gesellschaft (DDG)",
         url: "https://www.dge.de/wissenschaft/stellungnahmen-und-positionspapiere/stellungnahmen/quantitative-empfehlung-zur-zuckerzufuhr-in-deutschland/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Guideline: Sugars intake for adults and children",
+        publisher: "World Health Organization (WHO)",
+        url: "https://www.who.int/publications/i/item/9789241549028",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Zucker",
+        publisher: "Deutsche Gesellschaft für Ernährung (DGE)",
+        url: "https://www.dge.de/gesunde-ernaehrung/faq/zucker/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Lebensmittelkennzeichnung",
+        publisher: "Bundesministerium für Ernährung und Landwirtschaft (BMEL)",
+        url: "https://www.bmel.de/DE/themen/ernaehrung/lebensmittel-kennzeichnung/lebensmittelkennzeichnung_node.html",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Sugars and dental caries",
+        publisher: "World Health Organization (WHO)",
+        url: "https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries",
         accessed: "2026-11-26",
       },
     ],
