@@ -11,7 +11,7 @@ function ContentPage() {
  const rawPathname=useRouterState({select:s=>s.location.pathname});
  // GitHub Pages serves prerendered routes as /route/ (directory index).
  // Normalize the trailing slash before matching the page sections below.
- const pathname=rawPathname.replace(/\/+$/, "") || "/";
+ const pathname=rawPathname.replace(/^\/M4HEALTHFACTS(?=\/|$)/, "").replace(/\/+$/, "") || "/";
  const search=useRouterState({select:s=>s.location.searchStr});
  const [filter,setFilter]=useState("");
  const [letter,setLetter]=useState(new URLSearchParams(search).get("buchstabe")||"Alle");
