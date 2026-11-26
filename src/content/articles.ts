@@ -772,8 +772,7 @@ export const articles: Article[] = [
       { title: "Ashwagandha: Usefulness and Safety", publisher: "National Center for Complementary and Integrative Health (NCCIH / NIH)", url: "https://www.nccih.nih.gov/health/ashwagandha", accessed: "2026-11-26" },
       { title: "Protokoll der 35. Sitzung der Gemeinsamen Expertenkommission zur Einstufung von Stoffen", publisher: "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)", url: "https://www.bfarm.de/SharedDocs/Downloads/DE/Arzneimittel/Zulassung/ZulRelThemen/abgrenzung/Expertenkommission/protokolle/Protokoll_240618_35_Sitzung.pdf?__blob=publicationFile", accessed: "2026-11-26" }
     ]
-  }
-
+  },
   {
     slug: "omega-3-fettsaeuren",
     title: "Omega-3-Fettsäuren: Aufgaben, Lebensmittel und Supplemente",
