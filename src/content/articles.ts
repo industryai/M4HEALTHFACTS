@@ -1528,48 +1528,198 @@ export const articles: Article[] = [
   },
   {
     slug: "darmmikrobiom-ernaehrung",
-    title: "Darmmikrobiom: Was Ernährung und Darmflora verbindet",
+    title: "Darmgesundheit: Mikrobiom, Verdauung und was die Darmflora beeinflusst",
     category: "ernaehrung",
-    tags: ["Darmmikrobiom", "Darmflora", "Verdauung", "Ballaststoffe", "Probiotika"],
-    intro: "Im Darm leben zahlreiche Mikroorganismen, die gemeinsam als Darmmikrobiom bezeichnet werden. Ernährung beeinflusst diese Gemeinschaft – doch ein einzelner Test oder ein Probiotikum kann nicht einfach ein ideales Mikrobiom herstellen.",
-    excerpt: "Was das Darmmikrobiom ist, welche Rolle Ballaststoffe spielen und warum kommerzielle Mikrobiomtests kritisch zu betrachten sind.",
-    readingMinutes: 9,
+    tags: ["Darmgesundheit", "Darmmikrobiom", "Darmflora", "Verdauung", "Ballaststoffe", "Probiotika", "Präbiotika"],
+    intro: "Der Darm verarbeitet Nahrung, nimmt Nährstoffe auf und steht in engem Austausch mit dem Immunsystem. Billionen Mikroorganismen leben im Verdauungstrakt und bilden ein dynamisches Ökosystem. Eine abwechslungsreiche, ballaststoffreiche Ernährung unterstützt die Darmgesundheit – spezielle Kuren oder kommerzielle Mikrobiomtests sind dafür in der Regel nicht nötig.",
+    excerpt: "Wie Verdauung und Darmmikrobiom funktionieren, welche Lebensmittel die Darmflora beeinflussen und was über Probiotika, Präbiotika und Mikrobiomtests tatsächlich bekannt ist.",
+    readingMinutes: 12,
     publishedAt: "2026-11-26",
     updatedAt: "2026-11-26",
+    popular: true,
     keyFacts: [
-      "Das Darmmikrobiom ist individuell und verändert sich unter anderem durch Ernährung, Medikamente und Lebensumstände.",
-      "Eine abwechslungsreiche, pflanzenbetonte Ernährung mit Ballaststoffen ist eine gut begründete Grundlage für die Darmgesundheit.",
-      "Für gesunde Menschen ist ein allgemeiner Zusatznutzen von Probiotika nicht belegt; kommerzielle Mikrobiomtests sind derzeit nur begrenzt aussagekräftig."
+      "Das Darmmikrobiom ist individuell und verändert sich durch Ernährung, Medikamente, Alter und Lebensumstände.",
+      "Ballaststoffe aus Vollkorn, Gemüse, Obst, Hülsenfrüchten, Nüssen und Samen dienen Darmmikroorganismen als Nahrung.",
+      "Die DGE empfiehlt Erwachsenen mindestens 30 Gramm Ballaststoffe täglich; eine Steigerung sollte bei empfindlichem Darm schrittweise erfolgen.",
+      "Probiotika wirken nicht alle gleich: mögliche Effekte sind abhängig von Stamm, Produkt und konkreter Indikation.",
+      "Kommerzielle Mikrobiomtests können derzeit meist nicht zuverlässig feststellen, ob das eigene Mikrobiom gesund oder krankhaft ist."
     ],
     sections: [
-      { id: "was-ist-mikrobiom", heading: "Was ist das Darmmikrobiom?", paragraphs: [
-        "Als Darmmikrobiom wird die Gemeinschaft von Mikroorganismen und ihren genetischen Eigenschaften im Darm bezeichnet. Dazu gehören vor allem Bakterien, aber auch andere Mikroorganismen. Der Begriff Darmflora wird umgangssprachlich häufig ähnlich verwendet.",
-        "Die Zusammensetzung unterscheidet sich von Mensch zu Mensch und kann sich im Laufe des Lebens verändern. Es gibt deshalb nicht ein einziges Bakterienprofil, das für alle gesunden Menschen als ideal gelten kann."
-      ]},
-      { id: "aufgaben", heading: "Welche Aufgaben hat die Darmgemeinschaft?", paragraphs: [
-        "Mikroorganismen im Darm bauen Bestandteile der Nahrung ab, die der menschliche Dünndarm nicht vollständig verdauen kann. Dabei entstehen unter anderem kurzkettige Fettsäuren. Das Mikrobiom steht außerdem in Wechselwirkung mit der Darmschleimhaut und dem Immunsystem.",
-        "Die Forschung zu den Zusammenhängen mit Stoffwechsel und Gesundheit entwickelt sich weiter. Nicht jede beobachtete Verbindung beweist, dass eine bestimmte Bakterienart eine Erkrankung verursacht oder verhindert."
-      ]},
-      { id: "ernaehrung", heading: "Wie beeinflusst Ernährung das Mikrobiom?", paragraphs: [
-        "Ballaststoffe aus Vollkornprodukten, Hülsenfrüchten, Gemüse, Obst, Nüssen und Samen dienen bestimmten Darmmikroorganismen als Substrat. Eine abwechslungsreiche pflanzenbetonte Ernährung liefert unterschiedliche Ballaststoffarten und weitere Nahrungsbestandteile.",
-        "Langfristige Essgewohnheiten sind dabei wichtiger als kurzfristige Kuren oder einzelne vermeintliche Superfoods. Wer seine Ernährung verändern möchte, kann schrittweise mehr pflanzliche Lebensmittel und verschiedene Ballaststoffquellen einbauen."
-      ]},
-      { id: "probiotika", heading: "Probiotika und fermentierte Lebensmittel", paragraphs: [
-        "Probiotika sind lebende Mikroorganismen, denen bei bestimmten Anwendungen ein gesundheitlicher Nutzen zugeschrieben wird. Ein möglicher Effekt hängt vom konkreten Stamm, der Menge, der Person und dem untersuchten Anwendungsgebiet ab. Ergebnisse zu einem Produkt lassen sich nicht pauschal auf alle Probiotika übertragen.",
-        "Joghurt, Kefir, Sauerkraut und andere fermentierte Lebensmittel können Teil einer abwechslungsreichen Ernährung sein. Sie sind aber keine garantierte Therapie für Verdauungsbeschwerden und ersetzen keine medizinische Abklärung."
-      ]},
-      { id: "tests", heading: "Sind Mikrobiom-Tests aus dem Internet sinnvoll?", paragraphs: [
-        "Kommerzielle Stuhltests zeigen häufig Listen einzelner Mikroorganismen und leiten daraus Ernährungsempfehlungen ab. Derzeit ist jedoch nicht ausreichend geklärt, welches Mikrobiomprofil bei gesunden Menschen optimal wäre und wie solche Testergebnisse zuverlässig in konkrete Behandlungen übersetzt werden können.",
-        "Die DGE rät von kommerziellen Mikrobiom-Stuhltests ab, da derzeit kein ausreichender diagnostischer oder therapeutischer Mehrwert belegt ist. Auffällige Verdauungsbeschwerden sollten anhand der Symptome und der medizinischen Vorgeschichte beurteilt werden – nicht allein anhand eines Online-Testergebnisses."
-      ]},
-      { id: "wann-abklaeren", heading: "Wann sollten Darmbeschwerden abgeklärt werden?", paragraphs: [
-        "Anhaltende oder wiederkehrende Beschwerden, Blut im Stuhl, ungewollter Gewichtsverlust, Fieber oder starke Schmerzen gehören medizinisch abgeklärt. Eine Ernährungsumstellung oder ein frei verkäufliches Präparat sollte eine notwendige Diagnostik nicht verzögern."
-      ]}
+      {
+        id: "verdauungssystem",
+        heading: "Wie funktioniert die Verdauung?",
+        paragraphs: [
+          "Die Verdauung beginnt im Mund: Nahrung wird zerkleinert und mit Speichel vermischt. Im Magen wird sie durchmischt und weiter aufgeschlossen. Im Dünndarm werden die meisten Nährstoffe mithilfe von Verdauungsenzymen und Gallenbestandteilen zerlegt und über die Darmschleimhaut aufgenommen.",
+          "Im Dickdarm wird dem Darminhalt Wasser entzogen. Dort leben besonders viele Mikroorganismen, die unverdauliche Nahrungsbestandteile wie bestimmte Ballaststoffe fermentieren. Die verbleibenden Bestandteile werden als Stuhl ausgeschieden.",
+          "Die Darmbewegungen transportieren den Darminhalt weiter. Ihre Geschwindigkeit beeinflusst unter anderem, wie viel Wasser aufgenommen wird und wie fest oder weich der Stuhl ist. Bewegung, Flüssigkeitszufuhr, Ernährung, Medikamente und Erkrankungen können die Darmfunktion beeinflussen."
+        ]
+      },
+      {
+        id: "mikrobiom",
+        heading: "Was ist das Darmmikrobiom?",
+        paragraphs: [
+          "Die Mikrobiota bezeichnet die Gesamtheit der Mikroorganismen, die einen bestimmten Lebensraum besiedeln. Das Mikrobiom umfasst darüber hinaus deren Erbgut und funktionelle Eigenschaften. Im Darm finden sich vor allem Bakterien, daneben auch Viren, Pilze und andere Mikroorganismen.",
+          "Die Zusammensetzung ist von Mensch zu Mensch verschieden und verändert sich im Laufe des Lebens. Sie wird unter anderem durch Ernährung, Medikamente, Infektionen, Alter, Umwelt und Lebensweise beeinflusst. Ein einziges Bakterienprofil, das für alle Menschen als optimal gelten kann, ist bislang nicht definiert.",
+          "In der Alltagssprache wird häufig von Darmflora gesprochen. Der Begriff ist verbreitet, wissenschaftlich ist Darmmikrobiota beziehungsweise Darmmikrobiom genauer."
+        ]
+      },
+      {
+        id: "aufgaben",
+        heading: "Welche Aufgaben hat die Darmflora?",
+        paragraphs: [
+          "Darmmikroorganismen helfen dabei, bestimmte Nahrungsbestandteile abzubauen, die menschliche Verdauungsenzyme nicht vollständig verarbeiten können. Bei der Fermentation entstehen unter anderem kurzkettige Fettsäuren wie Acetat, Propionat und Butyrat. Diese Stoffe dienen beispielsweise Zellen der Dickdarmschleimhaut als Energiequelle und beeinflussen das Darmmilieu.",
+          "Das Mikrobiom steht in engem Austausch mit der Darmbarriere und dem Immunsystem. Es trägt zur Entwicklung und Regulation immunologischer Prozesse bei und konkurriert mit Krankheitserregern um Nährstoffe und Lebensraum.",
+          "Die Forschung untersucht außerdem Zusammenhänge zwischen Darmmikrobiom, Stoffwechsel, Entzündungsprozessen und Gehirn. Viele dieser Ergebnisse zeigen zunächst statistische Verbindungen. Daraus lässt sich nicht automatisch ableiten, dass eine bestimmte Bakterienart eine Erkrankung verursacht oder dass ihre gezielte Vermehrung eine Krankheit verhindert."
+        ]
+      },
+      {
+        id: "darm-hirn-achse",
+        heading: "Darm und Gehirn: Was ist die Darm-Hirn-Achse?",
+        paragraphs: [
+          "Darm und Gehirn kommunizieren über Nervenbahnen, Hormone, Immunbotenstoffe und Stoffwechselprodukte. Dieses wechselseitige Kommunikationssystem wird Darm-Hirn-Achse genannt. Stress und psychische Belastungen können Verdauung, Darmbewegungen und die Wahrnehmung von Beschwerden beeinflussen. Umgekehrt können Erkrankungen des Verdauungstrakts das Wohlbefinden belasten.",
+          "Das Darmmikrobiom ist an diesen Signalwegen beteiligt und wird intensiv erforscht. Aussagen, wonach bestimmte Bakterien Depressionen, Angststörungen oder andere psychische Erkrankungen zuverlässig behandeln könnten, sind jedoch derzeit nicht ausreichend belegt. Probiotika ersetzen keine etablierte medizinische oder psychotherapeutische Behandlung."
+        ]
+      },
+      {
+        id: "ballaststoffe",
+        heading: "Ballaststoffe: Nahrung für den Darm",
+        paragraphs: [
+          "Ballaststoffe sind überwiegend pflanzliche Nahrungsbestandteile, die im Dünndarm nicht oder nur teilweise verdaut werden. Einige binden Wasser und beeinflussen dadurch Stuhlvolumen und -konsistenz. Andere werden von Darmmikroorganismen fermentiert und dienen als Substrat für die Bildung kurzkettiger Fettsäuren.",
+          "Die Deutsche Gesellschaft für Ernährung empfiehlt Erwachsenen mindestens 30 Gramm Ballaststoffe pro Tag. Gute Quellen sind Vollkornprodukte, Hafer, Hülsenfrüchte, Gemüse, Obst, Nüsse und Samen. Eine Mischung unterschiedlicher pflanzlicher Lebensmittel liefert verschiedene Ballaststoffarten.",
+          "Wer bisher ballaststoffarm isst, sollte die Menge langsam steigern. Eine abrupte Erhöhung kann vorübergehend Blähungen, Völlegefühl oder Bauchschmerzen auslösen. Ausreichend Flüssigkeit unterstützt die Wirkung quellfähiger Ballaststoffe. Bei bestimmten Darmerkrankungen oder Engstellen kann eine individuelle Ernährungsempfehlung erforderlich sein."
+        ]
+      },
+      {
+        id: "ernaehrung",
+        heading: "Welche Ernährung unterstützt das Darmmikrobiom?",
+        paragraphs: [
+          "Eine abwechslungsreiche, überwiegend pflanzliche Ernährung ist eine gut begründete Grundlage. Sinnvoll ist eine regelmäßige Auswahl aus Gemüse, Obst, Hülsenfrüchten, Vollkorngetreide, Nüssen und Samen. Unterschiedliche Pflanzen liefern unterschiedliche Fasern und sekundäre Pflanzenstoffe.",
+          "Auch die mediterran geprägte Ernährung mit Gemüse, Hülsenfrüchten, Vollkorn, Nüssen, Olivenöl und regelmäßig Fisch ist mit günstigen Gesundheitsparametern verbunden. Für das Mikrobiom sind langfristige Ernährungsmuster wichtiger als einzelne Superfoods oder kurzfristige Darmkuren.",
+          "Stark verarbeitete Lebensmittel, zuckerreiche Getränke und eine sehr einseitige Ernährung sollten nicht den Alltag bestimmen. Das bedeutet nicht, dass einzelne Lebensmittel grundsätzlich verboten sind. Entscheidend ist das Ernährungsmuster über längere Zeit.",
+          "Eine möglichst große Vielfalt pflanzlicher Lebensmittel kann helfen, unterschiedliche Ballaststoffquellen aufzunehmen. Die Verträglichkeit ist individuell: Bei Reizdarm oder bestimmten Unverträglichkeiten können einzelne Lebensmittel Beschwerden verstärken und müssen gegebenenfalls angepasst werden."
+        ]
+      },
+      {
+        id: "praebiotika",
+        heading: "Präbiotika: Was steckt dahinter?",
+        paragraphs: [
+          "Präbiotika sind Substanzen, die von bestimmten Mikroorganismen gezielt genutzt werden und dadurch einen gesundheitlichen Nutzen unterstützen können. Dazu gehören beispielsweise bestimmte Fructane und Galacto-Oligosaccharide. Sie kommen natürlicherweise unter anderem in Zwiebeln, Knoblauch, Lauch, Hülsenfrüchten, Chicorée und Spargel vor.",
+          "Auch resistente Stärke kann von Darmbakterien fermentiert werden. Sie entsteht beispielsweise teilweise, wenn Kartoffeln, Reis oder Nudeln gekocht und anschließend abgekühlt werden. Wie gut solche Lebensmittel vertragen werden, ist individuell verschieden.",
+          "Präbiotische Pulver oder Kapseln sind nicht automatisch notwendig. Eine abwechslungsreiche Ernährung liefert bereits verschiedene präbiotisch wirksame Nahrungsbestandteile. Konzentrierte Präparate können bei empfindlichen Menschen Blähungen und andere Beschwerden verstärken."
+        ]
+      },
+      {
+        id: "probiotika",
+        heading: "Probiotika: Wann können sie sinnvoll sein?",
+        paragraphs: [
+          "Probiotika sind lebende Mikroorganismen, die bei ausreichender Aufnahme einen gesundheitlichen Nutzen haben können. Die Wirkung ist abhängig vom konkreten Stamm, der Dosierung, dem Produkt und dem Anwendungsgebiet. Studienergebnisse zu einem bestimmten Stamm lassen sich nicht pauschal auf andere Produkte übertragen.",
+          "Für einzelne Situationen – etwa bestimmte Formen von antibiotikaassoziiertem Durchfall – gibt es Hinweise auf einen Nutzen ausgewählter Probiotika. Für viele beworbene Anwendungen, beispielsweise eine allgemeine Stärkung des Immunsystems oder eine dauerhafte Verbesserung der Darmgesundheit bei allen gesunden Menschen, ist die Evidenz nicht ausreichend.",
+          "Fermentierte Lebensmittel wie Joghurt mit lebenden Kulturen, Kefir oder Sauerkraut können Teil einer ausgewogenen Ernährung sein. Sie sind jedoch nicht automatisch medizinisch wirksame Probiotika und ersetzen keine Behandlung.",
+          "Bei schwerer Erkrankung, stark geschwächtem Immunsystem oder bei Frühgeborenen können Probiotika Risiken bergen. In solchen Situationen sollte eine Einnahme nur nach medizinischer Rücksprache erfolgen."
+        ]
+      },
+      {
+        id: "antibiotika-medikamente",
+        heading: "Wie beeinflussen Antibiotika und andere Medikamente den Darm?",
+        paragraphs: [
+          "Antibiotika bekämpfen bakterielle Krankheitserreger, können dabei aber auch Teile der normalen Darmmikrobiota verändern. Vorübergehender Durchfall oder andere Verdauungsbeschwerden sind mögliche Nebenwirkungen. Die Zusammensetzung des Mikrobioms kann sich nach einer Behandlung wieder verändern; Verlauf und Dauer unterscheiden sich.",
+          "Antibiotika sollten nur bei entsprechender medizinischer Indikation und genau nach Verordnung eingenommen werden. Eine notwendige Behandlung aus Angst vor Veränderungen des Mikrobioms nicht durchzuführen, wäre keine sinnvolle Strategie.",
+          "Auch andere Medikamente können Verdauung und Mikrobiom beeinflussen, beispielsweise bestimmte Säureblocker, Metformin, Abführmittel oder Schmerzmittel. Medikamente nicht eigenständig absetzen: Bei neuen oder anhaltenden Beschwerden sollte geprüft werden, ob ein Zusammenhang besteht."
+        ]
+      },
+      {
+        id: "stuhlgang",
+        heading: "Was gilt als normale Verdauung?",
+        paragraphs: [
+          "Die Häufigkeit des Stuhlgangs ist individuell unterschiedlich. Bei Erwachsenen kann sie von mehrmals täglich bis zu etwa dreimal pro Woche reichen. Wichtiger als eine starre Zahl sind die persönliche Veränderung, die Stuhlkonsistenz und ob Beschwerden wie starkes Pressen, Schmerzen oder ein Gefühl unvollständiger Entleerung auftreten.",
+          "Verstopfung zeigt sich beispielsweise durch seltenen Stuhlgang, harten Stuhl, starkes Pressen oder erschwerte Entleerung. Durchfall bedeutet häufige, ungeformte oder wässrige Stühle. Beide Beschwerden können viele Ursachen haben, darunter Ernährung, Infektionen, Medikamente und funktionelle oder entzündliche Darmerkrankungen.",
+          "Ein Ernährungstagebuch kann helfen, mögliche Zusammenhänge zwischen Mahlzeiten und Beschwerden zu erkennen. Es ersetzt jedoch keine Diagnostik, insbesondere wenn Beschwerden neu auftreten, anhalten oder stärker werden."
+        ]
+      },
+      {
+        id: "mikrobiomtests",
+        heading: "Mikrobiomtests aus dem Internet: Was können sie leisten?",
+        paragraphs: [
+          "Kommerzielle Mikrobiomtests untersuchen meist eine Stuhlprobe und zeigen, welche Mikroorganismen mit der verwendeten Methode nachgewiesen wurden. Anbieter ordnen die Ergebnisse teilweise in Kategorien wie gute und schlechte Bakterien ein oder leiten daraus personalisierte Ernährungs- und Supplementempfehlungen ab.",
+          "Derzeit fehlt jedoch ein allgemein anerkannter Referenzbereich für ein gesundes Darmmikrobiom. Ergebnisse können von Probenentnahme, Lagerung, Laborverfahren und Auswertungsdatenbank abhängen. Ein auffälliger Wert beweist deshalb nicht automatisch eine Erkrankung; ein unauffälliger Befund schließt sie nicht aus.",
+          "Die DGE und gastroenterologische Fachinformationen weisen darauf hin, dass kommerzielle Mikrobiomtests für gesunde Verbraucher derzeit keinen ausreichend belegten diagnostischen oder therapeutischen Mehrwert bieten. Bei Beschwerden sind gezielte Untersuchungen – beispielsweise auf bestimmte Erreger, verborgenes Blut oder Entzündungsmarker – je nach Fragestellung wesentlich aussagekräftiger."
+        ]
+      },
+      {
+        id: "darmkur-detox",
+        heading: "Darmreinigung, Detox und Darmkuren",
+        paragraphs: [
+          "Der Darm benötigt normalerweise keine regelmäßige Reinigung oder Entgiftung. Der Körper verarbeitet und scheidet Stoffwechselprodukte über Leber, Nieren, Darm und weitere Organe aus. Für Detox-Kuren, Darmspülungen und pauschale Ausleitungsprogramme ist kein allgemeiner gesundheitlicher Nutzen belegt.",
+          "Abführmittel oder Einläufe ohne medizinische Notwendigkeit können Nebenwirkungen verursachen, darunter Flüssigkeits- und Elektrolytverluste. Auch stark beworbene Darmpräparate können unnötig sein oder Beschwerden auslösen.",
+          "Bei Verstopfung oder anderen Verdauungsproblemen sollte die Ursache geklärt werden. Je nach Situation können eine Anpassung der Ernährung, mehr Bewegung, ausreichend Flüssigkeit oder eine gezielte medizinische Behandlung sinnvoll sein."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Wann sollten Darmbeschwerden ärztlich abgeklärt werden?",
+        paragraphs: [
+          "Lassen Sie anhaltende oder wiederkehrende Beschwerden wie Durchfall, Verstopfung, Bauchschmerzen oder deutliche Veränderungen des Stuhlgangs medizinisch beurteilen. Das gilt besonders, wenn die Beschwerden neu auftreten oder den Alltag beeinträchtigen.",
+          "Blut im Stuhl, schwarzer teerartiger Stuhl, ungewollter Gewichtsverlust, Fieber, nächtliche Beschwerden, Blutarmut oder starke beziehungsweise zunehmende Bauchschmerzen sind Warnzeichen. Bei starken akuten Schmerzen, Kreislaufproblemen, erheblicher Blutung oder ausgeprägter Austrocknung ist sofortige medizinische Hilfe erforderlich.",
+          "Auch bei familiärer Belastung mit Darmkrebs oder chronisch-entzündlichen Darmerkrankungen sollte die persönliche Vorsorge und Abklärung mit einer Arztpraxis besprochen werden."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zur Darmgesundheit",
+        paragraphs: [
+          "**Kann ich meine Darmflora gezielt aufbauen?** Eine abwechslungsreiche Ernährung mit verschiedenen pflanzlichen Lebensmitteln und ausreichend Ballaststoffen unterstützt das Darmökosystem. Ein bestimmtes ideales Bakterienprofil lässt sich derzeit nicht gezielt für alle Menschen herstellen.",
+          "**Sind tägliche Probiotika sinnvoll?** Für gesunde Menschen gibt es keine allgemeine Empfehlung zur routinemäßigen Einnahme. Ein möglicher Nutzen hängt vom Stamm und der konkreten Indikation ab.",
+          "**Wie viele Ballaststoffe sollte ich essen?** Die DGE empfiehlt Erwachsenen mindestens 30 Gramm pro Tag. Wer bisher wenig Ballaststoffe isst, sollte die Zufuhr schrittweise erhöhen und auf ausreichendes Trinken achten.",
+          "**Sind Blähungen ein Zeichen für ein schlechtes Mikrobiom?** Nein. Blähungen können durch normale Fermentation, bestimmte Lebensmittel, hastiges Essen, Unverträglichkeiten oder Erkrankungen entstehen. Sie erlauben keine Aussage über die Qualität des Mikrobioms.",
+          "**Muss ich fermentierte Lebensmittel essen?** Nein. Joghurt, Kefir oder Sauerkraut können eine abwechslungsreiche Ernährung ergänzen, sind aber keine Pflicht und keine Therapie für Darmkrankheiten.",
+          "**Kann Stress den Darm beeinflussen?** Ja. Über die Darm-Hirn-Achse können Stress und psychische Belastungen die Darmbewegung und die Wahrnehmung von Beschwerden beeinflussen. Anhaltende Beschwerden sollten dennoch medizinisch eingeordnet werden."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Bei anhaltenden, starken oder neu auftretenden Beschwerden sollte medizinischer Rat eingeholt werden. Nahrungsergänzungsmittel und Probiotika sind nicht für jede Person geeignet und sollten bei Vorerkrankungen oder regelmäßiger Medikamenteneinnahme fachlich abgeklärt werden."
+        ]
+      }
     ],
     sources: [
-      { title: "Das Mikrobiom – Update für die Ernährungsberatung", publisher: "Deutsche Gesellschaft für Ernährung (DGE)", url: "https://www.dge.de/blog/2026/das-mikrobiom-update-fuer-die-ernaehrungsberatung/", accessed: "2026-11-26" },
-      { title: "Nahrungsergänzungsmittel mit Mikroorganismen", publisher: "Verbraucherzentrale", url: "https://www.verbraucherzentrale.de/wissen/lebensmittel/nahrungsergaenzungsmittel/nahrungsergaenzungsmittel-mit-mikroorganismen-58854", accessed: "2026-11-26" },
-      { title: "Tipps für die Darmgesundheit", publisher: "Bundeszentrum für Ernährung (BZfE)", url: "https://www.bzfe.de/presse/pressemeldungen-archiv/tipps-fuer-die-darmgesundheit", accessed: "2026-11-26" }
+      {
+        title: "Das Mikrobiom – Update für die Ernährungsberatung",
+        publisher: "Deutsche Gesellschaft für Ernährung (DGE), 2026",
+        url: "https://www.dge.de/blog/2026/das-mikrobiom-update-fuer-die-ernaehrungsberatung/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Ballaststoffe – Referenzwerte und gesundheitliche Bedeutung",
+        publisher: "Deutsche Gesellschaft für Ernährung (DGE)",
+        url: "https://www.dge.de/wissenschaft/referenzwerte/ballaststoffe/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "FAQ: Ausgewählte Fragen und Antworten zu Ballaststoffen",
+        publisher: "Deutsche Gesellschaft für Ernährung (DGE)",
+        url: "https://www.dge.de/gesunde-ernaehrung/faq/ausgewaehlte-fragen-und-antworten-zu-ballaststoffen/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Nahrungsergänzungsmittel mit Mikroorganismen",
+        publisher: "Verbraucherzentrale",
+        url: "https://www.verbraucherzentrale.de/wissen/lebensmittel/nahrungsergaenzungsmittel/nahrungsergaenzungsmittel-mit-mikroorganismen-58854",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "5 Things To Know About Probiotics",
+        publisher: "National Center for Complementary and Integrative Health (NCCIH), NIH",
+        url: "https://www.nccih.nih.gov/health/tips/things-to-know-about-probiotics",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "International consensus statement on microbiome testing in clinical practice",
+        publisher: "The Lancet Gastroenterology & Hepatology",
+        url: "https://pubmed.ncbi.nlm.nih.gov/?term=International+consensus+statement+on+microbiome+testing+in+clinical+practice",
+        accessed: "2026-11-26"
+      }
     ]
   },
 
