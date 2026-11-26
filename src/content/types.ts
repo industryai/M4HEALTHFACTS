@@ -1,5 +1,6 @@
 export type CategorySlug =
   | "ernaehrung"
+  | "bewegung-fitness"
   | "vitamine-naehrstoffe"
   | "koerper-gesundheit"
   | "natur-hausmittel"
@@ -11,7 +12,7 @@ export interface Category {
   name: string;
   short: string;
   description: string;
-  icon: "apple" | "pill" | "heart" | "leaf" | "moon" | "shield";
+  icon: "apple" | "pill" | "heart" | "leaf" | "moon" | "shield" | "dumbbell";
 }
 
 export interface Source {
