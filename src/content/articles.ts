@@ -252,57 +252,63 @@ export const articles: Article[] = [
   },
   {
     slug: "abwehrkraefte-staerken",
-    title: "Immunsystem stärken: Was im Alltag wirklich hilft",
+    title: "Immunsystem stärken: Was die Abwehr wirklich unterstützt",
     category: "koerper-gesundheit",
-    tags: ["Immunsystem", "Abwehrkräfte", "Schlaf", "Ernährung", "Bewegung"],
-    intro: "Viele Produkte versprechen ein starkes Immunsystem. Verlässliche Grundlagen sind jedoch vor allem ein gesunder Lebensstil und ein realistischer Blick auf Nahrungsergänzungsmittel.",
-    excerpt: "Ernährung, Bewegung, Schlaf, Stressabbau und Impfungen: Welche Faktoren die körpereigene Abwehr unterstützen.",
-    readingMinutes: 7,
+    tags: ["Immunsystem", "Abwehrkräfte", "Immunfunktion", "Ernährung", "Schlaf", "Impfungen"],
+    intro: "Das Immunsystem schützt den Körper vor Krankheitserregern. Es lässt sich jedoch nicht einfach durch einzelne Lebensmittel oder Präparate hochfahren. Dieser Ratgeber erklärt, wie Immunabwehr funktioniert, welche Lebensstilfaktoren wichtig sind und wo Nahrungsergänzungsmittel tatsächlich sinnvoll sein können.",
+    excerpt: "Wissenschaftlich eingeordnet: Ernährung, Schlaf, Bewegung, Impfungen, Mikronährstoffe und verbreitete Versprechen zur Immunstärkung.",
+    readingMinutes: 9,
     publishedAt: "2026-11-26",
     updatedAt: "2026-11-26",
     keyFacts: [
-      "Eine ausgewogene Ernährung, Bewegung und ausreichend Schlaf unterstützen die normale Immunfunktion.",
-      "Für viele Präparate zur Stärkung der Abwehrkräfte fehlen verlässliche Wirksamkeitsnachweise.",
-      "Impfungen bieten einen gezielten Schutz vor bestimmten Infektionskrankheiten.",
+      "Das Immunsystem besteht aus angeborenen und erworbenen Abwehrmechanismen, die zusammenarbeiten.",
+      "Ausgewogene Ernährung, Bewegung, Schlaf und Rauchverzicht unterstützen die allgemeine Gesundheit und normale Immunfunktion.",
+      "Nahrungsergänzungsmittel verhindern Infektionen nicht pauschal; ein nachgewiesener Mangel sollte gezielt behandelt werden.",
+      "Impfungen trainieren die spezifische Immunantwort gegen bestimmte Erreger und schützen vor schweren Krankheitsverläufen.",
+      "Kein Lebensstil kann einen vollständigen Schutz vor Infektionen garantieren."
     ],
     sections: [
-      {
-        id: "aufgabe-immunsystem",
-        heading: "Was macht das Immunsystem?",
-        paragraphs: [
-          "Das Immunsystem schützt den Körper vor Krankheitserregern und weiteren körperfremden Stoffen. Dazu gehören unter anderem bestimmte Bakterien und Viren.",
-          "Die Abwehr besteht aus verschiedenen ineinandergreifenden Bestandteilen. Sie lässt sich nicht mit einem einzelnen Lebensmittel oder Präparat gezielt hochfahren.",
-        ],
-      },
-      {
-        id: "lebensstil",
-        heading: "Welche Alltagsfaktoren unterstützen die Abwehr?",
-        paragraphs: [
-          "Eine ausgewogene Ernährung, regelmäßige Bewegung, ausreichend Schlaf und Möglichkeiten zum Stressabbau gehören zu den Lebensstilfaktoren, die eine gesunde Immunfunktion unterstützen können.",
-          "Auch Aufenthalte im Freien und eine gute allgemeine Gesundheitsvorsorge spielen eine Rolle. Impfungen bieten darüber hinaus einen gezielten Schutz vor bestimmten ansteckenden Krankheiten.",
-        ],
-      },
-      {
-        id: "praeparate",
-        heading: "Braucht man spezielle Präparate?",
-        paragraphs: [
-          "Das Angebot an Produkten zur Verbesserung der Abwehrkräfte ist groß. Für viele dieser Präparate gibt es jedoch keine verlässlichen Wirksamkeitsnachweise. Gesunde Erwachsene erhalten die erforderlichen Nährstoffe in der Regel über eine ausgewogene Ernährung.",
-          "Bei bestimmten Erkrankungen oder einer nachgewiesenen Unterversorgung kann eine gezielte Ergänzung sinnvoll sein. Ob das im Einzelfall zutrifft, sollte medizinisch abgeklärt werden.",
-        ],
-      },
-      {
-        id: "realistische-erwartungen",
-        heading: "Realistische Erwartungen",
-        paragraphs: [
-          "Ein gesunder Lebensstil kann die Abwehr unterstützen, bietet aber keinen vollständigen Schutz vor Infektionen. Bei anhaltenden Beschwerden oder konkreten gesundheitlichen Fragen ist eine ärztliche Einschätzung sinnvoll.",
-        ],
-      },
+      { id: "aufgabe-immunsystem", heading: "Wie funktioniert das Immunsystem?", paragraphs: ["Das Immunsystem ist ein Netzwerk aus Zellen, Geweben, Organen und Botenstoffen. Es erkennt und bekämpft Krankheitserreger wie Viren, Bakterien und Pilze und hilft, geschädigte oder veränderte körpereigene Zellen zu beseitigen.", "Zur angeborenen Abwehr gehören unter anderem Haut, Schleimhäute, bestimmte Immunzellen und Entzündungsreaktionen. Die erworbene beziehungsweise adaptive Abwehr entwickelt gezielte Reaktionen gegen bestimmte Erreger. B- und T-Lymphozyten spielen dabei eine wichtige Rolle; ein Teil der Immunzellen bildet ein immunologisches Gedächtnis.", "Eine starke Immunreaktion ist nicht automatisch besser. Eine unangemessene oder fehlgeleitete Abwehr kann ebenfalls schaden, etwa bei Allergien und Autoimmunerkrankungen. Ziel ist eine angemessen regulierte Immunfunktion, nicht eine unspezifische Steigerung."] },
+      { id: "ernaehrung", heading: "Ernährung: Nährstoffe statt einzelner Superfoods", paragraphs: ["Eine abwechslungsreiche Ernährung liefert Energie, Eiweiß, Vitamine, Mineralstoffe und weitere Stoffe, die der Körper für normale Funktionen benötigt. Besonders wichtig ist es, eine längerfristige Unterversorgung zu vermeiden. Kein einzelnes Lebensmittel kann das Immunsystem zuverlässig stärken oder vor Infektionen schützen.", "Für die Immunfunktion sind unter anderem Vitamin A, C und D, Vitamin B6 und B12, Folat, Zink, Eisen, Kupfer und Selen relevant. Das bedeutet nicht, dass möglichst hohe Mengen eingenommen werden sollten: Sowohl Mangel als auch übermäßige Zufuhr einzelner Mikronährstoffe können problematisch sein.", "Gemüse, Obst, Vollkornprodukte, Hülsenfrüchte, Nüsse und eine geeignete Eiweißquelle bieten eine gute Grundlage. Bei stark eingeschränkter Ernährung, bestimmten Erkrankungen oder Verdacht auf einen Mangel kann eine individuelle Ernährungsberatung oder medizinische Abklärung sinnvoll sein."] },
+      { id: "schlaf", heading: "Schlaf und Erholung", paragraphs: ["Schlaf beeinflusst zahlreiche Immunprozesse. Anhaltender Schlafmangel kann die normale Regulation der Immunantwort beeinträchtigen und wirkt sich zudem auf Konzentration, Stimmung und Stoffwechsel aus.", "Regelmäßige Schlafzeiten, eine passende Schlafumgebung und ausreichende Erholungsphasen können helfen. Der individuelle Schlafbedarf ist unterschiedlich; viele Erwachsene benötigen ungefähr sieben bis neun Stunden pro Nacht. Entscheidend ist auch, ob man sich tagsüber ausreichend erholt fühlt."] },
+      { id: "bewegung", heading: "Bewegung und körperliche Aktivität", paragraphs: ["Regelmäßige moderate Bewegung unterstützt die allgemeine Gesundheit und ist mit positiven Effekten auf verschiedene Immunprozesse verbunden. Geeignet sind beispielsweise zügiges Gehen, Radfahren, Schwimmen oder andere Aktivitäten, die sich dauerhaft in den Alltag integrieren lassen.", "Sehr intensive Belastung ohne ausreichende Erholung kann dagegen zu Überlastung führen. Steigern Sie Trainingsumfang und Intensität schrittweise und passen Sie Bewegung an Erkrankungen und Leistungsfähigkeit an. Bei Fieber oder akuten systemischen Infektionssymptomen sollte auf Sport verzichtet werden; der Wiedereinstieg sollte erst nach Erholung erfolgen."] },
+      { id: "stress", heading: "Stress, Rauchen und Alkohol", paragraphs: ["Dauerhafte psychische Belastung kann Schlaf, Essverhalten und körperliche Erholung beeinträchtigen. Pausen, soziale Kontakte, Entspannungsverfahren und regelmäßige Bewegung können helfen, Belastungen zu bewältigen. Stressabbau ist keine Garantie gegen Infektionen, aber ein wichtiger Bestandteil der Gesundheitsvorsorge.", "Rauchen schädigt unter anderem die Schutzfunktionen der Atemwege. Rauchverzicht ist deshalb eine wirksame Maßnahme für die Gesundheit. Auch hoher Alkoholkonsum kann die Immunabwehr beeinträchtigen. Je weniger Alkohol konsumiert wird, desto geringer sind die damit verbundenen Gesundheitsrisiken."] },
+      { id: "impfungen", heading: "Impfungen: gezielter Schutz durch immunologisches Gedächtnis", paragraphs: ["Impfungen bereiten das Immunsystem gezielt auf bestimmte Krankheitserreger oder deren Bestandteile vor. Dadurch kann der Körper bei einem späteren Kontakt schneller und wirksamer reagieren. Je nach Impfstoff und Erreger schützen Impfungen vor einer Infektion, vor Erkrankung oder insbesondere vor schweren Verläufen.", "Impfempfehlungen hängen von Alter, Vorerkrankungen, Schwangerschaft, Beruf und weiteren Risikofaktoren ab. Der Impfstatus sollte regelmäßig anhand der aktuellen Empfehlungen der Ständigen Impfkommission (STIKO) überprüft werden. Impfungen ersetzen nicht alle Hygienemaßnahmen, sind aber eine zentrale Maßnahme der Infektionsprävention."] },
+      { id: "supplemente", heading: "Nahrungsergänzungsmittel: Wann sind sie sinnvoll?", paragraphs: ["Für viele Produkte, die eine allgemeine Stärkung der Abwehr versprechen, gibt es keine überzeugenden Belege, dass sie bei gesunden Menschen Infektionen zuverlässig verhindern. Vitamin- und Mineralstoffpräparate können eine ausgewogene Ernährung nicht ersetzen.", "Eine gezielte Ergänzung kann sinnvoll sein, wenn ein Mangel nachgewiesen oder aufgrund einer konkreten Lebenssituation wahrscheinlich ist. Beispiele sind bestimmte Ernährungsformen, Aufnahmestörungen oder ärztlich festgestellte Mängel. Die Auswahl und Dosierung sollten sich am tatsächlichen Bedarf orientieren.", "Hoch dosierte Präparate sind nicht automatisch wirksamer. Zu viel Vitamin A, D, B6, Zink, Selen oder Eisen kann gesundheitsschädlich sein. Berücksichtigen Sie auch Mehrfachpräparate, angereicherte Lebensmittel und mögliche Wechselwirkungen mit Medikamenten. Lassen Sie sich bei Unsicherheit ärztlich oder pharmazeutisch beraten."] },
+      { id: "infekte-und-hygiene", heading: "Infektionen vorbeugen: Hygiene und Verhalten", paragraphs: ["Regelmäßiges Händewaschen, Lüften und situationsgerechte Hygienemaßnahmen können die Übertragung von Krankheitserregern reduzieren. Bei Atemwegsinfekten ist es sinnvoll, Abstand zu besonders gefährdeten Personen zu halten und bei eigenen Symptomen Kontakte zu reduzieren.", "Eine ausgewogene Lebensweise kann die Gesundheit unterstützen, bietet aber keinen vollständigen Schutz. Auch Menschen mit gesundem Lebensstil können sich infizieren und erkranken."] },
+      { id: "wann-abklaeren", heading: "Wann sollte eine ärztliche Abklärung erfolgen?", paragraphs: ["Häufige Infekte allein bedeuten nicht automatisch, dass eine Immunschwäche vorliegt. Entscheidend sind unter anderem Art, Schwere, Dauer und Verlauf der Infektionen sowie Begleiterkrankungen und Medikamente.", "Eine ärztliche Abklärung ist sinnvoll, wenn Infektionen ungewöhnlich schwer verlaufen, wiederholt komplizierte oder seltene Erreger auftreten, die Genesung auffällig lange dauert oder weitere Warnzeichen wie anhaltendes Fieber, unerklärlicher Gewichtsverlust oder starke Erschöpfung hinzukommen. Bei akuten schweren Symptomen ist zeitnahe medizinische Hilfe erforderlich."] },
+      { id: "haeufige-fragen", heading: "Häufige Fragen zum Immunsystem", paragraphs: ["**Kann man das Immunsystem gezielt hochfahren?** Nicht sinnvoll pauschal. Das Ziel ist eine normal regulierte Abwehr. Eine unspezifische Steigerung ist weder ein medizinisch klar definiertes Ziel noch durch einzelne Produkte zuverlässig erreichbar.", "**Hilft Vitamin C gegen Erkältungen?** Bei der Allgemeinbevölkerung verhindert regelmäßige Einnahme Erkältungen nicht zuverlässig. In Studien kann sie die Dauer einer Erkältung geringfügig verkürzen; die Wirkung ist begrenzt und kein Ersatz für Behandlung oder Prävention.", "**Brauche ich im Winter zusätzliche Vitamine?** Nicht automatisch. Entscheidend sind Ernährung, Risikofaktoren und ein tatsächlicher oder vermuteter Mangel. Hoch dosierte Einnahmen ohne Anlass sind nicht empfehlenswert.", "**Sind Impfungen eine Belastung für das Immunsystem?** Impfungen lösen eine gezielte Immunantwort aus und bauen Schutz auf. Welche Impfungen empfohlen sind, richtet sich nach den aktuellen STIKO-Empfehlungen und der persönlichen Situation.", "**Schützt ein gesunder Lebensstil vollständig vor Infekten?** Nein. Er unterstützt die Gesundheit, kann aber Kontakte mit Erregern und Erkrankungen nicht vollständig verhindern."] },
+      { id: "medizinischer-hinweis", heading: "Medizinischer Hinweis", paragraphs: ["Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Er gibt keine individuelle Impf- oder Supplementierungsempfehlung. Bei Verdacht auf eine Immunschwäche, ungewöhnlich schweren Infekten, bekannten Erkrankungen oder Fragen zu Impfungen und Präparaten wenden Sie sich an qualifiziertes medizinisches Fachpersonal."] }
     ],
     sources: [
       {
         title: "So lassen sich Abwehrkräfte stärken",
         publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
         url: "https://gesund.bund.de/abwehrkraefte-staerken",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Immunsystem",
+        publisher: "Bundeszentrale für gesundheitliche Aufklärung (BZgA) / infektionsschutz.de",
+        url: "https://www.infektionsschutz.de/infektionen/immunsystem/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Impfempfehlungen der STIKO",
+        publisher: "Robert Koch-Institut (RKI)",
+        url: "https://www.rki.de/DE/Content/Kommissionen/STIKO/Empfehlungen/Impfempfehlungen_node.html",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Vitamin C and colds",
+        publisher: "NIH Office of Dietary Supplements",
+        url: "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Dietary Supplements: What You Need to Know",
+        publisher: "National Institutes of Health (NIH)",
+        url: "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/",
         accessed: "2026-11-26",
       },
     ],
