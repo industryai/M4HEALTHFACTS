@@ -1619,47 +1619,166 @@ export const articles: Article[] = [
   },
   {
     slug: "cholesterin-blutfette",
-    title: "Cholesterin und Blutfette: LDL, HDL und Triglyceride erklärt",
+    title: "Cholesterin verstehen: LDL, HDL, Triglyceride und Herzrisiko",
     category: "herz-kreislauf",
-    tags: ["Cholesterin", "LDL", "HDL", "Triglyceride", "Blutfette"],
-    intro: "Cholesterin ist lebensnotwendig, kann in bestimmten Blutkonzentrationen und bei weiteren Risikofaktoren aber zur Entstehung von Gefäßkrankheiten beitragen. Entscheidend ist nicht ein einzelner Wert, sondern das gesamte Herz-Kreislauf-Risiko.",
-    excerpt: "Was LDL, HDL und Triglyceride bedeuten, welche Faktoren die Werte beeinflussen und wann eine Behandlung erwogen wird.",
-    readingMinutes: 10, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    tags: ["Cholesterin", "LDL", "HDL", "Triglyceride", "Lp(a)", "Blutfette"],
+    intro: "Cholesterin ist lebensnotwendig. Erhöhte LDL-Werte können jedoch Ablagerungen in den Arterien fördern und das Risiko für Herzinfarkt und Schlaganfall steigern. Entscheidend für die Behandlung sind der gesamte Lipidbefund und das persönliche Herz-Kreislauf-Risiko.",
+    excerpt: "Was LDL, HDL, Triglyceride und Lipoprotein(a) bedeuten, wie Laborwerte eingeordnet werden und wann Lebensstil oder Medikamente helfen.",
+    readingMinutes: 11,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
     keyFacts: [
-      "Cholesterin ist ein notwendiger Bestandteil von Zellmembranen und Ausgangsstoff für bestimmte Hormone.",
-      "Erhöhtes LDL-Cholesterin kann die Entstehung atherosklerotischer Gefäßveränderungen fördern.",
-      "Behandlungsziele hängen vom individuellen Risiko ab; es gibt keinen einzigen Zielwert für alle."
+      "LDL-Cholesterin ist ein ursächlicher Risikofaktor für atherosklerotische Herz-Kreislauf-Erkrankungen.",
+      "HDL ist ein Bestandteil der Risikobewertung, aber ein hoher HDL-Wert neutralisiert ein erhöhtes LDL nicht.",
+      "LDL-Zielwerte richten sich nach dem individuellen Risiko; es gibt keinen einheitlichen Zielwert für alle.",
+      "Triglyceride und Lipoprotein(a) können zusätzliche Hinweise auf das Herz-Kreislauf-Risiko geben.",
+      "Die ESC/EAS hat 2025 ihre Empfehlungen aktualisiert; Statine bleiben die wichtigste medikamentöse Erstlinientherapie."
     ],
     sections: [
-      { id: "was-ist-cholesterin", heading: "Was ist Cholesterin?", paragraphs: [
-        "Cholesterin ist eine fettähnliche Substanz, die der Körper selbst herstellt und zusätzlich über tierische Lebensmittel aufnimmt. Es wird unter anderem für Zellmembranen sowie zur Bildung von Gallensäuren, Vitamin D und bestimmten Hormonen benötigt.",
-        "Da Fette sich nicht einfach in Blut lösen, werden sie in sogenannten Lipoproteinen transportiert. Bei der Blutuntersuchung werden deshalb verschiedene Blutfettwerte betrachtet."
-      ]},
-      { id: "ldl-hdl", heading: "LDL und HDL: Was ist der Unterschied?", paragraphs: [
-        "LDL transportiert Cholesterin von der Leber zu den Geweben. Bei erhöhten LDL-Konzentrationen kann mehr Cholesterin in Gefäßwände gelangen und zur Atherosklerose beitragen. Deshalb wird LDL-Cholesterin häufig als wichtiger Ansatzpunkt der Prävention und Behandlung betrachtet.",
-        "HDL transportiert Cholesterin zurück zur Leber. Ein HDL-Wert ist Teil der Risikoeinschätzung, aber ein hoher HDL-Wert hebt ein erhöhtes LDL nicht einfach auf. Die Bezeichnungen „gutes“ und „schlechtes“ Cholesterin sind daher nur eine vereinfachte Merkhilfe."
-      ]},
-      { id: "triglyceride", heading: "Was sind Triglyceride?", paragraphs: [
-        "Triglyceride sind Fette, die der Körper als Energiequelle und Energiespeicher nutzt. Die Blutwerte können unter anderem durch Ernährung, Alkohol, Körpergewicht, Stoffwechselerkrankungen und genetische Faktoren beeinflusst werden.",
-        "Stark erhöhte Triglyceridwerte können zusätzliche medizinische Bedeutung haben. Die Einordnung erfolgt zusammen mit weiteren Laborwerten und der persönlichen Krankengeschichte."
-      ]},
-      { id: "risiko", heading: "Warum zählt das gesamte Risiko?", paragraphs: [
-        "Die Bedeutung eines LDL-Wertes hängt unter anderem davon ab, ob bereits eine Gefäßerkrankung besteht und welche weiteren Risikofaktoren vorliegen. Dazu zählen beispielsweise Bluthochdruck, Diabetes, Rauchen, Nierenerkrankungen und familiäre Vorbelastung.",
-        "Deshalb können zwei Menschen mit demselben Laborwert unterschiedliche Behandlungsziele haben. Eine ärztliche Risikobewertung ist sinnvoller als der Vergleich mit einem pauschalen Internet-Grenzwert."
-      ]},
-      { id: "ernaehrung", heading: "Was können Ernährung und Alltag bewirken?", paragraphs: [
-        "Eine Ernährung mit Gemüse, Obst, Vollkornprodukten, Hülsenfrüchten, Nüssen und pflanzlichen Ölen kann helfen, das Herz-Kreislauf-Risiko günstig zu beeinflussen. Der Austausch vieler gesättigter Fettsäuren gegen ungesättigte Fettsäuren kann das LDL-Cholesterin senken.",
-        "Bewegung, Rauchverzicht und ein gesundheitsförderliches Körpergewicht sind weitere wichtige Bausteine. Nahrungsergänzungsmittel sind kein Ersatz für eine nachgewiesene und bei Bedarf notwendige medikamentöse Behandlung."
-      ]},
-      { id: "behandlung", heading: "Wann werden Medikamente eingesetzt?", paragraphs: [
-        "Wenn das persönliche Risiko erhöht ist oder bereits eine Gefäßerkrankung besteht, kann eine medikamentöse Senkung des LDL-Cholesterins empfohlen werden. Häufig werden Statine eingesetzt; je nach Situation kommen weitere Wirkstoffe hinzu.",
-        "Ob eine Behandlung sinnvoll ist, wird anhand des Gesamtrisikos, der Laborwerte, möglicher Nebenwirkungen und persönlicher Präferenzen besprochen. Medikamente nicht ohne Rücksprache absetzen."
-      ]}
+      {
+        id: "was-ist-cholesterin",
+        heading: "Was ist Cholesterin und wofür braucht der Körper es?",
+        paragraphs: [
+          "Cholesterin ist eine fettähnliche Substanz, die der Körper vor allem in der Leber selbst herstellt. Zusätzlich wird es über Lebensmittel tierischen Ursprungs aufgenommen. Cholesterin ist ein notwendiger Bestandteil von Zellmembranen und Ausgangsstoff für Gallensäuren sowie bestimmte Hormone.",
+          "Weil Fette nicht wasserlöslich sind, werden Cholesterin und andere Lipide im Blut in Lipoproteinen transportiert. Diese Partikel bestehen aus Fett und Eiweiß. Im Labor werden verschiedene Bestandteile des Fettstoffwechsels gemessen, die zusammen ein differenzierteres Bild ergeben als der Gesamtcholesterinwert allein."
+        ]
+      },
+      {
+        id: "ldl-hdl",
+        heading: "LDL und HDL: Was ist der Unterschied?",
+        paragraphs: [
+          "LDL (Low-Density Lipoprotein) transportiert Cholesterin im Blut zu den Geweben. Bei erhöhten LDL-Konzentrationen können LDL-Partikel in die Gefäßwand gelangen und dort Entzündungs- und Ablagerungsprozesse fördern. Diese Atherosklerose kann Gefäße verengen oder destabilisieren und ist eine wesentliche Ursache für Herzinfarkt und ischämischen Schlaganfall.",
+          "HDL (High-Density Lipoprotein) ist am Rücktransport von Cholesterin zur Leber beteiligt. Ein niedriger HDL-Wert kann mit einem erhöhten Risiko verbunden sein. Ein künstliches Anheben des HDL-Werts ist jedoch kein etabliertes Behandlungsziel; ein hoher HDL-Wert macht ein erhöhtes LDL nicht unbedenklich.",
+          "Die Begriffe „gutes“ und „schlechtes“ Cholesterin sind daher nur eine vereinfachte Merkhilfe. Für die Senkung des atherosklerotischen Risikos steht vor allem LDL im Mittelpunkt."
+        ]
+      },
+      {
+        id: "triglyceride",
+        heading: "Triglyceride: Blutfette als Energiespeicher",
+        paragraphs: [
+          "Triglyceride sind Fette, die der Körper als Energiereserve nutzt. Sie werden über die Nahrung aufgenommen und auch in der Leber gebildet. Die Blutkonzentration kann unter anderem durch Mahlzeiten, Alkohol, Körpergewicht, schlecht eingestellten Diabetes, bestimmte Medikamente und genetische Faktoren beeinflusst werden.",
+          "Deutlich erhöhte Triglyceridwerte können das Risiko für eine akute Bauchspeicheldrüsenentzündung (Pankreatitis) erhöhen. Bei auffälligen Werten wird deshalb nach möglichen Ursachen gesucht und die Behandlung individuell festgelegt. Ein erhöhter Wert sollte nicht ausschließlich mit einer kurzfristigen Ernährungsänderung beantwortet werden."
+        ]
+      },
+      {
+        id: "weitere-werte",
+        heading: "Gesamtcholesterin, Non-HDL und Lipoprotein(a)",
+        paragraphs: [
+          "Das Gesamtcholesterin umfasst Cholesterin in verschiedenen Lipoproteinen. Es ist als alleiniger Wert nur begrenzt aussagekräftig. Non-HDL-Cholesterin bezeichnet das Gesamtcholesterin abzüglich HDL und erfasst damit mehrere atherogene Lipoproteinfraktionen. Es kann besonders bei erhöhten Triglyceriden zusätzliche Informationen liefern.",
+          "Lipoprotein(a), kurz Lp(a), ist ein überwiegend genetisch bestimmtes Lipoprotein. Ein erhöhter Wert kann das Risiko für Herz-Kreislauf-Erkrankungen zusätzlich steigern. Er verändert sich durch den Lebensstil meist nur wenig. Eine einmalige Bestimmung im Erwachsenenalter kann insbesondere bei familiärer Vorbelastung oder unklarer Risikoeinschätzung sinnvoll sein; ob sie angezeigt ist, sollte ärztlich besprochen werden.",
+          "Je nach Situation können auch Apolipoprotein B (ApoB), Leberwerte, Schilddrüsenwerte oder weitere Laborparameter zur Ursachenklärung beitragen."
+        ]
+      },
+      {
+        id: "laborwerte",
+        heading: "Wie werden Cholesterinwerte gemessen und eingeordnet?",
+        paragraphs: [
+          "Die Blutuntersuchung wird als Lipidprofil oder Lipidstatus bezeichnet. Typischerweise umfasst sie Gesamtcholesterin, LDL, HDL und Triglyceride. Ob die Blutprobe nüchtern abgenommen werden muss, hängt von der Fragestellung und den Triglyceridwerten ab; folgen Sie den Vorgaben der Praxis.",
+          "Laborwerte werden häufig in mg/dl oder mmol/l angegeben. Die Einheiten sind nicht direkt austauschbar und müssen korrekt umgerechnet werden. Vergleichen Sie Ergebnisse deshalb nur unter Berücksichtigung der Einheit und des jeweiligen Laborreferenzbereichs.",
+          "Ein einzelner Wert entscheidet nicht allein über eine Behandlung. Ärztinnen und Ärzte berücksichtigen unter anderem Alter, Blutdruck, Rauchen, Diabetes, Nierenfunktion, familiäre Belastung und bereits bekannte Gefäßerkrankungen. Bei bestimmten Personen wird das 10-Jahres-Risiko mit einem validierten Verfahren wie SCORE2 beziehungsweise SCORE2-OP eingeschätzt."
+        ]
+      },
+      {
+        id: "ldl-zielwerte",
+        heading: "Welche LDL-Zielwerte gelten?",
+        paragraphs: [
+          "Die europäischen ESC/EAS-Empfehlungen orientieren LDL-Zielwerte am Gesamtrisiko. Je höher das Risiko, desto niedriger ist das angestrebte LDL. Als Orientierung nennen die Leitlinien beispielsweise unter 116 mg/dl bei niedrigem Risiko, unter 100 mg/dl bei moderatem Risiko, unter 70 mg/dl bei hohem Risiko und unter 55 mg/dl bei sehr hohem Risiko. Bei ausgewählten Menschen mit extrem hohem Risiko kann ein noch niedrigeres Ziel erwogen werden.",
+          "Bei hohem und sehr hohem Risiko wird zusätzlich häufig eine LDL-Senkung um mindestens 50 Prozent gegenüber dem Ausgangswert angestrebt. Die konkrete Zielsetzung hängt von der klinischen Situation und der aktuellen Leitlinie ab. Die Zahlen sind keine Selbstdiagnose und sollten nicht ohne Risikobewertung auf einzelne Personen übertragen werden.",
+          "Das ESC/EAS-Fokusupdate von 2025 bestätigte die risikobasierten LDL-Ziele und betonte die genauere Risikoeinschätzung mit SCORE2/SCORE2-OP sowie zusätzlichen Risikomerkmalen. Dazu können beispielsweise eine ausgeprägte familiäre Belastung, erhöhte Lp(a)-Werte oder nachgewiesene Gefäßveränderungen gehören."
+        ]
+      },
+      {
+        id: "risiko",
+        heading: "Warum zählt das gesamte Herz-Kreislauf-Risiko?",
+        paragraphs: [
+          "Ein LDL-Wert muss im Zusammenhang mit der gesamten Gesundheit betrachtet werden. Eine Person, die bereits einen Herzinfarkt oder Schlaganfall hatte, hat ein anderes Ausgangsrisiko als eine beschwerdefreie Person ohne bekannte Gefäßerkrankung. Auch Diabetes, chronische Nierenerkrankungen, Bluthochdruck und Rauchen beeinflussen die Risikoeinschätzung.",
+          "Eine familiäre Hypercholesterinämie ist eine erblich bedingte Störung, bei der LDL oft bereits in jungen Jahren stark erhöht ist. Hinweise können sehr hohe LDL-Werte oder frühe Herzinfarkte in der Familie sein. Bei Verdacht ist eine ärztliche Abklärung wichtig; gegebenenfalls sollten auch nahe Angehörige untersucht werden.",
+          "Das Risiko steigt nicht erst ab einem einzigen magischen Grenzwert. Eine längerfristige Belastung der Gefäße durch LDL spielt eine Rolle. Deshalb kann eine frühzeitige Erkennung bei ausgeprägten Werten und familiärer Vorbelastung besonders relevant sein."
+        ]
+      },
+      {
+        id: "ernaehrung",
+        heading: "Wie lassen sich Cholesterinwerte durch Ernährung beeinflussen?",
+        paragraphs: [
+          "Der Austausch gesättigter Fettsäuren gegen ungesättigte Fettsäuren kann das LDL-Cholesterin senken. Praktisch bedeutet das beispielsweise, häufiger pflanzliche Öle, Nüsse und Samen zu verwenden und fettreiche Wurstwaren, fettreiche Fleischprodukte, Butter und stark verarbeitete Lebensmittel zu begrenzen.",
+          "Hafer, Hülsenfrüchte, Gemüse, Obst und Vollkornprodukte liefern Ballaststoffe. Bestimmte lösliche Ballaststoffe können die LDL-Konzentration zusätzlich günstig beeinflussen. Eine insgesamt pflanzenbetonte Ernährungsweise unterstützt außerdem Blutdruck, Blutzucker und Körpergewicht.",
+          "Bei erhöhten Triglyceriden kann es besonders wichtig sein, Alkohol zu reduzieren oder zu meiden, zuckerreiche Getränke und stark raffinierte Kohlenhydrate einzuschränken und einen Diabetes gut einzustellen. Bei sehr hohen Werten ist eine gezielte ärztliche Behandlung erforderlich.",
+          "Es geht nicht um ein einzelnes „Cholesterin-Superfood“. Entscheidend ist das langfristige Ernährungsmuster. Nahrungsergänzungsmittel und Vitaminpräparate sind kein Ersatz für wirksame Lebensstilmaßnahmen oder eine medizinisch empfohlene Therapie."
+        ]
+      },
+      {
+        id: "bewegung-lebensstil",
+        heading: "Bewegung, Gewicht und Rauchstopp",
+        paragraphs: [
+          "Regelmäßige körperliche Aktivität verbessert das gesamte Herz-Kreislauf-Profil und kann insbesondere Triglyceride und weitere Stoffwechselparameter günstig beeinflussen. Als allgemeine Orientierung gelten mindestens 150 Minuten moderate Ausdauerbewegung pro Woche sowie ergänzendes Krafttraining, sofern gesundheitlich möglich.",
+          "Bei Übergewicht kann eine nachhaltige Gewichtsabnahme die Triglyceride senken und weitere Risikofaktoren verbessern. Crash-Diäten sind dafür nicht erforderlich. Ein Rauchstopp reduziert das Herz-Kreislauf-Risiko deutlich, auch wenn sich der LDL-Wert dadurch nicht zwangsläufig stark verändert.",
+          "Lebensstilmaßnahmen sind für alle wichtig. Bei familiär bedingten oder stark erhöhten LDL-Werten reichen sie allein jedoch häufig nicht aus."
+        ]
+      },
+      {
+        id: "medikamente",
+        heading: "Wann werden Medikamente eingesetzt?",
+        paragraphs: [
+          "Wenn das persönliche Herz-Kreislauf-Risiko hoch ist oder LDL trotz Lebensstilmaßnahmen über dem individuell angestrebten Ziel liegt, kann eine medikamentöse Behandlung sinnvoll sein. Statine sind in der Regel die erste Wahl. Sie hemmen die körpereigene Cholesterinbildung in der Leber und senken LDL nachweislich; dadurch sinkt bei geeigneten Patientengruppen auch das Risiko für Herz-Kreislauf-Ereignisse.",
+          "Wenn das Ziel mit einem Statin allein nicht erreicht wird oder Statine nicht ausreichend vertragen werden, kommen je nach Situation weitere Wirkstoffe infrage, beispielsweise Ezetimib, PCSK9-Hemmer oder Bempedoinsäure. Die Auswahl richtet sich nach notwendiger LDL-Senkung, Vorerkrankungen, Verträglichkeit und nachgewiesenem Nutzen.",
+          "Muskelschmerzen werden unter Statinen berichtet, können aber auch andere Ursachen haben. Bei neuen oder ausgeprägten Beschwerden sollte die behandelnde Praxis informiert werden. Medikamente nicht eigenständig absetzen oder die Dosis verändern.",
+          "Das ESC/EAS-Update 2025 sieht keine Indikation für Nahrungsergänzungsmittel oder Vitamine zur gezielten LDL-Senkung und zur Verringerung des atherosklerotischen Risikos. Präparate mit großen Cholesterinversprechen sollten daher kritisch bewertet werden."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zu Cholesterin",
+        paragraphs: [
+          "**Ist jedes Cholesterin schlecht?** Nein. Cholesterin erfüllt wichtige Aufgaben im Körper. Problematisch können dauerhaft erhöhte Konzentrationen bestimmter Lipoproteine, insbesondere LDL, sein.",
+          "**Ist HDL immer gut?** HDL gehört zur Risikobewertung, aber ein hoher Wert gleicht ein erhöhtes LDL nicht einfach aus. Ein gezieltes Anheben von HDL ist kein etabliertes Therapieziel.",
+          "**Muss ich für den Cholesterintest nüchtern sein?** Nicht immer. Die Praxis entscheidet je nach Fragestellung und insbesondere bei auffälligen Triglyceriden, ob eine nüchterne Blutentnahme nötig ist.",
+          "**Kann ich hohes LDL durch Ernährung allein senken?** Ernährung kann LDL verbessern. Bei stark erhöhten oder erblich bedingten Werten und bei hohem Gesamtrisiko sind Medikamente häufig zusätzlich erforderlich.",
+          "**Sind Statine gefährlich?** Statine können Nebenwirkungen haben, ihr Nutzen ist für viele Menschen mit erhöhtem Risiko gut belegt. Nutzen und mögliche Risiken sollten individuell besprochen werden.",
+          "**Was ist Lipoprotein(a)?** Lp(a) ist ein überwiegend genetisch bestimmter Blutfettpartikel, der das Herz-Kreislauf-Risiko zusätzlich beeinflussen kann. Eine Messung kann in bestimmten Situationen sinnvoll sein.",
+          "**Kann ich Cholesterin mit Nahrungsergänzungsmitteln behandeln?** Für viele beworbene Präparate ist ein verlässlicher Nutzen zur Vermeidung von Herzinfarkt oder Schlaganfall nicht belegt. Sie ersetzen keine leitliniengerechte Therapie."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Laborwerte und LDL-Zielwerte müssen im Zusammenhang mit dem individuellen Herz-Kreislauf-Risiko beurteilt werden. Beginnen, verändern oder beenden Sie eine medikamentöse Behandlung nicht ohne Rücksprache mit medizinischem Fachpersonal."
+        ]
+      }
     ],
     sources: [
-      { title: "Dyslipidämien – Leitlinien und Empfehlungen", publisher: "European Society of Cardiology (ESC)", url: "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Dyslipidaemias-Management-of", accessed: "2026-11-26" },
-      { title: "Cholesterin: Was bedeuten die Werte?", publisher: "gesund.bund.de", url: "https://gesund.bund.de/cholesterin", accessed: "2026-11-26" }
-    ]
+      {
+        title: "2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias",
+        publisher: "European Society of Cardiology (ESC) / European Atherosclerosis Society (EAS)",
+        url: "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/All-ESC-Guidelines/dyslipidaemias-management-of",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "What is new in the 2025 Focused Update of the ESC/EAS Guidelines?",
+        publisher: "European Society of Cardiology (ESC)",
+        url: "https://www.escardio.org/communities/councils/cardiology-practice/education/cardiopractice/what-is-new-in-the-2025-focused-update-of-the-2019-esc-eas-guidelines-for-the-m/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias",
+        publisher: "European Heart Journal",
+        url: "https://academic.oup.com/eurheartj/article/46/42/4359/8234482",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Cholesterin: Was bedeuten die Werte?",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/cholesterin",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Cholesterin: Was sagen die Werte aus?",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG) – Gesundheitsinformation.de",
+        url: "https://www.gesundheitsinformation.de/cholesterin-was-sagen-die-werte-aus.html",
+        accessed: "2026-11-26",
+      }
+    ],
   },
   {
     slug: "blutzucker-insulinresistenz",
