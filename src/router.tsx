@@ -6,12 +6,13 @@ export const getRouter = () => {
   // One client per request: a module-level QueryClient leaks cached data between SSR requests.
   const queryClient = new QueryClient();
 
-  // Vite statically replaces import.meta.env.SSR in shared bundles. Detect the
-  // browser at runtime so the client router keeps the GitHub Pages subpath,
-  // while prerendering and server rendering continue to use the domain root.
+  // The Lovable Vite wrapper leaves BASE_URL as "/" in the browser bundle,
+  // even though the Pages build rewrites asset URLs to the repository prefix.
+  // Detect the project-site prefix from the actual browser URL instead.
   const basepath =
-    typeof window !== "undefined"
-      ? import.meta.env.BASE_URL.replace(/\/$/, "") || "/"
+    typeof window !== "undefined" &&
+    window.location.pathname.startsWith("/M4HEALTHFACTS")
+      ? "/M4HEALTHFACTS"
       : "/";
 
   const router = createRouter({
