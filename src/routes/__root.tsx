@@ -49,8 +49,11 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
           Diese Seite konnte nicht geladen werden
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Es ist ein Fehler aufgetreten. Bitte versuche es erneut oder gehe zurück zur Startseite.
+          Es ist ein Fehler aufgetreten. Die technische Meldung hilft bei der Diagnose.
         </p>
+        <pre className="mt-4 max-h-48 overflow-auto whitespace-pre-wrap break-words rounded-lg border border-border bg-muted p-3 text-left text-xs text-foreground">
+          {error instanceof Error ? `${error.name}: ${error.message}` : String(error)}
+        </pre>
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           <button
             onClick={() => {
