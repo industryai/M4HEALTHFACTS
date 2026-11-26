@@ -29,6 +29,8 @@ describe("App routing", () => {
     "/ratgeber/abwehrkraefte-staerken",
     "/ratgeber/nahrungsergaenzungsmittel-sinnvoll",
     "/ratgeber/freie-zucker-ernaehrung",
+    "/ratgeber/hausmittel-erkaeltung-was-hilft",
+    "/ratgeber/gesundheitsvorsorge-check-up",
     "/ueber-uns",
     "/kontakt",
     "/impressum",
