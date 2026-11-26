@@ -425,6 +425,169 @@ export const articles: Article[] = [
       },
     ],
   },
+
+  {
+    slug: "nahrungsergaenzung-wirkung-risiken",
+    title: "Nahrungsergänzung: Was steckt wirklich dahinter?",
+    category: "vitamine-naehrstoffe",
+    tags: ["Nahrungsergänzung", "Schwarzkümmelöl", "Astaxanthin", "Kurkuma", "Ashwagandha", "Vitamin D", "Magnesium"],
+    intro: "Schwarzkümmelöl, Astaxanthin, Kurkuma, MSM, Cholin oder Ashwagandha werden online häufig mit großen Gesundheitsversprechen beworben. Was sich daraus tatsächlich ableiten lässt, hängt vom einzelnen Stoff, der Dosierung und der Studienlage ab.",
+    excerpt: "Ein sachlicher Überblick über häufig genannte Pflanzenstoffe, Vitamine und Mineralstoffe – einschließlich möglicher Risiken und Wechselwirkungen.",
+    readingMinutes: 8,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene Ernährung oder eine medizinische Behandlung.",
+      "Ein zusätzlicher Nutzen ist vor allem dann plausibel, wenn tatsächlich eine Unterversorgung oder ein erhöhter Bedarf besteht.",
+      "Hoch dosierte Präparate und Pflanzenextrakte können Nebenwirkungen oder Wechselwirkungen mit Medikamenten haben."
+    ],
+    sections: [
+      { id: "was-ist-das", heading: "Was Nahrungsergänzung leisten kann – und was nicht", paragraphs: [
+        "Nahrungsergänzungsmittel liefern konzentrierte Nährstoffe oder andere Stoffe, etwa Vitamine, Mineralstoffe, Fettsäuren oder Pflanzenextrakte. Sie sind Lebensmittel und keine zugelassenen Arzneimittel zur Behandlung von Krankheiten.",
+        "Ob ein Präparat sinnvoll ist, lässt sich nicht allein aus einem Social-Media-Video oder einer Zutatenliste ableiten. Entscheidend sind unter anderem Ernährungsweise, Lebenssituation, Erkrankungen, Medikamente und die tatsächliche Versorgung."
+      ] },
+      { id: "haeufige-stoffe", heading: "Häufig genannte Stoffe im Überblick", paragraphs: [
+        "Vitamin D trägt unter anderem zur normalen Funktion des Knochenstoffwechsels bei. Eine Ergänzung kann in bestimmten Situationen sinnvoll sein; eine pauschale Hochdosierung ist jedoch nicht für alle Menschen angezeigt.",
+        "Magnesium ist an vielen Körperfunktionen beteiligt. Gute Quellen sind beispielsweise Vollkornprodukte, Hülsenfrüchte, Nüsse und Samen. Muskelkrämpfe allein beweisen keinen Magnesiummangel.",
+        "Kurkuma beziehungsweise Curcumin, Schwarzkümmelöl, Astaxanthin, MSM und Cholin werden für unterschiedliche Zwecke vermarktet. Für viele der online verbreiteten Krankheits- und Heilversprechen reicht die verfügbare Evidenz nicht aus, um eine verlässliche Wirkung zu bestätigen.",
+        "Ashwagandha wird unter anderem im Zusammenhang mit Stress und Schlaf untersucht. Die Studien verwenden unterschiedliche Präparate; Langzeitdaten fehlen. Es gibt zudem Hinweise auf mögliche Auswirkungen auf Leber und Schilddrüse sowie Wechselwirkungen mit Medikamenten."
+      ] },
+      { id: "risiken", heading: "Risiken, Dosierung und Wechselwirkungen", paragraphs: [
+        "Mehr ist nicht automatisch besser. Eine langfristige Überversorgung mit Vitaminen und Mineralstoffen kann gesundheitliche Risiken bergen. Nahrungsergänzungsmittel können außerdem die Wirkung von Arzneimitteln abschwächen oder verstärken.",
+        "Besondere Vorsicht ist bei chronischen Erkrankungen, Schwangerschaft, Stillzeit, Leber- oder Schilddrüsenerkrankungen und regelmäßiger Medikamenteneinnahme sinnvoll. Besprechen Sie die Einnahme und Dosierung mit medizinischem Fachpersonal oder einer Apotheke."
+      ] },
+      { id: "video-einordnung", heading: "Einordnung der Aussagen aus dem Video", paragraphs: [
+        "Die im Short gezeigte Liste ist ein Themenüberblick, aber kein Nachweis dafür, dass die genannten Stoffe Krankheiten verhindern, heilen oder Medikamente ersetzen. Die Abkürzung „WPO 3,5 %“ ist im Screenshot nicht eindeutig erklärt und wird deshalb nicht als Wirkstoff oder Anwendungsempfehlung übernommen.",
+        "Verwenden Sie keine unbekannten Substanzen oder Produkte aufgrund einer Kurzvideo-Aussage. Bei Beschwerden oder einer bestehenden Diagnose gehört die Behandlung in ärztliche Hände."
+      ] }
+    ],
+    sources: [
+      { title: "Fragen und Antworten zu Nahrungsergänzungsmitteln", publisher: "Bundesinstitut für Risikobewertung (BfR)", url: "https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-nahrungsergaenzungsmitteln/", accessed: "2026-11-26" },
+      { title: "Ashwagandha: Is it helpful for stress, anxiety, or sleep?", publisher: "NIH Office of Dietary Supplements", url: "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/", accessed: "2026-11-26" },
+      { title: "Turmeric: Usefulness and Safety", publisher: "National Center for Complementary and Integrative Health (NCCIH)", url: "https://www.nccih.nih.gov/health/turmeric", accessed: "2026-11-26" },
+      { title: "Vitamin D – Fact Sheet for Health Professionals", publisher: "NIH Office of Dietary Supplements", url: "https://ods.od.nih.gov/factsheets/VITAMIND-HealthProfessional/", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "lebensmittel-organe-ernaehrung",
+    title: "Lebensmittel und Organe: Was Ernährung wirklich bewirken kann",
+    category: "ernaehrung",
+    tags: ["Ernährung", "Leber", "Nieren", "Darm", "Gehirn", "Lebensmittel"],
+    intro: "Rote Bete für die Leber, Blaubeeren fürs Gehirn oder Gurken für die Nieren: Solche Zuordnungen sind in sozialen Medien beliebt. Lebensmittel liefern wichtige Nährstoffe – sie reinigen einzelne Organe aber nicht gezielt.",
+    excerpt: "Welche Nährstoffe in Gemüse, Obst, Nüssen und Kräutern stecken und warum der Körper keine Detox-Lebensmittelliste braucht.",
+    readingMinutes: 7,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Leber und Nieren übernehmen zentrale Aufgaben im Stoffwechsel und bei der Ausscheidung von Abbauprodukten.",
+      "Kein einzelnes Lebensmittel „reinigt“ ein bestimmtes Organ.",
+      "Eine abwechslungsreiche Ernährung unterstützt die allgemeine Gesundheit besser als starre Detox-Versprechen."
+    ],
+    sections: [
+      { id: "organfunktionen", heading: "Wie Leber und Nieren tatsächlich arbeiten", paragraphs: [
+        "Die Leber verarbeitet Nährstoffe, baut verschiedene Stoffe um und übernimmt wichtige Aufgaben im Stoffwechsel. Die Nieren filtern das Blut, bilden Urin und regulieren unter anderem Wasser- und Mineralstoffhaushalt.",
+        "Diese Organe arbeiten kontinuierlich. Spezielle Lebensmittel können ihre Aufgaben nicht wie eine Reinigungskur übernehmen."
+      ] },
+      { id: "lebensmittel", heading: "Was die Lebensmittel auf der Grafik beitragen", paragraphs: [
+        "Rote Bete, Granatapfel, Knoblauch, Blaubeeren, Walnüsse, Karotten, grünes Gemüse, Beeren, Zitrusfrüchte, Ananas und Ingwer können Teil einer abwechslungsreichen Ernährung sein. Sie liefern je nach Lebensmittel Ballaststoffe, Vitamine, Mineralstoffe und sekundäre Pflanzenstoffe.",
+        "Die Nährstoffe wirken nicht exklusiv auf das Organ, neben dem sie in einer Grafik abgebildet sind. Eine Karotte ist beispielsweise nicht nur für die Augen relevant und eine Walnuss nicht ausschließlich für das Gehirn."
+      ] },
+      { id: "alltag", heading: "Was im Alltag sinnvoll ist", paragraphs: [
+        "Setzen Sie auf Vielfalt: Gemüse und Obst in unterschiedlichen Farben, Vollkornprodukte, Hülsenfrüchte, Nüsse und passende Eiweißquellen. Trinken Sie ausreichend und begrenzen Sie Alkohol. Welche Ernährung bei einer bestehenden Leber- oder Nierenerkrankung geeignet ist, muss individuell abgestimmt werden.",
+        "Sogenannte Detox-Kuren, extreme Safttage oder hoch dosierte Präparate sind keine notwendige Organreinigung und können je nach Situation sogar ungeeignet sein."
+      ] },
+      { id: "warnzeichen", heading: "Wann ärztlicher Rat wichtig ist", paragraphs: [
+        "Anhaltende Beschwerden, auffällige Laborwerte oder bekannte Erkrankungen von Leber, Nieren oder Darm sollten medizinisch abgeklärt werden. Versuchen Sie nicht, solche Probleme mit einzelnen Lebensmitteln oder Nahrungsergänzungsmitteln selbst zu behandeln."
+      ] }
+    ],
+    sources: [
+      { title: "Hepatorenales Syndrom – Aufgaben von Leber und Nieren", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/icd-code-suche/k76-7", accessed: "2026-11-26" },
+      { title: "Stärkung der Abwehrkräfte", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/abwehrkraefte-staerken", accessed: "2026-11-26" },
+      { title: "Fragen und Antworten zu Nahrungsergänzungsmitteln", publisher: "Bundesinstitut für Risikobewertung (BfR)", url: "https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-nahrungsergaenzungsmitteln/", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "koerpersignale-symptome-einordnen",
+    title: "16 Körpersignale: Mögliche Ursachen richtig einordnen",
+    category: "koerper-gesundheit",
+    tags: ["Symptome", "Körpersignale", "Müdigkeit", "Kribbeln", "Schlaf", "Gesundheit"],
+    intro: "Kribbeln, Müdigkeit, Nachtschweiß oder Muskelkrämpfe können viele Ursachen haben. Eine Symptomliste aus dem Internet kann Hinweise geben, aber keine Diagnose stellen.",
+    excerpt: "Von kalten Händen bis Ohrgeräuschen: Warum einzelne Symptome nicht automatisch auf einen bestimmten Mangel oder eine Erkrankung hinweisen.",
+    readingMinutes: 9,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Ein Symptom kann unterschiedliche Ursachen haben – von harmlosen Auslösern bis zu behandlungsbedürftigen Erkrankungen.",
+      "Einzelne Beschwerden beweisen keinen Vitamin- oder Mineralstoffmangel.",
+      "Neue, starke, anhaltende oder zunehmende Symptome sollten medizinisch abgeklärt werden."
+    ],
+    sections: [
+      { id: "signale", heading: "16 Beispiele – und warum sie keine Diagnose sind", paragraphs: [
+        "1. Kribbelnde Hände können beispielsweise durch Druck auf Nerven, eine ungünstige Haltung oder Stoffwechsel- und Nervenerkrankungen entstehen. 2. Müdigkeit trotz Schlaf kann mit Schlafqualität, Stress, Medikamenten oder körperlichen Ursachen zusammenhängen. 3. Ein wahrgenommener Brandgeruch ohne erkennbare Quelle kann eine Riechstörung sein und sollte bei wiederholtem Auftreten abgeklärt werden.",
+        "4. Bitterer Geschmack kann unter anderem mit Mundgesundheit, Reflux oder Medikamenten zusammenhängen. 5. Bewegliche Punkte im Sichtfeld sind häufig harmlose Glaskörpertrübungen; plötzlich viele neue Punkte, Lichtblitze oder ein Schatten wie ein Vorhang sind jedoch ein augenärztlicher Notfall. 6. Unruhige Beine am Abend können zu einem Restless-Legs-Syndrom passen, das unter anderem mit dem Eisenstoffwechsel zusammenhängen kann.",
+        "7. Zähneknirschen kann mit Stress, Schlaf oder anderen Faktoren verbunden sein. 8. Taube Finger können durch Nervenkompression, etwa am Handgelenk, entstehen. 9. Nachtschweiß kann viele Ursachen haben, darunter Raumtemperatur, Medikamente, Infekte oder hormonelle Veränderungen.",
+        "10. Frühes Erwachen kann bei Stress, Schlafstörungen oder psychischen Belastungen auftreten. 11. Ohrgeräusche (Tinnitus) können unter anderem mit Lärm oder Hörveränderungen zusammenhängen. 12. Muskelkrämpfe können durch Belastung, Medikamente oder verschiedene körperliche Faktoren begünstigt werden – nicht nur durch Magnesiummangel.",
+        "13. Juckende Kopfhaut kann etwa durch Schuppen, Ekzeme oder andere Hauterkrankungen entstehen. 14. Kalte Hände können eine normale Reaktion auf Kälte sein, aber auch bei Durchblutungs- oder Schilddrüsenproblemen vorkommen. 15. Wortfindungsprobleme können bei Müdigkeit und Stress auftreten, haben aber auch andere mögliche Ursachen. 16. Häufiges nächtliches Schwitzen zusammen mit Fieber, ungewolltem Gewichtsverlust oder deutlicher Leistungsminderung gehört ärztlich abgeklärt."
+      ] },
+      { id: "beobachten", heading: "Was Sie sinnvoll beobachten können", paragraphs: [
+        "Notieren Sie, wann ein Symptom auftritt, wie lange es anhält, wodurch es besser oder schlechter wird und ob weitere Beschwerden dazukommen. Halten Sie auch neue Medikamente oder Nahrungsergänzungsmittel fest. Diese Informationen helfen bei einem Arztgespräch.",
+        "Versuchen Sie nicht, aus einer einzelnen Grafik eine Selbstdiagnose abzuleiten oder auf Verdacht hoch dosierte Vitamine und Mineralstoffe einzunehmen."
+      ] },
+      { id: "sofort-hilfe", heading: "Wann Sie nicht abwarten sollten", paragraphs: [
+        "Bei plötzlich auftretenden Lähmungen, Sprach- oder Sehstörungen, starken Brustschmerzen, schwerer Atemnot, Bewusstseinsstörungen oder einem plötzlich einsetzenden ungewöhnlich starken Kopfschmerz ist sofort medizinische Hilfe erforderlich. Bei akuten Notfällen wählen Sie 112.",
+        "Auch neue Lichtblitze, ein plötzliches Schwärmen vieler dunkler Punkte oder ein Schatten im Sichtfeld müssen umgehend augenärztlich untersucht werden. Bei anhaltenden oder zunehmenden Beschwerden wenden Sie sich an Ihre Hausarztpraxis."
+      ] }
+    ],
+    sources: [
+      { title: "Schilddrüsenunterfunktion", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/schilddruesenunterfunktion", accessed: "2026-11-26" },
+      { title: "Restless-Legs-Syndrom", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/restless-legs-syndrom", accessed: "2026-11-26" },
+      { title: "Vitamin-B-Mangel: Symptome und Behandlung", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/vitamin-b-mangel", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "naturheilmittel-chronische-beschwerden",
+    title: "Natürliche Heilmittel: Was ist bei Beschwerden wirklich belegt?",
+    category: "natur-hausmittel",
+    tags: ["Naturheilmittel", "Wechseljahre", "Osteoporose", "PCOS", "Parkinson", "Multiple Sklerose"],
+    intro: "Videos ordnen bestimmten Beschwerden oft einzelne Vitamine, Mineralstoffe oder Pflanzenstoffe zu. Bei chronischen Erkrankungen ist die Lage komplexer: Eine mögliche unterstützende Rolle ist nicht dasselbe wie eine nachgewiesene Behandlung.",
+    excerpt: "Ein kritischer Überblick über natürliche Mittel bei chronischen Beschwerden – mit klarer Trennung zwischen Unterstützung, Studienlage und medizinischer Behandlung.",
+    readingMinutes: 8,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Nahrungsergänzungsmittel heilen weder Multiple Sklerose noch Parkinson, Osteoporose, PCOS oder andere chronische Erkrankungen.",
+      "Einzelne Nährstoffe können bei nachgewiesenem Mangel oder besonderem Bedarf medizinisch sinnvoll sein.",
+      "Pflanzenextrakte und hoch dosierte Präparate können Neben- und Wechselwirkungen verursachen."
+    ],
+    sections: [
+      { id: "unterstuetzung", heading: "Unterstützung ist keine Therapie", paragraphs: [
+        "Eine ausreichende Versorgung mit Nährstoffen ist wichtig für normale Körperfunktionen. Daraus folgt aber nicht, dass zusätzliche Präparate eine chronische Erkrankung behandeln oder deren Verlauf zuverlässig verändern.",
+        "Bei Osteoporose, Multipler Sklerose, Parkinson, Neuropathien, PCOS, PMDD, Psoriasis oder Diabetes hängen Behandlung und Verlauf von vielen Faktoren ab. Die Therapie sollte auf Diagnose und individueller Situation beruhen."
+      ] },
+      { id: "beispiele", heading: "Wie man Nährstofflisten richtig liest", paragraphs: [
+        "Vitamin D und Calcium spielen eine Rolle im Knochenstoffwechsel. Ob eine Ergänzung erforderlich ist, hängt unter anderem von Versorgung, Ernährung, Alter, Erkrankungen und Behandlung ab.",
+        "B-Vitamine sind für Stoffwechsel und Nervensystem wichtig. Eine Ergänzung kann bei einem nachgewiesenen Mangel sinnvoll sein; unspezifische Beschwerden allein reichen nicht aus, um einen Mangel festzustellen.",
+        "Magnesium, Omega-3-Fettsäuren, Zink, Eisen, Inositol oder Pflanzenextrakte werden in unterschiedlichen Zusammenhängen untersucht. Die Studienlage ist je nach Stoff und Erkrankung sehr unterschiedlich. Eine Empfehlung für alle Betroffenen lässt sich daraus nicht ableiten."
+      ] },
+      { id: "sicherheit", heading: "Warum ärztliche Abstimmung wichtig ist", paragraphs: [
+        "Chronische Erkrankungen gehen häufig mit regelmäßiger Medikamenteneinnahme einher. Nahrungsergänzungsmittel können Arzneimittelwirkungen beeinflussen. Manche Präparate sind bei bestimmten Erkrankungen, in Schwangerschaft oder Stillzeit ungeeignet.",
+        "Lassen Sie deshalb vor einer längerfristigen Einnahme prüfen, ob tatsächlich ein Bedarf besteht, welches Präparat infrage kommt und ob es mit Ihrer Behandlung vereinbar ist. Setzen Sie verordnete Medikamente nicht eigenständig ab."
+      ] },
+      { id: "fazit", heading: "Ein realistischer Umgang mit Naturheilmitteln", paragraphs: [
+        "Sinnvoll ist eine kritische Frage bei jedem Versprechen: Gibt es gute Studien am Menschen? Für welche konkrete Erkrankung wurde untersucht? Welche Dosis und welches Produkt wurden verwendet? Welche Risiken sind bekannt?",
+        "Traditionelle Anwendung, Laborversuche oder einzelne Erfahrungsberichte sind kein Beleg für eine klinisch wirksame Behandlung. Bei neuen oder zunehmenden Beschwerden sollte die Ursache medizinisch abgeklärt werden."
+      ] }
+    ],
+    sources: [
+      { title: "Fragen und Antworten zu Nahrungsergänzungsmitteln", publisher: "Bundesinstitut für Risikobewertung (BfR)", url: "https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-nahrungsergaenzungsmitteln/", accessed: "2026-11-26" },
+      { title: "Vitamin D – Fact Sheet for Health Professionals", publisher: "NIH Office of Dietary Supplements", url: "https://ods.od.nih.gov/factsheets/VITAMIND-HealthProfessional/", accessed: "2026-11-26" },
+      { title: "Turmeric: Usefulness and Safety", publisher: "National Center for Complementary and Integrative Health (NCCIH)", url: "https://www.nccih.nih.gov/health/turmeric", accessed: "2026-11-26" }
+    ]
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
