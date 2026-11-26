@@ -306,6 +306,125 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "hausmittel-erkaeltung-was-hilft",
+    title: "Hausmittel bei Erkältung: Was ist belegt?",
+    category: "natur-hausmittel",
+    tags: ["Hausmittel", "Erkältung", "Kräutertee", "Gesundheitswissen"],
+    intro: "Bei Erkältungen greifen viele Menschen zu Tee, Honig oder anderen Hausmitteln. Wichtig ist die Unterscheidung zwischen angenehmer Linderung und einem nachgewiesenen Einfluss auf die Krankheitsdauer.",
+    excerpt: "Warum Hausmittel Beschwerden begleiten können, aber nicht automatisch Viren bekämpfen oder die Genesung beschleunigen.",
+    readingMinutes: 6,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Hausmittel können als angenehm empfunden werden, ihre Wirkung ist aber je nach Anwendung unterschiedlich gut untersucht.",
+      "Für viele Hausmittel ist nicht wissenschaftlich belegt, dass sie eine Grippe verkürzen oder die Ursache bekämpfen.",
+      "Antibiotika wirken gegen Bakterien, nicht gegen Erkältungs- oder Grippeviren.",
+    ],
+    sections: [
+      {
+        id: "hausmittel-einordnen",
+        heading: "Was können Hausmittel leisten?",
+        paragraphs: [
+          "Warme Getränke oder eine Suppe können als wohltuend empfunden werden und dabei helfen, ausreichend Flüssigkeit aufzunehmen. Daraus lässt sich jedoch nicht ableiten, dass sie die Erkältungsviren bekämpfen oder die Krankheitsdauer verkürzen.",
+          "Bei Grippe ist für viele verbreitete Hausmittel wie Hühnerbrühe oder Kräutertee nicht wissenschaftlich belegt, dass sie die Erkrankung selbst lindern. Es ist daher sinnvoll, zwischen persönlichem Wohlbefinden und nachgewiesener medizinischer Wirkung zu unterscheiden.",
+        ],
+      },
+      {
+        id: "pflanzen-und-praep",
+        heading: "Pflanzen, Tees und Präparate",
+        paragraphs: [
+          "Pflanzliche Mittel werden bei Erkältungsbeschwerden häufig eingesetzt. Für einzelne Präparate gibt es Hinweise auf eine Linderung bestimmter Symptome, die Datenlage ist jedoch je nach Wirkstoff und Anwendung unterschiedlich.",
+          "Auch Vitaminpräparate oder frei verkäufliche Produkte beschleunigen die Genesung nicht automatisch. Wer regelmäßig Medikamente einnimmt, schwanger ist oder Vorerkrankungen hat, sollte die Anwendung von Präparaten mit medizinischem Fachpersonal besprechen.",
+        ],
+      },
+      {
+        id: "antibiotika",
+        heading: "Warum natürliche Mittel keine Antibiotika ersetzen",
+        paragraphs: [
+          "Antibiotika sind Arzneimittel gegen bakterielle Infektionen. Erkältungen und Grippe werden in der Regel durch Viren verursacht; Antibiotika helfen dagegen nicht.",
+          "Die Bezeichnung „natürliches Antibiotikum“ ist für Lebensmittel oder Hausmittel deshalb irreführend. Ein Hausmittel sollte eine notwendige medizinische Behandlung nicht ersetzen.",
+        ],
+      },
+      {
+        id: "wann-hilfe",
+        heading: "Wann ärztlicher Rat wichtig ist",
+        paragraphs: [
+          "Wenn Beschwerden ungewöhnlich stark sind, sich deutlich verschlimmern oder Unsicherheit über die Ursache besteht, sollte eine ärztliche Einschätzung eingeholt werden. Hausmittel sind kein Ersatz für Diagnostik oder Behandlung.",
+        ],
+      },
+    ],
+    sources: [
+      {
+        title: "Grippe: Symptome, Behandlung, Vorbeugung",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/grippe-influenza",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Erkältung: Symptome und Behandlung",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/erkaeltung",
+        accessed: "2026-11-26",
+      },
+    ],
+  },
+  {
+    slug: "gesundheitsvorsorge-check-up",
+    title: "Gesundheitsvorsorge: Was bringt der Check-up?",
+    category: "praevention",
+    tags: ["Prävention", "Vorsorge", "Check-up", "Früherkennung"],
+    intro: "Vorsorgeuntersuchungen können bestimmte Erkrankungsrisiken frühzeitig sichtbar machen. Welche Angebote sinnvoll sind, hängt unter anderem von Alter, Geschlecht und persönlicher Situation ab.",
+    excerpt: "Welche Gesundheits-Check-ups gesetzlich Versicherte nutzen können und warum Vorsorge nicht mit Diagnostik bei Beschwerden verwechselt werden sollte.",
+    readingMinutes: 7,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Gesetzlich Versicherte können den Gesundheits-Check-up zwischen 18 und 34 Jahren einmalig und ab 35 Jahren alle drei Jahre nutzen.",
+      "Der Check-up dient unter anderem dazu, Risiken für Herz-Kreislauf-Erkrankungen und Typ-2-Diabetes frühzeitig zu erkennen.",
+      "Früherkennungsuntersuchungen können Nutzen und Risiken haben; die Teilnahme ist eine persönliche Entscheidung.",
+    ],
+    sections: [
+      {
+        id: "check-up",
+        heading: "Was ist der Gesundheits-Check-up?",
+        paragraphs: [
+          "Der Gesundheits-Check-up ist ein Vorsorgeangebot der gesetzlichen Krankenversicherung. Versicherte können ihn zwischen 18 und 34 Jahren einmalig und ab 35 Jahren regelmäßig alle drei Jahre in Anspruch nehmen.",
+          "Ziel ist es unter anderem, Risiken für Herz-Kreislauf-Erkrankungen und Typ-2-Diabetes frühzeitig zu erkennen. Zum Angebot gehören je nach Situation ein ärztliches Gespräch, körperliche Untersuchungen und Laboruntersuchungen.",
+        ],
+      },
+      {
+        id: "vorsorge-und-diagnostik",
+        heading: "Vorsorge ist nicht dasselbe wie Diagnostik",
+        paragraphs: [
+          "Vorsorgeuntersuchungen richten sich an Menschen ohne konkrete Beschwerden und sollen bestimmte Risiken oder Erkrankungen früh erkennen. Diagnostische Untersuchungen werden dagegen eingesetzt, wenn Beschwerden oder ein konkreter Krankheitsverdacht bestehen.",
+          "Bei gesundheitlichen Beschwerden sollte man daher nicht auf den nächsten Vorsorgetermin warten, sondern medizinischen Rat einholen.",
+        ],
+      },
+      {
+        id: "nutzen-risiken",
+        heading: "Nutzen und mögliche Nachteile abwägen",
+        paragraphs: [
+          "Früherkennungsuntersuchungen können helfen, Krankheiten oder Vorstufen frühzeitig zu entdecken. Kein Test ist jedoch hundertprozentig zuverlässig; es kann auch zu unklaren Befunden oder weiteren Untersuchungen kommen.",
+          "Welche Untersuchungen für die eigene Situation angeboten werden, lässt sich mit der Hausarztpraxis besprechen. Die Teilnahme an Früherkennungsangeboten ist grundsätzlich freiwillig.",
+        ],
+      },
+    ],
+    sources: [
+      {
+        title: "Gesundheits-Check-up für Erwachsene",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/gesundheits-check-up-fuer-erwachsene",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Früherkennung von Krankheiten",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/themen/vorsorge-und-frueherkennung",
+        accessed: "2026-11-26",
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
