@@ -4448,6 +4448,167 @@ export const articles: Article[] = [
         accessed: "2026-11-26"
       }
     ]
+  },,
+
+  {
+    slug: "gastritis-magenschleimhautentzuendung",
+    title: "Gastritis: Magenschleimhautentzündung, Helicobacter pylori und Behandlung",
+    category: "koerper-gesundheit",
+    tags: ["Gastritis", "Magenschleimhautentzündung", "Helicobacter pylori", "Magen", "Magenschmerzen", "NSAR"],
+    intro: "Bei einer Gastritis ist die Schutzschicht der Magenschleimhaut entzündet oder geschädigt. Auslöser können unter anderem Helicobacter pylori, bestimmte Schmerzmittel oder andere Belastungen sein. Beschwerden reichen von Oberbauchschmerzen und Übelkeit bis zu Blutungen – manche Betroffene haben kaum Symptome. Entscheidend ist, die Ursache zu erkennen und gezielt zu behandeln.",
+    excerpt: "Welche Ursachen eine akute oder chronische Gastritis haben kann, wie Helicobacter pylori nachgewiesen wird und welche Behandlungen je nach Auslöser sinnvoll sind.",
+    readingMinutes: 11,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Gastritis bezeichnet eine Entzündung der Magenschleimhaut; ähnliche Oberbauchbeschwerden können auch ohne nachweisbare Entzündung auftreten.",
+      "Häufige Ursachen einer chronischen Gastritis sind Helicobacter pylori und eine autoimmune Magenschleimhautentzündung.",
+      "Schmerzmittel aus der Gruppe der NSAR, etwa Ibuprofen oder Diclofenac, können die Magenschleimhaut schädigen und Geschwüre oder Blutungen begünstigen.",
+      "Helicobacter pylori kann je nach Fragestellung mit Atemtest, Stuhlantigentest oder Gewebeproben nachgewiesen werden.",
+      "Die Behandlung richtet sich nach der Ursache; bei bestätigter Helicobacter-Infektion ist eine Kombination aus Säureblockade und mehreren Antibiotika üblich."
+    ],
+    sections: [
+      {
+        id: "was-ist-gastritis",
+        heading: "Was ist eine Gastritis?",
+        paragraphs: [
+          "Gastritis bedeutet eine Entzündung der Magenschleimhaut. Die Schleimhaut kleidet den Magen von innen aus und schützt ihn vor Säure und Verdauungsenzymen. Wird diese Schutzbarriere geschädigt oder kommt es zu einer Entzündungsreaktion, kann die Schleimhaut gereizt werden und in bestimmten Fällen bluten oder Geschwüre entwickeln.",
+          "Wichtig ist die Unterscheidung zwischen einer tatsächlich nachgewiesenen Gastritis und funktioneller Dyspepsie. Bei funktioneller Dyspepsie bestehen Beschwerden wie Völlegefühl, frühe Sättigung oder Oberbauchschmerzen, ohne dass eine ausreichende organische Erklärung gefunden wird. Symptome allein beweisen daher keine Magenschleimhautentzündung."
+        ]
+      },
+      {
+        id: "akut-chronisch",
+        heading: "Akute und chronische Gastritis",
+        paragraphs: [
+          "Eine akute Gastritis beginnt meist plötzlich. Sie kann beispielsweise im Zusammenhang mit bestimmten Medikamenten, Alkohol, schweren körperlichen Belastungen oder akuten Erkrankungen auftreten. Die Beschwerden können vorübergehend sein, bei Schleimhautschäden sind jedoch auch Blutungen möglich.",
+          "Eine chronische Gastritis entwickelt sich über längere Zeit. Sie wird nach Ursache und Gewebeveränderungen in unterschiedliche Formen eingeteilt. Besonders wichtig sind die Helicobacter-pylori-Gastritis und die autoimmune Gastritis. Eine chronische Entzündung kann über Jahre unbemerkt bleiben."
+        ]
+      },
+      {
+        id: "ursachen",
+        heading: "Häufige Ursachen einer Magenschleimhautentzündung",
+        paragraphs: [
+          "Helicobacter pylori ist ein Bakterium, das die Magenschleimhaut besiedeln und eine chronische Entzündung verursachen kann. Die Infektion ist weltweit verbreitet und bleibt oft lange ohne eindeutige Beschwerden. Sie ist außerdem ein wichtiger Risikofaktor für Magen- und Zwölffingerdarmgeschwüre.",
+          "Nichtsteroidale Antirheumatika (NSAR) wie Ibuprofen, Diclofenac oder Acetylsalicylsäure können die Schutzmechanismen der Magenschleimhaut beeinträchtigen. Das Risiko steigt unter anderem mit Dosis, Behandlungsdauer, höherem Alter und bestimmten Begleitmedikamenten. Verordnete Medikamente sollten nicht eigenständig abgesetzt werden; bei Beschwerden sollte die Einnahme ärztlich überprüft werden.",
+          "Bei der autoimmunen Gastritis richtet sich das Immunsystem gegen Bestandteile der Magenschleimhaut, insbesondere gegen Belegzellen und teilweise den Intrinsic Factor. Dadurch können Magensäureproduktion und Vitamin-B12-Aufnahme beeinträchtigt werden. Auch Eisenmangel kann auftreten.",
+          "Weitere seltenere Formen können im Zusammenhang mit Gallenreflux, schweren körperlichen Belastungen, bestimmten Infektionen oder anderen Erkrankungen auftreten. Alkohol kann die Schleimhaut reizen; die Bedeutung hängt von Menge und individueller Situation ab."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Symptome: Oberbauchschmerzen, Übelkeit und Völlegefühl",
+        paragraphs: [
+          "Mögliche Beschwerden sind Schmerzen oder Brennen im Oberbauch, Übelkeit, Erbrechen, Völlegefühl, frühe Sättigung, Aufstoßen und Appetitminderung. Die Symptome sind unspezifisch und können auch bei Reflux, Magengeschwüren, Gallenwegserkrankungen oder funktioneller Dyspepsie auftreten.",
+          "Eine Gastritis kann auch ohne spürbare Beschwerden bestehen. Insbesondere eine chronische Helicobacter-Infektion oder autoimmune Gastritis wird manchmal erst durch Blutarmut, Eisenmangel, Vitamin-B12-Mangel oder eine Magenspiegelung entdeckt."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Wie wird Gastritis diagnostiziert?",
+        paragraphs: [
+          "Die Abklärung beginnt mit der Krankengeschichte: Beschwerden, Dauer, Medikamenteneinnahme, Alkohol, Vorerkrankungen und mögliche Warnzeichen werden erfasst. Je nach Situation können Blutuntersuchungen sinnvoll sein, etwa bei Verdacht auf Blutarmut, Eisenmangel oder Vitamin-B12-Mangel.",
+          "Eine Magenspiegelung ermöglicht die direkte Beurteilung der Schleimhaut. Dabei können Gewebeproben entnommen werden, um eine Entzündung zu bestätigen, Helicobacter pylori nachzuweisen und die Art der Gastritis einzuordnen. Besonders bei Warnzeichen, anhaltenden Beschwerden oder bestimmten Risikokonstellationen ist sie wichtig.",
+          "Helicobacter pylori kann je nach Fragestellung mit einem Harnstoff-Atemtest oder einem Stuhlantigentest nachgewiesen werden. Beide Verfahren können auch zur Kontrolle nach einer Eradikation eingesetzt werden. Säureblocker, Antibiotika und Bismut können Testergebnisse beeinflussen; die notwendige Pause vor der Untersuchung muss ärztlich festgelegt werden.",
+          "Bei Verdacht auf autoimmune Gastritis können unter anderem Blutbild, Vitamin B12, Eisenstatus sowie Antikörper gegen Parietalzellen oder den Intrinsic Factor untersucht werden. Kein einzelner Blutwert ersetzt in jeder Situation die Gesamtbeurteilung."
+        ]
+      },
+      {
+        id: "helicobacter",
+        heading: "Helicobacter pylori: Nachweis und Bedeutung",
+        paragraphs: [
+          "Helicobacter pylori ist ein Bakterium, das sich an die Bedingungen im Magen anpassen kann. Die Infektion führt häufig zu einer chronischen Gastritis. Bei einem Teil der Betroffenen entstehen Magen- oder Zwölffingerdarmgeschwüre. Langfristig erhöht eine anhaltende Infektion außerdem das Risiko bestimmter Magenkarzinome und des MALT-Lymphoms.",
+          "Ein positiver Antikörper-Bluttest kann auf einen früheren Kontakt mit dem Bakterium hinweisen, unterscheidet aber nicht zuverlässig zwischen einer aktuellen und einer zurückliegenden Infektion. Für den Nachweis einer aktiven Infektion werden deshalb meist Atemtest, Stuhlantigentest oder Gewebeuntersuchungen bevorzugt.",
+          "Ob eine Helicobacter-Infektion behandelt werden sollte, hängt von der klinischen Situation und den aktuellen Leitlinien ab. Bei nachgewiesener Infektion wird häufig eine Eradikation empfohlen, insbesondere bei Ulkuskrankheit und bestimmten weiteren Risikokonstellationen."
+        ]
+      },
+      {
+        id: "behandlung-helicobacter",
+        heading: "Helicobacter-Eradikation: Kombination statt Einzelantibiotikum",
+        paragraphs: [
+          "Die Eradikation kombiniert eine Säurehemmung mit mehreren antimikrobiellen Wirkstoffen. Welche Kombination gewählt wird, hängt unter anderem von lokalen Antibiotikaresistenzen, früheren Antibiotikabehandlungen, Allergien und den geltenden Leitlinien ab. Eine eigenständige Einnahme einzelner Antibiotika ist ungeeignet.",
+          "Die verordnete Behandlung sollte genau nach Plan durchgeführt werden. Nebenwirkungen wie Übelkeit, Durchfall oder Geschmacksveränderungen können auftreten. Bei starken oder ungewöhnlichen Reaktionen sollte medizinischer Rat eingeholt werden, statt die Therapie ohne Rücksprache abzubrechen.",
+          "Nach Abschluss der Behandlung sollte der Erfolg mit einem geeigneten Test kontrolliert werden. Die Kontrolle erfolgt in der Regel frühestens vier Wochen nach Ende der Antibiotika- beziehungsweise Bismuttherapie und nach einer ärztlich festgelegten Pause von Protonenpumpenhemmern. Ein Antikörpertest im Blut eignet sich nicht zur Bestätigung der Eradikation."
+        ]
+      },
+      {
+        id: "behandlung-andere",
+        heading: "Behandlung anderer Gastritisformen",
+        paragraphs: [
+          "Bei einer durch NSAR begünstigten Schleimhautschädigung wird ärztlich geprüft, ob das auslösende Medikament reduziert, ersetzt oder abgesetzt werden kann. Je nach Risiko und Befund kann ein Protonenpumpenhemmer zum Schutz eingesetzt werden. Die Entscheidung muss Nutzen und Risiken der Schmerztherapie berücksichtigen.",
+          "Bei autoimmuner Gastritis stehen die Kontrolle möglicher Mangelzustände und die Behandlung nachgewiesener Defizite im Vordergrund. Ein Vitamin-B12-Mangel kann eine gezielte Substitution erforderlich machen. Außerdem können regelmäßige Kontrollen und je nach Schleimhautbefund endoskopische Überwachungen sinnvoll sein.",
+          "Bei anderen Ursachen richtet sich die Therapie nach dem jeweiligen Auslöser. Säureblocker können Symptome lindern oder die Schleimhautheilung unterstützen, beseitigen aber nicht automatisch jede Ursache einer Gastritis."
+        ]
+      },
+      {
+        id: "ernaehrung",
+        heading: "Ernährung und Alltag bei Gastritis",
+        paragraphs: [
+          "Es gibt keine einheitliche Gastritis-Diät, die für alle Betroffenen erforderlich ist. Bei akuten Beschwerden können kleinere, gut verträgliche Mahlzeiten helfen. Sehr fettige Speisen, Alkohol, stark gewürzte Gerichte oder Kaffee können individuell Beschwerden verstärken, müssen aber nicht grundsätzlich von allen gemieden werden.",
+          "Ein zeitlich begrenztes Symptom- und Ernährungstagebuch kann helfen, persönliche Auslöser zu erkennen. Eine langfristig stark eingeschränkte Ernährung ist ohne konkreten Grund nicht sinnvoll und kann die Nährstoffversorgung beeinträchtigen.",
+          "Rauchen und hoher Alkoholkonsum sind aus gesundheitlicher Sicht ungünstig. Bei diagnostizierter Helicobacter-Gastritis oder medikamentenbedingter Schleimhautschädigung ersetzt eine Ernährungsumstellung jedoch nicht die ursachengerechte Behandlung."
+        ]
+      },
+      {
+        id: "komplikationen",
+        heading: "Mögliche Folgen und Komplikationen",
+        paragraphs: [
+          "Eine Gastritis kann mit einem Magen- oder Zwölffingerdarmgeschwür einhergehen. Solche Geschwüre können bluten oder in seltenen Fällen die Magen- beziehungsweise Darmwand durchbrechen. Eine chronische autoimmune Gastritis kann zu Eisen- und Vitamin-B12-Mangel führen.",
+          "Eine langjährige Helicobacter-pylori-Infektion und bestimmte chronische Schleimhautveränderungen erhöhen das Risiko für Magenkrebs. Das bedeutet nicht, dass aus einer Gastritis zwangsläufig Krebs entsteht. Das individuelle Risiko hängt von Ursache, Ausmaß der Schleimhautveränderung und weiteren Faktoren ab."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Warnzeichen: Wann ist sofortige Hilfe nötig?",
+        paragraphs: [
+          "Bluterbrechen oder Erbrechen von kaffeesatzartigem Material, schwarzer teerartiger Stuhl, Kreislaufprobleme, Ohnmacht oder plötzlich einsetzende sehr starke Bauchschmerzen können auf eine Blutung oder andere akute Komplikation hinweisen. In solchen Situationen ist sofort medizinische Hilfe erforderlich; bei schweren Symptomen sollte 112 gewählt werden.",
+          "Auch unbeabsichtigter Gewichtsverlust, anhaltendes Erbrechen, zunehmende Schluckbeschwerden, Blutarmut oder länger anhaltende Beschwerden sollten zeitnah ärztlich abgeklärt werden."
+        ]
+      },
+      {
+        id: "faq",
+        heading: "Häufige Fragen zur Gastritis",
+        paragraphs: [
+          "Ist Gastritis dasselbe wie Sodbrennen? Nein. Sodbrennen entsteht meist durch Rückfluss von Mageninhalt in die Speiseröhre. Gastritis ist eine Entzündung der Magenschleimhaut. Beide können ähnliche Oberbauchbeschwerden verursachen.",
+          "Kann Stress Gastritis verursachen? Akuter schwerer körperlicher Stress kann eine stressbedingte Schleimhautschädigung begünstigen. Alltagsstress allein ist jedoch keine ausreichende Erklärung für eine chronische Gastritis; häufigere Ursachen wie Helicobacter pylori oder NSAR sollten berücksichtigt werden.",
+          "Ist Helicobacter pylori ansteckend? Die Übertragung erfolgt wahrscheinlich vor allem innerhalb enger Haushaltskontakte, der genaue Übertragungsweg ist nicht in jedem Fall geklärt. Bei Fragen zur Testung von Angehörigen ist ärztliche Beratung sinnvoll.",
+          "Kann ich Helicobacter mit Hausmitteln beseitigen? Für Hausmittel gibt es keinen verlässlichen Nachweis, dass sie eine Infektion eradizieren. Eine bestätigte Infektion wird mit einer leitliniengerechten Kombinationstherapie behandelt.",
+          "Muss ich bei Gastritis dauerhaft Schonkost essen? Nein. Eine dauerhafte spezielle Diät ist meist nicht erforderlich. Die Ernährung kann an die individuelle Verträglichkeit angepasst werden.",
+          "Wie wird geprüft, ob Helicobacter erfolgreich behandelt wurde? Mit einem geeigneten Atem- oder Stuhlantigentest beziehungsweise in bestimmten Situationen einer Gewebeuntersuchung – nicht mit einem Antikörpertest im Blut."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "S2k-Leitlinie Helicobacter pylori und gastroduodenale Ulkuskrankheit",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) / AWMF",
+        url: "https://register.awmf.org/de/leitlinien/detail/021-001",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Helicobacter pylori infection",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        url: "https://www.niddk.nih.gov/health-information/digestive-diseases/helicobacter-pylori",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Gastritis",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        url: "https://www.niddk.nih.gov/health-information/digestive-diseases/gastritis-gastropathy",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Helicobacter pylori infection: Maastricht VI/Florence consensus report",
+        publisher: "Gut, 2022",
+        url: "https://gut.bmj.com/content/71/9/1724",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Helicobacter pylori: diagnosis and treatment",
+        publisher: "American College of Gastroenterology",
+        url: "https://gi.org/topics/helicobacter-pylori/",
+        accessed: "2026-11-26"
+      }
+    ]
   },
 
 ];
