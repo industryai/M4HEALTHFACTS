@@ -3967,6 +3967,155 @@ export const articles: Article[] = [
         accessed: "2026-11-26"
       }
     ]
+  },,
+
+  {
+    slug: "sorbitintoleranz-verstehen",
+    title: "Sorbitintoleranz: Symptome, Atemtest und Ernährung",
+    category: "ernaehrung",
+    tags: ["Sorbit", "Sorbitintoleranz", "Zuckeralkohole", "E 420", "H2-Atemtest", "Ernährung"],
+    intro: "Sorbit (Sorbitol) ist ein Zuckeralkohol, der natürlicherweise in einigen Obstsorten vorkommt und Lebensmitteln häufig als Zuckeraustauschstoff zugesetzt wird. Wird eine größere Menge im Dünndarm nicht aufgenommen, kann Sorbit Wasser im Darm binden und im Dickdarm vergoren werden. Das kann Blähungen, Bauchschmerzen und Durchfall verursachen. Entscheidend ist die individuelle Verträglichkeit – nicht jede Person reagiert auf dieselbe Menge.",
+    excerpt: "Wo Sorbit vorkommt, wie eine Sorbitmalabsorption abgeklärt wird und wie sich die Ernährung anpassen lässt, ohne unnötig viele Lebensmittel zu streichen.",
+    readingMinutes: 9,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Sorbit ist ein Zuckeralkohol (Polyol), der natürlich in manchen Früchten vorkommt und als Zusatzstoff E 420 verwendet wird.",
+      "Nicht aufgenommenes Sorbit kann Wasser im Darm binden und im Dickdarm durch Bakterien vergoren werden; dadurch können Blähungen und Durchfall entstehen.",
+      "Die Verträglichkeit ist dosisabhängig. Auch Menschen ohne diagnostizierte Unverträglichkeit können auf größere Mengen mit einer abführenden Wirkung reagieren.",
+      "Ein H2-Atemtest kann Hinweise auf eine Sorbitmalabsorption geben, ist aber nicht allein mit einer klinisch relevanten Unverträglichkeit gleichzusetzen.",
+      "Eine individuell angepasste Ernährung mit anschließender schrittweiser Wiedereinführung ist meist sinnvoller als eine dauerhaft sehr strenge Verbotsliste."
+    ],
+    sections: [
+      {
+        id: "was-ist-sorbit",
+        heading: "Was ist Sorbit?",
+        paragraphs: [
+          "Sorbit, auch Sorbitol genannt, gehört zu den Zuckeralkoholen (Polyolen). Es kommt natürlicherweise in verschiedenen Obstsorten vor und wird industriell als Süßungsmittel und Feuchthaltemittel eingesetzt. Auf Zutatenlisten kann es als Sorbit, Sorbitol oder E 420 erscheinen.",
+          "Sorbit liefert Energie, wird aber im Dünndarm nur begrenzt und vergleichsweise langsam aufgenommen. Bei größeren Mengen gelangt mehr davon in den Dickdarm. Dort kann es Wasser im Darmlumen halten und von Darmbakterien fermentiert werden."
+        ]
+      },
+      {
+        id: "malabsorption",
+        heading: "Was bedeutet Sorbitmalabsorption?",
+        paragraphs: [
+          "Bei einer Sorbitmalabsorption wird ein Teil des aufgenommenen Sorbits nicht im Dünndarm resorbiert. Die verbleibende Menge kann im Dickdarm osmotisch Wasser binden und bakteriell abgebaut werden. Dabei entstehen Gase, die zu Dehnung und Druckgefühl beitragen können.",
+          "Die Aufnahmefähigkeit ist begrenzt und variiert zwischen Menschen. Eine größere Sorbitmenge kann daher auch bei gesunden Personen abführend wirken. Von einer klinisch relevanten Unverträglichkeit spricht man, wenn nach dem Verzehr wiederholt passende Beschwerden auftreten."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Typische Symptome",
+        paragraphs: [
+          "Mögliche Beschwerden sind Blähungen, vermehrte Darmgase, Völlegefühl, Bauchschmerzen, Darmgeräusche und weicher bis wässriger Stuhl. Übelkeit kann ebenfalls vorkommen. Die Symptome können nach sorbithaltigen Lebensmitteln oder größeren Mengen zuckerfreier Süßwaren auftreten.",
+          "Die Stärke der Beschwerden hängt von der aufgenommenen Menge, der übrigen Mahlzeit, der individuellen Darmempfindlichkeit und weiteren Faktoren ab. Ein einzelnes Lebensmittel muss deshalb nicht bei jeder Gelegenheit dieselbe Reaktion auslösen."
+        ]
+      },
+      {
+        id: "lebensmittel",
+        heading: "Wo ist Sorbit enthalten?",
+        paragraphs: [
+          "Natürliches Sorbit findet sich unter anderem in Äpfeln, Birnen, Pflaumen, Aprikosen, Pfirsichen und Trockenfrüchten. Die Gehalte unterscheiden sich nach Sorte und Reifegrad. Auch Fruchtsäfte und Produkte aus diesen Früchten können relevant sein.",
+          "Als Zusatzstoff kommt Sorbit vor allem in zuckerfreien oder zuckerreduzierten Kaugummis, Bonbons, Süßwaren, Desserts und manchen Backwaren vor. Es kann außerdem in einzelnen Arzneimitteln und Nahrungsergänzungsmitteln enthalten sein. Auf verpackten Lebensmitteln ist der Zusatzstoff als Sorbit oder E 420 in der Zutatenliste erkennbar.",
+          "Andere Polyole wie Mannit (E 421), Isomalt (E 953), Maltit (E 965), Lactit (E 966) und Xylit (E 967) sind nicht dasselbe wie Sorbit. Sie können jedoch ebenfalls teilweise schlecht aufgenommen werden und bei empfindlichen Personen dosisabhängig Beschwerden verursachen."
+        ]
+      },
+      {
+        id: "fruktose",
+        heading: "Zusammenhang mit Fruktosemalabsorption",
+        paragraphs: [
+          "Sorbit und Fruktose können sich in ihrer Wirkung auf die Verdauung gegenseitig beeinflussen. Sorbit kann die Aufnahme von Fruktose erschweren; manche Menschen reagieren deshalb besonders empfindlich auf Lebensmittel, die beides enthalten.",
+          "Eine Sorbitmalabsorption kann gemeinsam mit einer Fruktosemalabsorption auftreten, muss es aber nicht. Beschwerden nach Obst oder Fruchtsäften lassen sich daher nicht allein anhand der Lebensmittel vermuten oder sicher zuordnen. Bei wiederkehrenden Symptomen ist eine gezielte Abklärung sinnvoll."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Diagnose: Anamnese und H2-Atemtest",
+        paragraphs: [
+          "Die Abklärung beginnt mit der Krankengeschichte und einem Symptom- beziehungsweise Ernährungstagebuch. Darin werden Lebensmittel, ungefähre Mengen, Zeitpunkt und Beschwerden festgehalten. Auch Medikamente, Nahrungsergänzungsmittel und andere mögliche Auslöser sollten angesprochen werden.",
+          "Bei klinischem Verdacht kann eine gastroenterologische Praxis einen H2-Atemtest erwägen. Nach einer Ausgangsmessung wird eine standardisierte Sorbitlösung getrunken. Anschließend wird über einen festgelegten Zeitraum wiederholt Wasserstoff in der Ausatemluft gemessen. Gleichzeitig werden Beschwerden dokumentiert.",
+          "Nicht aufgenommenes Sorbit kann im Dickdarm bakteriell verstoffwechselt werden. Dabei entstehender Wasserstoff gelangt über das Blut in die Lunge und wird ausgeatmet. Ein Anstieg kann eine Malabsorption anzeigen. Er beweist jedoch nicht automatisch, dass Sorbit im Alltag die Beschwerden verursacht. Die europäische Atemtest-Leitlinie betont deshalb die klinische Einordnung und die getrennte Bewertung von Malabsorption und Symptomen.",
+          "Atemtests können durch die Vorbereitung, die Darmflora und individuelle Unterschiede in der Wasserstoffbildung beeinflusst werden. Die Praxis erklärt, ob und wie lange vor dem Test nüchtern geblieben werden muss, welche Lebensmittel am Vortag zu meiden sind und wie Medikamente berücksichtigt werden. Eigenständige Belastungstests zu Hause sind nicht empfehlenswert."
+        ]
+      },
+      {
+        id: "ernaehrung",
+        heading: "Ernährung: individuelle Toleranz statt pauschaler Verbote",
+        paragraphs: [
+          "Wenn Sorbit als Auslöser plausibel ist, kann eine zeitlich begrenzte Reduktion sorbithaltiger Produkte helfen, den Zusammenhang zwischen Aufnahme und Beschwerden zu prüfen. Anschließend werden Lebensmittel und Mengen schrittweise wieder eingeführt. So lässt sich die persönliche Verträglichkeitsgrenze besser einschätzen.",
+          "Eine vollständige und dauerhafte Meidung aller Obstsorten ist normalerweise nicht erforderlich. Welche Obstsorten und Portionsgrößen vertragen werden, ist individuell. Auch die übrige Zusammensetzung der Mahlzeit kann eine Rolle spielen.",
+          "Bei anhaltenden Beschwerden oder mehreren vermuteten Unverträglichkeiten sollte eine qualifizierte Ernährungsfachkraft einbezogen werden. Eine breite Eliminationsdiät kann die Lebensmittelauswahl stark einschränken und die Versorgung mit Ballaststoffen und Mikronährstoffen erschweren."
+        ]
+      },
+      {
+        id: "alltag",
+        heading: "Sorbit im Alltag erkennen",
+        paragraphs: [
+          "Zutatenlisten helfen, zugesetztes Sorbit zu erkennen. Achte auf die Bezeichnungen Sorbit, Sorbitol und E 420. Bei zuckerfreien Kaugummis, Bonbons und Süßwaren lohnt sich ein genauer Blick, weil mehrere Zuckeralkohole kombiniert sein können.",
+          "Auch Arzneimittel können Sorbit als Hilfsstoff enthalten. Wer eine ausgeprägte Unverträglichkeit vermutet, kann bei Apotheke oder Arztpraxis nachfragen, ob eine sorbithaltige Formulierung vermeidbar ist. Medikamente sollten nicht eigenständig abgesetzt oder ausgetauscht werden.",
+          "Bei Lebensmitteln mit mehr als 10 Prozent zugesetzten Polyolen ist der vorgeschriebene Hinweis zu beachten, dass ein übermäßiger Verzehr abführend wirken kann. Dieser Hinweis bezieht sich auf die Produktkennzeichnung und ist kein individueller Grenzwert für Betroffene."
+        ]
+      },
+      {
+        id: "differentialdiagnosen",
+        heading: "Andere mögliche Ursachen von Verdauungsbeschwerden",
+        paragraphs: [
+          "Blähungen und Durchfall können auch bei Fruktose- oder Laktosemalabsorption, Reizdarmsyndrom, Zöliakie, bakterieller Fehlbesiedlung des Dünndarms oder entzündlichen Darmerkrankungen auftreten. Mehrere Ursachen können gleichzeitig bestehen.",
+          "Wenn eine sorbitarme Ernährung keine ausreichende Besserung bringt, sollte die Diagnose überprüft und nach anderen Ursachen gesucht werden, statt immer mehr Lebensmittel zu streichen."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Wann sollte man ärztlichen Rat einholen?",
+        paragraphs: [
+          "Eine medizinische Abklärung ist sinnvoll, wenn Beschwerden regelmäßig auftreten, länger anhalten oder die Ernährung zunehmend eingeschränkt wird. Blut im Stuhl, unbeabsichtigter Gewichtsverlust, Fieber, nächtlicher Durchfall, starke oder zunehmende Bauchschmerzen und anhaltendes Erbrechen sind Warnzeichen.",
+          "Bei deutlichem Flüssigkeitsverlust, Kreislaufproblemen oder Zeichen einer Austrocknung ist eine dringende medizinische Beurteilung erforderlich. Bei Säuglingen und Kindern sollten anhaltender Durchfall, Gedeihstörungen oder Gewichtsverlust kinderärztlich abgeklärt werden."
+        ]
+      },
+      {
+        id: "faq",
+        heading: "Häufige Fragen zur Sorbitintoleranz",
+        paragraphs: [
+          "Ist Sorbitintoleranz eine Allergie? Nein. Es handelt sich um eine dosisabhängige Verdauungs- beziehungsweise Aufnahmeproblematik und nicht um eine allergische Immunreaktion.",
+          "Ist E 420 dasselbe wie Sorbit? Ja. E 420 ist die Kennzeichnung für Sorbit beziehungsweise Sorbitol als Lebensmittelzusatzstoff.",
+          "Ist ein positiver H2-Atemtest bereits ein Beweis für eine Unverträglichkeit? Nein. Er kann eine Malabsorption anzeigen. Ob diese im Alltag Beschwerden verursacht, muss anhand der Symptome und der klinischen Situation beurteilt werden.",
+          "Muss ich alle Zuckeralkohole meiden? Nicht automatisch. Andere Polyole können ebenfalls Beschwerden auslösen, aber die Verträglichkeit ist individuell und sollte nicht ohne Anlass pauschal eingeschränkt werden.",
+          "Kann Sorbit auch bei gesunden Menschen Durchfall verursachen? Ja. Größere Mengen können aufgrund ihrer osmotischen Wirkung auch ohne diagnostizierte Unverträglichkeit abführend wirken."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "European guideline on indications, performance, and clinical impact of hydrogen and methane breath tests",
+        publisher: "European Society of Neurogastroenterology and Motility / European Society for Paediatric Gastroenterology, Hepatology and Nutrition, 2022",
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8830282/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "S3-Leitlinie Reizdarmsyndrom – Diagnosesicherung und Ernährung",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS)",
+        url: "https://www.dgvs.de/leitlinien/unterer-gi-trakt/reizdarmsyndrom/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Sorbit als Zuckerersatz: Wirkung, Verträglichkeit und Verwendung",
+        publisher: "AOK Gesundheitsmagazin",
+        url: "https://www.aok.de/pk/magazin/ernaehrung/lebensmittel/sorbit-als-zuckerersatz-wirkung-vertraeglichkeit-und-verwendung/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Sorbitintoleranz",
+        publisher: "Deutsche Gesellschaft für Ernährungsmedizin und Prävention (DGEP) – Das Gastroenterologieportal",
+        url: "https://dasgastroenterologieportal.de/krankheiten/nahrungsmittelunvertraglichkeit/sorbitintoleranz/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Verordnung (EU) Nr. 1169/2011 betreffend die Information der Verbraucher über Lebensmittel",
+        publisher: "Europäische Union",
+        url: "https://eur-lex.europa.eu/eli/reg/2011/1169/oj",
+        accessed: "2026-11-26"
+      }
+    ]
   },
 
 ];
