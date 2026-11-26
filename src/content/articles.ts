@@ -196,57 +196,56 @@ export const articles: Article[] = [
   },
   {
     slug: "bewegung-im-alltag",
-    title: "Bewegung im Alltag: So findest du einen passenden Einstieg",
+    title: "Bewegung im Alltag: Gesundheit fördern und richtig einsteigen",
     category: "bewegung-fitness",
-    tags: ["Bewegung", "Fitness", "Alltag", "Ausdauer", "Kraft"],
-    intro: "Regelmäßige Bewegung muss nicht mit intensivem Training beginnen. Schon mehr Aktivität im Alltag kann Gesundheit und Wohlbefinden unterstützen.",
-    excerpt: "Wie viel Bewegung empfohlen wird, warum Krafttraining dazugehört und wie kleine Schritte den Einstieg erleichtern.",
-    readingMinutes: 6,
+    tags: ["Bewegung", "Fitness", "Alltag", "Ausdauer", "Krafttraining", "Gesundheit"],
+    intro: "Regelmäßige körperliche Aktivität unterstützt Herz, Kreislauf, Stoffwechsel, Muskulatur und psychisches Wohlbefinden. Dafür ist kein intensives Sportprogramm nötig: Auch Gehen, Radfahren und aktive Wege zählen. Dieser Ratgeber erklärt Empfehlungen und einen sicheren Einstieg.",
+    excerpt: "Wie viel Bewegung empfohlen wird, was Ausdauer- und Krafttraining bewirken und wie sich Aktivität dauerhaft in den Alltag integrieren lässt.",
+    readingMinutes: 9,
     publishedAt: "2026-11-26",
     updatedAt: "2026-11-26",
     keyFacts: [
-      "Jede zusätzliche Bewegung ist besser als gar keine.",
-      "Für Erwachsene bis 65 Jahre werden mindestens 150 Minuten moderate oder 75 Minuten intensive Ausdaueraktivität pro Woche empfohlen.",
-      "Zusätzlich sind muskelkräftigende Aktivitäten an mindestens zwei Tagen pro Woche sinnvoll.",
+      "Die WHO empfiehlt Erwachsenen 150–300 Minuten moderate oder 75–150 Minuten intensive Ausdaueraktivität pro Woche.",
+      "Zusätzlich sollten an mindestens zwei Tagen pro Woche die großen Muskelgruppen gekräftigt werden.",
+      "Jede zusätzliche Bewegung zählt; auch kurze Einheiten und aktive Alltagswege tragen bei.",
+      "Langes Sitzen sollte regelmäßig durch Bewegung unterbrochen werden.",
+      "Ältere Erwachsene profitieren zusätzlich von Gleichgewichts- und funktionellem Krafttraining."
     ],
     sections: [
-      {
-        id: "warum-bewegung",
-        heading: "Warum Bewegung wichtig ist",
-        paragraphs: [
-          "Regelmäßige körperliche Aktivität kann das Wohlbefinden und die Leistungsfähigkeit fördern. Sie trägt dazu bei, das Risiko für verschiedene chronische Erkrankungen zu senken.",
-          "Bewegung muss dabei nicht ausschließlich Sport bedeuten: Gehen, Radfahren, aktive Wege und Bewegung im Haushalt zählen ebenfalls.",
-        ],
-      },
-      {
-        id: "empfehlungen",
-        heading: "Wie viel Bewegung wird empfohlen?",
-        paragraphs: [
-          "Für Erwachsene bis 65 Jahre gelten als Orientierung mindestens 150 Minuten mäßig anstrengende, möglichst ausdauerorientierte Bewegung pro Woche oder mindestens 75 Minuten anstrengende Aktivität. Ergänzend werden Kräftigungsübungen an zwei Tagen pro Woche empfohlen.",
-          "Für ältere Menschen und Personen mit gesundheitlichen Einschränkungen können zusätzliche Aspekte wie Gleichgewicht, Mobilität und individuelle Belastbarkeit wichtig sein.",
-        ],
-      },
-      {
-        id: "kleine-schritte",
-        heading: "Mit kleinen Schritten beginnen",
-        paragraphs: [
-          "Wer bisher wenig aktiv war, kann mit kurzen, gut machbaren Einheiten starten und Umfang sowie Intensität nach und nach steigern. Beispielsweise lassen sich kurze Spaziergänge, Treppensteigen oder Wege mit dem Fahrrad in den Alltag integrieren.",
-          "Längere Sitzphasen möglichst regelmäßig zu unterbrechen, ist ebenfalls ein sinnvoller Ansatz. Entscheidend ist eine Bewegungsform, die zur eigenen Situation passt und dauerhaft Freude macht.",
-        ],
-      },
-      {
-        id: "gesundheitliche-einschraenkungen",
-        heading: "Bei Beschwerden oder Erkrankungen",
-        paragraphs: [
-          "Bei bestehenden Erkrankungen, körperlichen Einschränkungen oder Unsicherheit zur Belastbarkeit sollte vor einem neuen Trainingsprogramm ärztlicher Rat eingeholt werden. Die Empfehlungen sind allgemeine Orientierungswerte und kein individueller Trainingsplan.",
-        ],
-      },
+      { id: "warum-bewegung", heading: "Warum regelmäßige Bewegung wichtig ist", paragraphs: ["Körperliche Aktivität wirkt auf viele Organsysteme. Sie unterstützt die Herz-Kreislauf-Funktion, hilft den Blutzucker- und Blutdruckstoffwechsel zu regulieren und erhält Muskelkraft, Ausdauer und Beweglichkeit. Regelmäßige Bewegung ist außerdem mit einem geringeren Risiko für mehrere chronische Erkrankungen verbunden.", "Auch die psychische Gesundheit kann profitieren: Bewegung kann Stress reduzieren und Stimmung, Schlaf und allgemeines Wohlbefinden verbessern. Der gesundheitliche Nutzen entsteht nicht nur durch Sport. Gehen, Radfahren, Gartenarbeit, Tanzen und körperlich aktive Wege zählen ebenfalls.", "Wichtig ist die Regelmäßigkeit. Wer bisher wenig aktiv war, kann bereits mit kleinen Steigerungen einen sinnvollen Anfang machen."] },
+      { id: "empfehlungen", heading: "Wie viel Bewegung wird empfohlen?", paragraphs: ["Die Weltgesundheitsorganisation empfiehlt Erwachsenen pro Woche mindestens 150 bis 300 Minuten Bewegung mit moderater Ausdauerintensität oder 75 bis 150 Minuten mit hoher Intensität. Eine Kombination aus beiden Intensitäten ist ebenfalls möglich. Mehr Bewegung kann zusätzliche gesundheitliche Vorteile bringen, sofern sie zur individuellen Belastbarkeit passt.", "Zusätzlich sollten Erwachsene an mindestens zwei Tagen pro Woche muskelkräftigende Aktivitäten durchführen, bei denen die großen Muskelgruppen beansprucht werden. Die Empfehlungen sind ein Orientierungsrahmen und kein Alles-oder-nichts-Ziel: Auch weniger Bewegung ist besser als keine.", "Für ältere Erwachsene gelten vergleichbare Ausdauer- und Kraftempfehlungen. Ergänzend werden an mindestens drei Tagen pro Woche vielseitige Aktivitäten mit Schwerpunkt Gleichgewicht und funktioneller Kraft empfohlen, um Mobilität zu erhalten und Stürzen vorzubeugen."] },
+      { id: "intensitaet", heading: "Moderate oder intensive Bewegung: Was bedeutet das?", paragraphs: ["Bei moderater Intensität wird die Atmung schneller und der Puls steigt, aber man kann sich noch unterhalten. Zügiges Gehen, entspanntes Radfahren oder Tanzen können Beispiele sein. Bei hoher Intensität ist die Atmung deutlich beschleunigt; längere Gespräche sind nur noch schwer möglich. Joggen, schnelles Radfahren oder intensives Schwimmen können dazu gehören.", "Die tatsächliche Belastung hängt von Fitness, Alter, Gesundheit und Trainingszustand ab. Dieselbe Geschwindigkeit kann für eine Person moderat und für eine andere bereits anstrengend sein. Orientieren Sie sich deshalb nicht nur an Tempo oder Distanz, sondern auch am eigenen Belastungsempfinden."] },
+      { id: "ausdauer-kraft", heading: "Ausdauertraining und Krafttraining kombinieren", paragraphs: ["Ausdaueraktivitäten wie zügiges Gehen, Radfahren, Schwimmen oder Tanzen trainieren Herz und Kreislauf. Sie lassen sich über die Woche verteilen und müssen nicht in einer einzigen langen Einheit stattfinden.", "Krafttraining erhält und verbessert Muskelkraft und unterstützt Alltagstätigkeiten wie Treppensteigen, Tragen und Aufstehen. Geeignet sind beispielsweise Übungen mit dem eigenen Körpergewicht, Widerstandsbändern oder Gewichten. Beginnen Sie mit einer gut kontrollierbaren Belastung und steigern Sie diese schrittweise.", "Beweglichkeit und Gleichgewicht ergänzen das Training. Besonders im höheren Lebensalter können Übungen wie kontrolliertes Aufstehen vom Stuhl, einbeiniger Stand mit sicherer Haltemöglichkeit oder angeleitete Balanceübungen sinnvoll sein."] },
+      { id: "alltag", heading: "Mehr Bewegung in den Alltag integrieren", paragraphs: ["Praktische Veränderungen sind oft leichter dauerhaft umzusetzen als ein umfangreiches Trainingsprogramm. Kurze Wege zu Fuß, Fahrrad statt Auto, Treppen statt Aufzug oder ein Spaziergang in der Mittagspause erhöhen die tägliche Aktivität.", "Unterbrechen Sie längere Sitzphasen regelmäßig: Stehen Sie auf, gehen Sie ein paar Schritte oder erledigen Sie eine kurze Aufgabe im Stehen. Auch Haushalt, Gartenarbeit und aktive Freizeit können Bewegungseinheiten ergänzen.", "Ein realistischer Wochenplan kann helfen. Beispielsweise lassen sich mehrere zügige Spaziergänge mit zwei kurzen Krafttrainingseinheiten kombinieren. Wählen Sie Aktivitäten, die zu Ihrem Alltag passen und die Sie voraussichtlich beibehalten."] },
+      { id: "einstieg", heading: "So gelingt ein sicherer Einstieg", paragraphs: ["Wenn Sie bisher wenig aktiv waren, beginnen Sie mit kurzen, leichten Einheiten und steigern Sie Dauer, Häufigkeit und Intensität nach und nach. Ein Spaziergang von zehn Minuten kann ein sinnvoller Start sein. Erhöhen Sie zunächst nur einen Aspekt auf einmal und planen Sie Erholung ein.", "Bequeme Kleidung und passende Schuhe können den Einstieg erleichtern. Bei längeren oder intensiveren Einheiten ist ein kurzes Aufwärmen sinnvoll. Schmerzen sollten nicht ignoriert oder durch Training erzwungen werden.", "Setzen Sie sich konkrete, erreichbare Ziele, etwa an mehreren Tagen pro Woche einen kurzen Spaziergang zu machen. Ein Kalender oder Bewegungstagebuch kann helfen, Fortschritte sichtbar zu machen, ohne dass jede Einheit perfekt sein muss."] },
+      { id: "sitzverhalten", heading: "Warum langes Sitzen unterbrochen werden sollte", paragraphs: ["Lange, ununterbrochene Sitzzeiten sind mit gesundheitlichen Risiken verbunden. Regelmäßige Bewegung gleicht langes Sitzen nicht in jeder Hinsicht vollständig aus. Deshalb ist es sinnvoll, sowohl die wöchentliche Aktivität zu erhöhen als auch Sitzphasen im Tagesverlauf zu unterbrechen.", "Stehen Sie beispielsweise bei Telefonaten auf, gehen Sie kurze Strecken oder wechseln Sie zwischen Sitzen und Stehen. Schon leichte Aktivität ist eine bessere Alternative zu dauerhaftem Sitzen."] },
+      { id: "erkrankungen", heading: "Bewegung bei höherem Alter oder chronischen Erkrankungen", paragraphs: ["Auch Menschen mit chronischen Erkrankungen oder körperlichen Einschränkungen können häufig von angepasster Bewegung profitieren. Art und Umfang sollten jedoch zur Erkrankung, Medikation und individuellen Leistungsfähigkeit passen. Bei Unsicherheit kann eine ärztliche Einschätzung oder physiotherapeutische Anleitung helfen.", "Bei Herz-Kreislauf-Erkrankungen, schlecht eingestelltem Blutdruck, Diabetes mit möglichen Folgeproblemen, ausgeprägten Gelenkbeschwerden oder nach Operationen kann ein individuell abgestimmter Trainingsbeginn sinnvoll sein. Die allgemeinen WHO-Ziele sollten nicht gegen medizinische Einschränkungen durchgesetzt werden.", "Beenden Sie die Belastung und lassen Sie akute Warnzeichen abklären. Dazu zählen insbesondere Brustschmerz oder Druckgefühl, ungewöhnlich starke Atemnot, Ohnmacht, ausgeprägter Schwindel oder plötzlich auftretende neurologische Beschwerden. Bei schweren oder anhaltenden akuten Symptomen ist der Rettungsdienst zu verständigen."] },
+      { id: "haeufige-fragen", heading: "Häufige Fragen zu Bewegung im Alltag", paragraphs: ["**Zählt Spazierengehen als Sport?** Zügiges Gehen zählt als Ausdaueraktivität, wenn die Intensität moderat ist. Auch langsameres Gehen ist wertvolle Bewegung.", "**Muss ich 30 Minuten am Stück trainieren?** Nein. Aktivität kann über den Tag verteilt werden. Entscheidend ist die Summe und Regelmäßigkeit.", "**Reicht Ausdauertraining aus?** Für eine umfassende Gesundheitsförderung sollte es durch muskelkräftigende Aktivitäten an mindestens zwei Tagen pro Woche ergänzt werden.", "**Kann ich auch mit wenig Fitness anfangen?** Ja. Beginnen Sie mit kurzen, gut verträglichen Einheiten und steigern Sie langsam. Bei Erkrankungen oder Unsicherheit sollte die Belastbarkeit vorher besprochen werden.", "**Was ist besser: viele Schritte oder gezieltes Training?** Beides kann sinnvoll sein. Schritte erhöhen die Alltagsaktivität; gezieltes Ausdauer-, Kraft- und Gleichgewichtstraining setzt zusätzliche Trainingsreize. Eine universelle Schrittzahl ist kein Muss."] },
+      { id: "medizinischer-hinweis", heading: "Medizinischer Hinweis", paragraphs: ["Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder individuelle Trainingsberatung. Bei bestehenden Erkrankungen, deutlichen Beschwerden, nach Operationen oder Unsicherheit zur Belastbarkeit sollte das Trainingsprogramm mit qualifiziertem medizinischem Fachpersonal abgestimmt werden."] }
     ],
     sources: [
+      {
+        title: "Physical activity – Fact sheet",
+        publisher: "World Health Organization (WHO), Regional Office for Europe",
+        url: "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "WHO guidelines on physical activity and sedentary behaviour: at a glance",
+        publisher: "World Health Organization (WHO)",
+        url: "https://www.who.int/europe/publications/i/item/9789240014886",
+        accessed: "2026-11-26",
+      },
       {
         title: "Gesund durch Bewegung",
         publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
         url: "https://gesund.bund.de/gesund-durch-bewegung",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Bewegungsförderung bei Erwachsenen (18–64 Jahre) in Deutschland",
+        publisher: "Bundesministerium für Gesundheit",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Praevention/Kurzberichte/Kurzversion_-_Erwachsene.pdf",
         accessed: "2026-11-26",
       },
     ],
