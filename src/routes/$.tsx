@@ -19,9 +19,10 @@ function ContentPage() {
  const [menu,setMenu]=useState(false);
  const formatDate=(value:string)=>new Intl.DateTimeFormat("de-DE",{day:"2-digit",month:"long",year:"numeric"}).format(new Date(`${value}T12:00:00`));
  const slug=pathname.split("/").filter(Boolean).pop()||"";
- const article=articles.find(a=>a.slug===slug);
- const category=categories.find(c=>c.slug===slug);
- const relatedArticles=article?articles.filter(a=>a.slug!==article.slug&&a.category===article.category).slice(0,3):[];
+ // Guard against malformed empty entries in content arrays so one bad record cannot crash every content route.
+ const article=articles.find(a=>a?.slug===slug);
+ const category=categories.find(c=>c?.slug===slug);
+ const relatedArticles=article?articles.filter(a=>a&&a.slug!==article.slug&&a.category===article.category).slice(0,3):[];
  const articleImages:Record<string,string>={
   "vitamin-d-grundlagen":"https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=1000&auto=format&fit=crop&q=85",
   "magnesium-im-alltag":"https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1000&auto=format&fit=crop&q=85",
