@@ -137,6 +137,175 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "abwehrkraefte-staerken",
+    title: "Immunsystem stärken: Was im Alltag wirklich hilft",
+    category: "koerper-gesundheit",
+    tags: ["Immunsystem", "Abwehrkräfte", "Schlaf", "Ernährung", "Bewegung"],
+    intro: "Viele Produkte versprechen ein starkes Immunsystem. Verlässliche Grundlagen sind jedoch vor allem ein gesunder Lebensstil und ein realistischer Blick auf Nahrungsergänzungsmittel.",
+    excerpt: "Ernährung, Bewegung, Schlaf, Stressabbau und Impfungen: Welche Faktoren die körpereigene Abwehr unterstützen.",
+    readingMinutes: 7,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Eine ausgewogene Ernährung, Bewegung und ausreichend Schlaf unterstützen die normale Immunfunktion.",
+      "Für viele Präparate zur Stärkung der Abwehrkräfte fehlen verlässliche Wirksamkeitsnachweise.",
+      "Impfungen bieten einen gezielten Schutz vor bestimmten Infektionskrankheiten.",
+    ],
+    sections: [
+      {
+        id: "aufgabe-immunsystem",
+        heading: "Was macht das Immunsystem?",
+        paragraphs: [
+          "Das Immunsystem schützt den Körper vor Krankheitserregern und weiteren körperfremden Stoffen. Dazu gehören unter anderem bestimmte Bakterien und Viren.",
+          "Die Abwehr besteht aus verschiedenen ineinandergreifenden Bestandteilen. Sie lässt sich nicht mit einem einzelnen Lebensmittel oder Präparat gezielt hochfahren.",
+        ],
+      },
+      {
+        id: "lebensstil",
+        heading: "Welche Alltagsfaktoren unterstützen die Abwehr?",
+        paragraphs: [
+          "Eine ausgewogene Ernährung, regelmäßige Bewegung, ausreichend Schlaf und Möglichkeiten zum Stressabbau gehören zu den Lebensstilfaktoren, die eine gesunde Immunfunktion unterstützen können.",
+          "Auch Aufenthalte im Freien und eine gute allgemeine Gesundheitsvorsorge spielen eine Rolle. Impfungen bieten darüber hinaus einen gezielten Schutz vor bestimmten ansteckenden Krankheiten.",
+        ],
+      },
+      {
+        id: "praeparate",
+        heading: "Braucht man spezielle Präparate?",
+        paragraphs: [
+          "Das Angebot an Produkten zur Verbesserung der Abwehrkräfte ist groß. Für viele dieser Präparate gibt es jedoch keine verlässlichen Wirksamkeitsnachweise. Gesunde Erwachsene erhalten die erforderlichen Nährstoffe in der Regel über eine ausgewogene Ernährung.",
+          "Bei bestimmten Erkrankungen oder einer nachgewiesenen Unterversorgung kann eine gezielte Ergänzung sinnvoll sein. Ob das im Einzelfall zutrifft, sollte medizinisch abgeklärt werden.",
+        ],
+      },
+      {
+        id: "realistische-erwartungen",
+        heading: "Realistische Erwartungen",
+        paragraphs: [
+          "Ein gesunder Lebensstil kann die Abwehr unterstützen, bietet aber keinen vollständigen Schutz vor Infektionen. Bei anhaltenden Beschwerden oder konkreten gesundheitlichen Fragen ist eine ärztliche Einschätzung sinnvoll.",
+        ],
+      },
+    ],
+    sources: [
+      {
+        title: "So lassen sich Abwehrkräfte stärken",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/abwehrkraefte-staerken",
+        accessed: "2026-11-26",
+      },
+    ],
+  },
+  {
+    slug: "nahrungsergaenzungsmittel-sinnvoll",
+    title: "Nahrungsergänzungsmittel: Wann sind sie sinnvoll?",
+    category: "vitamine-naehrstoffe",
+    tags: ["Nahrungsergänzung", "Vitamine", "Mineralstoffe", "BfR"],
+    intro: "Vitamine und Mineralstoffe sind wichtig. Daraus folgt aber nicht, dass hoch dosierte Präparate für alle Menschen einen zusätzlichen Nutzen haben.",
+    excerpt: "Was Nahrungsergänzungsmittel sind, wann ein Bedarf entstehen kann und warum Dosierung und Wechselwirkungen wichtig sind.",
+    readingMinutes: 7,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Nahrungsergänzungsmittel sind rechtlich Lebensmittel und keine Arzneimittel.",
+      "Bei ausgewogener Ernährung sind zusätzliche Präparate für viele gesunde Menschen nicht erforderlich.",
+      "Hoch dosierte Präparate können zu Überversorgung und Wechselwirkungen mit Arzneimitteln führen.",
+    ],
+    sections: [
+      {
+        id: "was-sind-nem",
+        heading: "Was sind Nahrungsergänzungsmittel?",
+        paragraphs: [
+          "Nahrungsergänzungsmittel sind Lebensmittel, die die allgemeine Ernährung ergänzen sollen. Sie können beispielsweise Vitamine, Mineralstoffe, Spurenelemente, Fettsäuren, Pflanzen oder Kräuterextrakte in konzentrierter Form enthalten.",
+          "Auch wenn sie als Kapseln, Tabletten oder Pulver angeboten werden, sind sie rechtlich keine Arzneimittel.",
+        ],
+      },
+      {
+        id: "wann-sinnvoll",
+        heading: "Wann kann eine Ergänzung sinnvoll sein?",
+        paragraphs: [
+          "Eine Ergänzung kann in bestimmten Lebenssituationen oder bei einem erhöhten Risiko für eine unzureichende Versorgung sinnvoll sein. Beispiele können eine Schwangerschaft, eine einseitige Ernährung, bestimmte Erkrankungen oder Probleme bei der Nährstoffaufnahme sein.",
+          "Ob tatsächlich ein Bedarf besteht, hängt von der individuellen Situation ab. Eine pauschale Empfehlung für alle Menschen wäre nicht sachgerecht.",
+        ],
+      },
+      {
+        id: "risiken",
+        heading: "Welche Risiken gibt es?",
+        paragraphs: [
+          "Eine zusätzliche Zufuhr über den Bedarf hinaus bietet gut versorgten Menschen in der Regel keinen gesundheitlichen Zusatznutzen. Hoch dosierte oder langfristig eingenommene Präparate können dagegen das Risiko einer Überversorgung erhöhen.",
+          "Auch Wechselwirkungen mit Arzneimitteln sind möglich. Wer regelmäßig Medikamente einnimmt oder eine chronische Erkrankung hat, sollte eine längerfristige Einnahme vorher ärztlich oder pharmazeutisch abklären.",
+        ],
+      },
+      {
+        id: "entscheidung",
+        heading: "Vor der Einnahme prüfen",
+        paragraphs: [
+          "Entscheidend sind der tatsächliche Bedarf, die enthaltene Menge pro Tagesportion, weitere Präparate und mögliche Arzneimittelwechselwirkungen. Mehr ist nicht automatisch besser.",
+        ],
+      },
+    ],
+    sources: [
+      {
+        title: "Fragen und Antworten zu Nahrungsergänzungsmitteln",
+        publisher: "Bundesinstitut für Risikobewertung (BfR)",
+        url: "https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-nahrungsergaenzungsmitteln/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Nutzen und Risiken von Mikronährstoffsupplementen im Alter",
+        publisher: "Bundesinstitut für Risikobewertung (BfR)",
+        url: "https://www.bfr.bund.de/fragen-und-antworten/thema/nutzen-und-risiken-von-mikronaehrstoffsupplementen-im-alter/",
+        accessed: "2026-11-26",
+      },
+    ],
+  },
+  {
+    slug: "freie-zucker-ernaehrung",
+    title: "Zucker in der Ernährung: Freie Zucker richtig einordnen",
+    category: "ernaehrung",
+    tags: ["Zucker", "Ernährung", "Getränke", "DGE"],
+    intro: "Nicht jeder Zucker in Lebensmitteln ist gleich einzuordnen. Fachgesellschaften unterscheiden unter anderem zwischen freien Zuckern und natürlich enthaltenen Zuckern in ganzen Lebensmitteln.",
+    excerpt: "Was mit freien Zuckern gemeint ist, wo sie vorkommen und wie sich die Empfehlungen im Alltag umsetzen lassen.",
+    readingMinutes: 6,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Die DGE empfiehlt, weniger als zehn Prozent der täglichen Energiezufuhr über freie Zucker aufzunehmen.",
+      "Freie Zucker finden sich unter anderem in Süßigkeiten, Limonaden, Sirup und Fruchtsäften.",
+      "Natürlich in ganzem Obst und ungesüßter Milch vorkommende Zucker zählen nicht zu den freien Zuckern.",
+    ],
+    sections: [
+      {
+        id: "freie-zucker",
+        heading: "Was sind freie Zucker?",
+        paragraphs: [
+          "Als freie Zucker gelten unter anderem Zucker, der Lebensmitteln zugesetzt wird, sowie Zucker in Honig, Sirup und Fruchtsäften. Davon zu unterscheiden sind Zucker, die natürlicherweise in intaktem Obst und Gemüse oder in ungesüßter Milch vorkommen.",
+        ],
+      },
+      {
+        id: "empfehlung",
+        heading: "Welche Menge wird empfohlen?",
+        paragraphs: [
+          "Die Deutsche Gesellschaft für Ernährung, die Deutsche Adipositas-Gesellschaft und die Deutsche Diabetes Gesellschaft empfehlen, die Zufuhr freier Zucker auf weniger als zehn Prozent der Gesamtenergiezufuhr zu begrenzen.",
+          "Das ist eine Orientierung für die gesamte Ernährung und keine Aufforderung, Obst oder ungesüßte Milchprodukte zu meiden.",
+        ],
+      },
+      {
+        id: "alltag",
+        heading: "Wie lässt sich die Empfehlung umsetzen?",
+        paragraphs: [
+          "Ein praktischer Ansatz ist, zuckerhaltige Getränke seltener zu trinken und bei verpackten Lebensmitteln die Zutatenliste zu beachten. Wasser und ungesüßte Getränke können im Alltag eine einfache Alternative sein.",
+          "Es geht nicht um einzelne Lebensmittel oder Verbote, sondern um das Ernährungsmuster über längere Zeit.",
+        ],
+      },
+    ],
+    sources: [
+      {
+        title: "Quantitative Empfehlung zur Zuckerzufuhr in Deutschland",
+        publisher: "Deutsche Gesellschaft für Ernährung (DGE), Deutsche Adipositas-Gesellschaft (DAG) und Deutsche Diabetes Gesellschaft (DDG)",
+        url: "https://www.dge.de/wissenschaft/stellungnahmen-und-positionspapiere/stellungnahmen/quantitative-empfehlung-zur-zuckerzufuhr-in-deutschland/",
+        accessed: "2026-11-26",
+      },
+    ],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
