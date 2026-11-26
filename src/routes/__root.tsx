@@ -75,9 +75,6 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
-    // Replace these placeholders with the app's name and description when first building the app.
-    // Each content route, / included, must still set its own head(). Never add og:image or
-    // twitter:image here: every page without its own would inherit the root's preview image.
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -91,10 +88,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@M4healthfacts" },
     ],
     links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
+      { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
     ],
   }),
@@ -121,9 +115,40 @@ function RootShell({ children }: { children: ReactNode }) {
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
+  useEffect(() => {
+    const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
+    if (!basePath) return;
+
+    // The site's content uses root-relative links. Prefix them on GitHub Pages,
+    // where the app is served from /M4HEALTHFACTS/ rather than the domain root.
+    const handleInternalLink = (event: MouseEvent) => {
+      if (
+        event.defaultPrevented ||
+        event.button !== 0 ||
+        event.metaKey ||
+        event.ctrlKey ||
+        event.shiftKey ||
+        event.altKey
+      ) return;
+
+      if (!(event.target instanceof Element)) return;
+      const anchor = event.target.closest("a");
+      if (!anchor || anchor.target || anchor.hasAttribute("download")) return;
+
+      const url = new URL(anchor.href, window.location.href);
+      if (url.origin !== window.location.origin) return;
+      if (url.pathname === basePath || url.pathname.startsWith(`${basePath}/`)) return;
+
+      event.preventDefault();
+      window.location.assign(`${basePath}${url.pathname}${url.search}${url.hash}`);
+    };
+
+    document.addEventListener("click", handleInternalLink);
+    return () => document.removeEventListener("click", handleInternalLink);
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
     </QueryClientProvider>
   );
