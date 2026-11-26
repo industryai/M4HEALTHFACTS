@@ -1063,6 +1063,179 @@ export const articles: Article[] = [
     ]
   },
 
+
+  {
+    slug: "bluthochdruck-verstehen",
+    title: "Bluthochdruck verstehen: Werte, Ursachen und Behandlung",
+    category: "herz-kreislauf",
+    tags: ["Blutdruck", "Hypertonie", "Herz", "Gefäße", "Prävention"],
+    intro: "Bluthochdruck bleibt häufig lange unbemerkt und belastet auf Dauer Herz, Gefäße, Gehirn und Nieren. Dieser Ratgeber erklärt die Blutdruckwerte, wie eine Diagnose abgesichert wird und welche Maßnahmen zur Behandlung gehören.",
+    excerpt: "Was systolische und diastolische Werte bedeuten, warum eine einzelne Messung nicht genügt und welche Lebensstilmaßnahmen helfen können.",
+    readingMinutes: 10, publishedAt: "2026-11-26", updatedAt: "2026-11-26", popular: true,
+    keyFacts: [
+      "Bluthochdruck verursacht häufig keine spürbaren Beschwerden.",
+      "Ein auffälliger Praxiswert sollte durch wiederholte Messungen, möglichst eine 24-Stunden-Messung, abgesichert werden.",
+      "Bewegung, Rauchverzicht, Gewichtsmanagement und eine salzbewusste Ernährung können die Behandlung unterstützen."
+    ],
+    sections: [
+      { id: "blutdruck", heading: "Was bedeutet Blutdruck?", paragraphs: [
+        "Der Blutdruck beschreibt den Druck, den das Blut auf die Wände der Blutgefäße ausübt. Der obere, systolische Wert entsteht, wenn sich das Herz zusammenzieht und Blut in den Kreislauf pumpt. Der untere, diastolische Wert wird gemessen, wenn der Herzmuskel zwischen zwei Schlägen erschlafft.",
+        "Die Werte werden in Millimeter Quecksilbersäule (mmHg) angegeben, zum Beispiel 128/82 mmHg. Sie können sich im Tagesverlauf verändern und werden unter anderem durch Bewegung, Stress, Schmerzen, Koffein und die Messsituation beeinflusst."
+      ]},
+      { id: "hypertonie", heading: "Wann spricht man von Bluthochdruck?", paragraphs: [
+        "Die Nationale VersorgungsLeitlinie verwendet für die Praxisblutdruckmessung einen Grenzwert von 140/90 mmHg. Ein einzelner erhöhter Messwert beweist jedoch noch keine dauerhafte Hypertonie. Für die Diagnose ist eine standardisierte und wiederholte Messung wichtig.",
+        "Die Leitlinie empfiehlt zur Bestätigung bevorzugt eine ambulante 24-Stunden-Blutdruckmessung. Wenn diese nicht möglich oder nicht akzeptiert ist, kann eine strukturierte Heimblutdruckmessung mit einem validierten Gerät eine Alternative sein. Individuelle Therapieziele werden gemeinsam mit der behandelnden Praxis festgelegt."
+      ]},
+      { id: "ursachen", heading: "Ursachen und Risikofaktoren", paragraphs: [
+        "Bei vielen Betroffenen lässt sich keine einzelne Ursache feststellen. Das Risiko wird unter anderem durch familiäre Veranlagung, höheres Alter, Übergewicht, Bewegungsmangel, hohen Salzkonsum und regelmäßigen Alkoholkonsum beeinflusst. Auch bestimmte Erkrankungen und Medikamente können eine Rolle spielen.",
+        "Bluthochdruck ist oft symptomlos. Kopfschmerzen oder Schwindel sind unspezifisch und eignen sich nicht, um den Blutdruck zuverlässig einzuschätzen. Regelmäßige Messungen sind aussagekräftiger als das eigene Körpergefühl."
+      ]},
+      { id: "alltag", heading: "Was kann im Alltag helfen?", paragraphs: [
+        "Regelmäßige körperliche Aktivität, ein gesundheitsförderliches Körpergewicht, Rauchverzicht und ein maßvoller Umgang mit Alkohol können das Herz-Kreislauf-Risiko senken. Eine salzbewusste Ernährung mit viel Gemüse, Obst und wenig stark verarbeiteten Lebensmitteln kann ebenfalls sinnvoll sein.",
+        "Lebensstilmaßnahmen ersetzen nicht in jedem Fall Medikamente. Ob eine medikamentöse Behandlung erforderlich ist, richtet sich nach Blutdruckwerten, Begleiterkrankungen und dem gesamten persönlichen Risiko."
+      ]},
+      { id: "behandlung", heading: "Behandlung und Verlaufskontrolle", paragraphs: [
+        "Wenn Medikamente notwendig sind, stehen verschiedene Wirkstoffgruppen zur Verfügung. Die Auswahl hängt unter anderem von Begleiterkrankungen, Verträglichkeit und individuellen Therapiezielen ab. Medikamente sollten nicht eigenständig begonnen, abgesetzt oder in der Dosis verändert werden.",
+        "Nach einer Therapieänderung ist eine Verlaufskontrolle wichtig. Besprechen Sie auffällige Heimwerte, Messbedingungen und mögliche Nebenwirkungen mit Ihrer Arztpraxis."
+      ]},
+      { id: "notfall", heading: "Wann ist sofortige Hilfe nötig?", paragraphs: [
+        "Sehr hohe Blutdruckwerte zusammen mit akuten Beschwerden wie Brustschmerzen, Atemnot, Lähmungs- oder Sprachstörungen, Bewusstseinsstörungen oder starken neurologischen Symptomen können auf einen Notfall hinweisen. Wählen Sie in solchen Situationen 112. Ein hoher Messwert ohne akute Beschwerden ist anders zu beurteilen und sollte nach Ruhe korrekt kontrolliert und medizinisch eingeordnet werden."
+      ]}
+    ],
+    sources: [
+      { title: "Nationale VersorgungsLeitlinie Hypertonie", publisher: "Bundesärztekammer, KBV und AWMF – Leitlinien.de", url: "https://www.leitlinien.de/themen/hypertonie", accessed: "2026-11-26" },
+      { title: "Bluthochdruck: Ursachen und Behandlung", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/bluthochdruck", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "cholesterin-blutfette",
+    title: "Cholesterin und Blutfette: LDL, HDL und Triglyceride erklärt",
+    category: "herz-kreislauf",
+    tags: ["Cholesterin", "LDL", "HDL", "Triglyceride", "Blutfette"],
+    intro: "Cholesterin ist lebensnotwendig, kann in bestimmten Blutkonzentrationen und bei weiteren Risikofaktoren aber zur Entstehung von Gefäßkrankheiten beitragen. Entscheidend ist nicht ein einzelner Wert, sondern das gesamte Herz-Kreislauf-Risiko.",
+    excerpt: "Was LDL, HDL und Triglyceride bedeuten, welche Faktoren die Werte beeinflussen und wann eine Behandlung erwogen wird.",
+    readingMinutes: 10, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: [
+      "Cholesterin ist ein notwendiger Bestandteil von Zellmembranen und Ausgangsstoff für bestimmte Hormone.",
+      "Erhöhtes LDL-Cholesterin kann die Entstehung atherosklerotischer Gefäßveränderungen fördern.",
+      "Behandlungsziele hängen vom individuellen Risiko ab; es gibt keinen einzigen Zielwert für alle."
+    ],
+    sections: [
+      { id: "was-ist-cholesterin", heading: "Was ist Cholesterin?", paragraphs: [
+        "Cholesterin ist eine fettähnliche Substanz, die der Körper selbst herstellt und zusätzlich über tierische Lebensmittel aufnimmt. Es wird unter anderem für Zellmembranen sowie zur Bildung von Gallensäuren, Vitamin D und bestimmten Hormonen benötigt.",
+        "Da Fette sich nicht einfach in Blut lösen, werden sie in sogenannten Lipoproteinen transportiert. Bei der Blutuntersuchung werden deshalb verschiedene Blutfettwerte betrachtet."
+      ]},
+      { id: "ldl-hdl", heading: "LDL und HDL: Was ist der Unterschied?", paragraphs: [
+        "LDL transportiert Cholesterin von der Leber zu den Geweben. Bei erhöhten LDL-Konzentrationen kann mehr Cholesterin in Gefäßwände gelangen und zur Atherosklerose beitragen. Deshalb wird LDL-Cholesterin häufig als wichtiger Ansatzpunkt der Prävention und Behandlung betrachtet.",
+        "HDL transportiert Cholesterin zurück zur Leber. Ein HDL-Wert ist Teil der Risikoeinschätzung, aber ein hoher HDL-Wert hebt ein erhöhtes LDL nicht einfach auf. Die Bezeichnungen „gutes“ und „schlechtes“ Cholesterin sind daher nur eine vereinfachte Merkhilfe."
+      ]},
+      { id: "triglyceride", heading: "Was sind Triglyceride?", paragraphs: [
+        "Triglyceride sind Fette, die der Körper als Energiequelle und Energiespeicher nutzt. Die Blutwerte können unter anderem durch Ernährung, Alkohol, Körpergewicht, Stoffwechselerkrankungen und genetische Faktoren beeinflusst werden.",
+        "Stark erhöhte Triglyceridwerte können zusätzliche medizinische Bedeutung haben. Die Einordnung erfolgt zusammen mit weiteren Laborwerten und der persönlichen Krankengeschichte."
+      ]},
+      { id: "risiko", heading: "Warum zählt das gesamte Risiko?", paragraphs: [
+        "Die Bedeutung eines LDL-Wertes hängt unter anderem davon ab, ob bereits eine Gefäßerkrankung besteht und welche weiteren Risikofaktoren vorliegen. Dazu zählen beispielsweise Bluthochdruck, Diabetes, Rauchen, Nierenerkrankungen und familiäre Vorbelastung.",
+        "Deshalb können zwei Menschen mit demselben Laborwert unterschiedliche Behandlungsziele haben. Eine ärztliche Risikobewertung ist sinnvoller als der Vergleich mit einem pauschalen Internet-Grenzwert."
+      ]},
+      { id: "ernaehrung", heading: "Was können Ernährung und Alltag bewirken?", paragraphs: [
+        "Eine Ernährung mit Gemüse, Obst, Vollkornprodukten, Hülsenfrüchten, Nüssen und pflanzlichen Ölen kann helfen, das Herz-Kreislauf-Risiko günstig zu beeinflussen. Der Austausch vieler gesättigter Fettsäuren gegen ungesättigte Fettsäuren kann das LDL-Cholesterin senken.",
+        "Bewegung, Rauchverzicht und ein gesundheitsförderliches Körpergewicht sind weitere wichtige Bausteine. Nahrungsergänzungsmittel sind kein Ersatz für eine nachgewiesene und bei Bedarf notwendige medikamentöse Behandlung."
+      ]},
+      { id: "behandlung", heading: "Wann werden Medikamente eingesetzt?", paragraphs: [
+        "Wenn das persönliche Risiko erhöht ist oder bereits eine Gefäßerkrankung besteht, kann eine medikamentöse Senkung des LDL-Cholesterins empfohlen werden. Häufig werden Statine eingesetzt; je nach Situation kommen weitere Wirkstoffe hinzu.",
+        "Ob eine Behandlung sinnvoll ist, wird anhand des Gesamtrisikos, der Laborwerte, möglicher Nebenwirkungen und persönlicher Präferenzen besprochen. Medikamente nicht ohne Rücksprache absetzen."
+      ]}
+    ],
+    sources: [
+      { title: "Dyslipidämien – Leitlinien und Empfehlungen", publisher: "European Society of Cardiology (ESC)", url: "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Dyslipidaemias-Management-of", accessed: "2026-11-26" },
+      { title: "Cholesterin: Was bedeuten die Werte?", publisher: "gesund.bund.de", url: "https://gesund.bund.de/cholesterin", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "blutzucker-insulinresistenz",
+    title: "Blutzucker und Insulinresistenz: Grundlagen verständlich erklärt",
+    category: "herz-kreislauf",
+    tags: ["Blutzucker", "Insulin", "Insulinresistenz", "Diabetes", "Stoffwechsel"],
+    intro: "Der Blutzucker wird durch ein Zusammenspiel aus Verdauung, Leber, Bauchspeicheldrüse und Hormonen reguliert. Wenn Körperzellen zunehmend unempfindlich auf Insulin reagieren, kann sich ein Typ-2-Diabetes entwickeln.",
+    excerpt: "Wie Insulin wirkt, was Insulinresistenz bedeutet und welche Rolle Bewegung, Ernährung und Vorsorge spielen.",
+    readingMinutes: 9, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: [
+      "Insulin hilft dabei, Glukose aus dem Blut in Körperzellen aufzunehmen und den Blutzucker zu regulieren.",
+      "Insulinresistenz bedeutet, dass Körperzellen weniger empfindlich auf Insulin reagieren.",
+      "Typ-2-Diabetes lässt sich nicht anhand von Symptomen allein feststellen; dafür sind medizinische Untersuchungen nötig."
+    ],
+    sections: [
+      { id: "blutzucker", heading: "Was ist Blutzucker?", paragraphs: [
+        "Blutzucker bezeichnet die Konzentration von Glukose im Blut. Glukose ist ein wichtiger Energieträger und stammt unter anderem aus der Verdauung kohlenhydrathaltiger Lebensmittel. Die Leber kann Glukose außerdem speichern und bei Bedarf freisetzen.",
+        "Nach einer Mahlzeit steigt der Blutzucker normalerweise an und sinkt anschließend wieder. Wie stark und wie lange er steigt, hängt unter anderem von Zusammensetzung und Menge der Mahlzeit sowie von Bewegung und Stoffwechsel ab."
+      ]},
+      { id: "insulin", heading: "Welche Aufgabe hat Insulin?", paragraphs: [
+        "Insulin ist ein Hormon, das in der Bauchspeicheldrüse gebildet wird. Es unterstützt die Aufnahme von Glukose in verschiedene Körperzellen und beeinflusst, wie Leber, Muskeln und Fettgewebe Energie speichern oder bereitstellen.",
+        "Bei Typ-2-Diabetes reagieren Körperzellen zunehmend schlechter auf Insulin. Die Bauchspeicheldrüse kann diesen Effekt anfangs teilweise durch eine höhere Insulinproduktion ausgleichen. Im Verlauf kann die Regulation jedoch nicht mehr ausreichen."
+      ]},
+      { id: "resistenz", heading: "Was bedeutet Insulinresistenz?", paragraphs: [
+        "Insulinresistenz beschreibt eine verminderte Empfindlichkeit von Körperzellen gegenüber Insulin. Sie kann über längere Zeit bestehen, ohne dass Betroffene eindeutige Beschwerden bemerken. Verschiedene Faktoren, darunter genetische Veranlagung, Körpergewicht und Bewegungsmangel, können eine Rolle spielen.",
+        "Insulinresistenz ist nicht dasselbe wie ein diagnostizierter Diabetes. Die medizinische Einordnung erfolgt anhand geeigneter Laboruntersuchungen und der Gesamtsituation."
+      ]},
+      { id: "risikofaktoren", heading: "Risikofaktoren für Typ-2-Diabetes", paragraphs: [
+        "Zu den Risikofaktoren gehören unter anderem familiäre Veranlagung, höheres Lebensalter, Übergewicht, Bewegungsmangel, Rauchen und bestimmte Stoffwechsel- oder Vorerkrankungen. Auch die langfristige Ernährungsweise kann das Risiko beeinflussen.",
+        "Ein einzelner Risikofaktor bedeutet nicht, dass jemand zwangsläufig Diabetes entwickelt. Vorsorge und individuelle Beratung helfen, Risiken besser einzuordnen."
+      ]},
+      { id: "praevention", heading: "Was kann den Stoffwechsel unterstützen?", paragraphs: [
+        "Regelmäßige Bewegung, eine ballaststoffreiche und ausgewogene Ernährung, ausreichend Schlaf und gegebenenfalls eine Gewichtsabnahme können den Stoffwechsel positiv beeinflussen. Schon alltagstaugliche Veränderungen können sinnvoll sein; sie müssen nicht mit extremen Diäten oder strengen Verboten beginnen.",
+        "Bei erhöhtem Risiko kann die Hausarztpraxis beraten, ob eine Blutzuckermessung oder weitere Untersuchungen sinnvoll sind. Bereits diagnostizierter Diabetes benötigt einen individuellen Behandlungsplan."
+      ]},
+      { id: "diagnostik", heading: "Wie wird Diabetes festgestellt?", paragraphs: [
+        "Zur Diagnose werden standardisierte Laboruntersuchungen verwendet, beispielsweise Nüchternblutzucker und HbA1c. Je nach Situation können weitere Tests erforderlich sein. Heimgeräte und einzelne Messungen nach einer Mahlzeit ersetzen keine ärztliche Diagnostik.",
+        "Starker Durst, häufiges Wasserlassen, unerklärlicher Gewichtsverlust oder ausgeprägte Müdigkeit können bei Diabetes vorkommen, sind aber nicht spezifisch. Bei entsprechenden Beschwerden sollte eine ärztliche Abklärung erfolgen."
+      ]}
+    ],
+    sources: [
+      { title: "Diabetes Typ 2: Symptome und Behandlung", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/diabetes-typ-2", accessed: "2026-11-26" },
+      { title: "Gesundheits-Check-up für Erwachsene", publisher: "gesund.bund.de", url: "https://gesund.bund.de/gesundheits-check-up-fuer-erwachsene", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "gefaessgesundheit-atherosklerose",
+    title: "Gefäßgesundheit und Atherosklerose: Wie Gefäße altern",
+    category: "herz-kreislauf",
+    tags: ["Gefäße", "Atherosklerose", "Arterien", "Herz-Kreislauf", "Prävention"],
+    intro: "Arterien transportieren sauerstoffreiches Blut durch den Körper. Bei Atherosklerose verändern sich Gefäßwände über viele Jahre; dadurch können Herzinfarkt, Schlaganfall und Durchblutungsstörungen begünstigt werden.",
+    excerpt: "Wie Atherosklerose entsteht, welche Risikofaktoren beeinflussbar sind und warum Gefäßschutz mehr bedeutet als ein einzelnes Nahrungsergänzungsmittel.",
+    readingMinutes: 9, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: [
+      "Atherosklerose entwickelt sich meist über viele Jahre und kann lange ohne Beschwerden verlaufen.",
+      "LDL-Cholesterin, Bluthochdruck, Rauchen und Diabetes gehören zu wichtigen beeinflussbaren Risikofaktoren.",
+      "Es gibt kein einzelnes Lebensmittel oder Supplement, das Gefäßkrankheiten zuverlässig verhindert."
+    ],
+    sections: [
+      { id: "aufbau", heading: "Wie funktionieren Blutgefäße?", paragraphs: [
+        "Arterien transportieren Blut vom Herzen in die Organe und Gewebe. Ihre Wände sind elastisch und können sich an wechselnde Anforderungen anpassen. Venen führen das Blut zurück zum Herzen; Kapillaren ermöglichen den Austausch von Sauerstoff, Nährstoffen und Stoffwechselprodukten.",
+        "Gesunde Gefäße sind wichtig für die Versorgung des gesamten Körpers. Veränderungen an den Arterien können deshalb unterschiedliche Organe betreffen."
+      ]},
+      { id: "atherosklerose", heading: "Was ist Atherosklerose?", paragraphs: [
+        "Atherosklerose ist ein langfristiger Prozess, bei dem sich unter anderem Fette, Entzündungszellen und Bindegewebe in der inneren Gefäßwand ansammeln. Es entstehen Plaques, die das Gefäß verengen oder instabil werden können.",
+        "Wenn ein Gefäß stark verengt oder durch ein Blutgerinnsel verschlossen wird, kann die Durchblutung eines Organs akut beeinträchtigt sein. Je nachdem, welches Gefäß betroffen ist, kann es beispielsweise zu einem Herzinfarkt oder Schlaganfall kommen."
+      ]},
+      { id: "risikofaktoren", heading: "Welche Faktoren beeinflussen die Gefäßgesundheit?", paragraphs: [
+        "Zu den wichtigen Risikofaktoren zählen erhöhtes LDL-Cholesterin, Bluthochdruck, Rauchen und Diabetes. Auch Alter, familiäre Veranlagung, chronische Nierenerkrankungen und weitere Faktoren spielen eine Rolle.",
+        "Das Risiko entsteht aus dem Zusammenspiel mehrerer Faktoren. Deshalb ist eine individuelle Risikobewertung sinnvoller als die isolierte Betrachtung eines einzelnen Laborwertes."
+      ]},
+      { id: "schutz", heading: "Was unterstützt gesunde Gefäße?", paragraphs: [
+        "Rauchverzicht, regelmäßige Bewegung, eine ausgewogene Ernährung, die Behandlung von Bluthochdruck und Diabetes sowie eine passende Senkung erhöhter Blutfette gehören zu den zentralen Maßnahmen. Welche Schritte medizinisch notwendig sind, hängt vom persönlichen Risiko ab.",
+        "Werbung für einzelne „Gefäßreiniger“, Detox-Kuren oder hoch dosierte Nahrungsergänzungsmittel verspricht häufig mehr, als wissenschaftlich belegt ist. Plaques lassen sich nicht durch ein bestimmtes Lebensmittel einfach aus den Arterien entfernen."
+      ]},
+      { id: "warnzeichen", heading: "Warnzeichen ernst nehmen", paragraphs: [
+        "Plötzliche starke Brustschmerzen, Atemnot, kalter Schweiß oder Schmerzen mit Ausstrahlung in Arm, Rücken oder Kiefer können Zeichen eines Herznotfalls sein. Plötzliche Lähmungen, Sprach- oder Sehstörungen können auf einen Schlaganfall hinweisen. In solchen Situationen sofort 112 wählen.",
+        "Belastungsabhängige Schmerzen in Beinen oder Brust, neu auftretende Luftnot oder deutlich eingeschränkte Belastbarkeit sollten zeitnah ärztlich abgeklärt werden."
+      ]}
+    ],
+    sources: [
+      { title: "Herz-Kreislauf-Erkrankungen", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/herz-kreislauf-erkrankungen", accessed: "2026-11-26" },
+      { title: "Dyslipidämien – Leitlinien und Empfehlungen", publisher: "European Society of Cardiology (ESC)", url: "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Dyslipidaemias-Management-of", accessed: "2026-11-26" }
+    ]
+  },
+
 ];
 
 export function getArticle(slug: string): Article | undefined {
