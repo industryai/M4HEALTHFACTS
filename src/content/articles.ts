@@ -23,7 +23,14 @@ export const articles: Article[] = [
       { id: "sonnenlicht", heading: "Die Rolle des Sonnenlichts", paragraphs: ["Wie viel gebildet wird, hängt u. a. von Jahreszeit, Tageszeit, Hauttyp und Alter ab. Sonnenschutz bleibt wichtig."] },
       { id: "abklaerung", heading: "Wann eine ärztliche Abklärung sinnvoll ist", paragraphs: ["Unspezifische Beschwerden haben viele Ursachen. Besprechen Sie einen vermuteten Mangel ärztlich."] },
     ],
-    sources: [],
+    sources: [
+      {
+        title: "Ausgewählte Fragen und Antworten zu Vitamin D",
+        publisher: "Bundesinstitut für Risikobewertung (BfR)",
+        url: "https://www.bfr.bund.de/veroeffentlichung/ausgewaehlte-fragen-und-antworten-zu-vitamin-d/",
+        accessed: "2026-11-26",
+      },
+    ],
   },
   {
     slug: "magnesium-im-alltag",
@@ -40,7 +47,14 @@ export const articles: Article[] = [
       { id: "quellen", heading: "Natürliche Quellen", paragraphs: ["Eine abwechslungsreiche Ernährung liefert in der Regel Magnesium."], bullets: ["Vollkorngetreide", "Hülsenfrüchte", "Nüsse und Samen"] },
       { id: "ergaenzung", heading: "Nahrungsergänzung", paragraphs: ["Magnesium kann die Aufnahme einiger Medikamente beeinflussen – sprechen Sie die Einnahme mit Apotheke oder Arztpraxis ab."] },
     ],
-    sources: [],
+    sources: [
+      {
+        title: "Ausgewählte Fragen und Antworten zu Magnesium",
+        publisher: "Deutsche Gesellschaft für Ernährung (DGE)",
+        url: "https://www.dge.de/gesunde-ernaehrung/faq/ausgewaehlte-fragen-und-antworten-zu-magnesium/",
+        accessed: "2026-11-26",
+      },
+    ],
   },
   {
     slug: "besser-schlafen-schlafhygiene",
@@ -57,7 +71,14 @@ export const articles: Article[] = [
       { id: "rhythmus", heading: "Ein fester Rhythmus", paragraphs: ["Möglichst gleichbleibende Zeiten können helfen, den Tag-Nacht-Rhythmus zu stabilisieren."] },
       { id: "hilfe", heading: "Wann Sie Hilfe suchen sollten", paragraphs: ["Halten Schlafprobleme über Wochen an, sprechen Sie mit Ihrer Hausarztpraxis."] },
     ],
-    sources: [],
+    sources: [
+      {
+        title: "Schlafstörungen",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/schlafstoerungen",
+        accessed: "2026-11-26",
+      },
+    ],
   },
 ];
 
