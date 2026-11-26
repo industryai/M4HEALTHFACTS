@@ -6,18 +6,11 @@ export const getRouter = () => {
   // One client per request: a module-level QueryClient leaks cached data between SSR requests.
   const queryClient = new QueryClient();
 
-  // The Lovable Vite wrapper leaves BASE_URL as "/" in the browser bundle,
-  // even though the Pages build rewrites asset URLs to the repository prefix.
-  // Detect the project-site prefix from the actual browser URL instead.
-  const basepath =
-    typeof window !== "undefined" &&
-    window.location.pathname.startsWith("/M4HEALTHFACTS")
-      ? "/M4HEALTHFACTS"
-      : "/";
-
   const router = createRouter({
     routeTree,
-    basepath,
+    // Must match tanstackStart.router.basepath in vite.config.ts. TanStack Start
+    // applies the same value again during client hydration.
+    basepath: import.meta.env.BASE_URL.replace(/\/$/, "") || "/",
     context: { queryClient },
     scrollRestoration: true,
     // Lets Query own freshness; set caching defaults on the QueryClient, not the router.
