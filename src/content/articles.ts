@@ -1236,6 +1236,169 @@ export const articles: Article[] = [
     ]
   },
 
+
+  {
+    slug: "staendige-muedigkeit-erschoepfung",
+    title: "Ständige Müdigkeit und Erschöpfung: mögliche Ursachen einordnen",
+    category: "koerper-gesundheit",
+    tags: ["Müdigkeit", "Erschöpfung", "Schlaf", "Fatigue", "Gesundheit"],
+    intro: "Müdigkeit gehört zum Alltag. Hält sie jedoch an, bessert sich trotz Erholung nicht oder schränkt sie den Alltag ein, lohnt sich eine strukturierte Abklärung. Das Symptom allein verrät noch nicht die Ursache.",
+    excerpt: "Von Schlafmangel und Belastung bis zu Medikamenten und Erkrankungen: Was hinter anhaltender Müdigkeit stecken kann und wann ärztlicher Rat sinnvoll ist.",
+    readingMinutes: 9, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: [
+      "Anhaltende Müdigkeit kann körperliche, psychische, soziale oder medikamentöse Ursachen haben.",
+      "Es gibt keinen einzelnen Blutwert, der Erschöpfung zuverlässig erklärt.",
+      "Bei deutlicher Einschränkung, ungeklärter Dauer oder zusätzlichen Warnzeichen sollte die Hausarztpraxis einbezogen werden."
+    ],
+    sections: [
+      { id: "muede-oder-erschoepft", heading: "Müdigkeit, Schläfrigkeit und Erschöpfung", paragraphs: [
+        "Müdigkeit ist zunächst ein normales Signal für Schlaf- und Erholungsbedarf. Schläfrigkeit beschreibt eher die Neigung, tagsüber einzuschlafen. Erschöpfung oder Fatigue meint eine ausgeprägte, anhaltende Kraftlosigkeit, die den Alltag deutlich beeinträchtigen kann.",
+        "Diese Begriffe werden im Alltag oft vermischt. Für die Abklärung ist hilfreich zu beschreiben, wie sich das Gefühl äußert, wann es auftritt und ob Schlaf oder Pausen tatsächlich helfen."
+      ]},
+      { id: "ursachen", heading: "Welche Ursachen kommen infrage?", paragraphs: [
+        "Häufig spielen Schlafmangel, unregelmäßige Schlafzeiten, Stress, psychische Belastungen oder eine länger anhaltende Überforderung eine Rolle. Auch Bewegungsmangel und ungünstige Alltagsroutinen können zu Abgeschlagenheit beitragen.",
+        "Weitere mögliche Auslöser sind Nebenwirkungen von Medikamenten, Infektionen und verschiedene körperliche oder psychische Erkrankungen. Aus Müdigkeit allein lässt sich keine bestimmte Diagnose und insbesondere kein bestimmter Vitamin- oder Mineralstoffmangel ableiten."
+      ]},
+      { id: "abklaerung", heading: "Wie wird anhaltende Müdigkeit abgeklärt?", paragraphs: [
+        "In der Hausarztpraxis werden Verlauf, Schlaf, Alltag, Belastungen, Vorerkrankungen und alle eingenommenen Medikamente besprochen. Je nach Hinweisen folgen eine körperliche Untersuchung und gezielte Tests. Blutuntersuchungen können beispielsweise Blutbild, Blutzucker oder Schilddrüsenwerte umfassen – welche sinnvoll sind, hängt vom Einzelfall ab.",
+        "Ein Symptomtagebuch kann helfen: Notieren Sie Schlafdauer, Tagesverlauf, Belastungen, Begleitsymptome und Veränderungen. Setzen Sie Medikamente nicht eigenständig ab."
+      ]},
+      { id: "alltag", heading: "Was kann im Alltag unterstützen?", paragraphs: [
+        "Regelmäßige Schlafzeiten, Tageslicht, angemessene Bewegung und eine ausgewogene Tagesstruktur können hilfreich sein. Bei Überlastung ist es wichtig, Belastung und Erholung realistisch auszubalancieren. Solche Maßnahmen ersetzen jedoch keine Abklärung, wenn die Beschwerden anhalten oder stark ausgeprägt sind.",
+        "Vermeiden Sie es, ohne konkreten Hinweis mehrere hoch dosierte Nahrungsergänzungsmittel auszuprobieren. Sie können die Ursache verschleiern und sind nicht automatisch hilfreich."
+      ]},
+      { id: "warnzeichen", heading: "Wann sollte man medizinische Hilfe suchen?", paragraphs: [
+        "Lassen Sie anhaltende oder ungewöhnlich starke Müdigkeit ärztlich beurteilen, besonders wenn sie den Alltag beeinträchtigt oder keine erkennbare Erklärung hat. Zeitnaher Rat ist auch sinnvoll, wenn Fieber, Nachtschweiß, ungeklärter Gewichtsverlust, Schmerzen oder Lymphknotenschwellungen hinzukommen.",
+        "Bei akuter Atemnot, Brustschmerzen, Bewusstseinsstörungen oder plötzlich auftretenden neurologischen Ausfällen ist sofortige Notfallhilfe erforderlich."
+      ]}
+    ],
+    sources: [
+      { title: "S3-Leitlinie Müdigkeit", publisher: "DEGAM / AWMF", url: "https://register.awmf.org/assets/guidelines/053-002l_S3_Muedigkeit_2023-01_01.pdf", accessed: "2026-11-26" },
+      { title: "Patientenleitlinie Müdigkeit", publisher: "Deutsche Gesellschaft für Allgemeinmedizin und Familienmedizin (DEGAM)", url: "https://www.degam.de/leitlinien", accessed: "2026-11-26" },
+      { title: "Müdigkeit: Können Krankheiten schuld sein?", publisher: "Apotheken Umschau", url: "https://www.apotheken-umschau.de/krankheiten-symptome/symptome/muedigkeit-ursachen-krankheiten-740343.html", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "kribbeln-taubheitsgefuehle",
+    title: "Kribbeln und Taubheitsgefühle: Was dahinterstecken kann",
+    category: "koerper-gesundheit",
+    tags: ["Kribbeln", "Taubheit", "Nerven", "Empfindungsstörungen"],
+    intro: "Wenn Hände, Füße oder andere Körperstellen kribbeln, kann eine vorübergehende Druckbelastung auf einen Nerv dahinterstecken. Wiederkehrende, anhaltende oder plötzlich auftretende Gefühlsstörungen sollten jedoch richtig eingeordnet werden.",
+    excerpt: "Warum Gliedmaßen einschlafen, welche weiteren Ursachen möglich sind und bei welchen Begleitsymptomen sofort gehandelt werden muss.",
+    readingMinutes: 8, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: [
+      "Kurzzeitiges Kribbeln nach ungünstiger Haltung verschwindet häufig nach einem Positionswechsel.",
+      "Anhaltende oder wiederkehrende Missempfindungen können unter anderem Nerven oder Durchblutung betreffen.",
+      "Plötzliche einseitige Taubheit mit Sprach-, Seh- oder Lähmungserscheinungen ist ein Notfall: 112."
+    ],
+    sections: [
+      { id: "empfindungsstoerung", heading: "Was bedeutet Kribbeln?", paragraphs: [
+        "Kribbeln, Ameisenlaufen und Taubheitsgefühle gehören zu den sogenannten Missempfindungen. Sie können an Fingern, Händen, Armen, Füßen, Beinen oder auch im Gesicht auftreten. Medizinisch werden solche Empfindungsstörungen unter anderem als Parästhesien bezeichnet.",
+        "Das Gefühl ist ein Symptom und keine Diagnose. Entscheidend sind unter anderem Beginn, Dauer, betroffene Körperregionen und Begleitbeschwerden."
+      ]},
+      { id: "harmlose-ausloeser", heading: "Häufige vorübergehende Auslöser", paragraphs: [
+        "Wer längere Zeit auf einem Arm liegt, die Beine übereinanderschlägt oder in einer ungünstigen Haltung sitzt, kann vorübergehend einen Nerv komprimieren. Das Kribbeln lässt dann oft nach, sobald die Position verändert und die Gliedmaße bewegt wird.",
+        "Wenn die Beschwerden rasch und vollständig verschwinden und ein klarer Haltungsauslöser bestand, ist das häufig harmlos. Wiederholte oder länger anhaltende Beschwerden sollten nicht allein darauf zurückgeführt werden."
+      ]},
+      { id: "weitere-ursachen", heading: "Welche weiteren Ursachen sind möglich?", paragraphs: [
+        "Anhaltende Missempfindungen können unter anderem durch Nervenreizungen oder Nervenschädigungen, Engpasssyndrome, Stoffwechselerkrankungen, Durchblutungsstörungen oder Nebenwirkungen von Medikamenten entstehen. Auch die Wirbelsäule kann je nach betroffenem Nerv eine Rolle spielen.",
+        "Die Ursache lässt sich nicht zuverlässig aus dem Ort des Kribbelns allein ableiten. Selbstdiagnosen anhand einzelner Symptome oder pauschale Zuordnungen zu einem Vitaminmangel sind nicht zuverlässig."
+      ]},
+      { id: "untersuchung", heading: "Wie erfolgt die Abklärung?", paragraphs: [
+        "Die Ärztin oder der Arzt fragt nach Beginn, Verlauf, Verteilung, möglichen Auslösern, Vorerkrankungen und Medikamenten. Je nach Befund können eine neurologische Untersuchung, Laborwerte oder weitere Untersuchungen sinnvoll sein.",
+        "Notieren Sie, welche Körperstellen betroffen sind, ob eine oder beide Seiten betroffen sind und wie lange die Beschwerden dauern. Diese Angaben können die Untersuchung unterstützen."
+      ]},
+      { id: "notfall", heading: "Wann ist Kribbeln ein Notfall?", paragraphs: [
+        "Treten plötzlich einseitige Taubheit oder Schwäche, hängende Mundwinkel, Sprach- oder Sehstörungen, starke Gleichgewichtsstörungen oder andere akute neurologische Ausfälle auf, wählen Sie sofort 112. Dahinter kann ein Schlaganfall stecken – auch wenn die Symptome wieder nachlassen.",
+        "Bei anhaltenden, zunehmenden oder häufig wiederkehrenden Missempfindungen ohne akute Notfallzeichen sollte zeitnah eine ärztliche Untersuchung erfolgen."
+      ]}
+    ],
+    sources: [
+      { title: "Kribbeln und Taubheitsgefühle: Was steckt dahinter?", publisher: "Apotheken Umschau", url: "https://www.apotheken-umschau.de/krankheiten-symptome/symptome/kribbeln-und-taubheitsgefuehle-was-steckt-dahinter-736887.html", accessed: "2026-11-26" },
+      { title: "Warum Hände und Füße einschlafen", publisher: "Apotheken Umschau", url: "https://www.apotheken-umschau.de/mein-koerper/nerven/warum-haende-und-fuesse-einschlafen-710911.html", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "naechtliche-wadenkraempfe",
+    title: "Nächtliche Wadenkrämpfe: Ursachen, Hilfe und Warnzeichen",
+    category: "koerper-gesundheit",
+    tags: ["Wadenkrämpfe", "Muskeln", "Nacht", "Magnesium", "Beine"],
+    intro: "Ein plötzlicher Wadenkrampf kann sehr schmerzhaft sein und den Schlaf unterbrechen. Gelegentliche Krämpfe sind häufig, wiederkehrende Beschwerden oder zusätzliche Symptome sollten jedoch ärztlich eingeordnet werden.",
+    excerpt: "Was bei einem akuten Wadenkrampf helfen kann, welche Ursachen infrage kommen und warum Magnesium nicht automatisch die Lösung ist.",
+    readingMinutes: 8, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: [
+      "Ein akuter Wadenkrampf lässt sich häufig durch vorsichtiges Dehnen der betroffenen Muskulatur lösen.",
+      "Wiederkehrende Krämpfe können unterschiedliche Ursachen haben und sind nicht automatisch ein Magnesiummangel.",
+      "Bei Schwellung, Muskelschwäche, Taubheit oder anhaltenden starken Schmerzen ist eine medizinische Abklärung wichtig."
+    ],
+    sections: [
+      { id: "was-ist-krampf", heading: "Was passiert bei einem Wadenkrampf?", paragraphs: [
+        "Bei einem Muskelkrampf zieht sich die Muskulatur plötzlich und unwillkürlich zusammen. Die Wade fühlt sich hart an, und es entsteht ein intensiver Schmerz, der Sekunden bis Minuten anhalten kann. Nächtliche Krämpfe treten häufig in Ruhe oder während des Schlafs auf.",
+        "Nach dem Krampf kann die Muskulatur noch eine Zeit lang empfindlich sein. Gelegentliche Krämpfe sind verbreitet und bedeuten nicht automatisch, dass eine Erkrankung vorliegt."
+      ]},
+      { id: "ursachen", heading: "Mögliche Ursachen und Einflussfaktoren", paragraphs: [
+        "Wadenkrämpfe können mit Muskelermüdung, ungewohnter Belastung, bestimmten Medikamenten oder Veränderungen im Flüssigkeits- und Elektrolythaushalt zusammenhängen. Auch Erkrankungen von Nerven, Muskeln, Nieren oder des Stoffwechsels können eine Rolle spielen.",
+        "Ein Krampf allein beweist keinen Magnesiummangel. Deshalb ist es nicht sinnvoll, automatisch hoch dosiertes Magnesium einzunehmen, ohne die Situation und mögliche Gegenanzeigen zu berücksichtigen."
+      ]},
+      { id: "akuthilfe", heading: "Was hilft bei einem akuten Krampf?", paragraphs: [
+        "Versuchen Sie, das Knie zu strecken und den Fuß vorsichtig in Richtung Schienbein zu ziehen. Auch vorsichtiges Aufstehen und einige Schritte können helfen, sofern das sicher möglich ist. Beenden Sie die Dehnung, wenn sie starke zusätzliche Schmerzen verursacht.",
+        "Wärme oder eine sanfte Massage empfinden manche Betroffene nach dem Krampf als angenehm. Diese Maßnahmen lösen nicht jede Ursache, können aber kurzfristig Erleichterung bringen."
+      ]},
+      { id: "vorbeugung", heading: "Was kann vorbeugend helfen?", paragraphs: [
+        "Regelmäßige, angemessene Bewegung und sanfte Dehnübungen können für manche Menschen hilfreich sein. Achten Sie auf passende Belastungssteigerung und ausreichend Erholung. Bei wiederkehrenden Krämpfen kann ein Tagebuch über Zeitpunkt, Dauer, Aktivität und Begleitsymptome hilfreich sein.",
+        "Nehmen Sie Medikamente oder Nahrungsergänzungsmittel nicht eigenständig in veränderter Dosierung ein. Besprechen Sie wiederkehrende Beschwerden und mögliche Nebenwirkungen mit der behandelnden Praxis."
+      ]},
+      { id: "wann-arzt", heading: "Wann sollte man die Ursache abklären lassen?", paragraphs: [
+        "Suchen Sie ärztlichen Rat, wenn Krämpfe häufig auftreten, sehr schmerzhaft sind, lange anhalten, den Schlaf regelmäßig stören oder trotz vorsichtiger Dehnung nicht nachlassen. Das gilt besonders bei zusätzlicher Muskelschwäche, Taubheit, Kribbeln, Gangunsicherheit oder Schwellungen.",
+        "Bei plötzlich einseitig geschwollenem, gerötetem oder schmerzhaftem Bein sollte dringend medizinisch abgeklärt werden, ob eine Gefäßursache vorliegt. Bei akuter Atemnot oder Brustschmerz sofort 112 wählen."
+      ]}
+    ],
+    sources: [
+      { title: "Wadenkrämpfe: Ursachen, Behandlung, Vorbeugung", publisher: "Apotheken Umschau", url: "https://www.apotheken-umschau.de/krankheiten-symptome/symptome/wadenkraempfe-ursachen-therapien-selbsthilfe-1003707.html", accessed: "2026-11-26" },
+      { title: "Wadenkrämpfe: Ursachen und Behandlung", publisher: "NDR", url: "https://www.ndr.de/ratgeber/gesundheit/wadenkraempfe-muskelschmerzen-magnesium%2Cwadenkraempfe-100.html", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "nachtschweiss-ursachen",
+    title: "Nachtschweiß: Ursachen und wann eine Abklärung sinnvoll ist",
+    category: "koerper-gesundheit",
+    tags: ["Nachtschweiß", "Schwitzen", "Schlaf", "Hormone", "Symptome"],
+    intro: "Schwitzen in der Nacht kann durch ein warmes Schlafzimmer oder dicke Bettdecken entstehen. Wiederholter, ausgeprägter Nachtschweiß kann aber auch mit Medikamenten, hormonellen Veränderungen oder Erkrankungen zusammenhängen.",
+    excerpt: "Welche alltäglichen und medizinischen Ursachen möglich sind, welche Begleitsymptome wichtig sind und wann ärztlicher Rat angebracht ist.",
+    readingMinutes: 8, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: [
+      "Gelegentliches nächtliches Schwitzen kann durch Raumtemperatur, Bettwäsche oder Lebensgewohnheiten erklärt werden.",
+      "Auch Medikamente, hormonelle Veränderungen, Infektionen und andere Erkrankungen kommen als Ursachen infrage.",
+      "Hält starker Nachtschweiß an oder treten Fieber, Gewichtsverlust oder Schmerzen hinzu, sollte er ärztlich abgeklärt werden."
+    ],
+    sections: [
+      { id: "definition", heading: "Was versteht man unter Nachtschweiß?", paragraphs: [
+        "Mit Nachtschweiß ist übermäßiges Schwitzen während des Schlafs gemeint. Es reicht von feuchter Haut bis zu so starkem Schwitzen, dass Schlafkleidung oder Bettwäsche gewechselt werden müssen.",
+        "Wichtig ist die Unterscheidung zwischen einer warmen Schlafumgebung und wiederkehrenden Schweißepisoden trotz angenehmer Raumtemperatur."
+      ]},
+      { id: "ursachen", heading: "Häufige mögliche Ursachen", paragraphs: [
+        "Ein zu warmes Schlafzimmer, dicke Decken, Alkohol, Nikotin oder scharf gewürzte Speisen können nächtliches Schwitzen begünstigen. Auch Stress und hormonelle Veränderungen, etwa in den Wechseljahren, kommen infrage.",
+        "Daneben können Infektionen, Stoffwechsel- oder Hormonstörungen und Nebenwirkungen bestimmter Medikamente eine Rolle spielen. Nachtschweiß allein erlaubt keine zuverlässige Aussage über eine bestimmte Erkrankung."
+      ]},
+      { id: "beobachten", heading: "Was sollte man beobachten?", paragraphs: [
+        "Notieren Sie, wie häufig der Nachtschweiß auftritt, ob Kleidung oder Bettwäsche durchnässt sind und ob weitere Beschwerden hinzukommen. Auch neue Medikamente, Änderungen der Dosierung, Alkohol, Raumtemperatur und Schlafbedingungen können wichtige Hinweise liefern.",
+        "Verändern Sie verschriebene Medikamente nicht eigenständig. Wenn Sie einen Zusammenhang vermuten, besprechen Sie dies mit der verordnenden Praxis."
+      ]},
+      { id: "alltag", heading: "Was kann im Alltag helfen?", paragraphs: [
+        "Ein eher kühles, gut gelüftetes Schlafzimmer, leichte atmungsaktive Bettwäsche und eine passende Schlafkleidung können helfen, wenn die Ursache in den Schlafbedingungen liegt. Alkohol und Nikotin können Schwitzen begünstigen und sollten möglichst vermieden werden.",
+        "Wenn die Beschwerden trotz angepasster Schlafumgebung anhalten, sollte nicht ausschließlich auf Selbsthilfemaßnahmen gesetzt werden."
+      ]},
+      { id: "abklaerung", heading: "Wann ist ärztliche Abklärung sinnvoll?", paragraphs: [
+        "Lassen Sie wiederkehrenden oder ausgeprägten Nachtschweiß ärztlich beurteilen, besonders wenn er über mehrere Wochen anhält oder mit Fieber, ungeklärtem Gewichtsverlust, Schmerzen, anhaltender Müdigkeit oder anderen neuen Symptomen verbunden ist.",
+        "Die Untersuchung richtet sich nach Verlauf und Begleitbeschwerden. Es gibt kein einzelnes Standardverfahren, das jede Ursache von Nachtschweiß aufdeckt."
+      ]}
+    ],
+    sources: [
+      { title: "Nachtschweiß: Ursachen und wann zum Arzt", publisher: "netDoktor", url: "https://www.netdoktor.de/krankheiten/nachtschweiss/", accessed: "2026-11-26" },
+      { title: "Müdigkeit: Können Krankheiten schuld sein?", publisher: "Apotheken Umschau", url: "https://www.apotheken-umschau.de/krankheiten-symptome/symptome/muedigkeit-ursachen-krankheiten-740343.html", accessed: "2026-11-26" }
+    ]
+  },
+
 ];
 
 export function getArticle(slug: string): Article | undefined {
