@@ -3,6 +3,7 @@ import type { LexiconEntry } from "./types";
 const raw: Omit<LexiconEntry, "slug">[] = [
   { term: "Ausdauertraining", definition: "Körperliche Aktivität über einen längeren Zeitraum, die vor allem Herz und Kreislauf beansprucht, zum Beispiel zügiges Gehen, Radfahren oder Schwimmen.", relatedArticle: "bewegung-im-alltag" },
   { term: "Bewegung", definition: "Körperliche Aktivität im Alltag, bei der der Körper in Bewegung kommt – etwa beim Gehen, Radfahren, Sport oder bei Haus- und Gartenarbeit.", relatedArticle: "bewegung-im-alltag" },
+  { term: "Abwehrkräfte", definition: "Bezeichnung für die körpereigenen Schutz- und Abwehrmechanismen gegen Krankheitserreger.", relatedArticle: "abwehrkraefte-staerken" },
   { term: "Antioxidantien", definition: "Stoffe, die bestimmte chemische Reaktionen (Oxidation) hemmen können. Sie kommen u. a. in pflanzlichen Lebensmitteln vor." },
   { term: "Ballaststoffe", definition: "Weitgehend unverdauliche Bestandteile pflanzlicher Lebensmittel, etwa aus Vollkorn, Gemüse und Hülsenfrüchten." },
   { term: "Blutdruck", definition: "Der Druck, den das Blut auf die Gefäßwände ausübt. Er wird in zwei Werten angegeben: systolisch und diastolisch." },
@@ -11,6 +12,7 @@ const raw: Omit<LexiconEntry, "slug">[] = [
   { term: "Diastolischer Wert", definition: "Der untere Blutdruckwert, gemessen während der Entspannungsphase des Herzens." },
   { term: "Eisen", definition: "Spurenelement, das u. a. für den Sauerstofftransport im Blut benötigt wird." },
   { term: "Elektrolyte", definition: "Mineralstoffe wie Natrium, Kalium oder Magnesium, die in Körperflüssigkeiten gelöst sind." },
+  { term: "Freie Zucker", definition: "Zucker, die Lebensmitteln zugesetzt werden oder natürlicherweise in Honig, Sirup und Fruchtsäften vorkommen.", relatedArticle: "freie-zucker-ernaehrung" },
   { term: "Fettlösliche Vitamine", definition: "Vitamine A, D, E und K, die zusammen mit Fett aufgenommen und im Körper gespeichert werden können.", relatedArticle: "vitamin-d-grundlagen" },
   { term: "Früherkennung", definition: "Untersuchungen, die Krankheiten in einem frühen Stadium erkennen sollen." },
   { term: "Glykämischer Index", definition: "Maß dafür, wie stark ein kohlenhydrathaltiges Lebensmittel den Blutzucker ansteigen lässt." },
@@ -23,6 +25,7 @@ const raw: Omit<LexiconEntry, "slug">[] = [
   { term: "Lymphe", definition: "Gewebsflüssigkeit, die über das Lymphsystem transportiert wird und an der Immunabwehr beteiligt ist." },
   { term: "Magnesium", definition: "Mineralstoff, der an vielen Stoffwechselprozessen sowie an Nerven- und Muskelfunktion beteiligt ist.", relatedArticle: "magnesium-im-alltag" },
   { term: "Mikrobiom", definition: "Gesamtheit der Mikroorganismen, die z. B. den Darm besiedeln." },
+  { term: "Nahrungsergänzungsmittel", definition: "Lebensmittel, die die allgemeine Ernährung ergänzen sollen und beispielsweise Vitamine, Mineralstoffe oder Pflanzenextrakte in konzentrierter Form enthalten.", relatedArticle: "nahrungsergaenzungsmittel-sinnvoll" },
   { term: "Nährstoffdichte", definition: "Verhältnis von Nährstoffen zum Energiegehalt eines Lebensmittels." },
   { term: "Omega-3-Fettsäuren", definition: "Mehrfach ungesättigte Fettsäuren, die u. a. in fettem Seefisch, Leinöl und Walnüssen vorkommen." },
   { term: "Prävention", definition: "Maßnahmen zur Vorbeugung von Krankheiten." },
