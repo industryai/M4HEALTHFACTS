@@ -601,6 +601,193 @@ export const articles: Article[] = [
     ],
   },
   {
+    slug: "blutdruck-verstehen",
+    title: "Blutdruck verstehen: Werte, Risiken und was wirklich hilft",
+    category: "herz-kreislauf",
+    tags: ["Blutdruck", "Bluthochdruck", "Hypertonie", "Herz-Kreislauf", "Blutdruckmessung"],
+    intro: "Bluthochdruck verursacht häufig lange keine spürbaren Beschwerden, kann Herz, Gefäße, Gehirn und Nieren aber dauerhaft belasten. Entscheidend sind korrekt gemessene Werte, eine bestätigte Diagnose und eine Behandlung, die zum persönlichen Risiko passt.",
+    excerpt: "Was systolische und diastolische Werte bedeuten, ab wann Blutdruck als erhöht gilt, wie man zu Hause richtig misst und welche Maßnahmen helfen.",
+    readingMinutes: 10,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Bluthochdruck liegt bei standardisierter Praxismessung in der Regel ab 140 mmHg systolisch und/oder 90 mmHg diastolisch vor.",
+      "Für die Diagnose zählen wiederholte Messungen oder eine Messung außerhalb der Praxis – nicht ein einzelner Ausreißer.",
+      "Ein durchschnittlicher Wert zu Hause ab 135/85 mmHg gilt als erhöht.",
+      "Unbehandelter Bluthochdruck steigert langfristig das Risiko für Schlaganfall, Herzinfarkt, Herzschwäche und Nierenschäden.",
+      "Weniger Salz, regelmäßige Bewegung, Gewichtsmanagement und Nichtrauchen können helfen; Medikamente sind bei vielen Betroffenen zusätzlich notwendig."
+    ],
+    sections: [
+      {
+        id: "was-ist-blutdruck",
+        heading: "Was ist Blutdruck?",
+        paragraphs: [
+          "Blutdruck bezeichnet den Druck, mit dem das Blut gegen die Wände der Blutgefäße strömt. Er wird in Millimeter Quecksilbersäule (mmHg) angegeben und meist als zwei Zahlen notiert, zum Beispiel 128/82 mmHg.",
+          "Der erste Wert ist der systolische Blutdruck. Er beschreibt den höchsten Druck, wenn sich das Herz zusammenzieht und Blut in den Kreislauf pumpt. Der zweite Wert ist der diastolische Blutdruck: Er zeigt den Druck während der Entspannungsphase des Herzens zwischen zwei Herzschlägen.",
+          "Beide Werte sind wichtig. Für die Einordnung zählt, ob der systolische oder der diastolische Wert erhöht ist. Ein normaler einzelner Messwert schließt zudem nicht aus, dass der Blutdruck zu anderen Tageszeiten erhöht sein kann."
+        ]
+      },
+      {
+        id: "werte-einordnen",
+        heading: "Welche Blutdruckwerte gelten als normal oder erhöht?",
+        paragraphs: [
+          "Nach den in Deutschland gebräuchlichen Grenzwerten gilt ein in der Arztpraxis standardisiert gemessener Blutdruck ab 140 mmHg systolisch und/oder ab 90 mmHg diastolisch als Hypertonie. Werte darunter können je nach Höhe als optimal, normal oder hochnormal eingeordnet werden. Die Grenzwerte sind keine scharfe Grenze zwischen gesund und krank: Das Herz-Kreislauf-Risiko steigt mit zunehmendem Blutdruck kontinuierlich.",
+          "Bei Messungen zu Hause liegt der Grenzwert niedriger: Ein Durchschnitt ab 135/85 mmHg gilt als erhöht. Bei einer 24-Stunden-Messung gelten andere Schwellenwerte, weil auch Nacht- und Tageswerte getrennt beurteilt werden. Die Messmethode muss deshalb immer mitgedacht werden.",
+          "Die folgende Übersicht dient der Orientierung für Erwachsene und ersetzt keine Diagnose:"
+        ],
+        bullets: [
+          "Praxis: ab 140 systolisch und/oder 90 diastolisch mmHg – Hypertoniebereich",
+          "Zu Hause: Durchschnitt ab 135/85 mmHg – erhöhter Wert",
+          "24-Stunden-Messung: Durchschnitt ab 130/80 mmHg – erhöhter Wert",
+          "Tagesmittelwert bei Langzeitmessung: ab 135/85 mmHg – erhöhter Wert",
+          "Nachtmittelwert bei Langzeitmessung: ab 120/70 mmHg – erhöhter Wert"
+        ]
+      },
+      {
+        id: "warum-gefaehrlich",
+        heading: "Warum ist dauerhaft hoher Blutdruck gefährlich?",
+        paragraphs: [
+          "Wenn der Druck in den Arterien über längere Zeit erhöht ist, müssen Herz und Gefäße stärker arbeiten. Die Gefäßwände können geschädigt werden und die Entstehung von Arteriosklerose wird begünstigt. Das Risiko für Herzinfarkt, Schlaganfall, Herzschwäche, Durchblutungsstörungen und chronische Nierenschäden nimmt zu.",
+          "Bluthochdruck wird deshalb auch als „stiller Risikofaktor“ bezeichnet: Viele Betroffene fühlen sich trotz deutlich erhöhter Werte gesund. Kopfschmerzen, Schwindel oder Nasenbluten sind keine zuverlässigen Frühwarnzeichen und erlauben keine sichere Einschätzung des Blutdrucks.",
+          "Das individuelle Risiko hängt nicht nur vom Blutdruck ab. Alter, Rauchen, Diabetes, Cholesterinwerte, Nierenfunktion und bereits bestehende Herz-Kreislauf-Erkrankungen spielen ebenfalls eine Rolle."
+        ]
+      },
+      {
+        id: "ursachen-risikofaktoren",
+        heading: "Ursachen und Risikofaktoren",
+        paragraphs: [
+          "Bei den meisten Erwachsenen lässt sich keine einzelne Ursache feststellen. Diese Form wird als primäre oder essentielle Hypertonie bezeichnet. Häufig wirken mehrere Faktoren zusammen: erbliche Veranlagung, zunehmendes Alter, Übergewicht, Bewegungsmangel, hoher Salzkonsum und regelmäßiger hoher Alkoholkonsum.",
+          "Seltener steckt eine konkrete Erkrankung dahinter, beispielsweise eine Nierenerkrankung, eine hormonelle Störung oder eine Schlafapnoe. Auch bestimmte Medikamente und Substanzen können den Blutdruck erhöhen. Dazu können je nach Präparat unter anderem manche Schmerzmittel, Kortisonpräparate, abschwellende Mittel oder Stimulanzien gehören.",
+          "Ein neu aufgetretener oder schwer einstellbarer Bluthochdruck kann Anlass sein, gezielt nach behandelbaren Ursachen zu suchen. Verordnete Medikamente sollten nicht eigenständig abgesetzt werden."
+        ]
+      },
+      {
+        id: "richtig-messen",
+        heading: "Blutdruck zu Hause richtig messen",
+        paragraphs: [
+          "Für aussagekräftige Werte ist ein validiertes Blutdruckmessgerät wichtig. Häufig wird ein Oberarmgerät empfohlen; Manschettengröße und korrekter Sitz müssen zum Armumfang passen. Bei der ersten Beurteilung sollte an beiden Armen gemessen werden. Für spätere Messungen wird üblicherweise der Arm mit den höheren Werten verwendet.",
+          "Setzen Sie sich vor der Messung mindestens fünf Minuten ruhig hin. Rücken und Arm sollten gestützt sein, die Füße flach auf dem Boden stehen und die Beine nicht überkreuzt sein. Legen Sie die Manschette auf den unbekleideten Oberarm und halten Sie den Arm ungefähr auf Herzhöhe. Sprechen und bewegen Sie sich während der Messung nicht.",
+          "Messen Sie zweimal im Abstand von etwa ein bis zwei Minuten. Für eine aussagekräftige Beurteilung wird häufig morgens und abends über mindestens drei, idealerweise sieben Tage gemessen. Notieren Sie alle Werte und bilden Sie den Durchschnitt. Die Praxis kann ein passendes Messschema vorgeben.",
+          "Kaffee, Nikotin, körperliche Anstrengung, Schmerzen, Stress und eine volle Harnblase können Messwerte vorübergehend beeinflussen. Messen Sie möglichst unter vergleichbaren Bedingungen und interpretieren Sie einzelne Abweichungen nicht isoliert."
+        ]
+      },
+      {
+        id: "weisskittel-maskiert",
+        heading: "Weißkittelhypertonie und maskierter Bluthochdruck",
+        paragraphs: [
+          "Bei einer Weißkittelhypertonie sind die Werte in der Arztpraxis erhöht, während sie zu Hause oder im Alltag normal sein können. Aufregung und die ungewohnte Untersuchungssituation können dazu beitragen.",
+          "Umgekehrt kann ein maskierter Bluthochdruck vorliegen: In der Praxis erscheinen die Werte unauffällig, außerhalb der Praxis sind sie jedoch erhöht. Eine häusliche Selbstmessung oder eine 24-Stunden-Blutdruckmessung hilft, solche Unterschiede zu erkennen.",
+          "Deshalb wird ein auffälliger Praxiswert nach Möglichkeit durch wiederholte Messungen außerhalb der Praxis bestätigt. Die Langzeitmessung liefert zusätzlich Informationen über den Blutdruck während Aktivität und Schlaf."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Wie wird Bluthochdruck diagnostiziert?",
+        paragraphs: [
+          "Eine Diagnose sollte nicht allein aufgrund einer einzelnen Messung gestellt werden. Ärztinnen und Ärzte wiederholen die Messung unter standardisierten Bedingungen und nutzen – wenn möglich – eine 24-Stunden-Messung oder strukturierte Heimmessungen.",
+          "Nach bestätigter Hypertonie werden mögliche Begleiterkrankungen und Organschäden beurteilt. Dazu können je nach Situation Blut- und Urinuntersuchungen, ein EKG und weitere Untersuchungen gehören. Ziel ist, das persönliche Herz-Kreislauf-Risiko einzuschätzen und mögliche sekundäre Ursachen zu erkennen.",
+          "Die weitere Behandlung richtet sich nach Blutdruckhöhe, Gesamtrisiko, Alter, Begleiterkrankungen und Verträglichkeit. Individuelle Zielwerte sollten gemeinsam mit der behandelnden Praxis festgelegt werden."
+        ]
+      },
+      {
+        id: "lebensstil",
+        heading: "Was kann den Blutdruck im Alltag senken?",
+        paragraphs: [
+          "Lebensstilmaßnahmen sind ein wichtiger Bestandteil der Vorbeugung und Behandlung. Sie können den Blutdruck senken und das allgemeine Herz-Kreislauf-Risiko verbessern. Bei deutlich erhöhten Werten ersetzen sie jedoch nicht automatisch eine notwendige medikamentöse Behandlung.",
+          "Weniger Salz: Ein hoher Salzkonsum kann den Blutdruck erhöhen. Reduzieren Sie stark verarbeitete Lebensmittel, salzige Fertiggerichte und häufiges Nachsalzen. Kräuter und Gewürze können Geschmack geben, ohne viel Salz zu benötigen.",
+          "Regelmäßige Bewegung: Ausdaueraktivitäten wie zügiges Gehen, Radfahren oder Schwimmen können helfen. Als allgemeine Orientierung gelten mindestens 150 Minuten moderate Bewegung pro Woche; beginnen Sie bei Bewegungsmangel schrittweise und berücksichtigen Sie gesundheitliche Einschränkungen.",
+          "Gewicht und Ernährung: Bei Übergewicht kann eine nachhaltige Gewichtsabnahme den Blutdruck verbessern. Empfehlenswert ist eine überwiegend pflanzenbetonte Ernährung mit Gemüse, Obst, Hülsenfrüchten, Vollkornprodukten und wenig stark verarbeiteten Lebensmitteln.",
+          "Alkohol und Nikotin: Weniger Alkohol ist günstig für den Blutdruck und die allgemeine Gesundheit. Rauchen schädigt die Gefäße und erhöht das Herz-Kreislauf-Risiko erheblich. Ein Rauchstopp lohnt sich unabhängig vom aktuellen Blutdruckwert.",
+          "Schlaf und Stress: Ausreichender Schlaf und ein geregelter Tagesrhythmus unterstützen die Gesundheit. Bei starkem Schnarchen, beobachteten Atemaussetzern oder ausgeprägter Tagesmüdigkeit sollte eine mögliche Schlafapnoe ärztlich abgeklärt werden."
+        ]
+      },
+      {
+        id: "medikamente",
+        heading: "Wann sind Medikamente notwendig?",
+        paragraphs: [
+          "Wenn der Blutdruck deutlich erhöht ist, das Herz-Kreislauf-Risiko hoch ist oder Lebensstilmaßnahmen allein nicht ausreichen, werden blutdrucksenkende Medikamente eingesetzt. Häufig verwendete Wirkstoffgruppen sind ACE-Hemmer, Sartane, Calciumkanalblocker und Diuretika. Welche Behandlung geeignet ist, hängt von der individuellen Situation ab.",
+          "Manchmal ist eine Kombination mehrerer Wirkstoffe erforderlich. Die Behandlung wird schrittweise angepasst und durch regelmäßige Messungen kontrolliert. Nebenwirkungen, Begleiterkrankungen, Nierenfunktion und weitere Medikamente müssen berücksichtigt werden.",
+          "Setzen Sie Blutdruckmedikamente nicht eigenständig ab und verändern Sie die Dosis nicht ohne Rücksprache. Auch wenn Sie keine Beschwerden haben, kann die Behandlung wichtig sein, um langfristige Organschäden zu verhindern."
+        ]
+      },
+      {
+        id: "niedriger-blutdruck",
+        heading: "Und was ist mit niedrigem Blutdruck?",
+        paragraphs: [
+          "Niedrige Blutdruckwerte sind nicht automatisch krankhaft. Manche Menschen haben dauerhaft niedrige Werte und fühlen sich damit wohl. Relevant wird niedriger Blutdruck vor allem dann, wenn Beschwerden wie Schwindel, Schwäche, Schwarzwerden vor Augen oder Ohnmacht auftreten.",
+          "Wiederkehrende Beschwerden sollten ärztlich abgeklärt werden, insbesondere wenn sie neu auftreten, mit Medikamenten zusammenhängen könnten oder Stürze verursachen. Bei Ohnmacht, Brustschmerz oder Atemnot ist eine umgehende medizinische Beurteilung erforderlich."
+        ]
+      },
+      {
+        id: "notfall",
+        heading: "Wann sind sehr hohe Werte ein Notfall?",
+        paragraphs: [
+          "Ein sehr hoher Messwert sollte zunächst nach einigen Minuten ruhigen Sitzens erneut kontrolliert werden. Bei wiederholt sehr hohen Werten – insbesondere um oder über 180/110 mmHg – ist eine umgehende ärztliche Einschätzung erforderlich, auch wenn keine Beschwerden bestehen.",
+          "Treten zusätzlich Brustschmerzen, Atemnot, Lähmungs- oder Sprachstörungen, Sehstörungen, Verwirrtheit oder ein plötzlich ungewöhnlich starker Kopfschmerz auf, kann ein akuter Notfall vorliegen. Wählen Sie dann sofort 112 und warten Sie nicht auf weitere Messungen.",
+          "Verändern Sie eine verordnete Medikamentendosis nicht eigenständig und nehmen Sie keine zusätzlichen Tabletten auf eigene Faust ein, um einen Wert schnell zu senken."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zum Blutdruck",
+        paragraphs: [
+          "**Ist 140/90 mmHg immer gefährlich?** Ein einzelner Wert ist keine Diagnose. Wiederholt gemessene Werte ab dieser Schwelle in der Praxis sollten ärztlich abgeklärt und im Gesamtkontext bewertet werden.",
+          "**Kann ich Bluthochdruck spüren?** Häufig nicht. Viele Menschen haben über Jahre keine eindeutigen Symptome. Regelmäßige Messungen sind deshalb wichtig.",
+          "**Warum ist mein Blutdruck beim Arzt höher?** Aufregung kann zu einer Weißkittelhypertonie führen. Heimmessungen oder eine 24-Stunden-Messung helfen bei der Einordnung.",
+          "**Welcher Arm ist der richtige?** Bei der ersten Beurteilung wird an beiden Armen gemessen. Danach sollte in der Regel der Arm mit den höheren Werten verwendet werden.",
+          "**Reicht Sport, um Medikamente zu vermeiden?** Bewegung kann helfen, ist aber nicht in jeder Situation ausreichend. Ob Medikamente notwendig sind, hängt von Blutdruckhöhe und persönlichem Risiko ab.",
+          "**Muss ich Blutdrucktabletten lebenslang nehmen?** Das ist individuell unterschiedlich. Änderungen sollten nur gemeinsam mit der behandelnden Praxis erfolgen; eigenständiges Absetzen ist nicht empfehlenswert."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Blutdruckwerte müssen mit geeigneter Messtechnik und im persönlichen medizinischen Kontext beurteilt werden. Bei wiederholt erhöhten Werten vereinbaren Sie einen Termin in der Arztpraxis. Bei akuten Warnzeichen wie Brustschmerzen, Atemnot oder neurologischen Ausfällen wählen Sie 112."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "Bluthochdruck: Ursachen und Behandlung",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/bluthochdruck",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Bluthochdruck (Hypertonie)",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG) – Gesundheitsinformation.de",
+        url: "https://www.gesundheitsinformation.de/bluthochdruck-hypertonie.html",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Wie wird der Blutdruck gemessen?",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG)",
+        url: "https://www.gesundheitsinformation.de/wie-wird-der-blutdruck-gemessen.html",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Bluthochdruck – Wie messe ich meinen Blutdruck richtig?",
+        publisher: "Bundesärztekammer / Kassenärztliche Bundesvereinigung – Patienteninformation",
+        url: "https://www.leitlinien.de/patient-innen/patientenblaetter/bluthochdruck-blutdruckmessung",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "2024 ESC Guidelines for the management of elevated blood pressure and hypertension",
+        publisher: "European Society of Cardiology (ESC)",
+        url: "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/All-ESC-Guidelines/elevated-blood-pressure-and-hypertension",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Bluthochdruck – Wie soll der Blutdruck eingestellt sein?",
+        publisher: "Bundesärztekammer / Kassenärztliche Bundesvereinigung – Patienteninformation",
+        url: "https://www.leitlinien.de/patient-innen/patientenblaetter/bluthochdruck-zielwerte",
+        accessed: "2026-11-26",
+      }
+    ],
+  },
+  {
     slug: "gesundheitsvorsorge-check-up",
     title: "Gesundheitsvorsorge: Check-up, Früherkennung und sinnvolle Untersuchungen",
     category: "praevention",
