@@ -31,7 +31,14 @@ function ContentPage() {
   "nahrungsergaenzungsmittel-sinnvoll":"https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=1000&auto=format&fit=crop&q=85",
   "freie-zucker-ernaehrung":"https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=1000&auto=format&fit=crop&q=85",
   "hausmittel-erkaeltung-was-hilft":"https://images.pexels.com/photos/5480035/pexels-photo-5480035.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "gesundheitsvorsorge-check-up":"https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1000&auto=format&fit=crop&q=85"
+  "gesundheitsvorsorge-check-up":"https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1000&auto=format&fit=crop&q=85",
+  "schwarzkuemmeloel":"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=1000&auto=format&fit=crop&q=85",
+  "astaxanthin":"https://images.unsplash.com/photo-1547592180-85f173990554?w=1000&auto=format&fit=crop&q=85",
+  "kurkuma-curcumin":"https://images.unsplash.com/photo-1615485500704-8e990f9900f2?w=1000&auto=format&fit=crop&q=85",
+  "msm":"https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=1000&auto=format&fit=crop&q=85",
+  "cholin":"https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=1000&auto=format&fit=crop&q=85",
+  "vitamin-k2":"https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1000&auto=format&fit=crop&q=85",
+  "ashwagandha":"https://images.unsplash.com/photo-1603909223429-69bb7101f420?w=1000&auto=format&fit=crop&q=85"
  };
  const recommendedArticles=relatedArticles.length?relatedArticles:article?articles.filter(a=>a.slug!==article.slug).slice(0,3):[];
  const list=useMemo(()=>articles.filter(a=>!filter||(a.title+" "+a.excerpt+" "+a.tags.join(" ")).toLocaleLowerCase("de").includes(filter.toLocaleLowerCase("de"))),[filter]);
