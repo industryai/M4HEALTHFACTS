@@ -2590,6 +2590,212 @@ export const articles: Article[] = [
     ]
   },
   {
+    slug: "reizdarmsyndrom-verstehen",
+    title: "Reizdarm: Symptome, Auslöser, Diagnose und Behandlung",
+    category: "koerper-gesundheit",
+    tags: ["Reizdarm", "Reizdarmsyndrom", "Verdauung", "Bauchschmerzen", "Blähungen", "Durchfall", "Verstopfung"],
+    intro: "Das Reizdarmsyndrom ist eine häufige funktionelle Darmerkrankung. Typisch sind wiederkehrende Bauchschmerzen, Blähungen und Veränderungen des Stuhlgangs. Die Beschwerden sind real und können die Lebensqualität deutlich beeinträchtigen. Eine gezielte Diagnostik hilft, andere Ursachen zu erkennen und eine passende Behandlung zu finden.",
+    excerpt: "Wie sich ein Reizdarm äußert, welche Rolle Darm-Hirn-Kommunikation und Ernährung spielen und welche diagnostischen und therapeutischen Möglichkeiten es gibt.",
+    readingMinutes: 12,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Das Reizdarmsyndrom kann Bauchschmerzen, Blähungen, Durchfall, Verstopfung oder einen Wechsel zwischen beidem verursachen.",
+      "Es handelt sich nicht um eingebildete Beschwerden: Darmbewegung, Empfindlichkeit und die Kommunikation zwischen Darm und Gehirn können verändert sein.",
+      "Die Diagnose stützt sich auf das typische Beschwerdemuster und eine gezielte Basisdiagnostik, nicht auf einen einzelnen speziellen Reizdarmtest.",
+      "Ernährung, lösliche Ballaststoffe, ausgewählte Medikamente und psychologische Verfahren können je nach Beschwerdebild helfen.",
+      "Blut im Stuhl, ungewollter Gewichtsverlust, Fieber oder nächtliche Beschwerden sind Warnzeichen und müssen abgeklärt werden."
+    ],
+    sections: [
+      {
+        id: "was-ist-reizdarm",
+        heading: "Was ist das Reizdarmsyndrom?",
+        paragraphs: [
+          "Das Reizdarmsyndrom (RDS, international IBS für Irritable Bowel Syndrome) ist eine chronische Erkrankung der Darm-Darm-Hirn-Interaktion. Typisch sind wiederkehrende Bauchschmerzen in Verbindung mit Veränderungen der Stuhlentleerung oder der Stuhlform. Blähungen, Völlegefühl und ein Gefühl unvollständiger Entleerung können hinzukommen.",
+          "Die Beschwerden sind körperlich real und nicht Ausdruck von Einbildung. Bei vielen Betroffenen lassen sich jedoch keine strukturellen Schäden nachweisen, wie sie etwa bei chronisch-entzündlichen Darmerkrankungen vorkommen. Das bedeutet nicht, dass die Symptome weniger belastend sind.",
+          "Das Reizdarmsyndrom ist eine heterogene Erkrankung: Bei manchen stehen Schmerzen und Verstopfung im Vordergrund, bei anderen Durchfall oder Blähungen. Entsprechend gibt es keine einzige Behandlung, die allen Betroffenen gleichermaßen hilft."
+        ]
+      },
+      {
+        id: "ursachen-mechanismen",
+        heading: "Ursachen: Warum reagiert der Darm so empfindlich?",
+        paragraphs: [
+          "Die Entstehung ist komplex und meist nicht auf eine einzelne Ursache zurückzuführen. Eine Rolle spielen können eine erhöhte Empfindlichkeit der Darmnerven, veränderte Darmbewegungen, die Verarbeitung von Schmerzsignalen im Nervensystem und Veränderungen der Darm-Hirn-Kommunikation.",
+          "Bei einem Teil der Betroffenen beginnen Beschwerden nach einer Magen-Darm-Infektion. Auch Veränderungen der Darmmikrobiota, eine gestörte Schleimhautbarriere und niedriggradige Immunaktivität werden erforscht. Diese Mechanismen treffen jedoch nicht auf alle Betroffenen zu und sind bislang keine individuellen Routinetests.",
+          "Stress, Schlafmangel und psychische Belastungen können Beschwerden verstärken. Sie sind aber weder die einzige Ursache noch ein Beweis dafür, dass die Erkrankung psychisch bedingt ist. Körperliche und psychische Faktoren beeinflussen sich wechselseitig."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Typische Symptome",
+        paragraphs: [
+          "Häufig sind wiederkehrende Bauchschmerzen oder Bauchkrämpfe, die mit dem Stuhlgang zusammenhängen oder gemeinsam mit einer Veränderung der Stuhlhäufigkeit beziehungsweise Stuhlform auftreten. Manche Betroffene verspüren nach dem Toilettengang eine Besserung, andere nicht.",
+          "Weitere mögliche Beschwerden sind Blähungen, ein sichtbarer aufgeblähter Bauch, Völlegefühl, Schleimbeimengungen, plötzlicher Stuhldrang oder das Gefühl, den Darm nicht vollständig entleert zu haben. Die Beschwerden können in ihrer Stärke schwanken.",
+          "Zusätzlich berichten manche Menschen über Müdigkeit, Übelkeit, Rückenbeschwerden oder Beschwerden außerhalb des Verdauungstrakts. Solche Symptome sind unspezifisch und sollten im Gesamtzusammenhang bewertet werden."
+        ]
+      },
+      {
+        id: "formen",
+        heading: "Welche Reizdarmtypen gibt es?",
+        paragraphs: [
+          "Die Einteilung richtet sich vor allem nach der vorherrschenden Stuhlform. Beim Reizdarm mit Verstopfung (RDS-C) ist der Stuhl häufig hart oder klumpig. Beim Reizdarm mit Durchfall (RDS-D) treten häufiger weiche oder wässrige Stühle auf.",
+          "Beim Mischtyp (RDS-M) wechseln sich Phasen mit hartem und weichem beziehungsweise wässrigem Stuhl ab. Beim nicht näher bezeichneten Typ (RDS-U) passt das Stuhlmuster nicht eindeutig in die anderen Gruppen.",
+          "Die Einteilung kann sich im Verlauf verändern. Ein Stuhl- und Symptomtagebuch über einige Wochen kann helfen, Muster zu erkennen und die Behandlung gezielter auszurichten."
+        ]
+      },
+      {
+        id: "ausloeser",
+        heading: "Mögliche Auslöser und Verstärker",
+        paragraphs: [
+          "Bestimmte Speisen und Getränke können bei einzelnen Menschen Beschwerden auslösen oder verstärken. Dazu zählen beispielsweise große oder sehr fettreiche Mahlzeiten, Alkohol, koffeinhaltige Getränke, kohlensäurehaltige Getränke oder bestimmte fermentierbare Kohlenhydrate. Die Verträglichkeit ist individuell verschieden.",
+          "Auch hastiges Essen, unregelmäßige Mahlzeiten, Schlafmangel, Stress und ein wechselnder Tagesrhythmus können eine Rolle spielen. Nicht jeder vermutete Auslöser ist tatsächlich verantwortlich. Eine systematische Beobachtung ist sinnvoller als immer mehr Lebensmittel vorsorglich zu streichen.",
+          "Ein Symptomtagebuch kann Mahlzeiten, Beschwerden, Stuhlform, Schlaf und besondere Belastungen dokumentieren. Es sollte nicht zu einer übermäßigen Selbstkontrolle oder unnötig restriktiven Ernährung führen."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Wie wird ein Reizdarm diagnostiziert?",
+        paragraphs: [
+          "Die Diagnose basiert auf einem typischen, länger bestehenden Beschwerdebild, einer sorgfältigen Krankengeschichte und einer gezielten Untersuchung. Nach der deutschen S3-Leitlinie müssen die Beschwerden chronisch oder wiederkehrend sein, vom Betroffenen auf den Darm bezogen werden und die Lebensqualität relevant beeinträchtigen beziehungsweise Anlass zur medizinischen Hilfe geben.",
+          "Zusätzlich muss geprüft werden, ob andere Erkrankungen die Symptome erklären könnten. Welche Untersuchungen sinnvoll sind, hängt unter anderem von Alter, Dauer, Verlauf, Begleitsymptomen und dem vorherrschenden Beschwerdetyp ab.",
+          "Zur Basisdiagnostik können körperliche Untersuchung und Bluttests gehören, beispielsweise Blutbild, Entzündungswerte und bei passender Symptomatik eine Untersuchung auf Zöliakie. Bei Durchfall können Stuhluntersuchungen auf Erreger oder Calprotectin sinnvoll sein, um Infektionen beziehungsweise eine Darmentzündung abzuklären.",
+          "Eine Darmspiegelung ist nicht automatisch bei jedem Menschen mit typischen Reizdarmbeschwerden erforderlich. Sie kann jedoch bei Warnzeichen, bestimmten Risikokonstellationen, neu aufgetretenen Beschwerden im höheren Alter oder anhaltendem Durchfall notwendig sein. Die Entscheidung trifft die behandelnde Praxis anhand der Gesamtsituation.",
+          "Es gibt keinen einzelnen Blut- oder Stuhltest, der ein Reizdarmsyndrom sicher bestätigt. Kommerzielle Mikrobiomtests oder pauschale Unverträglichkeitstests ersetzen die medizinische Diagnostik nicht."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Warnzeichen: Wann steckt möglicherweise etwas anderes dahinter?",
+        paragraphs: [
+          "Blut im Stuhl, schwarzer teerartiger Stuhl, ungewollter Gewichtsverlust, Fieber, nächtlich aus dem Schlaf weckende Durchfälle, Blutarmut oder anhaltendes Erbrechen sollten ärztlich abgeklärt werden. Auch neu auftretende, zunehmende oder ungewöhnlich starke Beschwerden gehören untersucht.",
+          "Eine familiäre Belastung mit Darmkrebs, chronisch-entzündlichen Darmerkrankungen oder Zöliakie kann die weitere Diagnostik beeinflussen. Bei starken akuten Bauchschmerzen, Kreislaufproblemen oder erheblicher Blutung ist sofortige medizinische Hilfe erforderlich.",
+          "Ein Reizdarmsyndrom darf nicht vorschnell angenommen werden, wenn Warnzeichen bestehen. Gleichzeitig ist es nach angemessener Diagnostik nicht sinnvoll, ohne konkreten Anlass immer wieder dieselben Untersuchungen zu wiederholen."
+        ]
+      },
+      {
+        id: "allgemeine-behandlung",
+        heading: "Behandlung: individuell statt Einheitslösung",
+        paragraphs: [
+          "Die Behandlung richtet sich nach den vorherrschenden Symptomen, ihrer Stärke und den persönlichen Zielen. Ein verständliches Krankheitsmodell und eine verlässliche ärztliche Begleitung sind wichtige Bestandteile. Häufig wird schrittweise geprüft, welche Maßnahmen helfen.",
+          "Regelmäßige Mahlzeiten, ausreichend Zeit zum Essen, Bewegung, Schlaf und ein möglichst regelmäßiger Tagesrhythmus können unterstützend wirken. Diese Maßnahmen sind keine Garantie für Beschwerdefreiheit, bilden aber eine sinnvolle Grundlage.",
+          "Ein Symptomtagebuch kann dabei helfen, die Wirkung einzelner Veränderungen zu beurteilen. Es ist meist besser, jeweils eine Maßnahme gezielt zu testen, statt gleichzeitig zahlreiche Lebensmittel und Gewohnheiten zu verändern."
+        ]
+      },
+      {
+        id: "ernaehrung-low-fodmap",
+        heading: "Ernährung und Low-FODMAP-Diät",
+        paragraphs: [
+          "Eine ausgewogene Ernährung mit regelmäßigen Mahlzeiten ist ein sinnvoller Ausgangspunkt. Große Mahlzeiten, sehr fettreiche Speisen, Alkohol oder viel Koffein können bei manchen Menschen Beschwerden verstärken. Es gibt jedoch keine allgemeingültige Reizdarmdiät.",
+          "Bei anhaltenden Beschwerden kann eine zeitlich begrenzte Low-FODMAP-Ernährung erwogen werden. FODMAP sind bestimmte kurzkettige Kohlenhydrate und Zuckeralkohole, die im Darm schlecht aufgenommen werden und bei empfindlichen Menschen Wasser binden und vergoren werden können. Beispiele finden sich unter anderem in einigen Obstsorten, Weizenprodukten, Zwiebeln, Hülsenfrüchten und Milchprodukten mit Laktose.",
+          "Die Low-FODMAP-Ernährung besteht üblicherweise aus einer begrenzten Testphase, einer systematischen Wiedereinführung und einer langfristig personalisierten Ernährung. Sie sollte möglichst mit einer qualifizierten Ernährungsfachkraft durchgeführt werden. Eine dauerhaft strenge Einschränkung ist nicht das Ziel und kann die Lebensmittelauswahl unnötig verengen.",
+          "Eine glutenfreie Ernährung sollte nicht vorschnell begonnen werden, bevor eine mögliche Zöliakie untersucht wurde. Wer vorher Gluten weglässt, kann die Aussagekraft der entsprechenden Bluttests und Untersuchungen beeinträchtigen."
+        ]
+      },
+      {
+        id: "ballaststoffe",
+        heading: "Ballaststoffe: Welche sind geeignet?",
+        paragraphs: [
+          "Lösliche Ballaststoffe wie Flohsamenschalen können bei manchen Betroffenen sowohl bei Verstopfung als auch bei anderen Reizdarmbeschwerden hilfreich sein. Sie sollten langsam eingeschlichen und mit ausreichend Flüssigkeit eingenommen werden. Die Verträglichkeit ist individuell.",
+          "Grobe, unlösliche Ballaststoffe wie Weizenkleie können Blähungen oder Schmerzen bei manchen Menschen verstärken. Eine pauschale Empfehlung, möglichst viel Kleie zu essen, ist daher nicht für alle passend.",
+          "Bei ausgeprägten Beschwerden, Schluckproblemen, Darmverengungen oder regelmäßiger Medikamenteneinnahme sollte die Anwendung von Ballaststoffpräparaten vorher medizinisch oder pharmazeutisch besprochen werden."
+        ]
+      },
+      {
+        id: "medikamente",
+        heading: "Welche Medikamente können helfen?",
+        paragraphs: [
+          "Bei krampfartigen Schmerzen können je nach Situation krampflösende Mittel eingesetzt werden. Pfefferminzöl in magensaftresistenten Kapseln kann bei manchen Betroffenen Schmerzen und Blähungen lindern; es ist nicht für alle geeignet und kann beispielsweise Sodbrennen verstärken.",
+          "Bei Durchfall können nach ärztlicher oder pharmazeutischer Beratung Mittel wie Loperamid eingesetzt werden. Sie können die Stuhlhäufigkeit reduzieren, behandeln aber nicht alle Reizdarmsymptome und sind bei Fieber oder blutigem Durchfall nicht ohne Abklärung geeignet.",
+          "Bei Verstopfung kommen je nach Situation lösliche Ballaststoffe oder bestimmte Abführmittel infrage. Die Auswahl richtet sich nach Beschwerden und Begleiterkrankungen. Bei Mischformen muss besonders auf eine ausgewogene Strategie geachtet werden.",
+          "Bei anhaltenden Schmerzen können in ausgewählten Fällen niedrig dosierte trizyklische Antidepressiva oder andere neuromodulierende Medikamente erwogen werden. Die Anwendung erfolgt unter ärztlicher Anleitung; sie bedeutet nicht, dass die Beschwerden eingebildet sind. Nutzen, Nebenwirkungen und Behandlungsdauer sollten regelmäßig überprüft werden.",
+          "Medikamentöse Therapieversuche sollten ein konkretes Ziel haben. Wenn ein Präparat nicht hilft oder Nebenwirkungen auftreten, sollte die Behandlung überprüft und nicht unbegrenzt unverändert fortgesetzt werden."
+        ]
+      },
+      {
+        id: "psyche-therapie",
+        heading: "Stress, Psychotherapie und Darm-Hirn-Achse",
+        paragraphs: [
+          "Darm und Gehirn kommunizieren über Nervenbahnen, Hormone und Immunbotenstoffe. Bei Reizdarm können Signale aus dem Darm stärker wahrgenommen und verarbeitet werden. Stress kann die Darmbewegung und Schmerzempfindlichkeit beeinflussen, ist aber nicht die alleinige Ursache der Erkrankung.",
+          "Bei mittleren bis schweren Beschwerden oder deutlicher Einschränkung der Lebensqualität können psychotherapeutische Verfahren Teil der Behandlung sein. Dazu zählen insbesondere kognitive Verhaltenstherapie und bauchgerichtete Hypnose. Sie zielen darauf ab, den Umgang mit Beschwerden und die Verarbeitung von Körpersignalen zu verbessern.",
+          "Psychotherapeutische Unterstützung ersetzt nicht die medizinische Betreuung. Beide Ansätze können kombiniert werden und sind besonders dann sinnvoll, wenn Beschwerden trotz angemessener Behandlung anhalten."
+        ]
+      },
+      {
+        id: "probiotika",
+        heading: "Probiotika und Nahrungsergänzungsmittel",
+        paragraphs: [
+          "Die Studienlage zu Probiotika beim Reizdarmsyndrom ist uneinheitlich. Mögliche Effekte hängen vom jeweiligen Bakterienstamm und Produkt ab. Aus Ergebnissen zu einem Präparat kann nicht auf alle Probiotika geschlossen werden.",
+          "Wenn ein Probiotikum ausprobiert wird, sollte vorher ein konkretes Beschwerdeziel vereinbart und nach einer begrenzten Zeit geprüft werden, ob eine spürbare Verbesserung eintritt. Bei schwerer Erkrankung oder geschwächtem Immunsystem ist vorher medizinischer Rat erforderlich.",
+          "Für viele Detox-Kuren, Darmreinigungen und pauschale Supplementkombinationen ist kein verlässlicher Nutzen belegt. Sie können unnötige Kosten verursachen oder Nebenwirkungen auslösen."
+        ]
+      },
+      {
+        id: "alltag",
+        heading: "Mit Reizdarm im Alltag umgehen",
+        paragraphs: [
+          "Planbare Mahlzeiten, ausreichend Zeit für Toilettengänge und regelmäßige Bewegung können den Alltag erleichtern. Bei dringlichem Stuhldrang kann es hilfreich sein, Toilettenmöglichkeiten unterwegs vorab einzuplanen. Das sollte nicht dazu führen, dass Aktivitäten dauerhaft vermieden werden.",
+          "Ein realistischer Umgang mit Rückschlägen ist wichtig: Reizdarmbeschwerden schwanken häufig. Ein schlechter Tag bedeutet nicht automatisch, dass eine Behandlung gescheitert ist. Veränderungen sollten über einen angemessenen Zeitraum beurteilt werden.",
+          "Selbsthilfegruppen und seriöse Patienteninformationen können ergänzen. Bei deutlicher Einschränkung von Arbeit, sozialen Kontakten oder Lebensqualität sollte die Behandlung gemeinsam mit der Praxis angepasst werden."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zum Reizdarmsyndrom",
+        paragraphs: [
+          "**Ist Reizdarm eine psychische Erkrankung?** Nein. Es handelt sich um eine Störung der Darm-Darm-Hirn-Interaktion. Psychische Belastungen können Beschwerden beeinflussen, sind aber nicht die einzige Ursache.",
+          "**Kann Reizdarm geheilt werden?** Der Verlauf ist unterschiedlich. Viele Menschen können ihre Beschwerden durch eine passende Kombination aus Ernährung, Lebensstil und Behandlung deutlich reduzieren. Eine dauerhaft vollständige Beschwerdefreiheit lässt sich nicht versprechen.",
+          "**Ist Reizdarm gefährlich?** Das Reizdarmsyndrom selbst verursacht nach heutigem Verständnis keine Darmschäden wie chronisch-entzündliche Darmerkrankungen. Neue Warnzeichen oder veränderte Beschwerden müssen dennoch abgeklärt werden.",
+          "**Hilft eine Low-FODMAP-Diät jedem?** Nein. Sie kann bei einem Teil der Betroffenen helfen, sollte aber zeitlich begrenzt und mit Wiedereinführung der Lebensmittel durchgeführt werden.",
+          "**Kann Stress Reizdarm auslösen?** Stress kann Symptome verstärken und die Darm-Hirn-Kommunikation beeinflussen. Die Erkrankung ist jedoch nicht auf Stress allein zurückzuführen.",
+          "**Brauche ich eine Darmspiegelung?** Nicht automatisch. Ob sie sinnvoll ist, hängt von Alter, Symptomen, Warnzeichen, Risikofaktoren und bisherigen Untersuchungsergebnissen ab.",
+          "**Sind Mikrobiomtests sinnvoll?** Für die routinemäßige Diagnose oder Auswahl einer Reizdarmtherapie sind kommerzielle Mikrobiomtests derzeit nicht ausreichend validiert."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Wiederkehrende Bauchbeschwerden sollten insbesondere bei Warnzeichen medizinisch abgeklärt werden. Medikamente, Ernährungsrestriktionen und Nahrungsergänzungsmittel sollten bei anhaltenden Beschwerden mit medizinischem Fachpersonal abgestimmt werden."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "Reizdarmsyndrom – S3-Leitlinie (Leitlinie 2021; Aktualisierung angemeldet 2026)",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) / AWMF",
+        url: "https://www.dgvs.de/leitlinien/unterer-gi-trakt/reizdarmsyndrom/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Reizdarmsyndrom: Definition, Pathophysiologie, Diagnostik und Therapie – Aktualisierung angemeldet am 20.05.2026",
+        publisher: "Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)",
+        url: "https://www.awmf.org/aktuelles/awmf-aktuell/reizdarmsyndrom-definition-pathophysiologie-diagnostik-und-therapie",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Kurzinformation: Reizdarmsyndrom",
+        publisher: "Ärztliches Zentrum für Qualität in der Medizin (ÄZQ) / Patienteninformation",
+        url: "https://www.patienten-information.de/kurzinformationen/reizdarmsyndrom",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Irritable bowel syndrome in adults: diagnosis and management",
+        publisher: "National Institute for Health and Care Excellence (NICE)",
+        url: "https://www.nice.org.uk/guidance/cg61",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Low FODMAP Diet",
+        publisher: "Monash University",
+        url: "https://www.monashfodmap.com/about-fodmap-and-ibs/",
+        accessed: "2026-11-26"
+      }
+    ]
+  },
+
+
+  {
     slug: "pfefferminzoel-reizdarm",
     title: "Pfefferminzöl bei Reizdarm: Nutzen und Risiken",
     category: "natur-hausmittel",
