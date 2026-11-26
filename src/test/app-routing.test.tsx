@@ -22,6 +22,7 @@ describe("App routing", () => {
     "/bewegung-fitness",
     "/vitamine-naehrstoffe",
     "/gesundheitswissen",
+    "/ratgeber",
     "/gesundheitslexikon",
     "/ratgeber/vitamin-d-grundlagen",
     "/ratgeber/magnesium-im-alltag",
