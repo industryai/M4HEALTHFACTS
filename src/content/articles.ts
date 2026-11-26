@@ -1483,6 +1483,92 @@ export const articles: Article[] = [
     ]
   },
 
+
+  {
+    slug: "insomnie-schlafstoerungen",
+    title: "Insomnie: Ein- und Durchschlafstörungen verstehen",
+    category: "schlaf-psyche",
+    tags: ["Insomnie", "Schlafstörungen", "Schlaf", "Kognitive Verhaltenstherapie"],
+    intro: "Wer über längere Zeit schlecht ein- oder durchschläft und tagsüber darunter leidet, kann von einer Insomnie betroffen sein. Die aktuelle deutsche S3-Leitlinie empfiehlt die kognitive Verhaltenstherapie für Insomnie als erste Behandlungsoption.",
+    excerpt: "Wann Schlafprobleme als Insomnie gelten, welche Faktoren sie aufrechterhalten können und welche Behandlung laut S3-Leitlinie zuerst empfohlen wird.",
+    readingMinutes: 9, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: ["Insomnie umfasst Ein- oder Durchschlafstörungen beziehungsweise frühes Erwachen mit Beeinträchtigung am Tag.", "Die S3-Leitlinie 2025 empfiehlt die kognitive Verhaltenstherapie für Insomnie (KVT-I) als erste Behandlungsoption.", "Schlafmittel sind keine pauschale Dauerlösung; die Behandlung sollte individuell ärztlich abgestimmt werden."],
+    sections: [
+      { id: "definition", heading: "Was ist eine Insomnie?", paragraphs: ["Insomnie bezeichnet anhaltende Ein- oder Durchschlafstörungen oder frühmorgendliches Erwachen, die mit einer Beeinträchtigung des Wohlbefindens oder der Leistungsfähigkeit am Tag verbunden sind. Nicht jede einzelne schlechte Nacht ist eine Schlafstörung.", "Für die Diagnose werden unter anderem Häufigkeit, Dauer, ausreichende Schlafgelegenheit und Auswirkungen am Tag berücksichtigt. Die genaue Einordnung erfolgt durch medizinische Fachpersonen."]},
+      { id: "ursachen", heading: "Warum können Schlafprobleme anhalten?", paragraphs: ["Auslöser können Stress, belastende Lebensereignisse, Schmerzen, körperliche oder psychische Erkrankungen, Medikamente und unregelmäßige Schlafzeiten sein. Häufig entsteht ein Kreislauf: Die Sorge vor einer weiteren schlechten Nacht erhöht die Anspannung, und das Bett wird zunehmend mit Wachliegen verbunden.", "Auch Alkohol kann zwar zunächst müde machen, aber die Schlafqualität und den Schlafverlauf beeinträchtigen. Koffein spät am Tag kann das Einschlafen erschweren."]},
+      { id: "behandlung", heading: "Welche Behandlung wird empfohlen?", paragraphs: ["Die aktualisierte deutsche S3-Leitlinie „Insomnie bei Erwachsenen“ (Version 2.0, April 2025) empfiehlt die kognitive Verhaltenstherapie für Insomnie (KVT-I) als erste Behandlungsoption. Sie kann unter anderem in Einzel- oder Gruppentherapie und auch digital angeboten werden.", "KVT-I arbeitet mit schlafbezogenen Gedanken und Verhaltensmustern. Dazu gehören je nach Therapiebaustein beispielsweise Stimuluskontrolle, Anpassung der im Bett verbrachten Zeit, kognitive Techniken und Entspannungsverfahren. Wenn KVT-I nicht ausreichend hilft oder nicht durchführbar ist, können weitere Optionen gemeinsam mit der Ärztin oder dem Arzt abgewogen werden."]},
+      { id: "schlafhygiene", heading: "Welche Rolle spielt Schlafhygiene?", paragraphs: ["Regelmäßige Aufstehzeiten, eine ruhige und dunkle Schlafumgebung sowie ein bewusster Umgang mit Koffein, Alkohol und spätem Bildschirmlicht können unterstützend sein. Schlafhygiene allein ist bei einer ausgeprägten oder chronischen Insomnie jedoch nicht mit einer gezielten Behandlung gleichzusetzen.", "Ein Schlaftagebuch über einige Wochen kann helfen, Schlafzeiten, Wachphasen und Tagesbefinden zu erfassen."]},
+      { id: "hilfe", heading: "Wann sollte man Hilfe suchen?", paragraphs: ["Wenn Schlafprobleme über Wochen bestehen, den Alltag beeinträchtigen oder mit starker Tagesmüdigkeit, depressiver Stimmung, Angst oder anderen Beschwerden einhergehen, ist eine ärztliche Abklärung sinnvoll. Auch mögliche körperliche Ursachen wie Schlafapnoe sollten berücksichtigt werden.", "Schlafmittel oder andere Medikamente sollten nicht eigenständig begonnen, kombiniert oder abrupt abgesetzt werden. Die Wahl einer Behandlung hängt von Beschwerden, Begleiterkrankungen und Risiken ab."]}
+    ],
+    sources: [
+      { title: "S3-Leitlinie Insomnie bei Erwachsenen, Version 2.0", publisher: "AWMF / Deutsche Gesellschaft für Schlafforschung und Schlafmedizin", url: "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf", accessed: "2026-11-26" },
+      { title: "Insomnie bei Erwachsenen – Leitlinieninformation", publisher: "AWMF", url: "https://www.awmf.org/aktuelles/awmf-aktuell/insomnie-bei-erwachsenen", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "schlafapnoe-erkennen",
+    title: "Schlafapnoe erkennen: Atemaussetzer im Schlaf",
+    category: "schlaf-psyche",
+    tags: ["Schlafapnoe", "Schnarchen", "Atemaussetzer", "Schlaf"],
+    intro: "Bei einer obstruktiven Schlafapnoe verengen oder verschließen sich die oberen Atemwege während des Schlafs wiederholt. Betroffene bemerken die Atemaussetzer oft nicht selbst – Hinweise können lautes Schnarchen und ausgeprägte Tagesmüdigkeit sein.",
+    excerpt: "Typische Symptome, Risikofaktoren, Untersuchungen und Behandlungsmöglichkeiten der obstruktiven Schlafapnoe.",
+    readingMinutes: 8, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: ["Lautes Schnarchen allein beweist keine Schlafapnoe; wiederholte Atemaussetzer sind ein wichtiges Merkmal.", "Tagesmüdigkeit, morgendliche Kopfschmerzen und Konzentrationsprobleme können Hinweise sein.", "Die Abklärung erfolgt häufig zunächst mit einer nächtlichen Messung und bei Bedarf im Schlaflabor."],
+    sections: [
+      { id: "was-ist", heading: "Was passiert bei einer Schlafapnoe?", paragraphs: ["Bei der obstruktiven Schlafapnoe erschlaffen im Schlaf Strukturen im Rachenraum, sodass die oberen Atemwege wiederholt teilweise oder vollständig blockiert werden. Die Atmung setzt kurzzeitig aus oder wird deutlich vermindert. Dadurch kann der Schlaf immer wieder unterbrochen werden.", "Viele Betroffene erinnern sich nicht an diese kurzen Aufwachreaktionen. Die Schlafqualität kann trotzdem erheblich leiden."]},
+      { id: "symptome", heading: "Welche Symptome können auftreten?", paragraphs: ["Häufige Hinweise sind lautes, unregelmäßiges Schnarchen, beobachtete Atemaussetzer und ausgeprägte Müdigkeit am Tag. Auch Konzentrationsstörungen, morgendliche Kopfschmerzen, trockener Mund, nächtliches Schwitzen oder häufiges Wasserlassen können vorkommen.", "Nicht jede Person mit Schlafapnoe ist deutlich schläfrig. Umgekehrt bedeutet Schnarchen ohne weitere Hinweise nicht automatisch, dass eine Schlafapnoe vorliegt."]},
+      { id: "risiken", heading: "Risikofaktoren", paragraphs: ["Übergewicht ist ein wichtiger Risikofaktor, aber Schlafapnoe kann auch bei normalem Körpergewicht auftreten. Anatomische Besonderheiten im Rachenraum, Alter und weitere individuelle Faktoren können ebenfalls eine Rolle spielen.", "Alkohol und beruhigende Substanzen können die Atemwege zusätzlich beeinflussen. Medikamente sollten dennoch nicht eigenständig abgesetzt werden; mögliche Zusammenhänge gehören in die ärztliche Beratung."]},
+      { id: "diagnose", heading: "Wie wird Schlafapnoe diagnostiziert?", paragraphs: ["Die Abklärung beginnt mit einem Gespräch über Beschwerden, Schlafgewohnheiten und Vorerkrankungen sowie einer körperlichen Untersuchung. Häufig wird zunächst ein tragbares Messgerät für zu Hause eingesetzt. Es kann unter anderem Atmung, Sauerstoffsättigung, Herzfrequenz, Schnarchen und Körperlage erfassen.", "Bei auffälligen Ergebnissen oder weiterem Klärungsbedarf kann eine Untersuchung im Schlaflabor folgen. Dort werden zusätzliche Schlaf- und Körperfunktionen aufgezeichnet."]},
+      { id: "therapie", heading: "Welche Behandlungsmöglichkeiten gibt es?", paragraphs: ["Die Behandlung richtet sich nach Schweregrad, Ursache und individuellen Voraussetzungen. Bei bestimmten Betroffenen können Gewichtsreduktion, Lagerungstherapie oder Unterkieferprotrusionsschienen helfen. Bei ausgeprägter Schlafapnoe ist die CPAP-Therapie eine zentrale und wirksame Behandlung: Ein Gerät hält die Atemwege über eine Maske mit leichtem Luftdruck offen.", "Bei anhaltender Tagesmüdigkeit, beobachteten Atemaussetzern oder starkem Schnarchen mit weiteren Beschwerden sollte die Hausarztpraxis angesprochen werden. Unbehandelte Schlafapnoe kann gesundheitliche Risiken mit sich bringen."]}
+    ],
+    sources: [
+      { title: "Obstruktive Schlafapnoe: Ursachen, Symptome und Behandlung", publisher: "gesund.bund.de", url: "https://gesund.bund.de/obstruktive-schlafapnoe-osa", accessed: "2026-11-26" },
+      { title: "Obstruktive Schlafapnoe", publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG)", url: "https://www.gesundheitsinformation.de/obstruktive-schlafapnoe.html", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "melatonin-schlafmittel",
+    title: "Melatonin zum Schlafen: Wirkung, Nutzen und Risiken",
+    category: "schlaf-psyche",
+    tags: ["Melatonin", "Schlaf", "Nahrungsergänzung", "Schlafrhythmus"],
+    intro: "Melatonin ist ein körpereigenes Hormon, das den Tag-Nacht-Rhythmus mitsteuert. Präparate werden häufig als Einschlafhilfe beworben. Für chronische Insomnie ist die Wirksamkeit jedoch nicht ausreichend belegt, und Langzeitsicherheit bleibt unklar.",
+    excerpt: "Wie Melatonin den Schlafrhythmus beeinflusst, bei welchen Situationen Hinweise bestehen und warum es keine pauschale Lösung für Schlafprobleme ist.",
+    readingMinutes: 8, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: ["Melatonin signalisiert dem Körper Dunkelheit und beeinflusst den zirkadianen Rhythmus.", "Für die Behandlung chronischer Insomnie reicht die Evidenz laut NCCIH nicht für eine allgemeine Empfehlung aus.", "Kurzfristige Anwendung gilt für viele Erwachsene als wahrscheinlich sicher; Langzeitfolgen und Wechselwirkungen sind nicht ausreichend geklärt."],
+    sections: [
+      { id: "hormon", heading: "Was ist Melatonin?", paragraphs: ["Melatonin ist ein Hormon, das vor allem bei Dunkelheit von der Zirbeldrüse ausgeschüttet wird. Es hilft dabei, den inneren 24-Stunden-Rhythmus zeitlich zu koordinieren. Helles Licht am Abend und in der Nacht kann die körpereigene Melatoninproduktion beeinflussen.", "Melatonin ist kein klassisches Schlafmittel, das zuverlässig jede Form von Schlaflosigkeit beseitigt. Seine Wirkung hängt unter anderem vom Zeitpunkt der Einnahme und vom zugrunde liegenden Schlafproblem ab."]},
+      { id: "nutzen", heading: "Bei welchen Problemen kann es helfen?", paragraphs: ["Für bestimmte Situationen wie Jetlag oder einzelne Störungen des Schlaf-Wach-Rhythmus gibt es Hinweise auf einen Nutzen. Für chronische Insomnie ist die Studienlage laut dem US-amerikanischen NCCIH nicht ausreichend, um Melatoninpräparate als wirksame und sichere Standardbehandlung zu empfehlen.", "Bei Schichtarbeit sind Studien klein oder uneinheitlich. Die Einnahme sollte daher nicht als verlässliche Lösung für wechselnde Arbeitszeiten verstanden werden."]},
+      { id: "risiken", heading: "Nebenwirkungen und Wechselwirkungen", paragraphs: ["Mögliche kurzfristige Nebenwirkungen sind Schläfrigkeit, Kopfschmerzen, Schwindel und Übelkeit. Die Langzeitsicherheit ist nicht ausreichend geklärt. Wechselwirkungen mit Medikamenten sind möglich; besondere Vorsicht gilt unter anderem bei Blutverdünnern und Epilepsie.", "In Schwangerschaft und Stillzeit ist die Datenlage begrenzt. Bei Kindern und Jugendlichen sollte Melatonin nur nach fachlicher Beratung eingesetzt werden. Nahrungsergänzungsmittel können zudem in ihrer tatsächlichen Zusammensetzung von der Deklaration abweichen."]},
+      { id: "alternativen", heading: "Was ist bei anhaltenden Schlafproblemen sinnvoll?", paragraphs: ["Bei chronischer Insomnie empfiehlt die deutsche S3-Leitlinie die kognitive Verhaltenstherapie für Insomnie als erste Behandlungsoption. Sie setzt an Schlafgewohnheiten, Gedanken und Verhaltensmustern an, die Schlafprobleme aufrechterhalten können.", "Wenn Sie Melatonin oder andere Präparate erwägen, sprechen Sie bei regelmäßiger Medikamenteneinnahme, chronischen Erkrankungen oder länger anhaltenden Beschwerden mit einer medizinischen Fachperson."]},
+      { id: "fazit", heading: "Fazit: Hormon mit begrenztem Einsatzbereich", paragraphs: ["Melatonin beeinflusst den Schlaf-Wach-Rhythmus, ist aber kein universelles Mittel gegen Schlaflosigkeit. Für chronische Insomnie ist die Evidenz unzureichend; die langfristige Sicherheit bleibt offen. Die Ursache anhaltender Schlafprobleme sollte gezielt eingeordnet werden."]}
+    ],
+    sources: [
+      { title: "Melatonin: What You Need To Know", publisher: "National Center for Complementary and Integrative Health (NCCIH)", url: "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know", accessed: "2026-11-26" },
+      { title: "S3-Leitlinie Insomnie bei Erwachsenen", publisher: "AWMF", url: "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "stress-cortisol-verstehen",
+    title: "Stress und Cortisol: Was im Körper wirklich passiert",
+    category: "schlaf-psyche",
+    tags: ["Stress", "Cortisol", "Stressreaktion", "Psyche"],
+    intro: "Cortisol ist ein lebenswichtiges Hormon und Teil der körpereigenen Stressreaktion. Es ist nicht grundsätzlich schädlich und lässt sich nicht auf einen einzelnen Wert oder die populäre Vorstellung eines dauerhaft „zu hohen Cortisolspiegels“ reduzieren.",
+    excerpt: "Wie die Stressreaktion funktioniert, welche Aufgaben Cortisol erfüllt und warum Selbsttests und Detox-Versprechen oft zu kurz greifen.",
+    readingMinutes: 9, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: ["Cortisol folgt einem Tagesrhythmus und erfüllt wichtige Aufgaben im Stoffwechsel und bei der Stressanpassung.", "Stress ist eine komplexe körperliche und psychische Reaktion, nicht nur ein Cortisolwert.", "Bei anhaltender Belastung können Schlaf, Stimmung und Gesundheit leiden; pauschale Cortisol-Detox-Produkte sind keine etablierte Behandlung."],
+    sections: [
+      { id: "stressreaktion", heading: "Was passiert bei Stress?", paragraphs: ["Bei einer akuten Belastung aktiviert der Körper mehrere Systeme, die Aufmerksamkeit und Energiebereitstellung unterstützen. Dazu gehören das autonome Nervensystem und die hormonelle Stressachse zwischen Hypothalamus, Hypophyse und Nebennieren.", "Cortisol ist ein Bestandteil dieser Reaktion. Es hilft unter anderem, den Energiestoffwechsel zu regulieren und den Körper an wechselnde Anforderungen anzupassen. Eine kurzfristige Cortisolreaktion ist daher zunächst eine normale physiologische Funktion."]},
+      { id: "cortisol", heading: "Was ist Cortisol?", paragraphs: ["Cortisol ist ein Glukokortikoid, das in der Nebennierenrinde gebildet wird. Es beeinflusst unter anderem Stoffwechsel, Kreislauf, Immunreaktionen und den Umgang mit Belastungen. Die Konzentration verändert sich im Tagesverlauf und wird durch Schlaf-Wach-Rhythmus, Erkrankungen, Medikamente und akute Situationen beeinflusst.", "Ein einzelner Messwert ohne passende Fragestellung und zeitlichen Kontext erlaubt keine verlässliche Aussage darüber, ob jemand „zu viel Stress“ hat."]},
+      { id: "chronischer-stress", heading: "Was kann chronische Belastung bewirken?", paragraphs: ["Länger anhaltender Stress kann mit Schlafproblemen, Reizbarkeit, Konzentrationsschwierigkeiten, Muskelanspannung und psychischer Erschöpfung einhergehen. Die Auswirkungen sind individuell und hängen von Belastung, Erholung, sozialer Unterstützung und weiteren Gesundheitsfaktoren ab.", "Nicht jedes Symptom ist automatisch stressbedingt. Neue, starke oder anhaltende Beschwerden sollten medizinisch eingeordnet werden, statt sie allein auf Cortisol zurückzuführen."]},
+      { id: "alltag", heading: "Was kann beim Umgang mit Stress helfen?", paragraphs: ["Hilfreich können regelmäßige Bewegung, ausreichende Erholung, soziale Unterstützung, realistische Prioritäten und Entspannungsverfahren sein. Bei Schlafproblemen können regelmäßige Schlafzeiten und eine bewusste Begrenzung von stimulierenden Aktivitäten am Abend unterstützen.", "Wenn Stress dauerhaft überfordert, Angst oder depressive Symptome auftreten oder der Alltag deutlich beeinträchtigt ist, kann professionelle Unterstützung sinnvoll sein. Psychotherapeutische und medizinische Angebote lassen sich an die individuelle Situation anpassen."]},
+      { id: "mythen", heading: "Cortisol-Detox und Selbsttests kritisch betrachten", paragraphs: ["Produkte, die pauschal versprechen, Cortisol zu „senken“, zu „entgiften“ oder einen Stressbauch gezielt zu beseitigen, sind kein Ersatz für eine medizinisch begründete Diagnostik. Für viele solcher Versprechen fehlt ein belastbarer Wirksamkeitsnachweis.", "Cortisol wird bei konkretem medizinischem Verdacht mit geeigneten, zeitlich abgestimmten Untersuchungen beurteilt. Heimtests oder einzelne Speichelwerte sollten nicht ohne fachliche Einordnung als Diagnose interpretiert werden."]}
+    ],
+    sources: [
+      { title: "Stress", publisher: "World Health Organization (WHO)", url: "https://www.who.int/news-room/questions-and-answers/item/stress", accessed: "2026-11-26" },
+      { title: "Cortisol", publisher: "MedlinePlus", url: "https://medlineplus.gov/lab-tests/cortisol-test/", accessed: "2026-11-26" }
+    ]
+  },
+
 ];
 
 export function getArticle(slug: string): Article | undefined {
