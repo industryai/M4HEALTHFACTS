@@ -910,6 +910,159 @@ export const articles: Article[] = [
     ]
   },
 
+
+  {
+    slug: "ballaststoffe-verdauung",
+    title: "Ballaststoffe: Warum sie für Verdauung und Gesundheit wichtig sind",
+    category: "ernaehrung",
+    tags: ["Ballaststoffe", "Verdauung", "Vollkorn", "Hülsenfrüchte", "Darm"],
+    intro: "Ballaststoffe sind pflanzliche Nahrungsbestandteile, die im Dünndarm nicht oder nur teilweise verdaut werden. Sie beeinflussen die Verdauung und können – als Teil einer ausgewogenen Ernährung – langfristig zur Gesundheit beitragen.",
+    excerpt: "Welche Lebensmittel reich an Ballaststoffen sind, warum die DGE mindestens 30 Gramm täglich empfiehlt und wie sich die Zufuhr verträglich steigern lässt.",
+    readingMinutes: 8,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Die DGE nennt für Erwachsene einen Richtwert von mindestens 30 Gramm Ballaststoffen pro Tag.",
+      "Gute Quellen sind Vollkornprodukte, Hülsenfrüchte, Gemüse, Obst, Nüsse und Samen.",
+      "Wer bisher ballaststoffarm isst, sollte die Menge schrittweise erhöhen und ausreichend trinken."
+    ],
+    sections: [
+      { id: "was-sind-ballaststoffe", heading: "Was sind Ballaststoffe?", paragraphs: [
+        "Ballaststoffe – auch Nahrungsfasern genannt – sind Bestandteile von Lebensmitteln, die von körpereigenen Verdauungsenzymen im Dünndarm nicht oder nicht vollständig abgebaut werden. Ein Teil gelangt in den Dickdarm und kann dort von Darmmikroorganismen fermentiert werden.",
+        "Es gibt unterschiedliche Arten von Ballaststoffen. Sie unterscheiden sich unter anderem darin, wie gut sie Wasser binden, quellen oder von Mikroorganismen abgebaut werden. Deshalb wirken nicht alle Ballaststoffe gleich."
+      ]},
+      { id: "wirkung", heading: "Wie wirken Ballaststoffe im Körper?", paragraphs: [
+        "Einige Ballaststoffe binden Wasser, erhöhen das Stuhlvolumen und beeinflussen die Darmbewegung. Andere werden im Dickdarm von Mikroorganismen fermentiert. Je nach Art können Ballaststoffe außerdem die Sättigung und die Aufnahme bestimmter Nährstoffe beeinflussen.",
+        "Eine ballaststoffreiche Ernährung wird in Studien mit einem geringeren Risiko für verschiedene Erkrankungen in Verbindung gebracht. Solche Zusammenhänge bedeuten jedoch nicht, dass ein einzelnes Lebensmittel oder ein Ballaststoffpräparat Krankheiten sicher verhindert."
+      ]},
+      { id: "quellen", heading: "Welche Lebensmittel enthalten viele Ballaststoffe?", paragraphs: [
+        "Besonders gute Quellen sind Hülsenfrüchte wie Linsen, Bohnen und Kichererbsen, Vollkornbrot und Vollkornnudeln, Haferflocken, Gemüse, Beeren, Birnen, Nüsse und Samen. Geschrotete Leinsamen enthalten besonders viele Ballaststoffe.",
+        "Die DGE empfiehlt eine abwechslungsreiche Auswahl pflanzlicher Lebensmittel. Vollkornvarianten sind bei Brot, Nudeln und anderen Getreideprodukten meist die ballaststoffreichere Wahl."
+      ], bullets: [
+        "Haferflocken, Vollkornbrot und Vollkornnudeln",
+        "Linsen, Bohnen, Erbsen und Kichererbsen",
+        "Gemüse wie Karotten, Brokkoli und Artischocken",
+        "Obst wie Beeren, Birnen und Äpfel",
+        "Nüsse und Samen, zum Beispiel Leinsamen"
+      ]},
+      { id: "menge", heading: "Wie viel Ballaststoffe sind sinnvoll?", paragraphs: [
+        "Die Deutsche Gesellschaft für Ernährung nennt für Erwachsene einen Richtwert von mindestens 30 Gramm Ballaststoffen pro Tag. Das ist ein Orientierungswert für die Ernährung insgesamt und muss nicht mit einem einzelnen Produkt erreicht werden.",
+        "Viele Menschen nehmen weniger auf. Eine alltagstaugliche Möglichkeit ist, regelmäßig Vollkornprodukte und Hülsenfrüchte zu essen und Gemüse, Obst, Nüsse und Samen abwechslungsreich einzubauen."
+      ]},
+      { id: "umstellung", heading: "Ballaststoffe langsam steigern", paragraphs: [
+        "Wer bisher wenig Ballaststoffe isst, sollte die Zufuhr nicht abrupt stark erhöhen. Eine schrittweise Umstellung kann helfen, Blähungen und Völlegefühl zu begrenzen. Bei empfindlichem Verdauungssystem können feinere Vollkornprodukte zunächst besser verträglich sein.",
+        "Ballaststoffe binden Wasser. Achten Sie deshalb auf eine ausreichende Flüssigkeitszufuhr. Bei anhaltenden Verdauungsbeschwerden, bekannten Darmerkrankungen oder ärztlich verordneten Ernährungsvorgaben sollte die passende Menge individuell besprochen werden."
+      ]},
+      { id: "supplemente", heading: "Sind Ballaststoffpräparate notwendig?", paragraphs: [
+        "Die Basis sollte möglichst aus ballaststoffreichen Lebensmitteln bestehen. Flohsamenschalen oder andere Präparate können in bestimmten Situationen ergänzend eingesetzt werden, sind aber nicht für jeden notwendig und müssen mit ausreichend Flüssigkeit verwendet werden.",
+        "Bei Medikamenteneinnahme, Schluckbeschwerden oder chronischen Darmerkrankungen sollte vor der regelmäßigen Anwendung ärztlicher oder pharmazeutischer Rat eingeholt werden."
+      ]}
+    ],
+    sources: [
+      { title: "FAQ Ballaststoffe", publisher: "Deutsche Gesellschaft für Ernährung (DGE)", url: "https://www.dge.de/gesunde-ernaehrung/faq/ausgewaehlte-fragen-und-antworten-zu-ballaststoffen/", accessed: "2026-11-26" },
+      { title: "Wissenschaftliche Einordnung: Ballaststoffe", publisher: "Max Rubner-Institut (MRI)", url: "https://www.mri.bund.de/de/veroeffentlichungen/wissenschaftliche-einordnung/ballaststoffe/", accessed: "2026-11-26" },
+      { title: "Ballaststoffe – gut für den Darm", publisher: "Bundeszentrum für Ernährung (BZfE)", url: "https://www.bzfe.de/essen-und-gesundheit/naehrstoffe/ballaststoffe/", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "protein-eiweiss-ernaehrung",
+    title: "Protein und Eiweiß: Bedarf, Lebensmittel und Mythen",
+    category: "ernaehrung",
+    tags: ["Protein", "Eiweiß", "Muskeln", "Ernährung", "Hülsenfrüchte"],
+    intro: "Protein ist ein wichtiger Baustoff des Körpers. Der tatsächliche Bedarf hängt unter anderem von Alter und Lebenssituation ab – und lässt sich bei vielen Menschen mit normalen Lebensmitteln decken.",
+    excerpt: "Wie viel Eiweiß Erwachsene benötigen, welche pflanzlichen und tierischen Quellen es gibt und wann Proteinpulver sinnvoll sein kann.",
+    readingMinutes: 9,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Die DGE empfiehlt für Erwachsene unter 65 Jahren 0,8 Gramm Protein pro Kilogramm Körpergewicht und Tag.",
+      "Für gesunde Erwachsene ab 65 Jahren nennt die DGE einen Schätzwert von 1,0 Gramm pro Kilogramm Körpergewicht und Tag.",
+      "Protein kann aus tierischen und pflanzlichen Lebensmitteln stammen; Pulver ist nicht automatisch erforderlich."
+    ],
+    sections: [
+      { id: "was-ist-protein", heading: "Was ist Protein?", paragraphs: [
+        "Proteine, umgangssprachlich Eiweiße genannt, bestehen aus Aminosäuren. Sie sind Bestandteile von Muskeln, Organen, Haut und vielen weiteren Körperstrukturen. Außerdem erfüllen sie Funktionen als Enzyme, Transportstoffe und Bestandteile des Immunsystems.",
+        "Einige Aminosäuren sind essenziell. Das bedeutet, dass der Körper sie nicht selbst in ausreichender Menge herstellen kann und sie über die Nahrung aufgenommen werden müssen."
+      ]},
+      { id: "bedarf", heading: "Wie viel Protein braucht der Körper?", paragraphs: [
+        "Für gesunde Erwachsene zwischen 19 und unter 65 Jahren nennt die DGE eine empfohlene Zufuhr von 0,8 Gramm Protein pro Kilogramm Körpergewicht und Tag. Für gesunde Menschen ab 65 Jahren wird ein Schätzwert von 1,0 Gramm pro Kilogramm Körpergewicht und Tag angegeben.",
+        "Diese Referenzwerte sind keine individuelle Sport- oder Therapieempfehlung. Schwangerschaft, Stillzeit, Erkrankungen, Untergewicht, starkes Übergewicht und besondere Trainingsbelastungen können eine gesonderte Beurteilung erfordern."
+      ]},
+      { id: "lebensmittel", heading: "Gute Proteinquellen in der Ernährung", paragraphs: [
+        "Tierische Proteinquellen sind beispielsweise Fisch, Eier, Milchprodukte und Fleisch. Pflanzliche Quellen sind Hülsenfrüchte, Sojaprodukte, Nüsse, Samen und Getreide. Tofu, Linsen, Bohnen und Erbsen können regelmäßig in Mahlzeiten eingebaut werden.",
+        "Eine abwechslungsreiche Auswahl verschiedener pflanzlicher Lebensmittel trägt dazu bei, unterschiedliche Aminosäuren aufzunehmen. Es ist nicht notwendig, bei jeder Mahlzeit komplizierte Kombinationen zu berechnen."
+      ], bullets: [
+        "Linsen, Bohnen, Erbsen und Kichererbsen",
+        "Tofu und andere Sojaprodukte",
+        "Quark, Joghurt, Käse und Milch",
+        "Eier und Fisch",
+        "Haferflocken, Vollkorngetreide, Nüsse und Samen"
+      ]},
+      { id: "muskelaufbau", heading: "Protein und Muskelaufbau", paragraphs: [
+        "Protein liefert Aminosäuren, die der Körper für den Aufbau und Erhalt von Muskelgewebe benötigt. Muskelaufbau entsteht jedoch nicht allein durch eine hohe Eiweißzufuhr: Entscheidend sind auch ein geeigneter Trainingsreiz, ausreichende Energiezufuhr, Regeneration und Kontinuität.",
+        "Mehr Protein bedeutet nicht automatisch mehr Muskelmasse. Wenn die Versorgung bereits ausreichend ist, bringt eine zusätzliche Menge nicht zwangsläufig einen weiteren Vorteil."
+      ]},
+      { id: "pulver", heading: "Braucht man Proteinpulver?", paragraphs: [
+        "Proteinpulver ist ein konzentriertes Lebensmittel beziehungsweise Nahrungsergänzungsprodukt und kann praktisch sein, wenn sich der Bedarf anders schwer decken lässt. Für viele Menschen ist es bei abwechslungsreicher Ernährung nicht notwendig.",
+        "Achten Sie bei Produkten auf Zutaten, Portionsgröße und tatsächlichen Proteingehalt. Wer eine Nierenerkrankung oder andere relevante Vorerkrankungen hat, sollte eine deutlich erhöhte Proteinzufuhr nicht eigenständig beginnen."
+      ]},
+      { id: "fazit", heading: "Was ist im Alltag entscheidend?", paragraphs: [
+        "Für die meisten gesunden Menschen ist eine abwechslungsreiche Ernährung mit geeigneten Proteinquellen ausreichend. Statt einzelne Lebensmittel als Superfood zu betrachten, zählt das Ernährungsmuster über längere Zeit.",
+        "Bei Unsicherheit über den persönlichen Bedarf, bei Erkrankungen oder im höheren Alter kann eine ärztliche oder qualifizierte ernährungsmedizinische Beratung helfen."
+      ]}
+    ],
+    sources: [
+      { title: "Protein und unentbehrliche Aminosäuren – FAQ", publisher: "Deutsche Gesellschaft für Ernährung (DGE)", url: "https://www.dge.de/gesunde-ernaehrung/faq/ausgewaehlte-fragen-und-antworten-zu-protein-und-unentbehrlichen-aminosaeuren/", accessed: "2026-11-26" },
+      { title: "Referenzwerte: Protein", publisher: "Deutsche Gesellschaft für Ernährung (DGE)", url: "https://www.dge.de/wissenschaft/referenzwerte/protein/", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "darmmikrobiom-ernaehrung",
+    title: "Darmmikrobiom: Was Ernährung und Darmflora verbindet",
+    category: "ernaehrung",
+    tags: ["Darmmikrobiom", "Darmflora", "Verdauung", "Ballaststoffe", "Probiotika"],
+    intro: "Im Darm leben zahlreiche Mikroorganismen, die gemeinsam als Darmmikrobiom bezeichnet werden. Ernährung beeinflusst diese Gemeinschaft – doch ein einzelner Test oder ein Probiotikum kann nicht einfach ein ideales Mikrobiom herstellen.",
+    excerpt: "Was das Darmmikrobiom ist, welche Rolle Ballaststoffe spielen und warum kommerzielle Mikrobiomtests kritisch zu betrachten sind.",
+    readingMinutes: 9,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Das Darmmikrobiom ist individuell und verändert sich unter anderem durch Ernährung, Medikamente und Lebensumstände.",
+      "Eine abwechslungsreiche, pflanzenbetonte Ernährung mit Ballaststoffen ist eine gut begründete Grundlage für die Darmgesundheit.",
+      "Für gesunde Menschen ist ein allgemeiner Zusatznutzen von Probiotika nicht belegt; kommerzielle Mikrobiomtests sind derzeit nur begrenzt aussagekräftig."
+    ],
+    sections: [
+      { id: "was-ist-mikrobiom", heading: "Was ist das Darmmikrobiom?", paragraphs: [
+        "Als Darmmikrobiom wird die Gemeinschaft von Mikroorganismen und ihren genetischen Eigenschaften im Darm bezeichnet. Dazu gehören vor allem Bakterien, aber auch andere Mikroorganismen. Der Begriff Darmflora wird umgangssprachlich häufig ähnlich verwendet.",
+        "Die Zusammensetzung unterscheidet sich von Mensch zu Mensch und kann sich im Laufe des Lebens verändern. Es gibt deshalb nicht ein einziges Bakterienprofil, das für alle gesunden Menschen als ideal gelten kann."
+      ]},
+      { id: "aufgaben", heading: "Welche Aufgaben hat die Darmgemeinschaft?", paragraphs: [
+        "Mikroorganismen im Darm bauen Bestandteile der Nahrung ab, die der menschliche Dünndarm nicht vollständig verdauen kann. Dabei entstehen unter anderem kurzkettige Fettsäuren. Das Mikrobiom steht außerdem in Wechselwirkung mit der Darmschleimhaut und dem Immunsystem.",
+        "Die Forschung zu den Zusammenhängen mit Stoffwechsel und Gesundheit entwickelt sich weiter. Nicht jede beobachtete Verbindung beweist, dass eine bestimmte Bakterienart eine Erkrankung verursacht oder verhindert."
+      ]},
+      { id: "ernaehrung", heading: "Wie beeinflusst Ernährung das Mikrobiom?", paragraphs: [
+        "Ballaststoffe aus Vollkornprodukten, Hülsenfrüchten, Gemüse, Obst, Nüssen und Samen dienen bestimmten Darmmikroorganismen als Substrat. Eine abwechslungsreiche pflanzenbetonte Ernährung liefert unterschiedliche Ballaststoffarten und weitere Nahrungsbestandteile.",
+        "Langfristige Essgewohnheiten sind dabei wichtiger als kurzfristige Kuren oder einzelne vermeintliche Superfoods. Wer seine Ernährung verändern möchte, kann schrittweise mehr pflanzliche Lebensmittel und verschiedene Ballaststoffquellen einbauen."
+      ]},
+      { id: "probiotika", heading: "Probiotika und fermentierte Lebensmittel", paragraphs: [
+        "Probiotika sind lebende Mikroorganismen, denen bei bestimmten Anwendungen ein gesundheitlicher Nutzen zugeschrieben wird. Ein möglicher Effekt hängt vom konkreten Stamm, der Menge, der Person und dem untersuchten Anwendungsgebiet ab. Ergebnisse zu einem Produkt lassen sich nicht pauschal auf alle Probiotika übertragen.",
+        "Joghurt, Kefir, Sauerkraut und andere fermentierte Lebensmittel können Teil einer abwechslungsreichen Ernährung sein. Sie sind aber keine garantierte Therapie für Verdauungsbeschwerden und ersetzen keine medizinische Abklärung."
+      ]},
+      { id: "tests", heading: "Sind Mikrobiom-Tests aus dem Internet sinnvoll?", paragraphs: [
+        "Kommerzielle Stuhltests zeigen häufig Listen einzelner Mikroorganismen und leiten daraus Ernährungsempfehlungen ab. Derzeit ist jedoch nicht ausreichend geklärt, welches Mikrobiomprofil bei gesunden Menschen optimal wäre und wie solche Testergebnisse zuverlässig in konkrete Behandlungen übersetzt werden können.",
+        "Die DGE rät von kommerziellen Mikrobiom-Stuhltests ab, da derzeit kein ausreichender diagnostischer oder therapeutischer Mehrwert belegt ist. Auffällige Verdauungsbeschwerden sollten anhand der Symptome und der medizinischen Vorgeschichte beurteilt werden – nicht allein anhand eines Online-Testergebnisses."
+      ]},
+      { id: "wann-abklaeren", heading: "Wann sollten Darmbeschwerden abgeklärt werden?", paragraphs: [
+        "Anhaltende oder wiederkehrende Beschwerden, Blut im Stuhl, ungewollter Gewichtsverlust, Fieber oder starke Schmerzen gehören medizinisch abgeklärt. Eine Ernährungsumstellung oder ein frei verkäufliches Präparat sollte eine notwendige Diagnostik nicht verzögern."
+      ]}
+    ],
+    sources: [
+      { title: "Das Mikrobiom – Update für die Ernährungsberatung", publisher: "Deutsche Gesellschaft für Ernährung (DGE)", url: "https://www.dge.de/blog/2026/das-mikrobiom-update-fuer-die-ernaehrungsberatung/", accessed: "2026-11-26" },
+      { title: "Nahrungsergänzungsmittel mit Mikroorganismen", publisher: "Verbraucherzentrale", url: "https://www.verbraucherzentrale.de/wissen/lebensmittel/nahrungsergaenzungsmittel/nahrungsergaenzungsmittel-mit-mikroorganismen-58854", accessed: "2026-11-26" },
+      { title: "Tipps für die Darmgesundheit", publisher: "Bundeszentrum für Ernährung (BZfE)", url: "https://www.bzfe.de/presse/pressemeldungen-archiv/tipps-fuer-die-darmgesundheit", accessed: "2026-11-26" }
+    ]
+  },
+
 ];
 
 export function getArticle(slug: string): Article | undefined {
