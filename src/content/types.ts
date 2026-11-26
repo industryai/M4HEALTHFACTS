@@ -2,6 +2,7 @@ export type CategorySlug =
   | "ernaehrung"
   | "bewegung-fitness"
   | "vitamine-naehrstoffe"
+  | "herz-kreislauf"
   | "koerper-gesundheit"
   | "natur-hausmittel"
   | "schlaf-psyche"
