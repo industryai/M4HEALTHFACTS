@@ -3648,7 +3648,7 @@ export const articles: Article[] = [
       { title: "Stress", publisher: "World Health Organization (WHO)", url: "https://www.who.int/news-room/questions-and-answers/item/stress", accessed: "2026-11-26" },
       { title: "Cortisol", publisher: "MedlinePlus", url: "https://medlineplus.gov/lab-tests/cortisol-test/", accessed: "2026-11-26" }
     ]
-  },,
+  },
 
   {
     slug: "laktoseintoleranz-verstehen",
