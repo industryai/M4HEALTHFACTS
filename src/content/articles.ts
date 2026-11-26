@@ -1804,6 +1804,189 @@ export const articles: Article[] = [
     ],
   },
   {
+    slug: "fettleber-masld",
+    title: "Fettleber: Ursachen, Warnzeichen, Diagnose und Behandlung",
+    category: "koerper-gesundheit",
+    tags: ["Fettleber", "Leber", "MASLD", "MASH", "Leberwerte", "Stoffwechsel"],
+    intro: "Eine Fettleber entsteht, wenn sich vermehrt Fett in den Leberzellen einlagert. Häufig hängt sie mit Übergewicht, Insulinresistenz und Typ-2-Diabetes zusammen, kann aber auch andere Ursachen haben. Weil sie lange keine Beschwerden verursacht, ist die Einschätzung des Entzündungs- und Fibroserisikos besonders wichtig.",
+    excerpt: "Wie eine Fettleber entsteht, welche Leberwerte und Untersuchungen wichtig sind und welche Veränderungen im Alltag die Lebergesundheit verbessern können.",
+    readingMinutes: 11,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Eine Fettleber verursacht häufig lange keine spürbaren Beschwerden und wird oft zufällig entdeckt.",
+      "MASLD bezeichnet eine Fettleber im Zusammenhang mit mindestens einem kardiometabolischen Risikofaktor.",
+      "Nicht jede Fettleber führt zu einer Entzündung oder Vernarbung; fortgeschrittene Fibrose ist jedoch ein wichtiger Risikomarker.",
+      "Normale Leberwerte schließen eine relevante Fettleber oder Leberfibrose nicht sicher aus.",
+      "Nachhaltige Gewichtsabnahme bei Übergewicht, Bewegung und die Behandlung von Diabetes sowie anderen Risikofaktoren sind zentrale Maßnahmen."
+    ],
+    sections: [
+      {
+        id: "was-ist-fettleber",
+        heading: "Was ist eine Fettleber?",
+        paragraphs: [
+          "Von einer Fettleber (Lebersteatose) spricht man, wenn sich übermäßig Fett in Leberzellen ansammelt. Die Leber ist ein zentrales Stoffwechselorgan: Sie verarbeitet Nährstoffe, speichert Energie, bildet wichtige Eiweiße und baut zahlreiche Stoffe ab. Eine ausgeprägte Fetteinlagerung kann diese Funktionen langfristig beeinträchtigen.",
+          "Die Ursachen sind unterschiedlich. Alkohol kann eine Fettleber verursachen, ebenso Stoffwechselstörungen, bestimmte Medikamente und seltenere Erkrankungen. Deshalb sollte nicht automatisch angenommen werden, dass jede Fettleber ausschließlich mit Ernährung oder Körpergewicht zusammenhängt.",
+          "Bei einer Fettleber im Zusammenhang mit mindestens einem kardiometabolischen Risikofaktor – etwa Übergewicht, Typ-2-Diabetes oder Bluthochdruck – wird heute häufig der Begriff MASLD verwendet (metabolic dysfunction-associated steatotic liver disease). Die frühere Bezeichnung NAFLD wird zunehmend durch MASLD ersetzt."
+        ]
+      },
+      {
+        id: "masld-mash",
+        heading: "MASLD und MASH: Was bedeuten die Begriffe?",
+        paragraphs: [
+          "MASLD beschreibt eine metabolisch bedingte steatotische Lebererkrankung. Sie umfasst ein Spektrum von einer reinen Fetteinlagerung bis zu fortgeschrittener Leberschädigung. Eine Fettleber kann über lange Zeit stabil bleiben oder sich bei Veränderung der Ursachen zurückbilden.",
+          "Wenn zusätzlich eine Entzündung und eine Schädigung der Leberzellen auftreten, spricht man von MASH (metabolic dysfunction-associated steatohepatitis). Früher wurde dafür häufig der Begriff NASH verwendet. MASH kann mit der Zeit zu einer Vernarbung des Lebergewebes (Fibrose) führen.",
+          "Bei fortschreitender Fibrose kann eine Leberzirrhose entstehen. Dann ist die normale Leberstruktur zunehmend durch Narbengewebe ersetzt. Nicht jede Person mit MASLD entwickelt MASH oder eine Zirrhose; das Risiko hängt unter anderem von Stoffwechselerkrankungen und dem Ausmaß der Fibrose ab."
+        ]
+      },
+      {
+        id: "ursachen-risikofaktoren",
+        heading: "Ursachen und Risikofaktoren",
+        paragraphs: [
+          "MASLD tritt häufig gemeinsam mit Übergewicht oder Adipositas, insbesondere vermehrtem Bauchfett, Insulinresistenz, Typ-2-Diabetes, erhöhten Triglyceriden und Bluthochdruck auf. Diese Faktoren werden oft unter dem Begriff metabolisches Syndrom zusammengefasst.",
+          "Auch Menschen ohne Übergewicht können eine Fettleber entwickeln. Genetische Veranlagung, Ernährungs- und Bewegungsmuster sowie weitere Stoffwechselfaktoren können beteiligt sein. Ein normales Körpergewicht schließt MASLD daher nicht aus.",
+          "Alkohol kann unabhängig von metabolischen Faktoren die Leber schädigen und mit einer metabolischen Fettleber zusammenwirken. Je nach Alkoholkonsum und Stoffwechsellage werden unterschiedliche Kategorien einer steatotischen Lebererkrankung unterschieden.",
+          "Weitere mögliche Ursachen sind bestimmte Arzneimittel, rascher Gewichtsverlust, Mangelernährung und seltene Stoffwechsel- oder Erbkrankheiten. Medikamente sollten nicht eigenständig abgesetzt werden; mögliche Zusammenhänge gehören ärztlich geprüft."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Welche Symptome verursacht eine Fettleber?",
+        paragraphs: [
+          "Eine Fettleber bleibt häufig lange unbemerkt. Viele Betroffene haben keine Beschwerden. Manche berichten über Müdigkeit, Abgeschlagenheit oder ein Druckgefühl im rechten Oberbauch; diese Symptome sind jedoch unspezifisch und beweisen keine Lebererkrankung.",
+          "Wenn eine fortgeschrittene Lebererkrankung entsteht, können Gelbfärbung der Haut oder Augen, Flüssigkeitsansammlungen im Bauch, Schwellungen der Beine, Juckreiz, leichte Blutergüsse oder eine zunehmende Leistungsschwäche auftreten. Solche Zeichen müssen medizinisch abgeklärt werden.",
+          "Das Fehlen von Symptomen bedeutet nicht, dass keine Leberschädigung vorliegt. Umgekehrt lassen sich unspezifische Beschwerden nicht ohne Untersuchung der Fettleber zuordnen."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Wie wird eine Fettleber festgestellt?",
+        paragraphs: [
+          "Ausgangspunkt sind meist die Krankengeschichte, mögliche Risikofaktoren, die körperliche Untersuchung und Blutwerte. Dabei werden unter anderem Alkoholkonsum, Medikamente, Diabetes, Körpergewicht und familiäre Belastungen berücksichtigt. Andere Ursachen einer Lebererkrankung müssen je nach Situation ausgeschlossen werden.",
+          "Blutuntersuchungen können Leberenzyme wie ALT (GPT) und AST (GOT), Gamma-GT und weitere Werte umfassen. Erhöhte Werte können auf eine Leberschädigung hinweisen, sind aber nicht spezifisch. Umgekehrt schließen normale Leberwerte eine Fettleber oder fortgeschrittene Fibrose nicht zuverlässig aus.",
+          "Mit Ultraschall kann eine Fetteinlagerung in der Leber sichtbar werden. Ein Ultraschall kann jedoch frühe oder gering ausgeprägte Veränderungen übersehen und zeigt nicht zuverlässig, wie stark eine Fibrose ausgeprägt ist.",
+          "Bei Menschen mit erhöhtem Risiko können Ärztinnen und Ärzte zunächst einen nicht-invasiven Blutwert-Score wie FIB-4 verwenden. Dieser berücksichtigt unter anderem Alter, AST, ALT und Blutplättchen. Bei auffälligem oder unklarem Ergebnis kann eine Elastografie folgen, die die Steifigkeit des Lebergewebes misst und Hinweise auf Fibrose liefert.",
+          "Eine Leberbiopsie ist nicht bei allen Betroffenen notwendig. Sie kann in ausgewählten Fällen eingesetzt werden, wenn die Diagnose unklar ist oder eine genaue Beurteilung der Entzündung und Gewebeveränderung erforderlich ist."
+        ]
+      },
+      {
+        id: "wer-sollte-abgeklaert-werden",
+        heading: "Wer sollte besonders auf eine mögliche Fibrose untersucht werden?",
+        paragraphs: [
+          "Die europäischen EASL-EASD-EASO-Leitlinien empfehlen eine gezielte Suche nach fortgeschrittener Leberfibrose insbesondere bei Menschen mit Typ-2-Diabetes, bei Bauchfettleibigkeit in Verbindung mit mindestens einem weiteren kardiometabolischen Risikofaktor sowie bei dauerhaft auffälligen Leberwerten.",
+          "Ein zufälliger Ultraschallbefund einer Fettleber sollte ebenfalls Anlass sein, mögliche Ursachen und das Risiko einer Fibrose ärztlich einzuordnen. Ziel ist nicht, jede Person mit Fettleber unnötig umfassend zu untersuchen, sondern diejenigen mit erhöhtem Risiko rechtzeitig zu erkennen.",
+          "FIB-4 und Elastografie sind Risikoeinschätzungen und keine Selbsttests. Die Ergebnisse müssen unter Berücksichtigung von Alter, Begleiterkrankungen und klinischem Zusammenhang interpretiert werden."
+        ]
+      },
+      {
+        id: "folgen",
+        heading: "Welche Folgen kann eine fortgeschrittene Fettleber haben?",
+        paragraphs: [
+          "Bei einem Teil der Betroffenen kann die Erkrankung von einer einfachen Fetteinlagerung über eine entzündliche Schädigung zu einer zunehmenden Fibrose fortschreiten. Eine fortgeschrittene Fibrose und Leberzirrhose können zu Leberfunktionsstörungen, erhöhtem Druck im Pfortadersystem, Flüssigkeitsansammlungen und einem erhöhten Risiko für Leberkrebs führen.",
+          "Menschen mit MASLD haben zudem häufig ein erhöhtes Risiko für Herz-Kreislauf-Erkrankungen. Deshalb ist die Behandlung von Blutdruck, Blutfetten, Diabetes und Rauchen ein wichtiger Teil der Versorgung – nicht nur die Betrachtung der Leberwerte.",
+          "Die Fibrosestufe ist für die Einschätzung des leberbezogenen Risikos besonders bedeutsam. Eine reine Messung der Leberenzyme reicht dafür nicht aus."
+        ]
+      },
+      {
+        id: "gewicht-ernaehrung",
+        heading: "Was hilft? Gewichtsabnahme und Ernährung",
+        paragraphs: [
+          "Bei Übergewicht ist eine nachhaltige Gewichtsabnahme eine zentrale Maßnahme. Die europäischen Leitlinien nennen als Orientierung eine anhaltende Reduktion des Körpergewichts um mindestens 5 Prozent zur Verringerung des Leberfetts, etwa 7 bis 10 Prozent zur Verbesserung der Entzündung und mindestens 10 Prozent zur möglichen Verbesserung der Fibrose. Das sind Zielbereiche aus Studien und Leitlinien, keine pauschale Vorgabe für jede Person.",
+          "Die Gewichtsabnahme sollte schrittweise und langfristig umsetzbar sein. Crash-Diäten, extremes Fasten und rasche Gewichtsverluste ohne medizinische Begleitung sind nicht empfehlenswert. Auch bei normalem Körpergewicht können Ernährungsqualität und Bewegung helfen, Leberfett zu reduzieren.",
+          "Eine mediterran geprägte Ernährungsweise mit Gemüse, Obst, Hülsenfrüchten, Vollkornprodukten, Nüssen, Fisch und pflanzlichen Ölen kann gut geeignet sein. Zuckerhaltige Getränke, große Mengen stark verarbeiteter Lebensmittel und übermäßige Energiezufuhr sollten begrenzt werden. Es gibt kein einzelnes Lebensmittel, das eine Fettleber zuverlässig beseitigt.",
+          "Bei Diabetes, erhöhten Blutfetten oder Bluthochdruck sollten diese Erkrankungen ebenfalls konsequent behandelt werden. Eine Ernährungsberatung oder ein strukturiertes Gewichtsmanagementprogramm kann die Umsetzung erleichtern."
+        ]
+      },
+      {
+        id: "bewegung",
+        heading: "Bewegung: Auch ohne Gewichtsverlust sinnvoll",
+        paragraphs: [
+          "Regelmäßige körperliche Aktivität kann Leberfett reduzieren und verbessert zusätzlich Insulinempfindlichkeit, Blutdruck und Herz-Kreislauf-Gesundheit. Die EASL-EASD-EASO-Leitlinien empfehlen möglichst mehr als 150 Minuten moderate oder 75 Minuten intensive Bewegung pro Woche, angepasst an Fähigkeiten und gesundheitliche Situation.",
+          "Geeignet sind beispielsweise zügiges Gehen, Radfahren, Schwimmen oder andere Aktivitäten, die regelmäßig in den Alltag passen. Ergänzendes Krafttraining kann sinnvoll sein. Wer lange inaktiv war oder relevante Erkrankungen hat, sollte langsam beginnen und bei Unsicherheit ärztlichen Rat einholen.",
+          "Auch wenn das Gewicht zunächst unverändert bleibt, kann Bewegung gesundheitlich nützlich sein. Entscheidend ist die Regelmäßigkeit und eine Belastung, die langfristig durchgehalten werden kann."
+        ]
+      },
+      {
+        id: "alkohol",
+        heading: "Welche Rolle spielt Alkohol?",
+        paragraphs: [
+          "Alkohol kann die Leber direkt schädigen und eine metabolische Fettleber zusätzlich belasten. Bei bereits festgestellter Fettleber sollte der Alkoholkonsum offen mit der behandelnden Praxis besprochen werden. Bei fortgeschrittener Fibrose oder Zirrhose kann vollständiger Verzicht erforderlich sein.",
+          "Es gibt keine pauschal sichere Alkoholmenge für alle Menschen mit Lebererkrankung. Die Empfehlung richtet sich nach Ursache, Ausmaß der Leberschädigung und individuellen Risiken. Alkohol sollte nicht als Mittel zur Entspannung oder als vermeintlich leberfreundliches Getränk betrachtet werden."
+        ]
+      },
+      {
+        id: "medikamente-supplemente",
+        heading: "Medikamente, Nahrungsergänzung und vermeintliche Leber-Detox-Produkte",
+        paragraphs: [
+          "Es gibt keine allgemeine Tablette, die jede Fettleber behandelt. Medikamente können je nach Begleiterkrankung und Risikoprofil notwendig sein, etwa zur Behandlung von Typ-2-Diabetes, Adipositas oder erhöhten Blutfetten. Diese Therapien werden nach ihrer jeweiligen Zulassung und medizinischen Indikation ausgewählt.",
+          "Für viele sogenannte Leber-Detox-Kuren, Kräutermischungen und Nahrungsergänzungsmittel ist ein verlässlicher Nutzen nicht belegt. Manche Pflanzenextrakte und hoch dosierten Präparate können selbst Leberschäden verursachen oder mit Medikamenten wechselwirken.",
+          "Die europäischen Leitlinien empfehlen Nutraceuticals nicht als routinemäßige Behandlung von MASLD, da Wirksamkeit und Sicherheit nicht ausreichend belegt sind. Besprechen Sie Präparate mit Arztpraxis oder Apotheke und setzen Sie verordnete Medikamente nicht eigenständig ab."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zur Fettleber",
+        paragraphs: [
+          "**Kann sich eine Fettleber zurückbilden?** Eine frühe Fetteinlagerung kann sich bei Behandlung der Ursachen und nachhaltigen Veränderungen von Ernährung, Bewegung und gegebenenfalls Gewicht deutlich bessern. Bei fortgeschrittener Vernarbung ist eine vollständige Rückbildung schwieriger.",
+          "**Sind erhöhte Leberwerte immer ein Zeichen für Fettleber?** Nein. Erhöhte Werte können viele Ursachen haben, darunter Medikamente, Alkohol, Virushepatitis und andere Lebererkrankungen. Die Ursache muss ärztlich geklärt werden.",
+          "**Kann ich trotz normaler Leberwerte eine Fettleber haben?** Ja. Normale ALT- und AST-Werte schließen eine Fettleber oder relevante Fibrose nicht sicher aus.",
+          "**Ist Fettleber nur bei Übergewicht möglich?** Nein. Sie kann auch bei normalem Körpergewicht vorkommen, etwa bei genetischer Veranlagung oder anderen Stoffwechselfaktoren.",
+          "**Hilft eine Leber-Detox-Kur?** Für solche Kuren ist kein verlässlicher Nutzen belegt. Einige Präparate können die Leber sogar schädigen.",
+          "**Muss ich bei Fettleber komplett auf Alkohol verzichten?** Das hängt von Ursache und Schwere der Erkrankung ab. Alkohol sollte mit der behandelnden Praxis besprochen werden; bei fortgeschrittener Lebererkrankung kann vollständiger Verzicht notwendig sein.",
+          "**Ist eine Ultraschalluntersuchung ausreichend?** Ultraschall kann eine Fetteinlagerung erkennen, beurteilt aber eine Fibrose nicht zuverlässig. Bei erhöhtem Risiko können weitere nicht-invasive Untersuchungen notwendig sein."
+        ]
+      },
+      {
+        id: "wann-arzt",
+        heading: "Wann sollte man ärztliche Hilfe suchen?",
+        paragraphs: [
+          "Lassen Sie dauerhaft auffällige Leberwerte, einen zufälligen Fettleberbefund oder relevante Risikofaktoren wie Typ-2-Diabetes ärztlich einordnen. Auch anhaltende Beschwerden im Oberbauch sollten abgeklärt werden.",
+          "Eine Gelbfärbung von Haut oder Augen, zunehmender Bauchumfang durch Flüssigkeit, Blut im Erbrochenen, schwarzer Stuhl, starke Benommenheit oder Verwirrtheit können Zeichen einer ernsten Leberkomplikation sein. Bei akuten schweren Symptomen ist sofort medizinische Hilfe erforderlich."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Leberwerte, Ultraschallbefunde und Fibroserisiko müssen im individuellen medizinischen Zusammenhang beurteilt werden. Beginnen oder beenden Sie Medikamente und Nahrungsergänzungsmittel nicht ohne fachliche Rücksprache."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "EASL–EASD–EASO Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD)",
+        publisher: "European Association for the Study of the Liver (EASL), European Association for the Study of Diabetes (EASD), European Association for the Study of Obesity (EASO)",
+        url: "https://www.journal-of-hepatology.eu/article/S0168-8278%2824%2900329-5/fulltext",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "EASL-EASD-EASO Clinical Practice Guidelines on the management of MASLD: Executive Summary",
+        publisher: "Diabetologia / EASL-EASD-EASO",
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519095/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Nicht alkoholische Fettleber: Vorbeugung und Behandlung",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/nicht-alkoholische-fettleber",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Diagnosis of NAFLD & NASH (MASLD/MASH)",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        url: "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Treatment for NAFLD & NASH (MASLD/MASH)",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        url: "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment",
+        accessed: "2026-11-26",
+      }
+    ],
+  },
+  {
     slug: "cholesterin-blutfette",
     title: "Cholesterin verstehen: LDL, HDL, Triglyceride und Herzrisiko",
     category: "herz-kreislauf",
