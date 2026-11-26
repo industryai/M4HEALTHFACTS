@@ -17,7 +17,7 @@ const raw: Omit<LexiconEntry, "slug">[] = [
   { term: "Früherkennung", definition: "Untersuchungen, die Krankheiten in einem frühen Stadium erkennen sollen." },
   { term: "Glykämischer Index", definition: "Maß dafür, wie stark ein kohlenhydrathaltiges Lebensmittel den Blutzucker ansteigen lässt." },
   { term: "Hausmittel", definition: "Überlieferte, meist einfache Anwendungen aus dem Haushalt. Ihre Wirksamkeit ist oft nicht wissenschaftlich belegt." },
-  { term: "Immunsystem", definition: "Das körpereigene Abwehrsystem gegen Krankheitserreger und fremde Stoffe." },
+  { term: "Immunsystem", definition: "Das körpereigene Abwehrsystem gegen Krankheitserreger und fremde Stoffe.", relatedArticle: "abwehrkraefte-staerken" },
   { term: "Jod", definition: "Spurenelement, das für die Bildung von Schilddrüsenhormonen benötigt wird." },
   { term: "Krafttraining", definition: "Trainingsform, bei der die Muskulatur durch Widerstände gezielt beansprucht und gekräftigt wird.", relatedArticle: "bewegung-im-alltag" },
   { term: "Kalorie", definition: "Maßeinheit für Energie, im Alltag meist als Kilokalorie (kcal) für den Energiegehalt von Lebensmitteln verwendet." },
