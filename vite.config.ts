@@ -10,12 +10,11 @@ export default defineConfig({
   // Cloudflare Pages serves the project at the domain root.
   base: isGitHubPages ? `${githubPagesBasepath}/` : "/",
   tanstackStart: {
-    server: { entry: "server" },
+    // The server entry lives in src/server.ts in this repository.
+    server: { entry: "src/server.ts" },
     router: {
       basepath: isGitHubPages ? githubPagesBasepath : "/",
     },
-    // Both static hosts need pre-rendered route HTML. Only GitHub Pages needs
-    // the repository-prefix rewrite handled by prepare-github-pages.mjs.
     ...(isStaticDeployment
       ? {
           prerender: {
