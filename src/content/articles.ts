@@ -441,65 +441,163 @@ export const articles: Article[] = [
   },
   {
     slug: "hausmittel-erkaeltung-was-hilft",
-    title: "Hausmittel bei Erkältung: Was ist belegt?",
+    title: "Hausmittel bei Erkältung: Was wirklich hilft – und was nicht",
     category: "natur-hausmittel",
-    tags: ["Hausmittel", "Erkältung", "Kräutertee", "Gesundheitswissen"],
-    intro: "Bei Erkältungen greifen viele Menschen zu Tee, Honig oder anderen Hausmitteln. Wichtig ist die Unterscheidung zwischen angenehmer Linderung und einem nachgewiesenen Einfluss auf die Krankheitsdauer.",
-    excerpt: "Warum Hausmittel Beschwerden begleiten können, aber nicht automatisch Viren bekämpfen oder die Genesung beschleunigen.",
-    readingMinutes: 6,
+    tags: ["Hausmittel", "Erkältung", "Husten", "Schnupfen", "Honig", "Kochsalz"],
+    intro: "Eine gewöhnliche Erkältung wird meist durch Viren ausgelöst und heilt in der Regel von selbst aus. Hausmittel können einzelne Beschwerden lindern, beseitigen aber nicht die Ursache. Dieser Ratgeber ordnet häufige Maßnahmen nach ihrem möglichen Nutzen, ihrer Evidenz und wichtigen Sicherheitsaspekten ein.",
+    excerpt: "Honig, Tee, Kochsalz, Inhalation und Medikamente: Was bei Erkältungsbeschwerden helfen kann und wann ärztlicher Rat nötig ist.",
+    readingMinutes: 9,
     publishedAt: "2026-11-26",
     updatedAt: "2026-11-26",
     keyFacts: [
-      "Hausmittel können als angenehm empfunden werden, ihre Wirkung ist aber je nach Anwendung unterschiedlich gut untersucht.",
-      "Für viele Hausmittel ist nicht wissenschaftlich belegt, dass sie eine Grippe verkürzen oder die Ursache bekämpfen.",
-      "Antibiotika wirken gegen Bakterien, nicht gegen Erkältungs- oder Grippeviren.",
+      "Hausmittel können das Wohlbefinden verbessern oder einzelne Symptome lindern, verkürzen eine Erkältung aber nicht nachweislich zuverlässig.",
+      "Honig kann Husten kurzfristig lindern, ist aber für Kinder unter zwölf Monaten tabu.",
+      "Kochsalz-Nasenspray kann bei verstopfter oder trockener Nase eine schonende Option sein.",
+      "Für Dampfinhalationen ist ein klarer Nutzen nicht belegt; Schüsseln mit heißem Wasser bergen Verbrühungsgefahr.",
+      "Antibiotika wirken nicht gegen Erkältungsviren und sind bei einer unkomplizierten Erkältung nicht sinnvoll."
     ],
     sections: [
       {
-        id: "hausmittel-einordnen",
-        heading: "Was können Hausmittel leisten?",
+        id: "erkaltung-verstehen",
+        heading: "Was passiert bei einer Erkältung?",
         paragraphs: [
-          "Warme Getränke oder eine Suppe können als wohltuend empfunden werden und dabei helfen, ausreichend Flüssigkeit aufzunehmen. Daraus lässt sich jedoch nicht ableiten, dass sie die Erkältungsviren bekämpfen oder die Krankheitsdauer verkürzen.",
-          "Bei Grippe ist für viele verbreitete Hausmittel wie Hühnerbrühe oder Kräutertee nicht wissenschaftlich belegt, dass sie die Erkrankung selbst lindern. Es ist daher sinnvoll, zwischen persönlichem Wohlbefinden und nachgewiesener medizinischer Wirkung zu unterscheiden.",
-        ],
+          "Eine Erkältung ist eine akute Infektion der oberen Atemwege. Sie wird durch unterschiedliche Viren verursacht. Typisch sind Schnupfen, Halskratzen, Husten, Niesen und gelegentlich Kopf- oder Gliederschmerzen sowie leichtes Fieber. Die Beschwerden entwickeln sich häufig schrittweise und bessern sich meist innerhalb von ein bis zwei Wochen.",
+          "Es gibt kein Hausmittel, das die Vielzahl der Erkältungsviren gezielt beseitigt. Die Behandlung zielt deshalb vor allem darauf ab, Beschwerden erträglicher zu machen, ausreichend Erholung zu ermöglichen und Komplikationen rechtzeitig zu erkennen."
+        ]
       },
       {
-        id: "pflanzen-und-praep",
-        heading: "Pflanzen, Tees und Präparate",
+        id: "ruhe-fluessigkeit",
+        heading: "Ruhe, Schlaf und ausreichend trinken",
         paragraphs: [
-          "Pflanzliche Mittel werden bei Erkältungsbeschwerden häufig eingesetzt. Für einzelne Präparate gibt es Hinweise auf eine Linderung bestimmter Symptome, die Datenlage ist jedoch je nach Wirkstoff und Anwendung unterschiedlich.",
-          "Auch Vitaminpräparate oder frei verkäufliche Produkte beschleunigen die Genesung nicht automatisch. Wer regelmäßig Medikamente einnimmt, schwanger ist oder Vorerkrankungen hat, sollte die Anwendung von Präparaten mit medizinischem Fachpersonal besprechen.",
-        ],
+          "Körperliche Ruhe und ausreichend Schlaf können helfen, die Erkrankungsphase besser zu überstehen. Wer sich fiebrig oder deutlich krank fühlt, sollte anstrengenden Sport vermeiden und sich erholen. Ein schrittweiser Wiedereinstieg ist sinnvoll, wenn sich der Allgemeinzustand wieder gebessert hat.",
+          "Trinken Sie regelmäßig nach Durst. Wasser, ungesüßter Tee oder Brühe sind geeignete Getränke. Besonders bei Fieber ist es wichtig, Flüssigkeitsverluste auszugleichen. Es gibt jedoch keinen überzeugenden Nachweis, dass erzwungenes Trinken großer Mengen eine Erkältung schneller heilt. Menschen mit ärztlich verordneter Trinkmengenbegrenzung sollten ihre Vorgaben beachten.",
+          "Warme Getränke oder Suppe können Hals und Rachen als angenehm empfunden werden. Ihre Wärme und Flüssigkeit können das subjektive Wohlbefinden verbessern; sie sind aber keine antivirale Behandlung."
+        ]
       },
       {
-        id: "antibiotika",
-        heading: "Warum natürliche Mittel keine Antibiotika ersetzen",
+        id: "honig-husten",
+        heading: "Honig bei Husten: mögliche Linderung mit Altersgrenze",
         paragraphs: [
-          "Antibiotika sind Arzneimittel gegen bakterielle Infektionen. Erkältungen und Grippe werden in der Regel durch Viren verursacht; Antibiotika helfen dagegen nicht.",
-          "Die Bezeichnung „natürliches Antibiotikum“ ist für Lebensmittel oder Hausmittel deshalb irreführend. Ein Hausmittel sollte eine notwendige medizinische Behandlung nicht ersetzen.",
-        ],
+          "Honig kann bei akutem Erkältungshusten möglicherweise kurzfristig die Häufigkeit oder Belastung des Hustens verringern. Die Studienlage ist begrenzt, ein sicherer Effekt auf die Krankheitsdauer ist nicht belegt. Erwachsene und Kinder ab einem Jahr können Honig als einfache Maßnahme ausprobieren, sofern keine Unverträglichkeit besteht.",
+          "Kinder unter zwölf Monaten dürfen keinen Honig erhalten – auch nicht in Tee oder auf einem Schnuller. Honig kann Sporen von Clostridium botulinum enthalten und bei Säuglingen Säuglingsbotulismus auslösen.",
+          "Honig enthält Zucker. Nach der Anwendung am Abend sollte insbesondere bei Kindern auf die Zahnpflege geachtet werden. Bei anhaltendem oder auffälligem Husten sollte nicht allein auf Hausmittel vertraut werden."
+        ]
       },
       {
-        id: "wann-hilfe",
-        heading: "Wann ärztlicher Rat wichtig ist",
+        id: "kochsalz-nase",
+        heading: "Kochsalzlösung bei Schnupfen und verstopfter Nase",
         paragraphs: [
-          "Wenn Beschwerden ungewöhnlich stark sind, sich deutlich verschlimmern oder Unsicherheit über die Ursache besteht, sollte eine ärztliche Einschätzung eingeholt werden. Hausmittel sind kein Ersatz für Diagnostik oder Behandlung.",
-        ],
+          "Isotonische Kochsalz-Nasensprays oder -tropfen können die Nasenschleimhaut befeuchten und Sekret lösen. Sie sind für viele Menschen eine gut verträgliche Möglichkeit, die Nasenpflege zu unterstützen. Die Stärke der symptomatischen Wirkung ist individuell unterschiedlich.",
+          "Nasenduschen können ebenfalls zur Reinigung der Nasenhöhle eingesetzt werden. Verwenden Sie dafür ein geeignetes Gerät und Wasser in hygienisch sicherer Qualität, beispielsweise abgekochtes und abgekühltes oder steriles Wasser, sowie eine dafür vorgesehene Salzlösung. Reinigen und trocknen Sie das Gerät nach Herstellerangaben.",
+          "Abschwellende Nasensprays mit Wirkstoffen wie Xylometazolin oder Oxymetazolin sind keine Hausmittel, können aber kurzfristig die Nasenatmung erleichtern. Sie sollten nur entsprechend Packungsbeilage und in der Regel nicht länger als wenige Tage angewendet werden, da bei längerer Nutzung eine medikamentös bedingte Schleimhautschwellung entstehen kann. Bei Kindern, Schwangerschaft, Bluthochdruck oder anderen Erkrankungen ist vorherige Beratung besonders wichtig."
+        ]
       },
+      {
+        id: "inhalation",
+        heading: "Inhalieren: angenehm, aber Nutzen nicht eindeutig belegt",
+        paragraphs: [
+          "Warme, feuchte Luft empfinden manche Menschen bei verstopfter Nase als angenehm. Studien zeigen jedoch keinen zuverlässigen Effekt von Wasserdampfinhalationen auf Verlauf oder Beschwerden einer Erkältung. Zusätze wie ätherische Öle oder Kamille sind nicht automatisch wirksamer und können Schleimhäute reizen oder allergische Reaktionen auslösen.",
+          "Beugen Sie sich nicht über eine Schüssel mit kochendem oder sehr heißem Wasser. Dabei besteht eine erhebliche Verbrühungsgefahr, besonders bei Kindern. Eine warme Dusche oder ein sauberer Luftbefeuchter mit kühlem Nebel kann angenehmer sein; Luftbefeuchter müssen regelmäßig gereinigt werden, damit sich keine Keime oder Schimmel bilden."
+        ]
+      },
+      {
+        id: "halsschmerzen",
+        heading: "Was kann bei Halsschmerzen helfen?",
+        paragraphs: [
+          "Warme oder kühle Getränke, Lutschpastillen und das Vermeiden von Rauch können den gereizten Hals vorübergehend beruhigen. Erwachsene können – sofern sie sicher gurgeln und die Flüssigkeit anschließend ausspucken – lauwarmes Salzwasser ausprobieren. Für kleine Kinder ist Gurgeln nicht geeignet.",
+          "Bei starken Schmerzen oder Fieber können geeignete rezeptfreie Schmerzmittel infrage kommen. Ob beispielsweise Paracetamol oder Ibuprofen geeignet ist, hängt unter anderem von Alter, Schwangerschaft, Vorerkrankungen und anderen Medikamenten ab. Halten Sie sich an die Packungsbeilage und fragen Sie bei Unsicherheit in der Apotheke oder Arztpraxis nach."
+        ]
+      },
+      {
+        id: "vitamine-pflanzen",
+        heading: "Vitamin C, Zink und pflanzliche Mittel",
+        paragraphs: [
+          "Vitamin C, Zink und Echinacea werden häufig als Erkältungsmittel beworben. Für Vitamin C ist nicht zuverlässig belegt, dass eine Einnahme erst nach Beginn der Erkältung die Beschwerden deutlich verkürzt. Bei Zink hängen mögliche Effekte von Präparat, Dosierung und Zeitpunkt ab; die Studien sind uneinheitlich und Nebenwirkungen wie Übelkeit oder ein unangenehmer Geschmack sind möglich. Intranasale Zinkpräparate sollten wegen möglicher Geruchsverluste nicht verwendet werden.",
+          "Auch bei Echinacea und anderen pflanzlichen Präparaten sind die Ergebnisse uneinheitlich. Produkte unterscheiden sich in Zusammensetzung und Qualität. Pflanzenstoffe können Allergien und Wechselwirkungen auslösen. Hoch dosierte Präparate sind deshalb nicht automatisch harmlos oder sinnvoll. Bei regelmäßiger Medikation, Schwangerschaft, Stillzeit oder chronischen Erkrankungen sollte die Anwendung fachlich abgeklärt werden."
+        ]
+      },
+      {
+        id: "medikamente-antibiotika",
+        heading: "Erkältungsmedikamente und Antibiotika richtig einordnen",
+        paragraphs: [
+          "Rezeptfreie Schmerz- und Fiebermittel können Beschwerden vorübergehend lindern, heilen die Virusinfektion aber nicht. Achten Sie bei Kombinationspräparaten darauf, nicht versehentlich denselben Wirkstoff zusätzlich einzunehmen. Insbesondere Paracetamol kann bei Überdosierung die Leber schwer schädigen. Fragen Sie bei Unsicherheit eine Apotheke oder Arztpraxis.",
+          "Antibiotika wirken gegen Bakterien, nicht gegen Viren. Bei einer gewöhnlichen Erkältung helfen sie daher nicht und können Nebenwirkungen sowie die Entwicklung von Antibiotikaresistenzen begünstigen. Nur wenn eine bakterielle Komplikation ärztlich festgestellt oder begründet vermutet wird, kann ein Antibiotikum angezeigt sein."
+        ]
+      },
+      {
+        id: "ansteckung",
+        heading: "Andere vor Ansteckung schützen",
+        paragraphs: [
+          "Bei akuten Atemwegsbeschwerden ist es sinnvoll, Kontakte zu reduzieren und nach Möglichkeit zu Hause zu bleiben, bis sich der Zustand deutlich gebessert hat. Regelmäßiges Händewaschen, Husten und Niesen in die Armbeuge, Lüften und das Vermeiden engen Kontakts zu besonders gefährdeten Menschen senken das Übertragungsrisiko.",
+          "Erkältungsähnliche Beschwerden können auch durch Grippe oder COVID-19 ausgelöst werden. Bei entsprechender Exposition, Risikofaktoren oder stärkerem Krankheitsgefühl kann ein Test beziehungsweise eine frühe ärztliche Rücksprache wichtig sein, weil für bestimmte Risikogruppen zeitkritische antivirale Behandlungen infrage kommen."
+        ]
+      },
+      {
+        id: "wann-arzt",
+        heading: "Wann sollte man ärztliche Hilfe suchen?",
+        paragraphs: [
+          "Lassen Sie Beschwerden medizinisch abklären, wenn Atemnot, schnelle oder erschwerte Atmung, Brustschmerzen, deutliche Austrocknung, ungewöhnliche Benommenheit oder eine starke Verschlechterung auftreten. Bei schwerer Atemnot oder akuten lebensbedrohlichen Symptomen ist der Notruf 112 richtig.",
+          "Ärztlicher Rat ist außerdem sinnvoll, wenn Fieber länger als etwa vier Tage anhält, Beschwerden nach zehn Tagen nicht besser werden, sich nach anfänglicher Besserung erneut deutlich verschlimmern oder eine chronische Erkrankung sich verschlechtert. Menschen mit erhöhtem Risiko für schwere Verläufe – etwa aufgrund höherer Altersgruppe, Immunschwäche oder relevanter Vorerkrankungen – sollten bei grippe- oder COVID-ähnlichen Symptomen frühzeitig Kontakt aufnehmen.",
+          "Bei Säuglingen und kleinen Kindern gelten niedrigere Schwellen für eine ärztliche Beurteilung. Alter, Trinkverhalten, Atmung und Allgemeinzustand sind dabei besonders wichtig."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zu Hausmitteln bei Erkältung",
+        paragraphs: [
+          "**Hilft Hühnersuppe gegen Erkältungsviren?** Dafür gibt es keinen belastbaren Nachweis. Sie kann warm, bekömmlich und angenehm sein und zur Flüssigkeitsaufnahme beitragen.",
+          "**Macht viel Trinken die Erkältung schneller weg?** Nein. Ausreichend trinken ist wichtig, aber große Mengen über den Durst hinaus sind nicht als Heilmittel belegt.",
+          "**Kann ich meinem Baby Honig gegen Husten geben?** Nein. Unter zwölf Monaten besteht das Risiko von Säuglingsbotulismus.",
+          "**Sind Dampfinhalationen mit Kamille sinnvoll?** Ein klarer medizinischer Nutzen ist nicht belegt. Heiße Wasserschüsseln bergen Verbrühungsgefahr; ätherische Zusätze können reizen.",
+          "**Brauche ich bei gelbem oder grünem Nasensekret Antibiotika?** Die Farbe allein beweist keine bakterielle Infektion. Ob eine bakterielle Komplikation vorliegt, muss anhand des gesamten Krankheitsbildes beurteilt werden.",
+          "**Wie lange dauert eine Erkältung?** Viele Erkältungen bessern sich innerhalb von ein bis zwei Wochen. Husten kann länger anhalten. Bei ungewöhnlichem Verlauf oder Warnzeichen sollte ärztlicher Rat eingeholt werden."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag bietet allgemeine Gesundheitsinformationen und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Die genannten Maßnahmen sind keine individuelle Therapieempfehlung. Bei Kindern, Schwangerschaft, chronischen Erkrankungen, regelmäßiger Medikamenteneinnahme oder starken beziehungsweise anhaltenden Beschwerden sollte die Auswahl von Arzneimitteln und Hausmitteln mit medizinischem Fachpersonal abgestimmt werden."
+        ]
+      }
     ],
     sources: [
-      {
-        title: "Grippe: Symptome, Behandlung, Vorbeugung",
-        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
-        url: "https://gesund.bund.de/grippe-influenza",
-        accessed: "2026-11-26",
-      },
       {
         title: "Erkältung: Symptome und Behandlung",
         publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
         url: "https://gesund.bund.de/erkaeltung",
         accessed: "2026-11-26",
       },
+      {
+        title: "Erkältung",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG) – Gesundheitsinformation.de",
+        url: "https://www.gesundheitsinformation.de/erkaeltung.html",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Schnupfen, Husten und Halsschmerzen lindern",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG)",
+        url: "https://www.gesundheitsinformation.de/schnupfen-husten-und-halsschmerzen-lindern.html",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Manage Common Cold",
+        publisher: "Centers for Disease Control and Prevention (CDC)",
+        url: "https://www.cdc.gov/common-cold/treatment/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Common cold",
+        publisher: "National Health Service (NHS)",
+        url: "https://www.nhs.uk/conditions/common-cold/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Summary of the evidence: Cough (acute)",
+        publisher: "National Institute for Health and Care Excellence (NICE)",
+        url: "https://www.nice.org.uk/guidance/ng120/chapter/summary-of-the-evidence",
+        accessed: "2026-11-26",
+      }
     ],
   },
   {
