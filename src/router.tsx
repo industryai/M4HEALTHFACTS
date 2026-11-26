@@ -6,13 +6,17 @@ export const getRouter = () => {
   // One client per request: a module-level QueryClient leaks cached data between SSR requests.
   const queryClient = new QueryClient();
 
+  // Vite statically replaces import.meta.env.SSR in shared bundles. Detect the
+  // browser at runtime so the client router keeps the GitHub Pages subpath,
+  // while prerendering and server rendering continue to use the domain root.
+  const basepath =
+    typeof window !== "undefined"
+      ? import.meta.env.BASE_URL.replace(/\/$/, "") || "/"
+      : "/";
+
   const router = createRouter({
     routeTree,
-    // Static prerendering runs at the domain root; only the browser needs the
-    // GitHub Pages repository prefix when matching the deployed URL.
-    basepath: import.meta.env.SSR
-      ? "/"
-      : import.meta.env.BASE_URL.replace(/\/$/, "") || "/",
+    basepath,
     context: { queryClient },
     scrollRestoration: true,
     // Lets Query own freshness; set caching defaults on the QueryClient, not the router.
