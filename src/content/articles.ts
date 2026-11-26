@@ -602,61 +602,159 @@ export const articles: Article[] = [
   },
   {
     slug: "gesundheitsvorsorge-check-up",
-    title: "Gesundheitsvorsorge: Was bringt der Check-up?",
+    title: "Gesundheitsvorsorge: Check-up, Früherkennung und sinnvolle Untersuchungen",
     category: "praevention",
-    tags: ["Prävention", "Vorsorge", "Check-up", "Früherkennung"],
-    intro: "Vorsorgeuntersuchungen können bestimmte Erkrankungsrisiken frühzeitig sichtbar machen. Welche Angebote sinnvoll sind, hängt unter anderem von Alter, Geschlecht und persönlicher Situation ab.",
-    excerpt: "Welche Gesundheits-Check-ups gesetzlich Versicherte nutzen können und warum Vorsorge nicht mit Diagnostik bei Beschwerden verwechselt werden sollte.",
-    readingMinutes: 7,
+    tags: ["Gesundheitsvorsorge", "Check-up", "Früherkennung", "Vorsorge", "Krankenkasse"],
+    intro: "Regelmäßige Gesundheitsvorsorge kann helfen, bestimmte Risiken und Erkrankungen frühzeitig zu erkennen. Welche Untersuchungen sinnvoll sind, hängt von Alter, Geschlecht, persönlichen Risikofaktoren und der jeweiligen Evidenz ab. Dieser Ratgeber erklärt den gesetzlichen Check-up in Deutschland und ordnet weitere Früherkennungsangebote ein.",
+    excerpt: "Was der Gesundheits-Check-up der Krankenkasse umfasst, welche Früherkennungsangebote es gibt und warum zusätzliche Tests nicht automatisch besser sind.",
+    readingMinutes: 9,
     publishedAt: "2026-11-26",
     updatedAt: "2026-11-26",
     keyFacts: [
       "Gesetzlich Versicherte können den Gesundheits-Check-up zwischen 18 und 34 Jahren einmalig und ab 35 Jahren alle drei Jahre nutzen.",
-      "Der Check-up dient unter anderem dazu, Risiken für Herz-Kreislauf-Erkrankungen und Typ-2-Diabetes frühzeitig zu erkennen.",
-      "Früherkennungsuntersuchungen können Nutzen und Risiken haben; die Teilnahme ist eine persönliche Entscheidung.",
+      "Der Check-up erfasst unter anderem persönliche Risikofaktoren, Blutdruck, Impfstatus und – altersabhängig – Laborwerte.",
+      "Ab 35 Jahren ist ein einmaliges Screening auf Hepatitis B und C Bestandteil des Angebots.",
+      "Früherkennung kann Nutzen haben, aber auch falsch-positive Befunde und Überdiagnosen verursachen.",
+      "Beschwerden sollten unabhängig vom nächsten Vorsorgetermin zeitnah diagnostisch abgeklärt werden."
     ],
     sections: [
       {
-        id: "check-up",
-        heading: "Was ist der Gesundheits-Check-up?",
+        id: "vorsorge-und-frueherkennung",
+        heading: "Was bedeutet Gesundheitsvorsorge?",
         paragraphs: [
-          "Der Gesundheits-Check-up ist ein Vorsorgeangebot der gesetzlichen Krankenversicherung. Versicherte können ihn zwischen 18 und 34 Jahren einmalig und ab 35 Jahren regelmäßig alle drei Jahre in Anspruch nehmen.",
-          "Ziel ist es unter anderem, Risiken für Herz-Kreislauf-Erkrankungen und Typ-2-Diabetes frühzeitig zu erkennen. Zum Angebot gehören je nach Situation ein ärztliches Gespräch, körperliche Untersuchungen und Laboruntersuchungen.",
-        ],
+          "Gesundheitsvorsorge umfasst Maßnahmen, die Erkrankungen verhindern oder Risiken reduzieren sollen. Dazu gehören beispielsweise Impfungen, Bewegung, ausgewogene Ernährung, Nichtrauchen und der Umgang mit Alkohol. Früherkennungsuntersuchungen verfolgen ein anderes Ziel: Sie sollen bestimmte Erkrankungen oder Vorstufen erkennen, bevor Beschwerden auftreten.",
+          "Nicht jede Untersuchung ist für jede Person sinnvoll. Der Nutzen hängt davon ab, wie häufig die betreffende Erkrankung vorkommt, wie zuverlässig der Test ist und ob eine frühere Behandlung tatsächlich den Krankheitsverlauf verbessert. Alter, Vorerkrankungen und familiäre Belastungen können die Entscheidung beeinflussen."
+        ]
       },
       {
-        id: "vorsorge-und-diagnostik",
-        heading: "Vorsorge ist nicht dasselbe wie Diagnostik",
+        id: "gesetzlicher-check-up",
+        heading: "Gesundheits-Check-up: Wer hat Anspruch?",
         paragraphs: [
-          "Vorsorgeuntersuchungen richten sich an Menschen ohne konkrete Beschwerden und sollen bestimmte Risiken oder Erkrankungen früh erkennen. Diagnostische Untersuchungen werden dagegen eingesetzt, wenn Beschwerden oder ein konkreter Krankheitsverdacht bestehen.",
-          "Bei gesundheitlichen Beschwerden sollte man daher nicht auf den nächsten Vorsorgetermin warten, sondern medizinischen Rat einholen.",
-        ],
+          "Gesetzlich Krankenversicherte haben Anspruch auf die allgemeine Gesundheitsuntersuchung: zwischen 18 und 34 Jahren einmalig und ab dem 35. Geburtstag alle drei Jahre. Die Kosten für die im Leistungskatalog vorgesehene Untersuchung übernimmt die gesetzliche Krankenkasse.",
+          "Der Check-up richtet sich an Menschen ohne konkrete Beschwerden. Er soll gesundheitliche Risiken und häufige Erkrankungen frühzeitig erfassen, insbesondere Risiken für Herz-Kreislauf-Erkrankungen, Nierenerkrankungen und Typ-2-Diabetes. Bei Beschwerden ist unabhängig davon eine gezielte ärztliche Untersuchung möglich und gegebenenfalls notwendig."
+        ]
       },
       {
-        id: "nutzen-risiken",
-        heading: "Nutzen und mögliche Nachteile abwägen",
+        id: "ablauf",
+        heading: "Wie läuft der Check-up ab?",
         paragraphs: [
-          "Früherkennungsuntersuchungen können helfen, Krankheiten oder Vorstufen frühzeitig zu entdecken. Kein Test ist jedoch hundertprozentig zuverlässig; es kann auch zu unklaren Befunden oder weiteren Untersuchungen kommen.",
-          "Welche Untersuchungen für die eigene Situation angeboten werden, lässt sich mit der Hausarztpraxis besprechen. Die Teilnahme an Früherkennungsangeboten ist grundsätzlich freiwillig.",
-        ],
+          "Zu Beginn steht ein ärztliches Gespräch (Anamnese). Dabei geht es unter anderem um frühere Erkrankungen, familiäre Risiken, Medikamente, Impfungen und Lebensgewohnheiten wie Rauchen, Bewegung und Ernährung. Teilen Sie auch Beschwerden mit, selbst wenn der Termin als Vorsorgeuntersuchung vereinbart wurde.",
+          "Anschließend erfolgt eine körperliche Untersuchung einschließlich Blutdruckmessung. Der Impfstatus wird überprüft. Die Ärztin oder der Arzt bespricht individuelle Risikofaktoren und erläutert, welche Maßnahmen zur Vorbeugung passen können.",
+          "Die Untersuchung ist keine umfassende Suche nach jeder denkbaren Erkrankung. Umfang und weitere Diagnostik richten sich nach den geltenden Vorgaben und den individuellen Befunden."
+        ]
       },
+      {
+        id: "laborwerte",
+        heading: "Welche Blut- und Urinwerte werden untersucht?",
+        paragraphs: [
+          "Bei Versicherten ab 35 Jahren gehören eine Blutuntersuchung des Lipidprofils – dazu zählen unter anderem Cholesterinwerte und Triglyzeride – sowie die Bestimmung der Glukose zur Untersuchung. Zusätzlich ist eine Urinuntersuchung mit Teststreifen vorgesehen, bei der unter anderem Eiweiß, Glukose, rote und weiße Blutkörperchen sowie Nitrit erfasst werden.",
+          "Bei 18- bis 34-Jährigen sind Blutuntersuchungen im Rahmen des Check-ups vorgesehen, wenn ein entsprechendes Risikoprofil besteht. Eine routinemäßige Urinuntersuchung ist in dieser Altersgruppe nicht Bestandteil des allgemeinen Angebots.",
+          "Ab 35 Jahren besteht außerdem einmalig die Möglichkeit eines Screenings auf Hepatitis B und Hepatitis C. Ob aufgrund eines auffälligen Befunds weitere Untersuchungen erforderlich sind, wird individuell entschieden. Ein einzelner Laborwert stellt für sich allein noch keine Diagnose dar."
+        ]
+      },
+      {
+        id: "weitere-screenings",
+        heading: "Weitere Früherkennungsangebote",
+        paragraphs: [
+          "Neben dem allgemeinen Check-up gibt es in Deutschland weitere gesetzlich geregelte Früherkennungsangebote. Dazu gehören beispielsweise Untersuchungen zur Darm-, Brust-, Gebärmutterhals-, Prostata- und Hautkrebsfrüherkennung. Altersgrenzen, Intervalle und Untersuchungsmethoden unterscheiden sich je nach Angebot und können sich durch neue Beschlüsse ändern. Informieren Sie sich deshalb bei Ihrer Krankenkasse, in der Arztpraxis oder beim Gemeinsamen Bundesausschuss über die aktuell geltenden Anspruchsvoraussetzungen.",
+          "Männer ab 65 Jahren können einmalig eine Ultraschalluntersuchung zur Früherkennung eines Bauchaortenaneurysmas nutzen. Dabei handelt es sich um eine Erweiterung der Bauchschlagader, die lange unbemerkt bleiben kann.",
+          "Der Check-up kann mit anderen Früherkennungsangeboten zeitlich verbunden werden. Das bedeutet jedoch nicht, dass alle Untersuchungen automatisch für jede Person angezeigt sind."
+        ]
+      },
+      {
+        id: "nutzen-und-risiken",
+        heading: "Früherkennung: Nutzen und mögliche Nachteile abwägen",
+        paragraphs: [
+          "Eine Früherkennungsuntersuchung kann Vorteile haben, wenn eine Erkrankung in einem frühen Stadium besser behandelbar ist oder eine Vorstufe rechtzeitig erkannt und behandelt werden kann. Der Nutzen ist jedoch je nach Erkrankung und Test unterschiedlich und muss für jede Untersuchung gesondert bewertet werden.",
+          "Tests können falsch-positive Ergebnisse liefern: Ein Befund wirkt auffällig, obwohl keine entsprechende Erkrankung vorliegt. Das kann weitere Untersuchungen, Sorgen und in manchen Fällen Eingriffe nach sich ziehen. Falsch-negative Ergebnisse sind ebenfalls möglich, wenn eine Erkrankung trotz unauffälligem Test übersehen wird.",
+          "Eine Überdiagnose liegt vor, wenn eine Erkrankung entdeckt wird, die ohne Screening im Leben der betroffenen Person wahrscheinlich nie Beschwerden verursacht hätte. Eine solche Diagnose kann dennoch Behandlungen und Belastungen auslösen. Deshalb ist mehr Diagnostik nicht automatisch besser."
+        ]
+      },
+      {
+        id: "igel-zusatztests",
+        heading: "Zusatztests und IGeL-Leistungen kritisch prüfen",
+        paragraphs: [
+          "Arztpraxen bieten mitunter zusätzliche Laborwerte, Ultraschalluntersuchungen oder umfangreiche Gesundheitschecks als individuelle Gesundheitsleistungen (IGeL) an. Solche Angebote müssen nicht grundsätzlich nutzlos sein; für viele Untersuchungen bei beschwerdefreien Menschen ist ein gesundheitlicher Vorteil jedoch nicht ausreichend belegt.",
+          "Fragen Sie vor einer Selbstzahlerleistung konkret: Welche Erkrankung soll erkannt werden? Für wen ist der Test empfohlen? Gibt es einen nachgewiesenen Nutzen für Gesundheit oder Sterblichkeit? Welche falsch-positiven Befunde, Folgeuntersuchungen und Kosten sind möglich? Gibt es eine evidenzbasierte Alternative?",
+          "Ein auffälliger Laborwert außerhalb des üblichen Check-up-Programms sollte nicht isoliert interpretiert werden. Referenzbereiche, Vortestwahrscheinlichkeit und persönliche Situation spielen eine wichtige Rolle."
+        ]
+      },
+      {
+        id: "vorbereitung",
+        heading: "Wie kann man sich auf den Termin vorbereiten?",
+        paragraphs: [
+          "Bringen Sie – wenn vorhanden – Ihren Impfpass und eine Liste regelmäßig eingenommener Medikamente mit. Notieren Sie wichtige Vorerkrankungen und Erkrankungen in der nahen Familie. Schreiben Sie Fragen auf, die Sie im Gespräch klären möchten.",
+          "Fragen Sie die Praxis vorab, ob Sie nüchtern erscheinen sollen. Das kann für bestimmte Blutuntersuchungen relevant sein; die konkreten Vorgaben teilt Ihnen die Praxis mit. Ändern oder pausieren Sie Medikamente nicht eigenständig für den Termin.",
+          "Bitten Sie darum, die Ergebnisse verständlich zu erklären: Welche Werte sind auffällig, was bedeuten sie in Ihrem persönlichen Risikoprofil und ist eine Kontrolle oder weitere Diagnostik tatsächlich erforderlich?"
+        ]
+      },
+      {
+        id: "wann-arzt",
+        heading: "Bei Beschwerden nicht auf den Vorsorgetermin warten",
+        paragraphs: [
+          "Der Check-up ist kein Ersatz für eine Untersuchung bei konkreten Symptomen. Neu aufgetretene oder anhaltende Beschwerden sollten zeitnah ärztlich abgeklärt werden – auch wenn der letzte Check-up erst vor kurzer Zeit stattgefunden hat.",
+          "Bei akuten Warnzeichen wie starken Brustschmerzen, plötzlicher Atemnot, Lähmungserscheinungen oder Sprachstörungen ist sofortige medizinische Hilfe erforderlich. In lebensbedrohlichen Situationen wählen Sie den Notruf 112."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zur Gesundheitsvorsorge",
+        paragraphs: [
+          "**Muss ich den Check-up machen?** Nein. Die Untersuchung ist ein freiwilliges Angebot. Sie können mit Ihrer Ärztin oder Ihrem Arzt besprechen, welche Bestandteile für Ihre Situation relevant sind.",
+          "**Wie oft kann ich den Check-up nutzen?** Zwischen 18 und 34 Jahren einmalig, ab 35 Jahren alle drei Jahre im Rahmen der gesetzlichen Krankenversicherung.",
+          "**Ist der Check-up ein großes Blutbild?** Nein. Er umfasst definierte Untersuchungen, darunter ab 35 Jahren Glukose und Lipidprofil. Ein großes Blutbild ist nicht automatisch enthalten.",
+          "**Kann ich beim Check-up alle Krankheiten ausschließen lassen?** Nein. Kein Check-up kann sämtliche Erkrankungen ausschließen. Er ist auf bestimmte Risiken und häufige Krankheiten ausgerichtet.",
+          "**Muss ich für den Termin nüchtern sein?** Fragen Sie die Praxis vorab. Sie informiert darüber, ob und wie lange vor der Blutentnahme auf Essen verzichtet werden soll.",
+          "**Sind zusätzliche Vorsorgetests immer sinnvoll?** Nein. Lassen Sie sich erklären, welcher Nutzen belegt ist und welche möglichen Nachteile, Folgeuntersuchungen und Kosten entstehen können."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine individuelle ärztliche Beratung. Welche Vorsorge- und Früherkennungsuntersuchungen sinnvoll sind, hängt von persönlichen Risikofaktoren, Alter, Vorgeschichte und aktuellen Empfehlungen ab. Bei Beschwerden ist eine gezielte medizinische Abklärung unabhängig von Vorsorgeterminen wichtig."
+        ]
+      }
     ],
     sources: [
       {
-        title: "Gesundheits-Check-up für Erwachsene",
-        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
-        url: "https://gesund.bund.de/gesundheits-check-up-fuer-erwachsene",
+        title: "Gesundheitsuntersuchungen („Check-up“)",
+        publisher: "Gemeinsamer Bundesausschuss (G-BA)",
+        url: "https://www.g-ba.de/themen/methodenbewertung/erwachsene/gesundheitsuntersuchungen/",
         accessed: "2026-11-26",
       },
       {
-        title: "Früherkennung von Krankheiten",
-        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
-        url: "https://gesund.bund.de/themen/vorsorge-und-frueherkennung",
+        title: "Gesundheits-Check-up",
+        publisher: "Bundesministerium für Gesundheit (BMG)",
+        url: "https://www.bundesgesundheitsministerium.de/checkup/",
         accessed: "2026-11-26",
       },
+      {
+        title: "Check-up Gesundheitsuntersuchung für Erwachsene",
+        publisher: "Kassenärztliche Bundesvereinigung (KBV)",
+        url: "https://www.kbv.de/praxis/patientenversorgung/praevention/check-up",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Früherkennung",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG) – Gesundheitsinformation.de",
+        url: "https://www.gesundheitsinformation.de/frueherkennung.html",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Was ist eine Überdiagnose?",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG)",
+        url: "https://www.gesundheitsinformation.de/was-ist-eine-ueberdiagnose.html",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Gesundheits-Check-up für Erwachsene",
+        publisher: "gesund.bund.de",
+        url: "https://gesund.bund.de/gesundheits-check-up-fuer-erwachsene",
+        accessed: "2026-11-26",
+      }
     ],
   },
-
   {
     slug: "nahrungsergaenzung-wirkung-risiken",
     title: "Nahrungsergänzung: Was steckt wirklich dahinter?",
