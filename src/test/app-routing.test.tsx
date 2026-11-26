@@ -25,6 +25,7 @@ describe("App routing", () => {
     "/ratgeber/vitamin-d-grundlagen",
     "/ratgeber/magnesium-im-alltag",
     "/ratgeber/besser-schlafen-schlafhygiene",
+    "/ratgeber/bewegung-im-alltag",
     "/ueber-uns",
     "/kontakt",
     "/impressum",
