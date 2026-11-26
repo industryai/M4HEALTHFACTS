@@ -943,49 +943,6 @@ export const articles: Article[] = [
     ],
   },
   {
-    slug: "nahrungsergaenzung-wirkung-risiken",
-    title: "Nahrungsergänzung: Was steckt wirklich dahinter?",
-    category: "vitamine-naehrstoffe",
-    tags: ["Nahrungsergänzung", "Schwarzkümmelöl", "Astaxanthin", "Kurkuma", "Ashwagandha", "Vitamin D", "Magnesium"],
-    intro: "Schwarzkümmelöl, Astaxanthin, Kurkuma, MSM, Cholin oder Ashwagandha werden online häufig mit großen Gesundheitsversprechen beworben. Was sich daraus tatsächlich ableiten lässt, hängt vom einzelnen Stoff, der Dosierung und der Studienlage ab.",
-    excerpt: "Ein sachlicher Überblick über häufig genannte Pflanzenstoffe, Vitamine und Mineralstoffe – einschließlich möglicher Risiken und Wechselwirkungen.",
-    readingMinutes: 8,
-    publishedAt: "2026-11-26",
-    updatedAt: "2026-11-26",
-    popular: true,
-    keyFacts: [
-      "Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene Ernährung oder eine medizinische Behandlung.",
-      "Ein zusätzlicher Nutzen ist vor allem dann plausibel, wenn tatsächlich eine Unterversorgung oder ein erhöhter Bedarf besteht.",
-      "Hoch dosierte Präparate und Pflanzenextrakte können Nebenwirkungen oder Wechselwirkungen mit Medikamenten haben."
-    ],
-    sections: [
-      { id: "was-ist-das", heading: "Was Nahrungsergänzung leisten kann – und was nicht", paragraphs: [
-        "Nahrungsergänzungsmittel liefern konzentrierte Nährstoffe oder andere Stoffe, etwa Vitamine, Mineralstoffe, Fettsäuren oder Pflanzenextrakte. Sie sind Lebensmittel und keine zugelassenen Arzneimittel zur Behandlung von Krankheiten.",
-        "Ob ein Präparat sinnvoll ist, lässt sich nicht allein aus einem Social-Media-Video oder einer Zutatenliste ableiten. Entscheidend sind unter anderem Ernährungsweise, Lebenssituation, Erkrankungen, Medikamente und die tatsächliche Versorgung."
-      ] },
-      { id: "haeufige-stoffe", heading: "Häufig genannte Stoffe im Überblick", paragraphs: [
-        "Vitamin D trägt unter anderem zur normalen Funktion des Knochenstoffwechsels bei. Eine Ergänzung kann in bestimmten Situationen sinnvoll sein; eine pauschale Hochdosierung ist jedoch nicht für alle Menschen angezeigt.",
-        "Magnesium ist an vielen Körperfunktionen beteiligt. Gute Quellen sind beispielsweise Vollkornprodukte, Hülsenfrüchte, Nüsse und Samen. Muskelkrämpfe allein beweisen keinen Magnesiummangel.",
-        "Kurkuma beziehungsweise Curcumin, Schwarzkümmelöl, Astaxanthin, MSM und Cholin werden für unterschiedliche Zwecke vermarktet. Für viele der online verbreiteten Krankheits- und Heilversprechen reicht die verfügbare Evidenz nicht aus, um eine verlässliche Wirkung zu bestätigen.",
-        "Ashwagandha wird unter anderem im Zusammenhang mit Stress und Schlaf untersucht. Die Studien verwenden unterschiedliche Präparate; Langzeitdaten fehlen. Es gibt zudem Hinweise auf mögliche Auswirkungen auf Leber und Schilddrüse sowie Wechselwirkungen mit Medikamenten."
-      ] },
-      { id: "risiken", heading: "Risiken, Dosierung und Wechselwirkungen", paragraphs: [
-        "Mehr ist nicht automatisch besser. Eine langfristige Überversorgung mit Vitaminen und Mineralstoffen kann gesundheitliche Risiken bergen. Nahrungsergänzungsmittel können außerdem die Wirkung von Arzneimitteln abschwächen oder verstärken.",
-        "Besondere Vorsicht ist bei chronischen Erkrankungen, Schwangerschaft, Stillzeit, Leber- oder Schilddrüsenerkrankungen und regelmäßiger Medikamenteneinnahme sinnvoll. Besprechen Sie die Einnahme und Dosierung mit medizinischem Fachpersonal oder einer Apotheke."
-      ] },
-      { id: "video-einordnung", heading: "Einordnung der Aussagen aus dem Video", paragraphs: [
-        "Die im Short gezeigte Liste ist ein Themenüberblick, aber kein Nachweis dafür, dass die genannten Stoffe Krankheiten verhindern, heilen oder Medikamente ersetzen. Die Abkürzung „WPO 3,5 %“ ist im Screenshot nicht eindeutig erklärt und wird deshalb nicht als Wirkstoff oder Anwendungsempfehlung übernommen.",
-        "Verwenden Sie keine unbekannten Substanzen oder Produkte aufgrund einer Kurzvideo-Aussage. Bei Beschwerden oder einer bestehenden Diagnose gehört die Behandlung in ärztliche Hände."
-      ] }
-    ],
-    sources: [
-      { title: "Fragen und Antworten zu Nahrungsergänzungsmitteln", publisher: "Bundesinstitut für Risikobewertung (BfR)", url: "https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-nahrungsergaenzungsmitteln/", accessed: "2026-11-26" },
-      { title: "Ashwagandha: Is it helpful for stress, anxiety, or sleep?", publisher: "NIH Office of Dietary Supplements", url: "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/", accessed: "2026-11-26" },
-      { title: "Turmeric: Usefulness and Safety", publisher: "National Center for Complementary and Integrative Health (NCCIH)", url: "https://www.nccih.nih.gov/health/turmeric", accessed: "2026-11-26" },
-      { title: "Vitamin D – Fact Sheet for Health Professionals", publisher: "NIH Office of Dietary Supplements", url: "https://ods.od.nih.gov/factsheets/VITAMIND-HealthProfessional/", accessed: "2026-11-26" }
-    ]
-  },
-  {
     slug: "lebensmittel-organe-ernaehrung",
     title: "Lebensmittel und Organe: Was Ernährung wirklich bewirken kann",
     category: "ernaehrung",
@@ -1724,49 +1681,6 @@ export const articles: Article[] = [
   },
 
 
-  {
-    slug: "bluthochdruck-verstehen",
-    title: "Bluthochdruck verstehen: Werte, Ursachen und Behandlung",
-    category: "herz-kreislauf",
-    tags: ["Blutdruck", "Hypertonie", "Herz", "Gefäße", "Prävention"],
-    intro: "Bluthochdruck bleibt häufig lange unbemerkt und belastet auf Dauer Herz, Gefäße, Gehirn und Nieren. Dieser Ratgeber erklärt die Blutdruckwerte, wie eine Diagnose abgesichert wird und welche Maßnahmen zur Behandlung gehören.",
-    excerpt: "Was systolische und diastolische Werte bedeuten, warum eine einzelne Messung nicht genügt und welche Lebensstilmaßnahmen helfen können.",
-    readingMinutes: 10, publishedAt: "2026-11-26", updatedAt: "2026-11-26", popular: true,
-    keyFacts: [
-      "Bluthochdruck verursacht häufig keine spürbaren Beschwerden.",
-      "Ein auffälliger Praxiswert sollte durch wiederholte Messungen, möglichst eine 24-Stunden-Messung, abgesichert werden.",
-      "Bewegung, Rauchverzicht, Gewichtsmanagement und eine salzbewusste Ernährung können die Behandlung unterstützen."
-    ],
-    sections: [
-      { id: "blutdruck", heading: "Was bedeutet Blutdruck?", paragraphs: [
-        "Der Blutdruck beschreibt den Druck, den das Blut auf die Wände der Blutgefäße ausübt. Der obere, systolische Wert entsteht, wenn sich das Herz zusammenzieht und Blut in den Kreislauf pumpt. Der untere, diastolische Wert wird gemessen, wenn der Herzmuskel zwischen zwei Schlägen erschlafft.",
-        "Die Werte werden in Millimeter Quecksilbersäule (mmHg) angegeben, zum Beispiel 128/82 mmHg. Sie können sich im Tagesverlauf verändern und werden unter anderem durch Bewegung, Stress, Schmerzen, Koffein und die Messsituation beeinflusst."
-      ]},
-      { id: "hypertonie", heading: "Wann spricht man von Bluthochdruck?", paragraphs: [
-        "Die Nationale VersorgungsLeitlinie verwendet für die Praxisblutdruckmessung einen Grenzwert von 140/90 mmHg. Ein einzelner erhöhter Messwert beweist jedoch noch keine dauerhafte Hypertonie. Für die Diagnose ist eine standardisierte und wiederholte Messung wichtig.",
-        "Die Leitlinie empfiehlt zur Bestätigung bevorzugt eine ambulante 24-Stunden-Blutdruckmessung. Wenn diese nicht möglich oder nicht akzeptiert ist, kann eine strukturierte Heimblutdruckmessung mit einem validierten Gerät eine Alternative sein. Individuelle Therapieziele werden gemeinsam mit der behandelnden Praxis festgelegt."
-      ]},
-      { id: "ursachen", heading: "Ursachen und Risikofaktoren", paragraphs: [
-        "Bei vielen Betroffenen lässt sich keine einzelne Ursache feststellen. Das Risiko wird unter anderem durch familiäre Veranlagung, höheres Alter, Übergewicht, Bewegungsmangel, hohen Salzkonsum und regelmäßigen Alkoholkonsum beeinflusst. Auch bestimmte Erkrankungen und Medikamente können eine Rolle spielen.",
-        "Bluthochdruck ist oft symptomlos. Kopfschmerzen oder Schwindel sind unspezifisch und eignen sich nicht, um den Blutdruck zuverlässig einzuschätzen. Regelmäßige Messungen sind aussagekräftiger als das eigene Körpergefühl."
-      ]},
-      { id: "alltag", heading: "Was kann im Alltag helfen?", paragraphs: [
-        "Regelmäßige körperliche Aktivität, ein gesundheitsförderliches Körpergewicht, Rauchverzicht und ein maßvoller Umgang mit Alkohol können das Herz-Kreislauf-Risiko senken. Eine salzbewusste Ernährung mit viel Gemüse, Obst und wenig stark verarbeiteten Lebensmitteln kann ebenfalls sinnvoll sein.",
-        "Lebensstilmaßnahmen ersetzen nicht in jedem Fall Medikamente. Ob eine medikamentöse Behandlung erforderlich ist, richtet sich nach Blutdruckwerten, Begleiterkrankungen und dem gesamten persönlichen Risiko."
-      ]},
-      { id: "behandlung", heading: "Behandlung und Verlaufskontrolle", paragraphs: [
-        "Wenn Medikamente notwendig sind, stehen verschiedene Wirkstoffgruppen zur Verfügung. Die Auswahl hängt unter anderem von Begleiterkrankungen, Verträglichkeit und individuellen Therapiezielen ab. Medikamente sollten nicht eigenständig begonnen, abgesetzt oder in der Dosis verändert werden.",
-        "Nach einer Therapieänderung ist eine Verlaufskontrolle wichtig. Besprechen Sie auffällige Heimwerte, Messbedingungen und mögliche Nebenwirkungen mit Ihrer Arztpraxis."
-      ]},
-      { id: "notfall", heading: "Wann ist sofortige Hilfe nötig?", paragraphs: [
-        "Sehr hohe Blutdruckwerte zusammen mit akuten Beschwerden wie Brustschmerzen, Atemnot, Lähmungs- oder Sprachstörungen, Bewusstseinsstörungen oder starken neurologischen Symptomen können auf einen Notfall hinweisen. Wählen Sie in solchen Situationen 112. Ein hoher Messwert ohne akute Beschwerden ist anders zu beurteilen und sollte nach Ruhe korrekt kontrolliert und medizinisch eingeordnet werden."
-      ]}
-    ],
-    sources: [
-      { title: "Nationale VersorgungsLeitlinie Hypertonie", publisher: "Bundesärztekammer, KBV und AWMF – Leitlinien.de", url: "https://www.leitlinien.de/themen/hypertonie", accessed: "2026-11-26" },
-      { title: "Bluthochdruck: Ursachen und Behandlung", publisher: "gesund.bund.de – Bundesministerium für Gesundheit", url: "https://gesund.bund.de/bluthochdruck", accessed: "2026-11-26" }
-    ]
-  },
   {
     slug: "diabetes-typ-2",
     title: "Diabetes Typ 2: Symptome, Diagnose, Behandlung und Prävention",
