@@ -4,6 +4,7 @@ import { describe, expect, it } from "vitest";
 
 import { routeTree } from "@/routeTree.gen";
 import { articles } from "@/content/articles";
+import { categories } from "@/content/categories";
 import { lexicon } from "@/content/lexicon";
 
 // Match routes without running loaders or rendering: loaders may need a server or
@@ -39,6 +40,17 @@ describe("App routing", () => {
   ])("matches the content route %s", (path) => {
     const matches = router.matchRoutes(path);
     expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
+  });
+
+  it.each(categories.map((category) => `/${category.slug}`))("matches category route %s", (path) => {
+    const matches = router.matchRoutes(path);
+    expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
+  });
+
+  it("has at least one article in every category", () => {
+    for (const category of categories) {
+      expect(articles.some((article) => article.category === category.slug), category.name).toBe(true);
+    }
   });
 
   it("does not link lexicon entries to missing articles", () => {
