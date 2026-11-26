@@ -1618,6 +1618,192 @@ export const articles: Article[] = [
     ]
   },
   {
+    slug: "diabetes-typ-2",
+    title: "Diabetes Typ 2: Symptome, Diagnose, Behandlung und Prävention",
+    category: "koerper-gesundheit",
+    tags: ["Diabetes Typ 2", "Blutzucker", "Insulin", "HbA1c", "Insulinresistenz", "Prävention"],
+    intro: "Typ-2-Diabetes ist eine chronische Stoffwechselerkrankung, bei der Insulin nicht mehr ausreichend wirkt und der Blutzucker dauerhaft ansteigen kann. Die Erkrankung entwickelt sich häufig schleichend. Eine frühe Diagnose und eine individuell abgestimmte Behandlung helfen, Folgeerkrankungen zu vermeiden.",
+    excerpt: "Wie Typ-2-Diabetes entsteht, welche Symptome auftreten können, wie HbA1c und Blutzucker diagnostisch eingeordnet werden und welche Behandlungen verfügbar sind.",
+    readingMinutes: 11,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Bei Typ-2-Diabetes reagieren Körperzellen zunehmend unempfindlich auf Insulin; später kann die Insulinproduktion zusätzlich nachlassen.",
+      "Die Erkrankung verursacht anfangs oft keine eindeutigen Beschwerden und kann über Jahre unentdeckt bleiben.",
+      "Ein HbA1c-Wert ab 6,5 Prozent oder eine Nüchternplasmaglukose ab 126 mg/dl können Diabeteskriterien erfüllen; die Diagnose muss fachgerecht bestätigt werden.",
+      "Bewegung, ausgewogene Ernährung und gegebenenfalls Gewichtsabnahme sind zentrale Bestandteile der Behandlung.",
+      "Je nach Begleiterkrankungen und Risiko können Medikamente mit nachgewiesenem Herz- und Nierenschutz besonders wichtig sein."
+    ],
+    sections: [
+      {
+        id: "was-ist",
+        heading: "Was ist Diabetes Typ 2?",
+        paragraphs: [
+          "Diabetes mellitus Typ 2 ist eine chronische Stoffwechselerkrankung, bei der der Blutzucker dauerhaft erhöht sein kann. Normalerweise hilft das Hormon Insulin dabei, Glukose aus dem Blut in Körperzellen aufzunehmen und den Stoffwechsel zu regulieren.",
+          "Bei Typ-2-Diabetes reagieren Muskel-, Leber- und Fettzellen zunehmend weniger empfindlich auf Insulin. Diese verminderte Wirkung wird Insulinresistenz genannt. Die Bauchspeicheldrüse versucht zunächst, den Bedarf durch eine höhere Insulinproduktion auszugleichen. Im Verlauf kann die Leistungsfähigkeit der insulinproduzierenden Betazellen nachlassen.",
+          "Typ-2-Diabetes ist nicht dasselbe wie Typ-1-Diabetes. Bei Typ 1 zerstört das Immunsystem die insulinproduzierenden Zellen, weshalb Insulin fehlt und dauerhaft ersetzt werden muss. Die Erkrankungsformen unterscheiden sich in Ursache und Behandlung."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Welche Symptome können auftreten?",
+        paragraphs: [
+          "Typ-2-Diabetes entwickelt sich häufig langsam und bleibt anfangs symptomarm. Manche Menschen erfahren erst durch eine Routine-Blutuntersuchung von der Erkrankung. Mögliche Beschwerden bei erhöhtem Blutzucker sind starker Durst, häufiges Wasserlassen, Müdigkeit, Leistungsschwäche, verschwommenes Sehen und ungewollter Gewichtsverlust.",
+          "Auch wiederkehrende Infektionen, schlecht heilende Wunden oder Juckreiz können vorkommen, sind aber unspezifisch. Diese Anzeichen beweisen keinen Diabetes und können andere Ursachen haben.",
+          "Bei stark erhöhtem Blutzucker können Flüssigkeitsmangel, Übelkeit, Erbrechen, Benommenheit oder Bewusstseinsstörungen auftreten. Bei ausgeprägter Schwäche, Erbrechen, deutlicher Austrocknung oder Bewusstseinsveränderung ist umgehend medizinische Hilfe erforderlich."
+        ]
+      },
+      {
+        id: "ursachen-risiken",
+        heading: "Ursachen und Risikofaktoren",
+        paragraphs: [
+          "Typ-2-Diabetes entsteht durch das Zusammenwirken genetischer Veranlagung, biologischer Faktoren und Lebensbedingungen. Übergewicht – insbesondere vermehrtes Bauchfett –, Bewegungsmangel und eine langfristig ungünstige Ernährungsweise können das Risiko erhöhen. Auch höheres Lebensalter und bestimmte Vorerkrankungen spielen eine Rolle.",
+          "Weitere Risikofaktoren sind Typ-2-Diabetes bei nahen Angehörigen, Bluthochdruck, Fettstoffwechselstörungen, bereits erhöhte Blutzuckerwerte und ein früherer Schwangerschaftsdiabetes. Die Erkrankung kann jedoch auch bei normalem Körpergewicht auftreten.",
+          "Ein Risikofaktor bedeutet nicht, dass Diabetes zwangsläufig entsteht. Umgekehrt schließt ein unauffälliges Körpergewicht die Erkrankung nicht aus. Eine individuelle Risikoeinschätzung ist aussagekräftiger als die Betrachtung eines einzelnen Merkmals."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Wie wird Typ-2-Diabetes diagnostiziert?",
+        paragraphs: [
+          "Die Diagnose wird anhand standardisierter Laboruntersuchungen gestellt. Wichtige Parameter sind die Nüchternplasmaglukose und der HbA1c-Wert. Der HbA1c-Wert bildet vereinfacht den durchschnittlichen Blutzucker der vergangenen etwa acht bis zwölf Wochen ab.",
+          "Nach den Kriterien der Nationalen VersorgungsLeitlinie gelten unter anderem folgende Werte als Diabetesbereich: Nüchternplasmaglukose mindestens 126 mg/dl (7,0 mmol/l), HbA1c mindestens 6,5 Prozent (48 mmol/mol) oder eine Gelegenheits-Plasmaglukose mindestens 200 mg/dl (11,1 mmol/l) bei passender klinischer Situation.",
+          "Ein auffälliger Wert muss in der Regel durch eine weitere geeignete Laborbestimmung bestätigt werden, sofern nicht eindeutige Symptome und eine zweifelsfreie Hyperglykämie vorliegen. Bei widersprüchlichen Ergebnissen kann eine zusätzliche Messung oder ein oraler Glukosetoleranztest (oGTT) erforderlich sein.",
+          "Der HbA1c-Wert kann durch bestimmte Blut- und Hämoglobinerkrankungen, Schwangerschaft, Nierenprobleme oder andere Faktoren beeinflusst werden. Die Ärztin oder der Arzt entscheidet deshalb, welche Tests im konkreten Fall geeignet sind. Selbstmessungen mit einem Heimgerät ersetzen keine Labordiagnostik."
+        ]
+      },
+      {
+        id: "praediabetes",
+        heading: "Was bedeutet Prädiabetes oder erhöhtes Diabetesrisiko?",
+        paragraphs: [
+          "Werte unterhalb der Diabetesgrenze können bereits auf ein erhöhtes Risiko hinweisen. Die NVL nennt beispielsweise HbA1c-Werte von 5,7 bis unter 6,5 Prozent und Nüchternplasmaglukosewerte von 100 bis 125 mg/dl als Bereich eines erhöhten Risikos. Bei der Nüchternglukose bestehen zwischen Fachgesellschaften teilweise unterschiedliche Grenzwertdefinitionen.",
+          "Ein solcher Befund bedeutet nicht, dass bereits sicher Diabetes besteht. Er ist aber ein Anlass, Risikofaktoren zu besprechen und Lebensstilmaßnahmen zu unterstützen. Je nach Ausgangswert und Risikoprofil können Verlaufskontrollen sinnvoll sein.",
+          "Bei erhöhtem Risiko können regelmäßige Bewegung, eine ausgewogene Ernährung, Rauchverzicht und eine nachhaltige Gewichtsregulation dazu beitragen, die Entwicklung eines Typ-2-Diabetes zu verzögern oder das Risiko zu verringern."
+        ]
+      },
+      {
+        id: "folgeerkrankungen",
+        heading: "Welche Folgeerkrankungen sind möglich?",
+        paragraphs: [
+          "Ein dauerhaft erhöhter Blutzucker kann kleine und große Blutgefäße sowie Nerven schädigen. Mögliche Folgen sind Herzinfarkt, Schlaganfall, Durchblutungsstörungen, Nierenschäden, Netzhautschäden am Auge und Nervenschäden (Neuropathie).",
+          "Nervenschäden und eine schlechtere Durchblutung können insbesondere an den Füßen zu Druckstellen, Verletzungen und schlecht heilenden Wunden führen. Regelmäßige Fußkontrollen und eine frühzeitige Behandlung von Verletzungen sind deshalb wichtig.",
+          "Das Risiko hängt nicht allein vom HbA1c ab. Blutdruck, LDL-Cholesterin, Rauchen, Nierenfunktion und bereits bestehende Gefäßerkrankungen müssen ebenfalls berücksichtigt werden. Eine gute Behandlung umfasst deshalb mehr als die reine Blutzuckersenkung."
+        ]
+      },
+      {
+        id: "lebensstil",
+        heading: "Ernährung, Bewegung und Gewichtsmanagement",
+        paragraphs: [
+          "Eine ausgewogene, alltagstaugliche Ernährung ist ein zentraler Baustein. Gemüse, Hülsenfrüchte, Vollkornprodukte, Nüsse und ballaststoffreiche Lebensmittel können helfen, Blutzucker und weitere Stoffwechselrisiken günstig zu beeinflussen. Zuckerhaltige Getränke und stark verarbeitete Lebensmittel sollten möglichst begrenzt werden.",
+          "Es gibt keine einzige Diabetesdiät, die für alle Menschen geeignet ist. Entscheidend sind langfristige Umsetzbarkeit, persönliche Vorlieben, Begleiterkrankungen und eine ausreichende Nährstoffversorgung. Sehr restriktive Diäten oder Nahrungsergänzungsmittel mit Heilversprechen sind keine notwendige Standardbehandlung.",
+          "Regelmäßige Bewegung verbessert die Insulinempfindlichkeit. Als allgemeine Orientierung gelten mindestens 150 Minuten moderate Ausdaueraktivität pro Woche sowie ergänzendes Krafttraining. Auch kurze Bewegungseinheiten und das Unterbrechen langer Sitzzeiten sind sinnvoll. Bei bestehenden Folgeerkrankungen sollte die Belastung gegebenenfalls medizinisch abgestimmt werden.",
+          "Bei Übergewicht kann eine nachhaltige Gewichtsabnahme den Blutzucker und weitere Risikofaktoren verbessern. Bereits eine moderate Veränderung kann gesundheitlich relevant sein. Unterstützung durch Ernährungsberatung, strukturierte Programme oder ein Diabetes-Schulungsangebot kann helfen."
+        ]
+      },
+      {
+        id: "behandlung-medikamente",
+        heading: "Wie wird Typ-2-Diabetes behandelt?",
+        paragraphs: [
+          "Die Behandlung wird gemeinsam mit der betroffenen Person festgelegt. Ziele sollen zur Lebenssituation, zum Alter, zu Begleiterkrankungen, zur Lebenserwartung und zu persönlichen Prioritäten passen. Neben dem Blutzucker werden Blutdruck, Blutfette, Nierenfunktion und das Risiko für Herz-Kreislauf-Erkrankungen berücksichtigt.",
+          "Metformin ist ein häufig eingesetztes Medikament, sofern keine Gegenanzeigen bestehen und es zur individuellen Situation passt. Weitere Wirkstoffgruppen umfassen unter anderem SGLT2-Hemmer und GLP-1-Rezeptoragonisten. Bei Menschen mit Herzinsuffizienz oder chronischer Nierenerkrankung können SGLT2-Hemmer aufgrund ihres nachgewiesenen Organ- und Nierenschutzes eine besondere Rolle spielen. Bei bestehender atherosklerotischer Herz-Kreislauf-Erkrankung oder hohem Risiko können GLP-1-Rezeptoragonisten mit nachgewiesenem Nutzen berücksichtigt werden.",
+          "Je nach Krankheitsverlauf und individueller Situation können Kombinationen oder eine Insulintherapie notwendig werden. Die Auswahl ist keine Rangliste und hängt von Wirksamkeit, Begleiterkrankungen, Nebenwirkungen, Nierenfunktion, Kosten und persönlichen Präferenzen ab.",
+          "Blutzuckerziele werden individuell festgelegt. Eine möglichst niedrige Zahl ist nicht automatisch das beste Ziel, wenn dadurch Unterzuckerungen oder andere Belastungen entstehen. Medikamente dürfen nicht eigenständig begonnen, verändert oder abgesetzt werden."
+        ]
+      },
+      {
+        id: "kontrollen-schulung",
+        heading: "Warum sind regelmäßige Kontrollen und Schulungen wichtig?",
+        paragraphs: [
+          "Nach der Diagnose werden je nach Situation HbA1c, Blutdruck, Blutfette und Nierenfunktion regelmäßig kontrolliert. Auch Augenhintergrund, Füße und mögliche Nervenschäden sollten in den empfohlenen Abständen untersucht werden. Die Intervalle hängen vom individuellen Befund und der Behandlung ab.",
+          "Eine strukturierte Diabetes-Schulung vermittelt Wissen zu Ernährung, Bewegung, Medikamenten, Blutzuckermessung, Unterzuckerung und dem Umgang mit Krankheit im Alltag. Sie unterstützt dabei, informierte Entscheidungen zu treffen und Warnzeichen rechtzeitig zu erkennen.",
+          "Nicht jede Person muss dauerhaft mehrmals täglich den Blutzucker messen. Die Notwendigkeit hängt unter anderem von der Therapie und dem Risiko für Unterzuckerungen ab. Das Messschema sollte mit dem Behandlungsteam vereinbart werden."
+        ]
+      },
+      {
+        id: "unterzuckerung",
+        heading: "Unterzuckerung: besonders bei bestimmten Medikamenten beachten",
+        paragraphs: [
+          "Eine Hypoglykämie (Unterzuckerung) kann insbesondere bei Insulin und bestimmten blutzuckersenkenden Tabletten auftreten. Mögliche Anzeichen sind Zittern, Schwitzen, Herzklopfen, Heißhunger, Konzentrationsstörungen und Verwirrtheit. Bei schwerer Unterzuckerung kann es zu Krampfanfällen oder Bewusstlosigkeit kommen.",
+          "Wer Medikamente mit Unterzuckerungsrisiko einnimmt, sollte mit dem Behandlungsteam besprechen, wie eine Unterzuckerung erkannt und behandelt wird und wann eine Anpassung der Therapie nötig ist. Bei Bewusstlosigkeit darf nichts zu essen oder zu trinken gegeben werden; es ist sofort der Notruf 112 zu wählen."
+        ]
+      },
+      {
+        id: "praevention",
+        heading: "Kann man Typ-2-Diabetes vorbeugen?",
+        paragraphs: [
+          "Das Risiko lässt sich nicht vollständig ausschalten, weil auch genetische und nicht beeinflussbare Faktoren beteiligt sind. Regelmäßige Bewegung, eine ausgewogene Ernährung, Nichtrauchen und ein gesundheitsförderliches Körpergewicht können jedoch dazu beitragen, das Risiko zu senken.",
+          "Menschen mit erhöhtem Risiko können in der Hausarztpraxis besprechen, ob eine Blutzuckerkontrolle oder ein strukturiertes Präventionsangebot sinnvoll ist. Bei bereits auffälligen Werten sollte die Verlaufskontrolle nicht aufgeschoben werden."
+        ]
+      },
+      {
+        id: "wann-hilfe",
+        heading: "Wann sollte man ärztlichen Rat suchen?",
+        paragraphs: [
+          "Starker Durst, häufiges Wasserlassen, unerklärliche Gewichtsabnahme, anhaltende Müdigkeit oder verschwommenes Sehen sollten ärztlich abgeklärt werden. Das gilt besonders, wenn mehrere Beschwerden zusammen auftreten oder Diabetes in der Familie vorkommt.",
+          "Bei Erbrechen, starken Bauchschmerzen, deutlicher Austrocknung, tiefer oder beschleunigter Atmung, Benommenheit oder Bewusstseinsstörungen ist umgehend medizinische Hilfe erforderlich. Bei schweren oder lebensbedrohlichen Symptomen wählen Sie 112."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zu Diabetes Typ 2",
+        paragraphs: [
+          "**Ist Typ-2-Diabetes heilbar?** Die Erkrankung gilt als chronisch. Bei manchen Menschen kann durch deutliche und anhaltende Gewichtsabnahme eine Remission erreicht werden, also Blutzuckerwerte unterhalb des Diabetesbereichs ohne blutzuckersenkende Medikamente. Das bedeutet keine garantierte dauerhafte Heilung; Kontrollen bleiben wichtig.",
+          "**Bekommt jeder mit Typ-2-Diabetes Insulin?** Nein. Viele Betroffene werden zunächst mit Lebensstilmaßnahmen und nicht insulinbasierten Medikamenten behandelt. Insulin kann später oder in bestimmten Situationen notwendig werden.",
+          "**Ist Diabetes Typ 2 eine Alterskrankheit?** Nein. Das Risiko steigt zwar mit dem Alter, die Erkrankung kann aber auch bei jüngeren Erwachsenen auftreten.",
+          "**Kann ich Diabetes am HbA1c selbst erkennen?** Ein Laborwert ab 6,5 Prozent kann ein Diagnosekriterium sein. Die Diagnose muss jedoch fachgerecht bestätigt und im medizinischen Kontext bewertet werden.",
+          "**Muss ich komplett auf Zucker verzichten?** Ein vollständiger Verzicht auf alle Zuckerarten ist nicht pauschal erforderlich. Wichtig sind die gesamte Ernährungsweise, passende Portionsgrößen und besonders der begrenzte Konsum zuckerhaltiger Getränke.",
+          "**Kann ich trotz Diabetes Sport treiben?** In den meisten Fällen ist Bewegung ausdrücklich sinnvoll. Art und Intensität sollten bei Folgeerkrankungen oder Medikamenten mit Unterzuckerungsrisiko individuell abgestimmt werden."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Diagnosewerte, Therapieziele und Medikamentenauswahl müssen individuell medizinisch beurteilt werden. Ändern Sie Medikamente oder Insulindosen nicht eigenständig. Bei akuten schweren Symptomen ist umgehend medizinische Hilfe erforderlich."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "Nationale VersorgungsLeitlinie Typ-2-Diabetes – Langfassung, Version 3.0",
+        publisher: "Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), AWMF",
+        url: "https://register.awmf.org/assets/guidelines/nvl-001l_S3_Typ-2-Diabetes_2026-02.pdf",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Nationale Versorgungsleitlinie Typ-2-Diabetes",
+        publisher: "Leitlinienprogramm / AWMF",
+        url: "https://www.leitlinien.de/themen/diabetes",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Diabetes Typ 2: Symptome und Behandlung",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/diabetes-typ-2",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Diagnostik – Typ-2-Diabetes",
+        publisher: "Nationale VersorgungsLeitlinie / Leitlinien.de",
+        url: "https://www.leitlinien.de/themen/diabetes/version-3/kapitel-4",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Screening und erhöhtes Diabetesrisiko",
+        publisher: "Nationale VersorgungsLeitlinie / Leitlinien.de",
+        url: "https://www.leitlinien.de/themen/diabetes/version-3/kapitel-3",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Diabetes mellitus Typ 2",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG) – Gesundheitsinformation.de",
+        url: "https://www.gesundheitsinformation.de/diabetes-typ-2.html",
+        accessed: "2026-11-26",
+      }
+    ],
+  },
+  {
     slug: "cholesterin-blutfette",
     title: "Cholesterin verstehen: LDL, HDL, Triglyceride und Herzrisiko",
     category: "herz-kreislauf",
