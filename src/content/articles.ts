@@ -4116,6 +4116,184 @@ export const articles: Article[] = [
         accessed: "2026-11-26"
       }
     ]
+  },,
+
+  {
+    slug: "zoeliakie-verstehen",
+    title: "Zöliakie: Symptome, Antikörpertests, Darmbiopsie und glutenfreie Ernährung",
+    category: "koerper-gesundheit",
+    tags: ["Zöliakie", "Gluten", "Glutenunverträglichkeit", "Transglutaminase", "Dünndarm", "glutenfreie Ernährung"],
+    intro: "Zöliakie ist eine chronische Autoimmunerkrankung: Bei genetischer Veranlagung löst aufgenommenes Gluten eine Immunreaktion aus, die die Schleimhaut des Dünndarms schädigen kann. Die Erkrankung kann Verdauungsbeschwerden, Mangelzustände oder auch kaum erkennbare Symptome verursachen. Für eine zuverlässige Diagnose ist entscheidend, vor den Untersuchungen weiterhin Gluten zu essen.",
+    excerpt: "Was Zöliakie von Weizenallergie und nicht-zöliakischer Glutensensitivität unterscheidet, wie Bluttests und Dünndarmbiopsie funktionieren und worauf es bei dauerhaft glutenfreier Ernährung ankommt.",
+    readingMinutes: 12,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Zöliakie ist eine immunvermittelte Erkrankung und keine einfache Unverträglichkeit oder Weizenallergie.",
+      "Die Erkrankung kann in jedem Lebensalter auftreten und auch ohne typische Magen-Darm-Beschwerden bestehen.",
+      "Die initiale Blutdiagnostik umfasst in der Regel tTG-IgA und Gesamt-IgA – während weiterhin ausreichend Gluten gegessen wird.",
+      "Bei Erwachsenen wird die Diagnose üblicherweise durch Dünndarmbiopsien gesichert; bei ausgewählten Kindern kann unter spezialisierten Kriterien eine Diagnose ohne Biopsie möglich sein.",
+      "Bei gesicherter Zöliakie ist eine lebenslange, konsequent glutenfreie Ernährung die etablierte Behandlung."
+    ],
+    sections: [
+      {
+        id: "was-ist",
+        heading: "Was ist Zöliakie?",
+        paragraphs: [
+          "Zöliakie ist eine chronische, immunvermittelte Erkrankung des Dünndarms. Bei Menschen mit entsprechender genetischer Veranlagung führt der Kontakt mit Gluten zu einer fehlgeleiteten Immunreaktion. Gluten ist ein Sammelbegriff für bestimmte Speicherproteine in Weizen, Roggen und Gerste sowie verwandten Getreidesorten.",
+          "Die Immunreaktion kann die Dünndarmschleimhaut verändern. Typisch sind eine Vermehrung bestimmter Immunzellen und eine Rückbildung der Darmzotten. Dadurch kann die Aufnahme von Nährstoffen beeinträchtigt werden. Zöliakie ist nicht heilbar, lässt sich mit einer konsequent glutenfreien Ernährung jedoch in der Regel gut kontrollieren.",
+          "Zöliakie ist von einer Weizenallergie und der nicht-zöliakischen Weizen- beziehungsweise Glutensensitivität zu unterscheiden. Diese Erkrankungen haben unterschiedliche Mechanismen und benötigen eine andere Diagnostik."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Symptome: Nicht nur Durchfall und Bauchschmerzen",
+        paragraphs: [
+          "Mögliche Magen-Darm-Beschwerden sind chronischer oder wiederkehrender Durchfall, Blähungen, Bauchschmerzen, ein aufgeblähter Bauch, Übelkeit, Erbrechen oder Verstopfung. Manche Betroffene berichten über Gewichtsverlust oder eine auffällige Stuhlveränderung.",
+          "Zöliakie kann sich auch außerhalb des Darms zeigen. Dazu gehören Eisenmangel oder Blutarmut, Müdigkeit, Osteoporose beziehungsweise niedrige Knochendichte, unerklärte erhöhte Leberwerte, wiederkehrende Aphthen, neurologische Beschwerden oder eine bestimmte stark juckende Hauterkrankung namens Dermatitis herpetiformis Duhring.",
+          "Bei Kindern können Wachstums- und Gedeihstörungen, verzögerte Pubertät, Bauchbeschwerden, Durchfall oder Verstopfung auftreten. Die Erkrankung kann aber auch wenige Beschwerden verursachen oder zufällig bei einer Untersuchung auffallen. Ein unauffälliges Körpergewicht schließt Zöliakie nicht aus."
+        ]
+      },
+      {
+        id: "risiko",
+        heading: "Wer hat ein erhöhtes Risiko?",
+        paragraphs: [
+          "Zöliakie tritt familiär gehäuft auf. Verwandte ersten Grades haben ein höheres Risiko als die Allgemeinbevölkerung. Auch bestimmte Autoimmunerkrankungen und genetische beziehungsweise medizinische Konstellationen gehen mit einer erhöhten Wahrscheinlichkeit einher.",
+          "Die genetischen Varianten HLA-DQ2 und HLA-DQ8 sind bei fast allen Betroffenen nachweisbar, kommen aber auch bei vielen gesunden Menschen vor. Ein positiver HLA-Befund beweist daher keine Zöliakie. Das Fehlen der relevanten Varianten macht die Erkrankung dagegen sehr unwahrscheinlich und kann in ausgewählten unklaren Situationen bei der Abklärung helfen."
+        ]
+      },
+      {
+        id: "gluten-vor-diagnose",
+        heading: "Wichtig: Vor der Diagnostik nicht glutenfrei essen",
+        paragraphs: [
+          "Wer vor einer Blutuntersuchung oder Darmspiegelung Gluten weglässt oder stark reduziert, kann die Aussagekraft der Diagnostik beeinträchtigen. Die Antikörperwerte können sinken und die Dünndarmschleimhaut kann sich teilweise erholen. Dadurch sind falsch unauffällige Befunde möglich.",
+          "Bei Verdacht auf Zöliakie sollte deshalb zunächst ärztlich abgeklärt werden, wie die Diagnostik abläuft. Bis zur Abstimmung mit der behandelnden Praxis sollte die bisherige glutenhaltige Ernährung nicht eigenständig umgestellt werden.",
+          "Wer bereits glutenfrei isst, sollte nicht ohne medizinische Begleitung eigenständig eine Glutenbelastung beginnen. Ob und wie eine solche Belastung notwendig und vertretbar ist, hängt von der Vorgeschichte und der bisherigen Ernährungsdauer ab."
+        ]
+      },
+      {
+        id: "bluttest",
+        heading: "Bluttest: Transglutaminase-Antikörper und Gesamt-IgA",
+        paragraphs: [
+          "Bei Verdacht auf Zöliakie wird in der Regel zunächst Blut untersucht. Der zentrale Suchtest ist der IgA-Antikörper gegen Gewebstransglutaminase (tTG-IgA, auch TGA-IgA). Zusätzlich wird das Gesamt-IgA bestimmt, damit ein IgA-Mangel erkannt wird, der den IgA-Test falsch negativ erscheinen lassen kann.",
+          "Bei nachgewiesenem IgA-Mangel können IgG-basierte Tests, beispielsweise tTG-IgG oder Antikörper gegen deamidierte Gliadinpeptide (DGP-IgG), eingesetzt werden. Welche Tests sinnvoll sind, entscheidet die ärztliche Praxis anhand des Gesamt-IgA und der klinischen Situation.",
+          "Ein positiver Antikörpertest ist ein wichtiger Hinweis, aber nicht in jedem Fall bereits die endgültige Diagnose. Die Werte müssen im Zusammenhang mit Beschwerden, Glutenaufnahme und gegebenenfalls der Gewebeuntersuchung beurteilt werden. Unterschiedliche Labortests und Messverfahren sind nicht ohne Weiteres direkt miteinander vergleichbar.",
+          "Nicht geeignet als Ersatz sind beispielsweise kommerzielle Selbsttests ohne fachliche Einordnung, Antikörpertests aus Speichel oder Stuhl sowie Zonulinmessungen. Auch genetische Tests allein können eine aktive Zöliakie nicht bestätigen."
+        ]
+      },
+      {
+        id: "biopsie",
+        heading: "Darmbiopsie: Wie wird die Diagnose gesichert?",
+        paragraphs: [
+          "Bei Erwachsenen wird die Diagnose üblicherweise durch eine Magenspiegelung (Ösophago-Gastro-Duodenoskopie) mit mehreren Gewebeproben aus dem Zwölffingerdarm gesichert. Die Proben werden mikroskopisch untersucht. Dabei achtet die Pathologie unter anderem auf Veränderungen der Darmzotten und der Schleimhautarchitektur.",
+          "Bei Kindern und Jugendlichen kann unter klar definierten Voraussetzungen eine Diagnosestellung ohne Biopsie möglich sein. Nach der europäischen ESPGHAN-Leitlinie gehören dazu sehr hohe tTG-IgA-Werte von mindestens dem Zehnfachen der oberen Normgrenze und ein positiver EMA-IgA-Befund in einer zweiten Blutprobe. Die Entscheidung muss durch eine erfahrene Kindergastroenterologie begleitet und mit Familie und Kind besprochen werden.",
+          "Die konkrete Diagnostik richtet sich nach Alter, Laborwerten, Vorerkrankungen und den geltenden fachlichen Empfehlungen. Eine Diagnose sollte nachvollziehbar dokumentiert werden, damit die langfristige Behandlung und Verlaufskontrolle darauf aufbauen können."
+        ]
+      },
+      {
+        id: "behandlung",
+        heading: "Behandlung: lebenslang glutenfrei",
+        paragraphs: [
+          "Bei gesicherter Zöliakie ist eine konsequente und lebenslange glutenfreie Ernährung die etablierte Behandlung. Schon kleine, wiederholte Glutenmengen können die Immunreaktion aufrechterhalten und die Darmschleimhaut schädigen, auch wenn nicht unmittelbar Beschwerden auftreten.",
+          "Geeignet sind von Natur aus glutenfreie Lebensmittel wie Kartoffeln, Reis, Mais, Hirse, Buchweizen, Quinoa, Hülsenfrüchte, Gemüse, Obst, Nüsse, Eier, Fleisch und Fisch, sofern sie nicht durch Zutaten oder Verarbeitung mit Gluten verunreinigt wurden. Bei verpackten Produkten hilft die Kennzeichnung „glutenfrei“.",
+          "Weizen, Roggen und Gerste sowie daraus hergestellte herkömmliche Produkte müssen gemieden werden. Hafer ist ein Sonderfall: Er sollte nur in ausdrücklich glutenfrei gekennzeichneter Form verwendet werden, da gewöhnlicher Hafer häufig mit glutenhaltigem Getreide verunreinigt ist. Ein Teil der Betroffenen verträgt auch reinen glutenfreien Hafer nicht und sollte die Einführung mit dem Behandlungsteam abstimmen.",
+          "Eine Ernährungsberatung mit Zöliakie-Erfahrung hilft, ausgewogen zu essen, versteckte Glutenquellen zu erkennen und Mangelzustände zu vermeiden. Eine glutenfreie Ernährung ist nicht automatisch gesünder oder nährstoffreicher; stark verarbeitete glutenfreie Ersatzprodukte können beispielsweise wenig Ballaststoffe enthalten."
+        ]
+      },
+      {
+        id: "kreuzkontakt",
+        heading: "Gluten im Alltag: Zutaten, Küche und Kreuzkontakt",
+        paragraphs: [
+          "Gluten kann in Lebensmitteln stecken, bei denen es nicht sofort erwartet wird, etwa in panierten Produkten, Soßen, Suppen, Gewürzmischungen, Fertiggerichten oder bestimmten Süßwaren. Zutatenlisten und die Kennzeichnung glutenfreier Produkte sollten deshalb sorgfältig geprüft werden.",
+          "Kreuzkontakt entsteht, wenn glutenfreie Speisen mit Krümeln oder Rückständen glutenhaltiger Lebensmittel in Berührung kommen. Zu Hause helfen getrennte beziehungsweise gründlich gereinigte Arbeitsflächen, saubere Küchenutensilien und ein eigener Toaster oder geeignete Toasterbeutel. In Restaurants sollte die Zöliakie ausdrücklich angesprochen werden; eine bloße Auswahl eines vermeintlich glutenfreien Gerichts reicht nicht immer aus.",
+          "Nach EU-Kennzeichnungsrecht darf ein Lebensmittel als „glutenfrei“ bezeichnet werden, wenn es höchstens 20 mg Gluten pro Kilogramm enthält. Diese Kennzeichnung ist eine praktische Orientierung für Betroffene, ersetzt aber nicht die sorgfältige Auswahl und Zubereitung."
+        ]
+      },
+      {
+        id: "naehrstoffe",
+        heading: "Nährstoffmängel und Verlaufskontrollen",
+        paragraphs: [
+          "Durch die geschädigte Dünndarmschleimhaut können unter anderem Eisen, Folsäure, Vitamin B12, Vitamin D und Calcium unzureichend aufgenommen werden. Welche Werte kontrolliert werden, hängt von Symptomen, Ausgangsbefunden und dem Verlauf ab.",
+          "Nach Beginn der glutenfreien Ernährung bessern sich Beschwerden häufig, und die Schleimhaut kann sich erholen. Die Erholung benötigt jedoch Zeit und verläuft individuell. Ärztliche Verlaufskontrollen umfassen je nach Situation Beschwerden, Ernährungsqualität, Zöliakie-Antikörper und ausgewählte Laborwerte.",
+          "Nahrungsergänzungsmittel sollten nicht pauschal und nicht hoch dosiert eingenommen werden. Eine gezielte Ergänzung ist sinnvoll, wenn ein Mangel festgestellt wurde oder ein konkreter medizinischer Grund besteht."
+        ]
+      },
+      {
+        id: "familie",
+        heading: "Zöliakie bei Kindern und in der Familie",
+        paragraphs: [
+          "Bei Kindern sind Wachstum, Gewichtsentwicklung, Pubertätsentwicklung und mögliche Nährstoffmängel wichtige Aspekte der Betreuung. Die Diagnostik und Ernährungsumstellung sollten durch eine kinderärztliche beziehungsweise kindergastroenterologische Praxis und eine qualifizierte Ernährungsberatung begleitet werden.",
+          "Da nahe Verwandte ein erhöhtes Risiko haben, kann eine ärztliche Beratung zur Testung sinnvoll sein – auch wenn keine deutlichen Beschwerden bestehen. Ob und wann Antikörperkontrollen bei Familienmitgliedern angebracht sind, wird individuell entschieden."
+        ]
+      },
+      {
+        id: "abgrenzung",
+        heading: "Zöliakie, Weizenallergie und Glutensensitivität unterscheiden",
+        paragraphs: [
+          "Bei Zöliakie handelt es sich um eine Autoimmunerkrankung, bei der Gluten eine Entzündung und Schädigung der Dünndarmschleimhaut auslöst. Eine Weizenallergie ist dagegen eine allergische Immunreaktion auf Weizenbestandteile und kann beispielsweise Haut, Atemwege oder den Kreislauf betreffen.",
+          "Bei der nicht-zöliakischen Weizen- oder Glutensensitivität können nach Weizenverzehr Beschwerden auftreten, ohne dass die Kriterien für Zöliakie oder Weizenallergie erfüllt sind. Für diese Diagnose gibt es keinen einzelnen zuverlässigen Bluttest. Zöliakie und Weizenallergie müssen vorher fachgerecht ausgeschlossen werden.",
+          "Eine Besserung unter glutenfreier Ernährung allein beweist daher keine Zöliakie. Auch andere Bestandteile von Weizen, etwa fermentierbare Kohlenhydrate (Fruktane), können Verdauungsbeschwerden auslösen."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Wann sollte man ärztlichen Rat einholen?",
+        paragraphs: [
+          "Eine Abklärung ist sinnvoll bei anhaltenden Verdauungsbeschwerden, ungeklärtem Eisenmangel, wiederkehrenden Mangelzuständen, unbeabsichtigtem Gewichtsverlust, Wachstumsproblemen oder wenn Zöliakie in der nahen Familie vorkommt.",
+          "Blut im Stuhl, starke oder zunehmende Bauchschmerzen, anhaltendes Erbrechen, deutliche Austrocknung oder ausgeprägte Schwäche erfordern eine zeitnahe beziehungsweise dringende medizinische Beurteilung. Bei Kindern sollten Wachstums- und Gedeihstörungen frühzeitig abgeklärt werden."
+        ]
+      },
+      {
+        id: "faq",
+        heading: "Häufige Fragen zur Zöliakie",
+        paragraphs: [
+          "Muss ich vor dem Bluttest Gluten essen? Ja. Für eine zuverlässige Diagnostik ist eine regelmäßige und ausreichende Glutenaufnahme wichtig. Eine glutenfreie Ernährung vor den Tests kann Ergebnisse verfälschen.",
+          "Reicht ein positiver Antikörpertest für die Diagnose? Nicht grundsätzlich. Bei Erwachsenen wird die Diagnose normalerweise durch Dünndarmbiopsien gesichert. Für Kinder gibt es unter spezialisierten Voraussetzungen einen anerkannten Weg ohne Biopsie.",
+          "Kann Zöliakie ohne Durchfall auftreten? Ja. Sie kann sich durch Müdigkeit, Eisenmangel, Knochenschwäche, Hautveränderungen oder kaum erkennbare Symptome zeigen.",
+          "Ist Dinkel bei Zöliakie erlaubt? Nein. Dinkel ist eine Weizenart und enthält Gluten.",
+          "Ist Hafer glutenfrei? Hafer enthält ein eigenes Speicherprotein und ist häufig durch Weizen, Roggen oder Gerste verunreinigt. Bei Zöliakie sollte nur ausdrücklich glutenfrei gekennzeichneter Hafer verwendet werden; die Verträglichkeit ist individuell.",
+          "Kann Zöliakie geheilt werden? Eine Heilung gibt es derzeit nicht. Eine konsequente glutenfreie Ernährung kontrolliert die Erkrankung und ermöglicht häufig eine Erholung der Dünarmschleimhaut."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "S2k-Leitlinie Zöliakie, Version 2.2 (2021)",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) / AWMF",
+        url: "https://register.awmf.org/de/leitlinien/detail/021-021",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Zöliakie – Leitlinie und Empfehlungen",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS)",
+        url: "https://www.dgvs.de/leitlinien/oberer-gi-trakt/zoeliakie/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Zöliakie (Glutenunverträglichkeit)",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG) – Gesundheitsinformation.de",
+        url: "https://www.gesundheitsinformation.de/zoeliakie-glutenunvertraeglichkeit.html",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "European Society Paediatric Gastroenterology, Hepatology and Nutrition Guidelines for Diagnosing Coeliac Disease 2020",
+        publisher: "ESPGHAN, Journal of Pediatric Gastroenterology and Nutrition",
+        url: "https://pubmed.ncbi.nlm.nih.gov/31568151/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Durchführungsverordnung (EU) Nr. 828/2014 über Anforderungen an die Bereitstellung von Informationen für Verbraucher über das Nichtvorhandensein oder den reduzierten Gehalt von Gluten in Lebensmitteln",
+        publisher: "Europäische Union",
+        url: "https://eur-lex.europa.eu/eli/reg_impl/2014/828/oj",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Zöliakie: Diagnose und Therapie",
+        publisher: "Deutsche Zöliakie-Gesellschaft (DZG)",
+        url: "https://www.dzg-online.de/zoeliakie/diagnose",
+        accessed: "2026-11-26"
+      }
+    ]
   },
 
 ];
