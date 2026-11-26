@@ -315,51 +315,34 @@ export const articles: Article[] = [
   },
   {
     slug: "nahrungsergaenzungsmittel-sinnvoll",
-    title: "Nahrungsergänzungsmittel: Wann sind sie sinnvoll?",
+    title: "Nahrungsergänzungsmittel: Nutzen, Risiken und sichere Auswahl",
     category: "vitamine-naehrstoffe",
-    tags: ["Nahrungsergänzung", "Vitamine", "Mineralstoffe", "BfR"],
-    intro: "Vitamine und Mineralstoffe sind wichtig. Daraus folgt aber nicht, dass hoch dosierte Präparate für alle Menschen einen zusätzlichen Nutzen haben.",
-    excerpt: "Was Nahrungsergänzungsmittel sind, wann ein Bedarf entstehen kann und warum Dosierung und Wechselwirkungen wichtig sind.",
-    readingMinutes: 7,
+    tags: ["Nahrungsergänzung", "Vitamine", "Mineralstoffe", "BfR", "Wechselwirkungen", "Dosierung"],
+    intro: "Nahrungsergänzungsmittel können eine gezielte Versorgung unterstützen, sind aber nicht automatisch notwendig oder harmlos. Dieser Ratgeber erklärt rechtliche Grundlagen, sinnvolle Einsatzgebiete, Qualitätsmerkmale, Dosierungsrisiken und mögliche Wechselwirkungen.",
+    excerpt: "Wann Supplemente sinnvoll sein können, worauf Sie bei Produkten achten sollten und warum hohe Dosen Risiken bergen.",
+    readingMinutes: 10,
     publishedAt: "2026-11-26",
     updatedAt: "2026-11-26",
     keyFacts: [
-      "Nahrungsergänzungsmittel sind rechtlich Lebensmittel und keine Arzneimittel.",
-      "Bei ausgewogener Ernährung sind zusätzliche Präparate für viele gesunde Menschen nicht erforderlich.",
-      "Hoch dosierte Präparate können zu Überversorgung und Wechselwirkungen mit Arzneimitteln führen.",
+      "Nahrungsergänzungsmittel sind rechtlich Lebensmittel und müssen vor dem Verkauf nicht wie Arzneimittel zugelassen werden.",
+      "Bei ausgewogener Ernährung benötigen viele gesunde Menschen keine zusätzlichen Präparate.",
+      "Auch Vitamine und Pflanzenextrakte können Nebenwirkungen und Wechselwirkungen verursachen.",
+      "Die Menge pro Tagesportion und die Gesamtzufuhr aus mehreren Produkten sind entscheidend.",
+      "Krankheitsversprechen sind bei Nahrungsergänzungsmitteln nicht zulässig."
     ],
     sections: [
-      {
-        id: "was-sind-nem",
-        heading: "Was sind Nahrungsergänzungsmittel?",
-        paragraphs: [
-          "Nahrungsergänzungsmittel sind Lebensmittel, die die allgemeine Ernährung ergänzen sollen. Sie können beispielsweise Vitamine, Mineralstoffe, Spurenelemente, Fettsäuren, Pflanzen oder Kräuterextrakte in konzentrierter Form enthalten.",
-          "Auch wenn sie als Kapseln, Tabletten oder Pulver angeboten werden, sind sie rechtlich keine Arzneimittel.",
-        ],
-      },
-      {
-        id: "wann-sinnvoll",
-        heading: "Wann kann eine Ergänzung sinnvoll sein?",
-        paragraphs: [
-          "Eine Ergänzung kann in bestimmten Lebenssituationen oder bei einem erhöhten Risiko für eine unzureichende Versorgung sinnvoll sein. Beispiele können eine Schwangerschaft, eine einseitige Ernährung, bestimmte Erkrankungen oder Probleme bei der Nährstoffaufnahme sein.",
-          "Ob tatsächlich ein Bedarf besteht, hängt von der individuellen Situation ab. Eine pauschale Empfehlung für alle Menschen wäre nicht sachgerecht.",
-        ],
-      },
-      {
-        id: "risiken",
-        heading: "Welche Risiken gibt es?",
-        paragraphs: [
-          "Eine zusätzliche Zufuhr über den Bedarf hinaus bietet gut versorgten Menschen in der Regel keinen gesundheitlichen Zusatznutzen. Hoch dosierte oder langfristig eingenommene Präparate können dagegen das Risiko einer Überversorgung erhöhen.",
-          "Auch Wechselwirkungen mit Arzneimitteln sind möglich. Wer regelmäßig Medikamente einnimmt oder eine chronische Erkrankung hat, sollte eine längerfristige Einnahme vorher ärztlich oder pharmazeutisch abklären.",
-        ],
-      },
-      {
-        id: "entscheidung",
-        heading: "Vor der Einnahme prüfen",
-        paragraphs: [
-          "Entscheidend sind der tatsächliche Bedarf, die enthaltene Menge pro Tagesportion, weitere Präparate und mögliche Arzneimittelwechselwirkungen. Mehr ist nicht automatisch besser.",
-        ],
-      },
+      { id: "was-sind-nem", heading: "Was sind Nahrungsergänzungsmittel?", paragraphs: ["Nahrungsergänzungsmittel (NEM) sind Lebensmittel, die die allgemeine Ernährung ergänzen sollen. Sie enthalten Nährstoffe wie Vitamine, Mineralstoffe und Spurenelemente oder andere Stoffe mit ernährungsspezifischer beziehungsweise physiologischer Wirkung, zum Beispiel Aminosäuren, Fettsäuren, Pflanzen- und Kräuterextrakte.", "Sie werden häufig als Kapseln, Tabletten, Pulver, Tropfen oder Flüssigkeiten angeboten. Trotz dieser Darreichungsformen sind sie rechtlich Lebensmittel und keine Arzneimittel. Sie dienen nicht dazu, Krankheiten zu behandeln, zu heilen oder zu verhindern."] },
+      { id: "rechtlicher-rahmen", heading: "Rechtlicher Rahmen: Lebensmittel statt Arzneimittel", paragraphs: ["Für Nahrungsergänzungsmittel gelten lebensmittelrechtliche Vorschriften. In Deutschland muss das Produkt vor dem erstmaligen Inverkehrbringen beim Bundesamt für Verbraucherschutz und Lebensmittelsicherheit (BVL) angezeigt werden. Diese Anzeige ist keine behördliche Zulassung und keine Bestätigung, dass Wirksamkeit oder Sicherheit des Produkts individuell geprüft wurden.", "Hersteller und Inverkehrbringer sind für die Sicherheit und Kennzeichnung verantwortlich. Für Vitamine und Mineralstoffe gelten Vorgaben zu zugelassenen Stoffen und Kennzeichnung. Gesundheitsbezogene Aussagen unterliegen der Health-Claims-Verordnung; krankheitsbezogene Heil- oder Behandlungsaussagen sind für Lebensmittel nicht zulässig.", "Ein Verkauf in Apotheke, Drogerie oder über eine bekannte Internetplattform bedeutet nicht automatisch, dass ein Produkt medizinisch wirksam oder für jede Person geeignet ist."] },
+      { id: "wann-sinnvoll", heading: "Wann kann eine Ergänzung sinnvoll sein?", paragraphs: ["Eine gezielte Ergänzung kann sinnvoll sein, wenn ein Nährstoffbedarf in einer bestimmten Lebensphase erhöht ist, die Aufnahme über die Ernährung nicht ausreicht oder eine Erkrankung die Aufnahme beziehungsweise Verwertung beeinträchtigt. Beispiele sind Folsäure rund um eine geplante Schwangerschaft nach den geltenden Empfehlungen, Vitamin B12 bei veganer Ernährung sowie ärztlich festgestellte Mängel.", "Auch bei bestimmten Erkrankungen, nach Operationen oder bei langfristiger Einnahme einzelner Medikamente kann eine gezielte Versorgung notwendig werden. Welche Substanz und Menge geeignet ist, hängt vom individuellen Befund und der medizinischen Situation ab.", "Eine pauschale Einnahme von Multivitaminpräparaten ist für gesunde Menschen mit abwechslungsreicher Ernährung nicht grundsätzlich erforderlich. Nahrungsergänzung sollte eine konkrete Versorgungslücke adressieren und keine ausgewogene Ernährung ersetzen."] },
+      { id: "bedarf-pruefen", heading: "Bedarf prüfen statt auf Verdacht einnehmen", paragraphs: ["Vor einer längerfristigen Einnahme sollte geklärt werden, warum ein Präparat verwendet werden soll. Dazu gehören Ernährungsweise, Lebensphase, Beschwerden, Vorerkrankungen, Medikamente und bereits verwendete Produkte. Bei bestimmten Nährstoffen kann eine Laboruntersuchung sinnvoll sein; nicht jeder vermutete Mangel lässt sich jedoch durch einen beliebigen Bluttest zuverlässig beurteilen.", "Unspezifische Symptome wie Müdigkeit, Haarausfall oder Konzentrationsprobleme beweisen keinen Vitamin- oder Mineralstoffmangel. Sie können viele Ursachen haben und sollten bei anhaltenden Beschwerden medizinisch eingeordnet werden, statt mehrere Präparate auf Verdacht zu kombinieren."] },
+      { id: "dosierung", heading: "Dosierung: Warum mehr nicht besser ist", paragraphs: ["Beachten Sie die Menge pro empfohlener Tagesportion und vergleichen Sie sie mit Referenzwerten sowie gegebenenfalls festgelegten Höchstmengen. Achten Sie auf Einheiten: Mikrogramm (µg), Milligramm (mg) und Internationale Einheiten (IE) sind nicht austauschbar. Die Umrechnung ist je nach Nährstoff unterschiedlich.", "Berücksichtigen Sie alle Quellen: Multivitaminpräparate, Einzelpräparate, angereicherte Lebensmittel und Produkte mit ähnlichen Inhaltsstoffen. Werden mehrere Produkte kombiniert, kann die Gesamtzufuhr deutlich höher ausfallen als beabsichtigt.", "Für einige Vitamine und Mineralstoffe bestehen tolerierbare obere Zufuhrmengen (UL). Sie beschreiben keine Zielwerte und keine empfohlene Dosis, sondern eine Grenze, oberhalb derer bei langfristiger Zufuhr gesundheitliche Risiken zunehmen können. Für bestimmte Stoffe und Personengruppen gelten abweichende Bewertungen."] },
+      { id: "risiken", heading: "Nebenwirkungen und Überversorgung", paragraphs: ["Auch natürliche oder frei verkäufliche Produkte können Nebenwirkungen verursachen. Zu hohe Mengen einzelner Vitamine und Mineralstoffe können Organe schädigen oder den Stoffwechsel stören. Beispielsweise kann zu viel Vitamin D eine Hyperkalzämie auslösen, dauerhaft hohe Vitamin-A-Zufuhr kann die Leber schädigen, und hohe Vitamin-B6-Dosen können Nervenschäden verursachen.", "Mineralstoffe wie Eisen, Selen und Zink können bei übermäßiger Einnahme ebenfalls schädlich sein. Pflanzenextrakte können allergische Reaktionen, Magen-Darm-Beschwerden oder andere unerwünschte Wirkungen auslösen. Die Risiken hängen von Stoff, Dosis, Dauer, Produktqualität und persönlicher Gesundheit ab.", "Bei Beschwerden nach Einnahme eines Präparats setzen Sie die nicht ärztlich verordnete Ergänzung aus und lassen Sie die Situation bei Bedarf medizinisch beurteilen. Bei schweren akuten Reaktionen ist sofortige Hilfe erforderlich."] },
+      { id: "wechselwirkungen", heading: "Wechselwirkungen mit Arzneimitteln", paragraphs: ["Nahrungsergänzungsmittel können die Wirkung von Arzneimitteln verstärken, abschwächen oder deren Aufnahme verändern. Mineralstoffe wie Calcium, Magnesium, Eisen und Zink können beispielsweise mit bestimmten Antibiotika oder Schilddrüsenmedikamenten wechselwirken. Johanniskraut kann den Abbau zahlreicher Arzneimittel beeinflussen; auch andere Pflanzenextrakte sind nicht grundsätzlich frei von Wechselwirkungen.", "Besondere Vorsicht ist bei Blutgerinnungshemmern, Medikamenten gegen Epilepsie, Immunsuppressiva, Krebsmedikamenten und Arzneimitteln mit engem therapeutischem Bereich geboten. Informieren Sie Arztpraxis und Apotheke über alle Präparate einschließlich pflanzlicher Produkte. Ein pauschaler Einnahmeabstand löst nicht jede Wechselwirkung."] },
+      { id: "qualitaet", heading: "Qualität und Kennzeichnung richtig beurteilen", paragraphs: ["Prüfen Sie, ob Zutaten, Mengen pro Tagesportion, empfohlene Verzehrmenge, Warnhinweise, Mindesthaltbarkeitsdatum und verantwortlicher Lebensmittelunternehmer klar angegeben sind. Seien Sie vorsichtig bei Produkten mit unklarer Herkunft, fehlender deutscher Kennzeichnung oder unrealistischen Wirkversprechen.", "Begriffe wie „natürlich“, „Premium“, „hoch bioverfügbar“ oder „klinisch getestet“ sind für sich allein kein Nachweis eines gesundheitlichen Nutzens. Auch Kundenbewertungen ersetzen keine kontrollierten wissenschaftlichen Studien.", "Kaufen Sie keine Produkte, die eine Heilung von Krankheiten versprechen, Medikamente ersetzen sollen oder zu einer eigenständigen Hochdosierung auffordern. Bei importierten Produkten aus nicht nachvollziehbaren Quellen können Zusammensetzung und Verunreinigungen schwer einschätzbar sein."] },
+      { id: "wer-besonders-aufpassen", heading: "Wer sollte besonders vorsichtig sein?", paragraphs: ["Schwangere und Stillende, Kinder und Jugendliche, ältere Menschen, Personen mit chronischen Erkrankungen sowie Menschen, die regelmäßig Medikamente einnehmen, sollten Präparate nicht ohne Prüfung der Eignung verwenden. Für diese Gruppen können besondere Bedarfe, Dosierungsgrenzen oder Risiken gelten.", "Bei Leber- oder Nierenerkrankungen kann die Ausscheidung oder Verstoffwechselung bestimmter Stoffe verändert sein. Auch vor Operationen sollten verwendete Nahrungsergänzungsmittel mit dem Behandlungsteam besprochen werden, da manche Inhaltsstoffe Blutgerinnung oder Arzneimittelwirkung beeinflussen können."] },
+      { id: "entscheidung", heading: "Eine sinnvolle Entscheidung treffen", paragraphs: ["Fragen Sie vor dem Kauf: Welches konkrete Ziel soll das Präparat erfüllen? Gibt es einen nachgewiesenen oder plausiblen Bedarf? Ist die Dosierung nachvollziehbar? Enthält ein anderes Produkt bereits denselben Stoff? Gibt es Wechselwirkungen oder besondere Risiken?", "Wenn kein konkreter Bedarf besteht, ist es meist sinnvoller, zuerst Ernährung, Schlaf, Bewegung und andere beeinflussbare Gesundheitsfaktoren zu berücksichtigen. Bei begründetem Bedarf ist eine gezielte, zeitlich und mengenmäßig passende Ergänzung meist sinnvoller als eine Vielzahl gleichzeitig eingenommener Produkte."] },
+      { id: "haeufige-fragen", heading: "Häufige Fragen zu Nahrungsergänzungsmitteln", paragraphs: ["**Sind Nahrungsergänzungsmittel geprüft und zugelassen?** Sie werden als Lebensmittel behandelt. Eine BVL-Anzeige ist keine Arzneimittelzulassung und bestätigt nicht automatisch Wirksamkeit oder individuelle Eignung.", "**Kann ich mehrere Präparate kombinieren?** Nur nach Prüfung der Gesamtmengen und möglicher Wechselwirkungen. Mehrfach enthaltene Vitamine oder Mineralstoffe können zu einer überhöhten Zufuhr führen.", "**Sind natürliche Präparate sicherer?** Nein. Auch Pflanzenstoffe können Nebenwirkungen, Verunreinigungen und Wechselwirkungen haben.", "**Brauche ich bei Müdigkeit ein Multivitaminpräparat?** Nicht automatisch. Müdigkeit ist unspezifisch und kann viele Ursachen haben. Bei anhaltenden Beschwerden sollte die Ursache abgeklärt werden.", "**Können Nahrungsergänzungsmittel Medikamente ersetzen?** Nein. Sie sind keine Behandlung für Erkrankungen und sollten verordnete Therapien nicht ersetzen."] },
+      { id: "medizinischer-hinweis", heading: "Medizinischer Hinweis", paragraphs: ["Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Er stellt keine individuelle Empfehlung für ein bestimmtes Präparat oder eine Dosierung dar. Bei Erkrankungen, Schwangerschaft, regelmäßiger Medikamenteneinnahme oder Verdacht auf einen Nährstoffmangel lassen Sie sich ärztlich oder pharmazeutisch beraten."] }
     ],
     sources: [
       {
@@ -369,9 +352,27 @@ export const articles: Article[] = [
         accessed: "2026-11-26",
       },
       {
+        title: "Nahrungsergänzungsmittel",
+        publisher: "Bundesamt für Verbraucherschutz und Lebensmittelsicherheit (BVL)",
+        url: "https://www.bvl.bund.de/DE/Arbeitsbereiche/01_Lebensmittel/03_Verbraucher/04_Nahrungsergaenzungsmittel/lm_nahrungsergaenzungsmittel_node.html",
+        accessed: "2026-11-26",
+      },
+      {
         title: "Nutzen und Risiken von Mikronährstoffsupplementen im Alter",
         publisher: "Bundesinstitut für Risikobewertung (BfR)",
         url: "https://www.bfr.bund.de/fragen-und-antworten/thema/nutzen-und-risiken-von-mikronaehrstoffsupplementen-im-alter/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Dietary Supplements: What You Need to Know",
+        publisher: "NIH Office of Dietary Supplements",
+        url: "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/",
+        accessed: "2026-11-26",
+      },
+      {
+        title: "Food supplements",
+        publisher: "European Food Safety Authority (EFSA)",
+        url: "https://www.efsa.europa.eu/en/topics/topic/food-supplements",
         accessed: "2026-11-26",
       },
     ],
