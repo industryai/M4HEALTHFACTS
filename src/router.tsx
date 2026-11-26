@@ -6,11 +6,12 @@ export const getRouter = () => {
   // One client per request: a module-level QueryClient leaks cached data between SSR requests.
   const queryClient = new QueryClient();
 
+  // Keep this identical to tanstackStart.router.basepath in vite.config.ts.
+  // Production builds are published below the GitHub Pages repository path;
+  // local development continues to run from the domain root.
   const router = createRouter({
     routeTree,
-    // Must match tanstackStart.router.basepath in vite.config.ts. TanStack Start
-    // applies the same value again during client hydration.
-    basepath: import.meta.env.BASE_URL.replace(/\/$/, "") || "/",
+    basepath: import.meta.env.PROD ? "/M4HEALTHFACTS" : "/",
     context: { queryClient },
     scrollRestoration: true,
     // Lets Query own freshness; set caching defaults on the QueryClient, not the router.
