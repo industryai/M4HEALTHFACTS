@@ -6,7 +6,7 @@ const raw: Omit<LexiconEntry, "slug">[] = [
   { term: "Abwehrkräfte", definition: "Bezeichnung für die körpereigenen Schutz- und Abwehrmechanismen gegen Krankheitserreger.", relatedArticle: "abwehrkraefte-staerken" },
   { term: "Antioxidantien", definition: "Stoffe, die bestimmte chemische Reaktionen (Oxidation) hemmen können. Sie kommen u. a. in pflanzlichen Lebensmitteln vor." },
   { term: "Ballaststoffe", definition: "Weitgehend unverdauliche Nahrungsbestandteile, die unter anderem die Darmtätigkeit beeinflussen und in Vollkorn, Gemüse, Obst und Hülsenfrüchten vorkommen.", relatedArticle: "ballaststoffe-verdauung" },
-  { term: "Blutdruck", definition: "Der Druck, den das Blut auf die Gefäßwände ausübt. Er wird in systolischen und diastolischen Werten angegeben.", relatedArticle: "bluthochdruck-verstehen" },
+  { term: "Blutdruck", definition: "Der Druck, den das Blut auf die Gefäßwände ausübt. Er wird in systolischen und diastolischen Werten angegeben.", relatedArticle: "blutdruck-verstehen" },
   { term: "Calcium", definition: "Mineralstoff, der u. a. am Aufbau von Knochen und Zähnen beteiligt ist." },
   { term: "Cholesterin", definition: "Fettähnliche Substanz, die der Körper unter anderem für Zellmembranen und Hormone benötigt und in Lipoproteinen transportiert.", relatedArticle: "cholesterin-blutfette" },
   { term: "Diastolischer Wert", definition: "Der untere Blutdruckwert, gemessen während der Entspannungsphase des Herzens." },
