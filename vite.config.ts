@@ -1,21 +1,20 @@
-// @lovable.dev/vite-tanstack-config already includes the TanStack Start and Nitro plugins.
+// @lovable.dev/vite-tanstack-config provides TanStack Start and Nitro.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
-const isStaticDeployment = isGitHubPages || process.env.CLOUDFLARE_PAGES === "true";
 const githubPagesBasepath = "/M4HEALTHFACTS";
 
 export default defineConfig({
-  // GitHub Pages serves this repository below /M4HEALTHFACTS/.
-  // Cloudflare Pages serves the project at the domain root.
+  // Cloudflare Pages serves this app at the domain root.
+  // The repository prefix is only needed for an optional GitHub Pages build.
   base: isGitHubPages ? `${githubPagesBasepath}/` : "/",
   tanstackStart: {
-    // The server entry lives in src/server.ts in this repository.
-    server: { entry: "src/server.ts" },
     router: {
       basepath: isGitHubPages ? githubPagesBasepath : "/",
     },
-    ...(isStaticDeployment
+    // Cloudflare Pages runs the TanStack/Nitro server worker directly.
+    // Do not enable static prerendering there; it is not needed for SSR.
+    ...(isGitHubPages
       ? {
           prerender: {
             enabled: true,
