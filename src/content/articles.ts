@@ -4,7 +4,7 @@ import type { Article, CategorySlug } from "./types";
 export const articles: Article[] = [
   {
     slug: "vitamin-d-grundlagen",
-    title: "Vitamin D: Was das „Sonnenvitamin“ im Körper macht",
+    title: "Vitamin D3: Aufgaben, Versorgung und sichere Anwendung",
     category: "vitamine-naehrstoffe",
     tags: ["Vitamin D", "Sonne", "Knochen"],
     intro: "Vitamin D kann der Körper mithilfe von Sonnenlicht in der Haut selbst bilden. Dieser Ratgeber erklärt Grundlagen und zeigt, welche Fragen Sie ärztlich klären können.",
