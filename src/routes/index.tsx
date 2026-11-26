@@ -8,15 +8,6 @@ import { lexicon } from "../content/lexicon";
 
 export const Route = createFileRoute("/")({ component: Home });
 const icons = { apple: Apple, pill: Pill, heart: HeartPulse, leaf: Leaf, moon: Moon, shield: ShieldCheck, dumbbell: Dumbbell };
-const photos = [
-  "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=900&auto=format&fit=crop&q=85",
-  "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&auto=format&fit=crop&q=85",
-  "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=900&auto=format&fit=crop&q=85",
-  "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=900&auto=format&fit=crop&q=85",
-  "https://images.pexels.com/photos/5480035/pexels-photo-5480035.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=900&auto=format&fit=crop&q=85",
-  "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=900&auto=format&fit=crop&q=85"
-];
 function Home() {
  const [query,setQuery]=useState(""); const [menu,setMenu]=useState(false);
  const results=useMemo(()=>{const q=query.trim().toLocaleLowerCase("de");if(!q)return[];return [...articles.filter(a=>(a.title+" "+a.excerpt+" "+a.tags.join(" ")).toLocaleLowerCase("de").includes(q)).map(a=>({title:a.title,desc:a.excerpt,url:"/ratgeber/"+a.slug,type:"Ratgeber"})),...lexicon.filter(x=>(x.term+" "+x.definition).toLocaleLowerCase("de").includes(q)).slice(0,5).map(x=>({title:x.term,desc:x.definition,url:"/gesundheitslexikon#"+x.slug,type:"Lexikon"}))].slice(0,7)},[query]);
