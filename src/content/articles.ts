@@ -1,6 +1,6 @@
 import type { Article, CategorySlug } from "./types";
 
-// Example editorial content. Sources intentionally empty until verified.
+// Redaktionelle Entwürfe mit Quellenhinweisen; vor Veröffentlichung fachlich gegenprüfen.
 export const articles: Article[] = [
   {
     slug: "vitamin-d-grundlagen",
@@ -45,7 +45,7 @@ export const articles: Article[] = [
     keyFacts: ["Gute Quellen sind Vollkorn, Hülsenfrüchte, Nüsse und Samen.", "Muskelkrämpfe haben vielfältige Ursachen."],
     sections: [
       { id: "quellen", heading: "Natürliche Quellen", paragraphs: ["Eine abwechslungsreiche Ernährung liefert in der Regel Magnesium."], bullets: ["Vollkorngetreide", "Hülsenfrüchte", "Nüsse und Samen"] },
-      { id: "ergaenzung", heading: "Nahrungsergänzung", paragraphs: ["Magnesium kann die Aufnahme einiger Medikamente beeinflussen – sprechen Sie die Einnahme mit Apotheke oder Arztpraxis ab."] },
+      { id: "ergaenzung", heading: "Nahrungsergänzung", paragraphs: ["Bestimmte Medikamente, darunter Diuretika und einige Antibiotika, können den Magnesiumhaushalt beeinflussen. Eine mögliche Ergänzung sollte mit ärztlichem Fachpersonal oder einer Apotheke abgestimmt werden."] },
     ],
     sources: [
       {
