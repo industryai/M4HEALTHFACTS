@@ -3811,6 +3811,162 @@ export const articles: Article[] = [
         accessed: "2026-11-26"
       }
     ]
+  },,
+
+  {
+    slug: "fruktosemalabsorption-verstehen",
+    title: "Fruktoseintoleranz: Fruktosemalabsorption, Atemtest und Ernährung",
+    category: "ernaehrung",
+    tags: ["Fruktose", "Fruchtzucker", "Fruktosemalabsorption", "H2-Atemtest", "Ernährung", "Darm"],
+    intro: "Fruchtzucker steckt in Obst, Honig und vielen verarbeiteten Lebensmitteln. Wird Fruktose im Dünndarm nicht ausreichend aufgenommen, kann sie im Dickdarm Beschwerden wie Blähungen, Bauchschmerzen und Durchfall auslösen. Wichtig ist die Abgrenzung zur seltenen hereditären Fruktoseintoleranz – einer angeborenen Stoffwechselerkrankung mit völlig anderen Risiken und Konsequenzen.",
+    excerpt: "Wie sich Fruktosemalabsorption von der angeborenen Stoffwechselstörung unterscheidet, was ein H2-Atemtest aussagt und wie eine individuelle Ernährung ohne unnötige Verbote gelingt.",
+    readingMinutes: 10,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Bei intestinaler Fruktosemalabsorption wird Fruchtzucker im Dünndarm nur teilweise aufgenommen; nicht jede betroffene Person hat Beschwerden.",
+      "Typische Symptome sind Blähungen, Bauchschmerzen, Völlegefühl und Durchfall. Die Verträglichkeit hängt unter anderem von Menge und Mahlzeitenzusammensetzung ab.",
+      "Ein H2-Atemtest kann eine Malabsorption nachweisen. Für die klinische Bedeutung müssen auch die während des Tests auftretenden Symptome berücksichtigt werden.",
+      "Eine dauerhaft streng fruktosefreie Ernährung ist bei intestinaler Fruktosemalabsorption normalerweise nicht das Ziel; die persönliche Toleranz soll ermittelt werden.",
+      "Die hereditäre Fruktoseintoleranz (HFI) ist eine seltene genetische Stoffwechselerkrankung. Fruktosebelastungen können dabei schwere Reaktionen auslösen und sind zu vermeiden."
+    ],
+    sections: [
+      {
+        id: "fruktose",
+        heading: "Was ist Fruktose?",
+        paragraphs: [
+          "Fruktose, auch Fruchtzucker genannt, ist ein Einfachzucker. Sie kommt natürlicherweise in Obst und Honig vor und wird außerdem Lebensmitteln zugesetzt, beispielsweise als Bestandteil von Saccharose (Haushaltszucker) oder Fruktosesirup. Auch manche Getränke, Süßwaren und Fertigprodukte können relevante Mengen enthalten.",
+          "Fruktose wird im Dünndarm über Transportmechanismen aufgenommen. Wie viel vertragen wird, ist individuell verschieden. Die Aufnahme kann unter anderem davon beeinflusst werden, ob Fruktose zusammen mit Glukose und anderen Bestandteilen einer Mahlzeit verzehrt wird."
+        ]
+      },
+      {
+        id: "malabsorption",
+        heading: "Intestinale Fruktosemalabsorption: Was passiert im Darm?",
+        paragraphs: [
+          "Bei einer intestinalen Fruktosemalabsorption wird Fruktose nicht vollständig aus dem Dünndarm aufgenommen. Ein Teil gelangt in den Dickdarm und wird dort von Darmbakterien fermentiert. Dabei entstehen Gase. Gleichzeitig kann nicht aufgenommene Fruktose Wasser im Darm binden. Beides kann Beschwerden verursachen.",
+          "Eine eingeschränkte Aufnahme bedeutet nicht automatisch eine Erkrankung mit Symptomen. Manche Menschen haben einen auffälligen Atemtest, ohne im Alltag relevante Beschwerden zu entwickeln. Deshalb sollten Testergebnis und Beschwerden immer gemeinsam beurteilt werden."
+        ]
+      },
+      {
+        id: "hfi-unterschied",
+        heading: "Wichtige Abgrenzung: Hereditäre Fruktoseintoleranz (HFI)",
+        paragraphs: [
+          "Die hereditäre Fruktoseintoleranz ist eine seltene, angeborene Stoffwechselerkrankung. Ursache sind krankheitsverursachende Veränderungen im ALDOB-Gen, durch die das Enzym Aldolase B nicht ausreichend funktioniert. Nach Aufnahme von Fruktose, Saccharose oder Sorbit können sich schädliche Stoffwechselprodukte anreichern und unter anderem Leber und Nieren gefährden.",
+          "Die HFI ist nicht mit der häufigeren intestinalen Fruktosemalabsorption gleichzusetzen. Bei HFI ist eine konsequente, lebenslange Vermeidung der auslösenden Zucker erforderlich und eine spezialisierte medizinische Betreuung wichtig. Ein Fruktosebelastungstest darf bei Verdacht oder bekannter HFI nicht durchgeführt werden.",
+          "Bei Säuglingen und Kleinkindern können nach Einführung fruktosehaltiger Nahrung Erbrechen, ausgeprägte Beschwerden, Unterzuckerung oder Gedeihstörungen auftreten. Bei entsprechendem Verdacht muss ärztlich eine genetische Abklärung veranlasst werden, bevor eine Fruktosebelastung erwogen wird."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Symptome einer Fruktosemalabsorption",
+        paragraphs: [
+          "Mögliche Beschwerden sind Blähungen, vermehrte Darmgase, ein aufgeblähter Bauch, Völlegefühl, krampfartige Bauchschmerzen, Übelkeit und Durchfall. Sie treten häufig nach fruktosereichen Speisen oder Getränken auf, können aber zeitlich variieren.",
+          "Die Reaktion hängt nicht nur vom Fruktosegehalt eines einzelnen Lebensmittels ab. Auch Portionsgröße, Kombination mit anderen Lebensmitteln, individuelle Aufnahmefähigkeit und die Empfindlichkeit des Darms spielen eine Rolle. Ein pauschales Verbot sämtlicher Obstsorten lässt sich daraus nicht ableiten."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Diagnose: H2-Atemtest und Symptomprotokoll",
+        paragraphs: [
+          "Bei passender Krankengeschichte kann ein H2-Atemtest in einer ärztlichen Praxis oder Klinik durchgeführt werden. Zunächst wird der Wasserstoffgehalt der Ausatemluft als Ausgangswert gemessen. Anschließend wird eine standardisierte Fruktoselösung getrunken. Über einen festgelegten Zeitraum werden wiederholt Atemproben genommen und Beschwerden dokumentiert.",
+          "Nicht aufgenommene Fruktose kann von Darmbakterien zu Wasserstoff verstoffwechselt werden. Dieser gelangt über das Blut in die Lunge und wird ausgeatmet. Ein deutlicher Anstieg kann für eine Malabsorption sprechen. Entscheidend ist jedoch auch, ob während des Tests typische Beschwerden auftreten.",
+          "Ein H2-Atemtest kann falsch unauffällig sein, wenn eine Person wenig oder keinen Wasserstoff bildet. Auch Vorbereitung, kürzlich eingenommene Antibiotika, andere Darmprozesse und die Testdurchführung können das Ergebnis beeinflussen. Die Praxis erklärt deshalb vorab die notwendigen Vorbereitungsregeln und ordnet den Befund im Zusammenhang mit den Symptomen ein.",
+          "Bei Verdacht auf hereditäre Fruktoseintoleranz ist ein Belastungstest ungeeignet und potenziell gefährlich. In dieser Situation erfolgt die Abklärung über spezialisierte ärztliche Diagnostik, insbesondere eine genetische Untersuchung des ALDOB-Gens. Die Entscheidung über die Reihenfolge der Untersuchungen trifft das Behandlungsteam anhand der Vorgeschichte.",
+          "Ein Ernährungs- und Symptomtagebuch kann ergänzend helfen. Es sollte Lebensmittel, ungefähre Mengen, Zeitpunkt und Beschwerden festhalten. Kommerzielle IgG-Tests oder unspezifische Bluttests sind kein geeigneter Ersatz für eine medizinische Diagnostik."
+        ]
+      },
+      {
+        id: "ausloeser",
+        heading: "Lebensmittel und mögliche Einflussfaktoren",
+        paragraphs: [
+          "Fruktose ist unter anderem in Äpfeln, Birnen, Mangos, Honig, Fruchtsäften und manchen Trockenfrüchten enthalten. Auch Softdrinks, Süßigkeiten, Sirupe und verarbeitete Produkte können Fruktose oder fruktosereiche Zutaten enthalten. Der tatsächliche Gehalt unterscheidet sich je nach Sorte, Verarbeitung und Rezeptur.",
+          "Sorbit, ein Zuckeralkohol, kann die Aufnahme von Fruktose zusätzlich ungünstig beeinflussen und selbst Beschwerden auslösen. Er kommt beispielsweise in einigen Obstsorten und als Zusatzstoff in zuckerfreien Kaugummis oder Süßwaren vor.",
+          "Glukose kann die Fruktoseaufnahme bei manchen Mahlzeiten verbessern. Daraus folgt jedoch keine allgemeingültige Regel, Fruktose stets mit Zucker zu kombinieren. Maßgeblich bleiben die individuelle Verträglichkeit und eine ausgewogene Ernährung."
+        ]
+      },
+      {
+        id: "ernaehrung",
+        heading: "Ernährungstherapie: Verträglichkeit schrittweise ermitteln",
+        paragraphs: [
+          "Bei bestätigter symptomatischer Fruktosemalabsorption kann eine zeitlich begrenzte, fachlich begleitete Anpassung der Ernährung helfen. Häufig wird zunächst eine kurze Entlastungsphase genutzt, in der besonders beschwerdeauslösende Mengen reduziert werden. Eine unnötig lange oder sehr strenge Ausschlussdiät sollte vermieden werden.",
+          "Anschließend werden geeignete Lebensmittel und Portionsgrößen schrittweise wieder eingeführt. So lässt sich herausfinden, welche Mengen im Alltag vertragen werden. Ziel ist eine möglichst abwechslungsreiche Ernährung mit der größtmöglichen persönlichen Lebensmittelauswahl – nicht eine vollständig fruktosefreie Kost.",
+          "Eine Ernährungsfachkraft kann helfen, versteckte Fruktosequellen, Sorbit und weitere mögliche Auslöser zu erkennen und die Versorgung mit Ballaststoffen, Vitaminen und Mineralstoffen sicherzustellen. Bei mehreren gleichzeitig vermuteten Unverträglichkeiten sollte nicht auf eigene Faust eine große Zahl von Lebensmitteln gestrichen werden."
+        ]
+      },
+      {
+        id: "obst",
+        heading: "Muss man auf Obst verzichten?",
+        paragraphs: [
+          "Nein. Obst liefert Ballaststoffe, Vitamine und weitere wertvolle Pflanzenstoffe. Welche Sorten und Mengen vertragen werden, ist individuell. Häufig sind kleinere Portionen besser handhabbar als große Mengen Fruchtsaft oder Trockenobst.",
+          "Fruchtsäfte enthalten Fruktose in konzentrierter Form und werden deshalb von manchen Betroffenen schlechter vertragen als eine kleine Portion ganzes Obst. Ein Ernährungstagebuch und die schrittweise Wiedereinführung helfen, persönliche Grenzen zu erkennen."
+        ]
+      },
+      {
+        id: "differentialdiagnosen",
+        heading: "Andere Ursachen ähnlicher Beschwerden",
+        paragraphs: [
+          "Blähungen, Bauchschmerzen und Durchfall können auch bei Reizdarmsyndrom, Laktosemalabsorption, Sorbitunverträglichkeit, Zöliakie, bakterieller Fehlbesiedlung des Dünndarms oder entzündlichen Darmerkrankungen auftreten. Mehrere Faktoren können gleichzeitig eine Rolle spielen.",
+          "Wenn Beschwerden trotz angepasster Ernährung bestehen bleiben, sollte die Diagnose überprüft und nach anderen Ursachen gesucht werden. Eine eigenständige, dauerhaft restriktive Ernährung kann die Abklärung erschweren und zu Nährstoffmängeln beitragen."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Wann ist eine ärztliche Abklärung wichtig?",
+        paragraphs: [
+          "Ärztlicher Rat ist sinnvoll bei wiederkehrenden oder länger anhaltenden Beschwerden, unklarer Gewichtsabnahme oder wenn immer mehr Lebensmittel gemieden werden. Blut im Stuhl, Fieber, nächtlicher Durchfall, anhaltendes Erbrechen, starke Schmerzen oder Zeichen einer Austrocknung sind Warnzeichen und sollten zeitnah beziehungsweise je nach Schwere dringend abgeklärt werden.",
+          "Bei Säuglingen und Kindern sind anhaltender Durchfall, Erbrechen, Unterzuckerungszeichen oder eine unzureichende Gewichtszunahme besonders ernst zu nehmen. Eine vermutete hereditäre Fruktoseintoleranz erfordert eine umgehende spezialisierte Abklärung; bis dahin darf keine Fruktosebelastung erfolgen."
+        ]
+      },
+      {
+        id: "faq",
+        heading: "Häufige Fragen zur Fruktoseintoleranz",
+        paragraphs: [
+          "Ist Fruktosemalabsorption dasselbe wie hereditäre Fruktoseintoleranz? Nein. Die Malabsorption betrifft die Aufnahme im Darm. HFI ist eine seltene genetische Stoffwechselerkrankung und kann lebensbedrohliche Reaktionen auf Fruktose auslösen.",
+          "Ist ein positiver H2-Atemtest gleichbedeutend mit einer behandlungsbedürftigen Intoleranz? Nein. Das Ergebnis muss zusammen mit den während des Tests auftretenden Beschwerden bewertet werden.",
+          "Muss ich bei Fruktosemalabsorption lebenslang auf Obst verzichten? In der Regel nicht. Ziel ist, verträgliche Sorten und Mengen zu ermitteln und die Ernährung möglichst vielfältig zu halten.",
+          "Kann Sorbit Beschwerden verstärken? Ja. Sorbit kann selbst Beschwerden verursachen und die Fruktoseaufnahme beeinflussen.",
+          "Kann ich einen Fruktose-Atemtest selbst zu Hause machen? Eine eigenständige Belastung ist nicht empfehlenswert. Die Untersuchung gehört in medizinische Betreuung; bei möglicher HFI wäre eine Fruktosebelastung gefährlich."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "Fruktosemalabsorption",
+        publisher: "Allergieinformationsdienst",
+        url: "https://www.allergieinformationsdienst.de/krankheitsbilder/fruktosemalabsorption",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Fruktoseintoleranz",
+        publisher: "Universitätsklinikum Hamburg-Eppendorf (UKE)",
+        url: "https://www.uke.de/krankheitsbild/fructoseintoleranz.html",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Diagnosesicherung – S3-Leitlinie Reizdarmsyndrom",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS)",
+        url: "https://www.dgvs.de/new-leitlinien/chapter_69c5514d98b79/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Fruktose- und Sorbitunverträglichkeit",
+        publisher: "Deutsche Rentenversicherung",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Traeger/Bund/broschueren/ernaehrungsbroschuere.pdf?__blob=publicationFile&v=3",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Hereditäre Fruktoseintoleranz (HFI)",
+        publisher: "IMD Labor Berlin",
+        url: "https://www.imd-berlin.de/fachinformationen/diagnostikinformationen/fruktoseintoleranz-hereditaere-hfi",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Fructosemalabsorption",
+        publisher: "Deutsche Zöliakie-Gesellschaft (DZG)",
+        url: "https://www.dzg-online.de/system/files/2022-10/2021_Fructosemalabsorption_web.pdf",
+        accessed: "2026-11-26"
+      }
+    ]
   },
 
 ];
