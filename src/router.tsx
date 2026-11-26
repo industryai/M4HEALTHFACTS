@@ -6,15 +6,15 @@ export const getRouter = () => {
   // One client per request: a module-level QueryClient leaks cached data between SSR requests.
   const queryClient = new QueryClient();
 
-  // Keep this identical to tanstackStart.router.basepath in vite.config.ts.
-  // Production builds are published below the GitHub Pages repository path;
-  // local development continues to run from the domain root.
+  // Vite's BASE_URL is "/" on root-hosted deployments (Cloudflare Pages)
+  // and "/M4HEALTHFACTS/" on the optional GitHub Pages project-site build.
+  const basepath = import.meta.env.BASE_URL.replace(/\/$/, "") || "/";
+
   const router = createRouter({
     routeTree,
-    basepath: import.meta.env.PROD ? "/M4HEALTHFACTS" : "/",
+    basepath,
     context: { queryClient },
     scrollRestoration: true,
-    // Lets Query own freshness; set caching defaults on the QueryClient, not the router.
     defaultPreloadStaleTime: 0,
   });
 
