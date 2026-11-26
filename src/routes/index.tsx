@@ -1,20 +1,21 @@
 import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { Search, ArrowRight, ArrowUpRight, Leaf, HeartPulse, Apple, Pill, Moon, ShieldCheck, BookOpen, PlayCircle, Menu, X, Clock3 } from "lucide-react";
+import { Search, ArrowRight, ArrowUpRight, Leaf, HeartPulse, Apple, Pill, Moon, ShieldCheck, BookOpen, PlayCircle, Menu, X, Clock3, Dumbbell } from "lucide-react";
 import { articles } from "../content/articles";
 import { categories } from "../content/categories";
 import { healthFacts } from "../content/facts";
 import { lexicon } from "../content/lexicon";
 
 export const Route = createFileRoute("/")({ component: Home });
-const icons = { apple: Apple, pill: Pill, heart: HeartPulse, leaf: Leaf, moon: Moon, shield: ShieldCheck };
+const icons = { apple: Apple, pill: Pill, heart: HeartPulse, leaf: Leaf, moon: Moon, shield: ShieldCheck, dumbbell: Dumbbell };
 const photos = [
   "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=900&auto=format&fit=crop&q=85",
   "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&auto=format&fit=crop&q=85",
   "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=900&auto=format&fit=crop&q=85",
   "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=900&auto=format&fit=crop&q=85",
   "https://images.unsplash.com/photo-1511295742362-92c96b7e5f56?w=900&auto=format&fit=crop&q=85",
-  "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=900&auto=format&fit=crop&q=85"
+  "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=900&auto=format&fit=crop&q=85",
+  "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=900&auto=format&fit=crop&q=85"
 ];
 function Home() {
  const [query,setQuery]=useState(""); const [menu,setMenu]=useState(false);
