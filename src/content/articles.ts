@@ -773,6 +773,144 @@ export const articles: Article[] = [
       { title: "Protokoll der 35. Sitzung der Gemeinsamen Expertenkommission zur Einstufung von Stoffen", publisher: "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)", url: "https://www.bfarm.de/SharedDocs/Downloads/DE/Arzneimittel/Zulassung/ZulRelThemen/abgrenzung/Expertenkommission/protokolle/Protokoll_240618_35_Sitzung.pdf?__blob=publicationFile", accessed: "2026-11-26" }
     ]
   }
+
+  {
+    slug: "omega-3-fettsaeuren",
+    title: "Omega-3-Fettsäuren: Aufgaben, Lebensmittel und Supplemente",
+    category: "vitamine-naehrstoffe",
+    tags: ["Omega-3", "EPA", "DHA", "ALA", "Fettsäuren", "Fischöl"],
+    intro: "Omega-3-Fettsäuren gehören zu den mehrfach ungesättigten Fettsäuren. Dieser Ratgeber erklärt die Unterschiede zwischen ALA, EPA und DHA, zeigt Lebensmittelquellen und ordnet ein, was Nahrungsergänzungsmittel tatsächlich leisten können.",
+    excerpt: "Was ALA, EPA und DHA unterscheidet, welche Lebensmittel Omega-3 liefern und wann Fischöl- oder Algenölpräparate überhaupt infrage kommen.",
+    readingMinutes: 9,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "ALA ist eine essenzielle pflanzliche Omega-3-Fettsäure; EPA und DHA kommen vor allem in fettreichem Seefisch und Algen vor.",
+      "Der Körper kann ALA nur in begrenztem Umfang in EPA und DHA umwandeln.",
+      "Nahrungsergänzung ist nicht automatisch für alle Menschen notwendig; hohe Dosierungen sollten medizinisch eingeordnet werden."
+    ],
+    sections: [
+      { id: "was-sind-omega-3", heading: "Was sind Omega-3-Fettsäuren?", paragraphs: [
+        "Omega-3-Fettsäuren sind eine Gruppe mehrfach ungesättigter Fettsäuren. Für die Ernährung sind vor allem Alpha-Linolensäure (ALA), Eicosapentaensäure (EPA) und Docosahexaensäure (DHA) relevant. ALA gilt als essenziell, weil der Körper sie nicht selbst herstellen kann und sie mit der Nahrung aufgenommen werden muss.",
+        "EPA und DHA erfüllen eigene Funktionen im Körper. ALA kann zwar teilweise in EPA und DHA umgewandelt werden, die Umwandlung ist jedoch begrenzt und variiert zwischen Menschen."
+      ]},
+      { id: "funktionen", heading: "Welche Aufgaben haben ALA, EPA und DHA?", paragraphs: [
+        "Omega-3-Fettsäuren sind Bestandteile von Zellmembranen. DHA kommt in besonders hohen Anteilen in Netzhaut und Gehirn vor. EPA und DHA sind außerdem Ausgangsstoffe für Botenstoffe, die an der Regulation von Entzündungsprozessen beteiligt sind.",
+        "Aus solchen biologischen Funktionen folgt nicht automatisch, dass ein zusätzliches Präparat Krankheiten verhindert oder behandelt. Entscheidend sind die konkrete Fragestellung, die Ausgangsversorgung und die Ergebnisse klinischer Studien."
+      ]},
+      { id: "lebensmittel", heading: "Welche Lebensmittel liefern Omega-3?", paragraphs: [
+        "ALA findet sich unter anderem in Leinsamen, Leinöl, Chiasamen, Walnüssen und Rapsöl. EPA und DHA kommen vor allem in fettreichen Seefischen wie Hering, Makrele und Lachs vor. Mikroalgen sind die ursprüngliche Quelle mariner Omega-3-Fettsäuren und werden für Algenölpräparate genutzt.",
+        "Wer keinen Fisch isst, kann ALA-reiche pflanzliche Lebensmittel regelmäßig einbauen. Algenöl ist eine mögliche direkte Quelle für EPA und/oder DHA; die Zusammensetzung unterscheidet sich je nach Produkt."
+      ]},
+      { id: "studienlage", heading: "Was sagt die Studienlage zu Nahrungsergänzung?", paragraphs: [
+        "Die Forschung untersucht Omega-3-Präparate unter anderem im Zusammenhang mit Triglyceridwerten und Herz-Kreislauf-Erkrankungen. Ergebnisse hängen von Personengruppe, Präparat, Dosis und Studiendesign ab. Eine Wirkung in einer medizinisch definierten Hochrisikogruppe lässt sich nicht auf alle gesunden Menschen übertragen.",
+        "Fischölkapseln sind kein Ersatz für eine ausgewogene Ernährung oder eine ärztlich verordnete Behandlung. Bei erhöhten Blutfettwerten sollte die Behandlung anhand des individuellen Risikoprofils erfolgen."
+      ]},
+      { id: "praeparate", heading: "Fischöl, Krillöl oder Algenöl?", paragraphs: [
+        "Fischöl und Krillöl stammen aus tierischen Meeresquellen. Algenöl liefert Omega-3-Fettsäuren ohne Fischbestandteile und eignet sich deshalb als Alternative für Menschen, die Fisch meiden. Achten Sie auf die ausgewiesenen Mengen an EPA und DHA statt nur auf die Gesamtmenge an Öl.",
+        "Qualität, Oxidationsschutz, Lagerung und nachvollziehbare Produktangaben sind wichtig. Ein höherer Preis oder die Bezeichnung „Premium“ belegt keine bessere gesundheitliche Wirkung."
+      ]},
+      { id: "sicherheit", heading: "Nebenwirkungen, Dosierung und Wechselwirkungen", paragraphs: [
+        "Häufige unerwünschte Wirkungen von Omega-3-Präparaten sind Aufstoßen, unangenehmer Geschmack, Sodbrennen, Übelkeit oder Durchfall. In Studien mit hohen Dosierungen wurde bei bestimmten Patientengruppen ein leicht erhöhtes Risiko für Vorhofflimmern beobachtet.",
+        "Wer Gerinnungshemmer einnimmt, eine Blutgerinnungsstörung hat, eine Operation plant oder hoch dosierte Präparate erwägt, sollte die Einnahme ärztlich oder pharmazeutisch abklären. Eine pauschale Dosierungsempfehlung für alle gibt es nicht."
+      ]}
+    ],
+    sources: [
+      { title: "Omega-3 Fatty Acids – Fact Sheet for Health Professionals", publisher: "National Institutes of Health, Office of Dietary Supplements", url: "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", accessed: "2026-11-26" },
+      { title: "Omega-3 fatty acids", publisher: "European Food Safety Authority (EFSA)", url: "https://www.efsa.europa.eu/en/topics/topic/omega-3-fatty-acids", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "opc-traubenkernextrakt",
+    title: "OPC und Traubenkernextrakt: Antioxidantien, Studien und Grenzen",
+    category: "vitamine-naehrstoffe",
+    tags: ["OPC", "Traubenkernextrakt", "Proanthocyanidine", "Polyphenole", "Antioxidantien"],
+    intro: "OPC steht für oligomere Proanthocyanidine – Pflanzenstoffe, die unter anderem in Traubenkernen vorkommen. Der Artikel erklärt, was hinter dem Begriff steckt und wie belastbar die häufig beworbenen Gesundheitsversprechen sind.",
+    excerpt: "Was OPC ist, welche Ergebnisse Studien zu Traubenkernextrakt zeigen und warum Laborbefunde nicht mit einem belegten Gesundheitsnutzen gleichzusetzen sind.",
+    readingMinutes: 8,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "OPC bezeichnet eine Gruppe pflanzlicher Polyphenole, die unter anderem in Traubenkernen vorkommen.",
+      "Kleine Studien zeigen mögliche Effekte auf einzelne Blutdruck- oder Blutfettwerte; die Ergebnisse sind nicht abschließend.",
+      "Ein antioxidativer Effekt im Labor beweist nicht, dass ein Präparat Krankheiten verhindert oder behandelt."
+    ],
+    sections: [
+      { id: "was-ist-opc", heading: "Was bedeutet OPC?", paragraphs: [
+        "OPC ist die Abkürzung für oligomere Proanthocyanidine. Dabei handelt es sich um pflanzliche Polyphenole, die in verschiedenen Pflanzen vorkommen. Für Nahrungsergänzungsmittel wird häufig Extrakt aus den Kernen von Weintrauben verwendet.",
+        "Traubenkernextrakte enthalten unterschiedliche Mengen und Zusammensetzungen von Proanthocyanidinen. Produkte sind deshalb nicht automatisch miteinander vergleichbar."
+      ]},
+      { id: "antioxidantien", heading: "OPC und antioxidative Eigenschaften", paragraphs: [
+        "Proanthocyanidine können in Laborversuchen oxidative Reaktionen beeinflussen. Der Begriff „Antioxidans“ wird in der Werbung jedoch oft so verwendet, als wäre damit ein konkreter Schutz vor Krankheiten beim Menschen bewiesen. Das ist ein zu großer Schluss aus Laborergebnissen.",
+        "Der menschliche Stoffwechsel ist komplex. Ob ein Stoff aus einem Extrakt aufgenommen wird, welche Konzentrationen im Gewebe erreicht werden und ob daraus ein klinisch relevanter Nutzen entsteht, muss in Studien am Menschen untersucht werden."
+      ]},
+      { id: "studienlage", heading: "Was zeigen Untersuchungen am Menschen?", paragraphs: [
+        "Klinische Studien zu Traubenkernextrakt untersuchen unter anderem Blutdruck, Blutfette und weitere Messwerte. Einige Übersichtsarbeiten berichten mögliche Veränderungen einzelner Werte. Die Studien sind jedoch häufig klein, verwenden unterschiedliche Extrakte und kommen nicht immer zu übereinstimmenden Ergebnissen.",
+        "Daraus lässt sich keine gesicherte Empfehlung ableiten, OPC zur Vorbeugung oder Behandlung von Herz-Kreislauf-Erkrankungen einzunehmen. Ein Laborwert oder eine statistische Veränderung ist nicht automatisch gleichbedeutend mit weniger Herzinfarkten, Schlaganfällen oder anderen Erkrankungen."
+      ]},
+      { id: "lebensmittel-praeparate", heading: "Lebensmittel oder konzentrierter Extrakt?", paragraphs: [
+        "Trauben, Beeren, Äpfel und weitere pflanzliche Lebensmittel enthalten verschiedene Polyphenole. Eine abwechslungsreiche Ernährung liefert eine Mischung aus Ballaststoffen, Vitaminen und sekundären Pflanzenstoffen. Ein isolierter Extrakt bildet diese Lebensmittelmatrix nicht nach.",
+        "Nahrungsergänzungsmittel können deutlich konzentrierter sein als übliche Lebensmittel. Die Menge an Extrakt und der tatsächliche Gehalt an Proanthocyanidinen sollten auf dem Etikett nachvollziehbar angegeben sein."
+      ]},
+      { id: "sicherheit", heading: "Sicherheit und mögliche Wechselwirkungen", paragraphs: [
+        "Traubenkernextrakt wird in Untersuchungen häufig gut vertragen; die Datenlage zu langfristiger Anwendung ist jedoch begrenzt. Bei Nahrungsergänzungsmitteln können je nach Produkt Magen-Darm-Beschwerden oder Unverträglichkeiten auftreten.",
+        "Wer Gerinnungshemmer einnimmt, eine Blutgerinnungsstörung hat oder eine Operation plant, sollte Traubenkernextrakt nicht ohne Rücksprache verwenden. Auch in Schwangerschaft und Stillzeit ist die Sicherheit konzentrierter Extrakte nicht ausreichend untersucht."
+      ]},
+      { id: "fazit", heading: "Wie lässt sich OPC realistisch einordnen?", paragraphs: [
+        "OPC ist ein interessanter Forschungsgegenstand, aber kein nachgewiesenes Wundermittel. Die bisherige Forschung zu Traubenkernextrakt liefert einzelne Hinweise, reicht jedoch nicht aus, um pauschale Aussagen zu Gefäßschutz, Anti-Aging oder Krankheitsprävention zu rechtfertigen.",
+        "Für die allgemeine Gesundheit ist eine abwechslungsreiche Ernährung mit Gemüse, Obst, Nüssen und Vollkornprodukten die besser etablierte Grundlage. Ein Supplement sollte nicht an die Stelle einer medizinisch notwendigen Behandlung treten."
+      ]}
+    ],
+    sources: [
+      { title: "Grape Seed Extract: Usefulness and Safety", publisher: "National Center for Complementary and Integrative Health (NCCIH / NIH)", url: "https://www.nccih.nih.gov/health/grape-seed-extract", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "coenzym-q10",
+    title: "Coenzym Q10: Funktion, Lebensmittel und Nahrungsergänzung",
+    category: "vitamine-naehrstoffe",
+    tags: ["Coenzym Q10", "Q10", "Ubichinon", "Ubichinol", "Mitochondrien"],
+    intro: "Coenzym Q10 ist an der Energiegewinnung in den Mitochondrien beteiligt und wird vom Körper selbst hergestellt. Dieser Ratgeber erklärt die Funktion von Q10, seine Quellen und warum ein Supplement nicht automatisch einen zusätzlichen Nutzen bringt.",
+    excerpt: "Wie Q10 an der Energiegewinnung beteiligt ist, welche Lebensmittel es enthalten und was das BfR zu Präparaten und Risiken sagt.",
+    readingMinutes: 8,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Der Körper bildet Coenzym Q10 selbst; es gilt nicht als essenzieller Nährstoff.",
+      "Q10 ist an der Energieübertragung in den Mitochondrien beteiligt und kommt unter anderem in Fleisch, Fisch und Nüssen vor.",
+      "Für gesunde Menschen ist ein zusätzlicher Nutzen durch Nahrungsergänzung nicht überzeugend belegt; mögliche Wechselwirkungen sollten beachtet werden."
+    ],
+    sections: [
+      { id: "was-ist-q10", heading: "Was ist Coenzym Q10?", paragraphs: [
+        "Coenzym Q10, auch Ubichinon genannt, ist eine körpereigene Substanz, die in nahezu allen Zellen vorkommt. In den Mitochondrien ist Q10 Teil der Elektronentransportkette und damit an der Bildung von Adenosintriphosphat (ATP) beteiligt – der unmittelbar nutzbaren Energieform der Zellen.",
+        "Q10 liegt im Körper in verschiedenen Redoxformen vor. Ubichinon und Ubichinol sind ineinander umwandelbar. Die Bezeichnung „aktives Q10“ in der Werbung sollte nicht als Beleg verstanden werden, dass eine Form für alle Menschen klinisch überlegen ist."
+      ]},
+      { id: "koerpereigene-bildung", heading: "Kann der Körper Q10 selbst herstellen?", paragraphs: [
+        "Ja. Der gesunde Organismus bildet Coenzym Q10 selbst. Deshalb ist Q10 kein essenzieller Nährstoff, der zwingend in einer bestimmten Menge über die Nahrung aufgenommen werden muss. Ein allgemein anerkannter Bedarf wie bei Vitaminen ist nicht festgelegt.",
+        "Die körpereigene Bildung und der Q10-Stoffwechsel können durch Alter, Erkrankungen oder bestimmte Arzneimittel beeinflusst werden. Daraus folgt jedoch nicht automatisch, dass jede betroffene Person ein Supplement benötigt."
+      ]},
+      { id: "lebensmittel", heading: "Welche Lebensmittel enthalten Q10?", paragraphs: [
+        "Q10 kommt in unterschiedlichen Mengen in Lebensmitteln vor. Zu den reicheren Quellen zählen Fleisch und Innereien, Fisch, Nüsse und einige pflanzliche Öle. Obst, Gemüse, Getreide und Milchprodukte enthalten im Allgemeinen geringere Mengen.",
+        "Da der Körper Q10 selbst bilden kann, ist eine gezielte Ernährung zur Erreichung einer festgelegten Q10-Zufuhr normalerweise nicht erforderlich."
+      ]},
+      { id: "studienlage", heading: "Was ist über die Wirkung von Q10 bekannt?", paragraphs: [
+        "Q10 wird in Studien bei unterschiedlichen Erkrankungen und Fragestellungen untersucht. Ergebnisse aus einzelnen Patientengruppen können nicht ohne Weiteres auf gesunde Menschen übertragen werden. Für allgemeine Werbeaussagen wie mehr Energie, bessere Leistungsfähigkeit oder eine pauschale Stärkung der Abwehrkräfte fehlt ein ausreichender wissenschaftlicher Nachweis.",
+        "Das Bundesinstitut für Risikobewertung weist darauf hin, dass für gesunde Personen bei üblicher Ernährung eine ausreichende Versorgung angenommen wird und eine zusätzliche Zufuhr aus ernährungsmedizinischer Sicht nicht generell notwendig ist."
+      ]},
+      { id: "praeparate", heading: "Ubichinon, Ubichinol und Präparate", paragraphs: [
+        "Nahrungsergänzungsmittel enthalten Q10 häufig als Ubichinon oder Ubichinol. Die Produkte unterscheiden sich hinsichtlich Zusammensetzung, Darreichungsform und Menge. Eine pauschale Empfehlung für eine bestimmte Form oder Dosierung lässt sich daraus nicht ableiten.",
+        "Wer ein Präparat erwägt, sollte zunächst klären, welches konkrete Ziel verfolgt wird und ob es dafür belastbare klinische Belege gibt. Nahrungsergänzungsmittel sind keine Arzneimittel und dürfen nicht zur Behandlung von Krankheiten beworben werden."
+      ]},
+      { id: "sicherheit", heading: "Nebenwirkungen und Wechselwirkungen", paragraphs: [
+        "In Studien wurden unter anderem Übelkeit, Sodbrennen, Magenbeschwerden, Durchfall und gelegentlich Hautreaktionen beschrieben. Die Daten zur langfristigen Anwendung und zu bestimmten Personengruppen sind begrenzt.",
+        "Das BfR weist auf mögliche, noch nicht abschließend geklärte Wechselwirkungen mit blutdrucksenkenden Arzneimitteln und Cumarin-Antikoagulanzien wie Phenprocoumon hin. Wer solche Medikamente einnimmt, sollte die Verwendung von Q10 vorab ärztlich oder pharmazeutisch besprechen. Schwangere, Stillende sowie Kinder und Jugendliche sollten Q10-Präparate nicht ohne medizinische Abklärung verwenden."
+      ]}
+    ],
+    sources: [
+      { title: "Coenzym Q10: Was ist über gesundheitliche Risiken bekannt – und was nicht?", publisher: "Bundesinstitut für Risikobewertung (BfR)", url: "https://www.bfr.bund.de/veroeffentlichung/coenzym-q10-was-ist-ueber-gesundheitliche-risiken-bekannt-und-was-nicht/", accessed: "2026-11-26" }
+    ]
+  },
+
 ];
 
 export function getArticle(slug: string): Article | undefined {
