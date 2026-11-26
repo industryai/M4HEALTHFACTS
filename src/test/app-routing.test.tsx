@@ -18,6 +18,7 @@ describe("App routing", () => {
 
   it.each([
     "/ernaehrung",
+    "/bewegung-fitness",
     "/vitamine-naehrstoffe",
     "/gesundheitswissen",
     "/gesundheitslexikon",
