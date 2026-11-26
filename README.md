@@ -13,19 +13,19 @@ Eigenständiges digitales Gesundheitsportal mit verständlichen, sorgfältig ein
 
 ## Lokal starten
 
-Voraussetzungen: Node.js (aktuelle LTS-Version) und npm oder Bun.
+Voraussetzungen: Bun (aktuelle Version).
 
 ```bash
-npm install
-npm run dev
+bun install --frozen-lockfile
+bun run dev
 ```
 
 Produktionsbuild und Prüfungen:
 
 ```bash
-npm run build
-npm run lint
-npm test
+bun run build
+bun run lint
+bun run test
 ```
 
 ## Projektstruktur
