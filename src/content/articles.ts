@@ -1399,6 +1399,90 @@ export const articles: Article[] = [
     ]
   },
 
+
+  {
+    slug: "ingwer-wirkung-anwendung",
+    title: "Ingwer: Wirkung, Anwendung und Grenzen der Evidenz",
+    category: "natur-hausmittel",
+    tags: ["Ingwer", "Hausmittel", "Übelkeit", "Pflanzenstoffe"],
+    intro: "Ingwer wird traditionell bei Magenbeschwerden und Erkältungen verwendet. Wissenschaftlich untersucht ist er vor allem im Zusammenhang mit Übelkeit und bestimmten Schmerzbeschwerden – die Ergebnisse hängen jedoch von Anwendung und Situation ab.",
+    excerpt: "Was Studien zu Ingwer zeigen, bei welchen Beschwerden Hinweise bestehen und worauf bei Nahrungsergänzungsmitteln zu achten ist.",
+    readingMinutes: 8, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: ["Ingwer als Lebensmittel und hoch dosierte Extrakte sind nicht gleichzusetzen.", "Für manche Formen von Übelkeit ist die Studienlage uneinheitlich; bei Reisekrankheit zeigen viele Studien keinen klaren Nutzen.", "Mögliche Nebenwirkungen sind Sodbrennen, Bauchbeschwerden und Durchfall."],
+    sections: [
+      { id: "was-ist-ingwer", heading: "Was steckt in Ingwer?", paragraphs: ["Ingwer ist das Rhizom der Pflanze Zingiber officinale. Es enthält verschiedene Scharfstoffe und weitere Pflanzenstoffe, darunter Gingerole und Shogaole. Frische Knolle, getrocknetes Gewürz, Tee und konzentrierte Extrakte unterscheiden sich in Zusammensetzung und Menge der Inhaltsstoffe.", "Als Gewürz kann Ingwer Teil einer abwechslungsreichen Ernährung sein. Daraus lässt sich jedoch nicht automatisch auf eine medizinische Wirkung konzentrierter Präparate schließen."]},
+      { id: "uebelkeit", heading: "Ingwer bei Übelkeit", paragraphs: ["Einige Untersuchungen deuten darauf hin, dass Ingwer-Nahrungsergänzungsmittel bestimmte Formen von Übelkeit lindern könnten. Die Ergebnisse sind nicht für alle Situationen gleich: Für Reisekrankheit zeigen viele Studien keinen überzeugenden Nutzen. Auch bei Übelkeit nach Operationen oder Chemotherapie ist die Datenlage nicht abschließend.", "Bei starker, anhaltender oder ungeklärter Übelkeit sollte die Ursache medizinisch abgeklärt werden. Ingwer ersetzt keine notwendige Behandlung."]},
+      { id: "weitere-anwendungen", heading: "Weitere untersuchte Anwendungen", paragraphs: ["Studien untersuchen Ingwerpräparate auch bei Menstruationsbeschwerden und Kniearthrose. Es gibt Hinweise auf mögliche Verbesserungen einzelner Symptome, die Aussagekraft ist jedoch durch Studiendesign und Qualität begrenzt. Für viele andere beworbene Einsatzgebiete fehlen belastbare klinische Belege.", "Wer Ingwer gezielt gegen Beschwerden einsetzen möchte, sollte Nutzen und Risiken mit einer medizinischen Fachperson besprechen – insbesondere bei bestehenden Erkrankungen oder regelmäßiger Medikamenteneinnahme."]},
+      { id: "sicherheit", heading: "Nebenwirkungen und Wechselwirkungen", paragraphs: ["Bei oraler Einnahme können Bauchbeschwerden, Sodbrennen, Durchfall sowie Reizungen im Mund- und Rachenraum auftreten. Nahrungsergänzungsmittel können deutlich höhere Mengen liefern als übliche Lebensmittelportionen.", "Wer Medikamente einnimmt, schwanger ist oder eine chronische Erkrankung hat, sollte konzentrierte Ingwerpräparate vorab medizinisch oder pharmazeutisch abklären. Produkte nicht als Ersatz für verordnete Medikamente verwenden."]},
+      { id: "fazit", heading: "Fazit: Gewürz ja, Heilversprechen nein", paragraphs: ["Ingwer kann als Gewürz oder Getränk geschmacklich sinnvoll in den Alltag passen. Für einzelne Beschwerden gibt es erste Hinweise, aber keine pauschale Wirkung gegen Übelkeit, Entzündungen oder andere Erkrankungen. Entscheidend sind die konkrete Anwendung, die Qualität der Studien und die individuelle Sicherheit."]}
+    ],
+    sources: [
+      { title: "Ginger: Usefulness and Safety", publisher: "National Center for Complementary and Integrative Health (NCCIH)", url: "https://www.nccih.nih.gov/health/ginger", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "kamille-tee-wirkung",
+    title: "Kamille: Was Kamillentee leisten kann – und was nicht",
+    category: "natur-hausmittel",
+    tags: ["Kamille", "Kamillentee", "Heilpflanzen", "Hausmittel"],
+    intro: "Kamillentee gehört zu den bekanntesten Hausmitteln. Die Pflanze wird bei unterschiedlichen Beschwerden eingesetzt, doch für viele Anwendungen fehlen aussagekräftige klinische Belege.",
+    excerpt: "Traditionelle Verwendung, wissenschaftliche Erkenntnisse, Allergierisiken und mögliche Wechselwirkungen der Kamille im Überblick.",
+    readingMinutes: 7, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: ["Kamillentee in üblichen Lebensmittelmengen gilt für die meisten Menschen als wahrscheinlich sicher.", "Die klinische Evidenz für viele beworbene Anwendungen ist unzureichend.", "Allergien und Wechselwirkungen mit Medikamenten sind möglich."],
+    sections: [
+      { id: "pflanze", heading: "Welche Kamille wird verwendet?", paragraphs: ["Im Zusammenhang mit Heilpflanzen ist meist die Echte Kamille (Matricaria recutita) gemeint. Sie wird als Tee, Extrakt, äußerliche Zubereitung oder Bestandteil kombinierter pflanzlicher Produkte angeboten.", "Traditionelle Verwendung ist nicht dasselbe wie ein wissenschaftlich nachgewiesener Behandlungseffekt. Außerdem lassen sich Ergebnisse zu Kombinationspräparaten nicht ohne Weiteres der Kamille allein zuschreiben."]},
+      { id: "evidenz", heading: "Was sagt die Forschung?", paragraphs: ["Kamille wird unter anderem bei Erkältung, Verdauungsbeschwerden, Angst und Schlafproblemen beworben. Nach Einschätzung des US-amerikanischen NCCIH reichen die verlässlichen Studien für viele dieser konkreten Anwendungen nicht aus, um eine klinische Wirksamkeit sicher zu beurteilen.", "Vorläufige Untersuchungen zu bestimmten standardisierten Präparaten sind interessant, erlauben aber keine allgemeine Empfehlung für Kamillentee oder beliebige Extrakte. Auch für Schlafstörungen ist ein Nutzen nicht überzeugend belegt."]},
+      { id: "anwendung", heading: "Kamillentee im Alltag", paragraphs: ["Ein Tee aus Kamillenblüten kann als warmes Getränk Teil der üblichen Ernährung sein. Wer ihn gern trinkt und verträgt, kann ihn als Getränk genießen – er sollte aber nicht als Ersatz für eine notwendige Diagnostik oder Behandlung verstanden werden.", "Bei anhaltenden Verdauungsbeschwerden, starken Schmerzen, Fieber oder anderen deutlichen Symptomen sollte die Ursache abgeklärt werden, statt ausschließlich auf Hausmittel zu setzen."]},
+      { id: "risiken", heading: "Allergien und Wechselwirkungen", paragraphs: ["Kamille kann allergische Reaktionen auslösen, insbesondere bei Menschen mit Allergien gegen verwandte Korbblütler wie Ambrosia, Chrysanthemen oder Ringelblumen. Selten sind auch schwere allergische Reaktionen beschrieben.", "Wechselwirkungen mit Arzneimitteln sind möglich, unter anderem wurden Fälle im Zusammenhang mit Warfarin und bestimmten über die Leber verstoffwechselten Medikamenten berichtet. Bei regelmäßiger Medikamenteneinnahme, Schwangerschaft oder Stillzeit sollte die medizinische Anwendung vorher abgeklärt werden."]},
+      { id: "fazit", heading: "Fazit: Traditionell beliebt, klinisch begrenzt belegt", paragraphs: ["Kamille ist als Tee für viele Menschen ein gut verträgliches Getränk. Ihre traditionelle Beliebtheit sollte jedoch nicht mit einem gesicherten medizinischen Nutzen für zahlreiche Erkrankungen verwechselt werden. Bei Arzneimitteln, Allergien und besonderen Lebenssituationen ist Vorsicht angebracht."]}
+    ],
+    sources: [
+      { title: "Chamomile: Usefulness and Safety", publisher: "National Center for Complementary and Integrative Health (NCCIH)", url: "https://www.nccih.nih.gov/health/chamomile", accessed: "2026-11-26" },
+      { title: "Sleep Disorders and Complementary Health Approaches", publisher: "NCCIH", url: "https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "pfefferminzoel-reizdarm",
+    title: "Pfefferminzöl bei Reizdarm: Nutzen und Risiken",
+    category: "natur-hausmittel",
+    tags: ["Pfefferminze", "Pfefferminzöl", "Reizdarm", "Verdauung"],
+    intro: "Pfefferminzöl wird in magensaftresistenten Kapseln zur Linderung von Reizdarmbeschwerden angeboten. Studien zeigen mögliche kurzfristige Vorteile, die Evidenz ist jedoch begrenzt und Nebenwirkungen sind möglich.",
+    excerpt: "Was Studien zu Pfefferminzöl bei Reizdarm sagen, warum die Darreichungsform wichtig ist und wer besonders vorsichtig sein sollte.",
+    readingMinutes: 8, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: ["Für magensaftresistente Pfefferminzöl-Kapseln gibt es Hinweise auf kurzfristige Linderung von Reizdarmsymptomen.", "Die Studienqualität ist begrenzt; Langzeitnutzen ist nicht ausreichend geklärt.", "Sodbrennen und Reflux können auftreten oder sich verschlimmern."],
+    sections: [
+      { id: "reizdarm", heading: "Was ist das Reizdarmsyndrom?", paragraphs: ["Das Reizdarmsyndrom ist eine Störung der Darm-Hirn-Interaktion. Typisch sind wiederkehrende Bauchschmerzen in Verbindung mit Veränderungen des Stuhlgangs, etwa Durchfall, Verstopfung oder beidem. Die Diagnose erfordert eine passende medizinische Einordnung.", "Pfefferminzöl ist eine mögliche ergänzende Maßnahme, aber keine universelle Behandlung und nicht für jede betroffene Person geeignet."]},
+      { id: "evidenz", heading: "Was zeigen Studien zu Pfefferminzöl?", paragraphs: ["Einige Studien und Übersichtsarbeiten deuten darauf hin, dass magensaftresistente Pfefferminzöl-Kapseln bei Erwachsenen kurzfristig allgemeine Reizdarmsymptome und Bauchschmerzen lindern können. Eine 2022 veröffentlichte Metaanalyse von zehn randomisierten Studien mit 1.030 Teilnehmenden fand einen Vorteil gegenüber Placebo, zugleich traten Nebenwirkungen häufiger auf.", "Die Forschenden bewerteten die Evidenz als sehr niedrig. Ein verlässlicher Langzeitnutzen ist nicht belegt. Pfefferminzblätter oder gewöhnlicher Pfefferminztee sind außerdem nicht mit den in Studien verwendeten standardisierten Kapseln gleichzusetzen."]},
+      { id: "darreichung", heading: "Warum die Darreichungsform wichtig ist", paragraphs: ["Magensaftresistente Kapseln sind so gestaltet, dass sich ihr Inhalt nicht bereits im Magen, sondern erst später im Verdauungstrakt freisetzt. Ergebnisse zu solchen Präparaten können nicht auf ätherisches Öl aus der Flasche, selbst hergestellte Mischungen oder beliebige Tees übertragen werden.", "Ätherische Öle sind konzentriert. Sie sollten nicht unverdünnt eingenommen oder eigenständig dosiert werden. Halten Sie sich bei zugelassenen Präparaten an Packungsbeilage und fachliche Beratung."]},
+      { id: "risiken", heading: "Nebenwirkungen und Vorsicht", paragraphs: ["Mögliche Nebenwirkungen sind Sodbrennen, Aufstoßen, Übelkeit, Bauchschmerzen und Mundtrockenheit. Pfefferminzöl kann Refluxbeschwerden verstärken. Bei gastroösophagealer Refluxkrankheit oder einem Zwerchfellbruch ist besondere Vorsicht geboten.", "Bei starken, neu aufgetretenen oder ungeklärten Bauchschmerzen, Blut im Stuhl, Fieber oder ungewolltem Gewichtsverlust ist eine ärztliche Abklärung wichtig. Pfefferminzöl darf eine notwendige Diagnostik nicht verzögern."]},
+      { id: "fazit", heading: "Fazit: Ergänzende Option mit begrenzter Evidenz", paragraphs: ["Für bestimmte standardisierte Pfefferminzöl-Kapseln gibt es Hinweise auf eine kurzfristige Linderung beim Reizdarmsyndrom. Die Datenlage bleibt begrenzt, und mögliche Nebenwirkungen müssen berücksichtigt werden. Die Auswahl eines Präparats sollte bei Beschwerden mit einer medizinischen Fachperson besprochen werden."]}
+    ],
+    sources: [
+      { title: "Peppermint Oil: Usefulness and Safety", publisher: "NCCIH", url: "https://www.nccih.nih.gov/health/peppermint-oil", accessed: "2026-11-26" },
+      { title: "Systematic review and meta-analysis: efficacy of peppermint oil in irritable bowel syndrome", publisher: "Alimentary Pharmacology & Therapeutics / PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/35942669/", accessed: "2026-11-26" }
+    ]
+  },
+  {
+    slug: "honig-husten-hausmittel",
+    title: "Honig bei Husten: Was das Hausmittel wirklich kann",
+    category: "natur-hausmittel",
+    tags: ["Honig", "Husten", "Erkältung", "Hausmittel"],
+    intro: "Honig wird häufig als Hausmittel bei akutem Husten empfohlen. Studien deuten auf eine begrenzte Linderung einzelner Symptome hin – er behandelt jedoch nicht die Ursache und ist für Säuglinge tabu.",
+    excerpt: "Welche Hinweise es für Honig bei Erkältungshusten gibt, welche Grenzen gelten und warum Kinder unter einem Jahr keinen Honig bekommen dürfen.",
+    readingMinutes: 7, publishedAt: "2026-11-26", updatedAt: "2026-11-26",
+    keyFacts: ["Honig kann bei akutem Erkältungshusten bei Kindern über einem Jahr möglicherweise Symptome etwas lindern.", "Die Evidenz ist begrenzt und belegt keine Verkürzung der Erkrankungsdauer.", "Säuglinge unter zwölf Monaten dürfen wegen des Risikos von Säuglingsbotulismus keinen Honig erhalten."],
+    sections: [
+      { id: "tradition", heading: "Warum wird Honig bei Husten verwendet?", paragraphs: ["Honig wird pur oder in warmen Getränken traditionell bei Halsreiz und Husten eingesetzt. Seine zähflüssige Konsistenz kann den Rachen kurzfristig angenehm überziehen. Das ist jedoch nicht gleichbedeutend mit einer Behandlung der Infektion.", "Akuter Husten im Rahmen einer Erkältung bessert sich häufig von selbst. Wichtig ist, Warnzeichen zu erkennen und bei Bedarf medizinischen Rat einzuholen."]},
+      { id: "evidenz", heading: "Was sagt die Studienlage?", paragraphs: ["Die NICE-Auswertung von Studien bei Kindern und Jugendlichen mit akutem Husten durch Infekte der oberen Atemwege fand begrenzte Hinweise, dass Honig einzelne Hustensymptome gegenüber keiner Behandlung oder bestimmten Vergleichsmaßnahmen verbessern kann. Die Studien untersuchten vor allem kurzfristige Effekte.", "Es gab keine ausreichenden Daten, um eine Verkürzung der Hustendauer zu belegen. Die Ergebnisse lassen sich nicht pauschal auf alle Altersgruppen, Hustenursachen oder Honigsorten übertragen."]},
+      { id: "sicherheit", heading: "Wichtige Altersgrenze: kein Honig für Babys", paragraphs: ["Kinder unter zwölf Monaten dürfen keinen Honig essen – auch nicht in Tee, auf dem Schnuller oder zum Süßen von Speisen. Honig kann Sporen von Clostridium botulinum enthalten, die bei Säuglingen Säuglingsbotulismus auslösen können.", "Bei älteren Kindern ist Honig wegen seines Zuckergehalts maßvoll zu verwenden. Achten Sie außerdem auf mögliche Allergien und auf eine altersgerechte Versorgung bei Husten."]},
+      { id: "anwendung", heading: "Wie lässt sich Honig einordnen?", paragraphs: ["Bei Kindern über einem Jahr und Erwachsenen kann eine kleine Menge Honig als Hausmittel ausprobiert werden, sofern keine individuellen Gründe dagegensprechen. Er sollte nicht als Ersatz für notwendige Medikamente oder ärztliche Untersuchung verstanden werden.", "Bei Atemnot, bläulichen Lippen, starken Brustschmerzen, deutlicher Verschlechterung oder hohem beziehungsweise anhaltendem Fieber ist medizinische Hilfe erforderlich. Bei Säuglingen sollte Husten frühzeitig ärztlich beurteilt werden."]},
+      { id: "fazit", heading: "Fazit: mögliche Symptomhilfe, keine Hustenmedizin", paragraphs: ["Honig kann bei akutem Erkältungshusten möglicherweise kurzfristig etwas Linderung bringen. Die wissenschaftliche Aussagekraft ist begrenzt. Für Säuglinge unter einem Jahr ist Honig strikt ungeeignet."]}
+    ],
+    sources: [
+      { title: "Summary of the evidence: Cough (acute)", publisher: "National Institute for Health and Care Excellence (NICE)", url: "https://www.nice.org.uk/guidance/ng120/chapter/summary-of-the-evidence", accessed: "2026-11-26" }
+    ]
+  },
+
 ];
 
 export function getArticle(slug: string): Article | undefined {
