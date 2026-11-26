@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import logoUrl from "../assets/m4healthfacts-logo.png";
 import { createFileRoute } from "@tanstack/react-router";
 import { Search, ArrowRight, ArrowUpRight, Leaf, HeartPulse, Apple, Pill, Moon, ShieldCheck, BookOpen, PlayCircle, Menu, X, Clock3, Dumbbell } from "lucide-react";
 import { articles } from "../content/articles";
@@ -23,7 +22,7 @@ function Home() {
  const results=useMemo(()=>{const q=query.trim().toLocaleLowerCase("de");if(!q)return[];return [...articles.filter(a=>(a.title+" "+a.excerpt+" "+a.tags.join(" ")).toLocaleLowerCase("de").includes(q)).map(a=>({title:a.title,desc:a.excerpt,url:"/ratgeber/"+a.slug,type:"Ratgeber"})),...lexicon.filter(x=>(x.term+" "+x.definition).toLocaleLowerCase("de").includes(q)).slice(0,5).map(x=>({title:x.term,desc:x.definition,url:"/gesundheitslexikon#"+x.slug,type:"Lexikon"}))].slice(0,7)},[query]);
  return <div className="min-h-screen bg-[#fbfcf9] text-[#183b35]">
  <header className="sticky top-0 z-50 border-b border-[#e3ebe5] bg-[#fbfcf9]/95 backdrop-blur-xl"><div className="container-page flex h-[76px] items-center justify-between gap-4">
- <a href="/" className="flex items-center gap-3"><img src={logoUrl} alt="M4healthfacts Logo" className="h-14 w-14 shrink-0 object-contain" width="56" height="56"/><span><b className="block text-[19px] font-extrabold tracking-tight text-[#174f45]">M4healthfacts</b><small className="text-[10px] font-semibold uppercase tracking-[.2em] text-[#719087]">Gesundheit verstehen</small></span></a>
+ <a href="/" className="flex items-center gap-3"><span className="grid h-11 w-11 place-items-center rounded-2xl bg-[#174f45] text-white"><HeartPulse size={24}/></span><span><b className="block text-[19px] font-extrabold tracking-tight text-[#174f45]">M4healthfacts</b><small className="text-[10px] font-semibold uppercase tracking-[.2em] text-[#719087]">Gesundheit verstehen</small></span></a>
  <nav className="hidden items-center gap-7 text-[13px] font-semibold text-[#48665e] lg:flex"><a href="/themen">Themen</a><a href="/gesundheitswissen">Ratgeber</a><a href="/gesundheitslexikon">Lexikon A–Z</a><a href="https://www.youtube.com/@M4healthfacts" target="_blank" rel="noopener noreferrer">YouTube</a><a href="/ueber-uns">Über uns</a></nav>
  <div className="hidden items-center gap-3 md:flex"><a href="#suche" className="grid h-10 w-10 place-items-center rounded-full border border-[#dce8e1]" aria-label="Suche"><Search size={18}/></a><a href="/gesundheitswissen" className="rounded-full bg-[#176451] px-5 py-3 text-xs font-bold text-white">Wissen entdecken <ArrowUpRight className="ml-1 inline" size={14}/></a></div>
  <button className="grid h-10 w-10 place-items-center rounded-xl border border-[#dce8e1] lg:hidden" onClick={()=>setMenu(!menu)} aria-label="Menü">{menu?<X/>:<Menu/>}</button></div>
