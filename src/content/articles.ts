@@ -2981,6 +2981,191 @@ export const articles: Article[] = [
 
 
   {
+    slug: "darmkrebsfrueherkennung-vorsorge",
+    title: "Darmkrebsfrüherkennung: Vorsorge, Stuhltest und Darmspiegelung",
+    category: "praevention",
+    tags: ["Darmkrebs", "Früherkennung", "Vorsorge", "Koloskopie", "Stuhltest", "Krebsprävention"],
+    intro: "Darmkrebs entwickelt sich häufig über Jahre aus zunächst gutartigen Schleimhautveränderungen. Früherkennungsuntersuchungen können solche Vorstufen entdecken und teilweise direkt entfernen. In Deutschland können gesetzlich Versicherte ab 50 Jahren zwischen regelmäßigen Stuhltests und einer Darmspiegelung wählen.",
+    excerpt: "Welche Darmkrebs-Früherkennung die gesetzliche Krankenkasse übernimmt, wie Stuhltest und Koloskopie ablaufen und wann familiäre Risiken eine frühere Abklärung erfordern.",
+    readingMinutes: 11,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    popular: true,
+    keyFacts: [
+      "Darmkrebs entsteht häufig aus zunächst gutartigen Polypen, die sich über Jahre verändern können.",
+      "Gesetzlich Versicherte ab 50 Jahren können zwischen einem immunologischen Stuhltest alle zwei Jahre und bis zu zwei Früherkennungskoloskopien im Abstand von zehn Jahren wählen.",
+      "Ein auffälliger Stuhltest muss durch eine Darmspiegelung abgeklärt werden.",
+      "Ein negativer Stuhltest schließt Darmkrebs nicht sicher aus; neue Beschwerden müssen unabhängig vom letzten Testergebnis untersucht werden.",
+      "Bei Darmkrebs in der Familie oder erblichen Syndromen kann eine frühere und engmaschigere Vorsorge erforderlich sein."
+    ],
+    sections: [
+      {
+        id: "was-ist-darmkrebs",
+        heading: "Was ist Darmkrebs?",
+        paragraphs: [
+          "Mit Darmkrebs ist meist ein bösartiger Tumor des Dickdarms oder Mastdarms gemeint (kolorektales Karzinom). Die Erkrankung entsteht häufig aus zunächst gutartigen Wucherungen der Darmschleimhaut, sogenannten Polypen oder Adenomen. Nicht jeder Polyp wird zu Krebs, aber bestimmte Veränderungen können sich über Jahre weiterentwickeln.",
+          "Früherkennung setzt an, bevor Beschwerden auftreten. Ziel ist, Krebsvorstufen zu finden und zu entfernen oder einen bereits entstandenen Tumor in einem möglichst frühen Stadium zu entdecken. Je früher Darmkrebs erkannt wird, desto besser sind im Allgemeinen die Behandlungsmöglichkeiten.",
+          "Darmkrebs kann auch bei Menschen ohne bekannte Risikofaktoren auftreten. Deshalb ist das organisierte Früherkennungsangebot nicht nur für Personen mit familiärer Belastung gedacht."
+        ]
+      },
+      {
+        id: "risikofaktoren",
+        heading: "Risikofaktoren: Wer hat ein erhöhtes Risiko?",
+        paragraphs: [
+          "Das Risiko steigt mit zunehmendem Alter. Weitere Faktoren sind Darmkrebs oder bestimmte Darmpolypen bei nahen Angehörigen, chronisch-entzündliche Darmerkrankungen wie Colitis ulcerosa oder Morbus Crohn mit Dickdarmbeteiligung sowie seltene erbliche Syndrome wie das Lynch-Syndrom oder die familiäre adenomatöse Polyposis (FAP).",
+          "Auch Lebensstilfaktoren können das Risiko beeinflussen. Dazu zählen Bewegungsmangel, Übergewicht, Rauchen, regelmäßiger hoher Alkoholkonsum und ein hoher Verzehr von verarbeitetem Fleisch. Eine ballaststoffreiche Ernährung mit Vollkornprodukten, Gemüse und Obst sowie regelmäßige Bewegung sind mit einem günstigeren Risikoprofil verbunden.",
+          "Ein gesunder Lebensstil kann das Risiko senken, aber nicht vollständig ausschließen. Er ersetzt deshalb nicht die empfohlene Früherkennung."
+        ]
+      },
+      {
+        id: "anspruch-deutschland",
+        heading: "Welche Darmkrebs-Vorsorge zahlt die gesetzliche Krankenkasse?",
+        paragraphs: [
+          "Nach dem derzeitigen organisierten Früherkennungsprogramm in Deutschland haben gesetzlich Versicherte ab 50 Jahren Anspruch auf eine ärztliche Beratung und auf die angebotenen Untersuchungen. Frauen und Männer können zwischen einem immunologischen Stuhltest auf nicht sichtbares Blut und einer Früherkennungs-Darmspiegelung wählen.",
+          "Der Stuhltest kann alle zwei Jahre durchgeführt werden. Alternativ sind bis zu zwei Früherkennungskoloskopien im Abstand von zehn Jahren möglich. Nach einer Koloskopie ist im organisierten Programm grundsätzlich für die folgenden neun Kalenderjahre keine weitere Früherkennungsmethode vorgesehen; danach kann das Angebot erneut genutzt werden. Eine Koloskopie ab 65 Jahren gilt im Programm als zweite Früherkennungskoloskopie.",
+          "Bei einem auffälligen Stuhltest besteht Anspruch auf eine Darmspiegelung zur Abklärung. Die genauen Anspruchsregeln können sich durch Änderungen der Richtlinie weiterentwickeln. Die Arztpraxis oder Krankenkasse kann den individuellen Anspruch und das passende Intervall bestätigen.",
+          "Diese Regelungen betreffen die Früherkennung bei beschwerdefreien Personen. Bei Symptomen, auffälligen Vorbefunden oder erhöhtem familiärem beziehungsweise genetischem Risiko kann eine diagnostische oder risikoadaptierte Untersuchung unabhängig von den regulären Screeningintervallen notwendig sein."
+        ]
+      },
+      {
+        id: "stuhltest",
+        heading: "Der immunologische Stuhltest (iFOBT)",
+        paragraphs: [
+          "Der immunologische Stuhltest (iFOBT) sucht nach kleinen Mengen menschlichen Blutes im Stuhl, die mit bloßem Auge nicht sichtbar sind. Solche Blutspuren können unter anderem durch Polypen oder Darmkrebs entstehen. Der Test wird zu Hause mit einem Probenröhrchen durchgeführt; die Probe wird anschließend im Labor untersucht.",
+          "Der Test ist nicht invasiv und erfordert keine Darmreinigung. Er kann jedoch nur Blut nachweisen, das zum Zeitpunkt der Probenentnahme tatsächlich in den Stuhl gelangt. Nicht jeder Tumor oder Polyp blutet regelmäßig. Deshalb kann ein negativer Test eine Erkrankung nicht sicher ausschließen und die regelmäßige Wiederholung ist wichtig.",
+          "Ein positives Ergebnis bedeutet nicht automatisch Darmkrebs. Blut kann auch andere Ursachen haben. Ein auffälliger Test muss dennoch zeitnah durch eine Darmspiegelung abgeklärt werden. Ein weiterer Stuhltest allein reicht zur Abklärung nicht aus.",
+          "Beachten Sie die Hinweise der Praxis und des Testsets zur Probenentnahme und Abgabe. Bei sichtbarem Blut im Stuhl sollte nicht auf den nächsten Screeningtest gewartet werden."
+        ]
+      },
+      {
+        id: "koloskopie",
+        heading: "Die Darmspiegelung (Koloskopie)",
+        paragraphs: [
+          "Bei einer Koloskopie wird ein flexibles Untersuchungsgerät mit Kamera über den After in den Dickdarm eingeführt. Die Ärztin oder der Arzt kann die Darmschleimhaut direkt betrachten, Polypen erkennen und viele davon während derselben Untersuchung entfernen. Gewebeproben können entnommen und anschließend im Labor untersucht werden.",
+          "Die Darmspiegelung gilt als die zuverlässigste etablierte Methode zur Untersuchung des gesamten Dickdarms und bietet gegenüber dem Stuhltest den Vorteil, dass Krebsvorstufen direkt entfernt werden können. Auch sie bietet jedoch keine hundertprozentige Sicherheit: Kleine oder flache Veränderungen können übersehen werden, insbesondere wenn der Darm nicht ausreichend vorbereitet ist.",
+          "Vor der Untersuchung muss der Darm mit einer speziellen Abführlösung gereinigt werden. Die Praxis erklärt, wann die Lösung einzunehmen ist und welche Regeln für Essen, Trinken und Medikamente gelten. Eine gute Darmreinigung ist wichtig, damit die Schleimhaut zuverlässig beurteilt werden kann.",
+          "Die Untersuchung dauert häufig etwa 20 bis 30 Minuten, kann je nach Befund aber länger dauern. Auf Wunsch beziehungsweise nach medizinischer Einschätzung kann ein Beruhigungsmittel oder eine Sedierung angeboten werden. Nach einer Sedierung darf man in der Regel für den vorgegebenen Zeitraum nicht selbst Auto fahren und benötigt gegebenenfalls eine Begleitperson."
+        ]
+      },
+      {
+        id: "risiken-koloskopie",
+        heading: "Welche Risiken hat eine Darmspiegelung?",
+        paragraphs: [
+          "Die Koloskopie ist ein etabliertes und insgesamt sicheres Verfahren. Mögliche Komplikationen sind Blutungen, insbesondere nach Entfernung von Polypen, Verletzungen der Darmwand und selten Probleme im Zusammenhang mit einer Sedierung. Das persönliche Risiko hängt unter anderem von Alter, Vorerkrankungen, Medikamenten und Art der vorgenommenen Eingriffe ab.",
+          "Nach einer Polypenentfernung können Blutungen auch verzögert auftreten. Die Praxis informiert darüber, welche körperlichen Belastungen vorübergehend vermieden werden sollen und bei welchen Beschwerden medizinische Hilfe erforderlich ist.",
+          "Die Entscheidung für oder gegen eine Koloskopie sollte Nutzen und mögliche Risiken berücksichtigen. Bei der individuellen Beratung können auch Vorerkrankungen, Blutverdünner und frühere Untersuchungsergebnisse besprochen werden."
+        ]
+      },
+      {
+        id: "vergleich",
+        heading: "Stuhltest oder Darmspiegelung: Was ist der Unterschied?",
+        paragraphs: [
+          "Der Stuhltest ist einfach, nicht invasiv und kann zu Hause durchgeführt werden. Er muss regelmäßig wiederholt werden und erkennt nicht alle Tumoren oder Krebsvorstufen. Ein auffälliges Ergebnis führt zur Darmspiegelung.",
+          "Die Koloskopie untersucht den Dickdarm direkt und ermöglicht die Entfernung vieler Polypen. Sie ist aufwendiger, erfordert eine Darmreinigung und hat seltene, aber mögliche Komplikationen. Bei unauffälligem Befund ist das Screeningintervall deutlich länger.",
+          "Es gibt nicht für jede Person eine pauschal beste Wahl. Entscheidend sind persönliche Präferenzen, gesundheitliche Situation, bisherige Befunde und die Bereitschaft, die jeweilige Untersuchung regelmäßig beziehungsweise im empfohlenen Abstand wahrzunehmen. Eine informierte Entscheidung ist sinnvoller als eine Untersuchung aus Angst oder falscher Sicherheit."
+        ]
+      },
+      {
+        id: "familiaer",
+        heading: "Darmkrebs in der Familie: Muss ich früher zur Vorsorge?",
+        paragraphs: [
+          "Ja, eine familiäre Belastung kann dazu führen, dass eine frühere oder engmaschigere Darmspiegelung empfohlen wird. Besonders wichtig ist, ob Eltern, Geschwister oder Kinder an Darmkrebs erkrankt sind und in welchem Alter die Diagnose gestellt wurde. Auch bestimmte fortgeschrittene Darmpolypen bei nahen Angehörigen können relevant sein.",
+          "Bei mehreren betroffenen Familienmitgliedern, sehr frühem Erkrankungsalter oder bekannten erblichen Syndromen kann eine genetische Beratung sinnvoll sein. Für Menschen mit Lynch-Syndrom, FAP oder anderen erblichen Risikokonstellationen gelten spezielle Überwachungsprogramme, die deutlich vor dem allgemeinen Screeningalter beginnen können.",
+          "Informieren Sie Ihre Ärztin oder Ihren Arzt über Darmkrebs und relevante Polypen in der Familie. Warten Sie bei einer bekannten Hochrisikokonstellation nicht einfach bis zum 50. Geburtstag."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Welche Symptome können auf Darmkrebs hinweisen?",
+        paragraphs: [
+          "Darmkrebs verursacht im frühen Stadium häufig keine Beschwerden. Mögliche Warnzeichen sind Blut im Stuhl, eine anhaltende Veränderung der Stuhlgewohnheiten, neu aufgetretener Wechsel zwischen Durchfall und Verstopfung, wiederkehrende Bauchschmerzen, ungewollter Gewichtsverlust, ungewöhnliche Müdigkeit oder eine Blutarmut durch chronischen Blutverlust.",
+          "Diese Beschwerden können auch harmlose oder andere behandelbare Ursachen haben. Sie sollten dennoch ärztlich untersucht werden, besonders wenn sie neu auftreten, anhalten oder zunehmen.",
+          "Früherkennung und Diagnostik sind nicht dasselbe: Das Screening richtet sich an Menschen ohne verdächtige Symptome. Wer Beschwerden hat, benötigt eine gezielte Abklärung – auch dann, wenn der letzte Stuhltest unauffällig war oder eine frühere Darmspiegelung stattgefunden hat."
+        ]
+      },
+      {
+        id: "weitere-tests",
+        heading: "Was ist mit Bluttests, DNA-Tests oder virtueller Darmspiegelung?",
+        paragraphs: [
+          "Es werden verschiedene zusätzliche Verfahren beworben, darunter Bluttests auf Tumormarker, Stuhl-DNA-Tests, virtuelle Koloskopie mittels CT oder Kapselendoskopie. Nicht alle sind für die allgemeine Darmkrebsfrüherkennung ausreichend wissenschaftlich abgesichert oder Bestandteil des gesetzlichen Programms.",
+          "Ein Bluttest auf allgemeine Tumormarker ist nicht geeignet, Darmkrebs bei beschwerdefreien Menschen zuverlässig auszuschließen. Auch ein unauffälliger Wert ersetzt weder Stuhltest noch Koloskopie.",
+          "Bei virtueller Koloskopie oder Kapselverfahren kann bei auffälligem Befund weiterhin eine normale Darmspiegelung notwendig werden, um Gewebeproben zu entnehmen oder Polypen zu entfernen. Ob solche Verfahren im Einzelfall sinnvoll sind, sollte fachärztlich entschieden werden.",
+          "Lassen Sie sich vor privat zu zahlenden Tests erklären, ob ein nachgewiesener Nutzen für die Früherkennung besteht, welche Fehlerquellen auftreten können und welche Folgeuntersuchungen bei einem auffälligen Ergebnis erforderlich wären."
+        ]
+      },
+      {
+        id: "praevention",
+        heading: "Was kann ich selbst zur Vorbeugung beitragen?",
+        paragraphs: [
+          "Regelmäßige Bewegung, ein gesundes Körpergewicht und der Verzicht auf Rauchen unterstützen die allgemeine Gesundheit und können das Darmkrebsrisiko günstig beeinflussen. Alkohol sollte möglichst begrenzt werden.",
+          "Eine Ernährung mit Vollkornprodukten, Gemüse, Obst und Hülsenfrüchten liefert Ballaststoffe. Verarbeitetes Fleisch wie Wurst und Schinken sollte nur in geringen Mengen verzehrt werden; rotes Fleisch ebenfalls maßvoll. Eine einzelne Ernährungsmaßnahme kann Darmkrebs nicht sicher verhindern.",
+          "Die wichtigste ergänzende Maßnahme bleibt die Teilnahme an der empfohlenen Früherkennung. Auch ein gesunder Lebensstil macht das Screening nicht überflüssig."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zur Darmkrebsfrüherkennung",
+        paragraphs: [
+          "**Ab welchem Alter zahlt die Krankenkasse die Darmkrebsfrüherkennung?** Im organisierten gesetzlichen Programm können Frauen und Männer ab 50 Jahren die angebotenen Früherkennungsuntersuchungen nutzen.",
+          "**Wie oft kann ich eine Darmspiegelung machen lassen?** Im Screeningprogramm sind grundsätzlich bis zu zwei Früherkennungskoloskopien im Abstand von zehn Jahren vorgesehen. Individuelle medizinische Gründe oder auffällige Befunde können andere Intervalle erforderlich machen.",
+          "**Wie oft ist der Stuhltest vorgesehen?** Als Alternative zur Früherkennungskoloskopie kann der immunologische Stuhltest alle zwei Jahre durchgeführt werden.",
+          "**Bedeutet ein positiver Stuhltest, dass ich Krebs habe?** Nein. Der Test weist Blut nach, nicht Krebszellen. Ein auffälliger Befund muss aber durch eine Darmspiegelung abgeklärt werden.",
+          "**Schließt ein negativer Stuhltest Darmkrebs aus?** Nein. Manche Tumoren bluten nicht kontinuierlich. Bei Beschwerden ist unabhängig vom Testergebnis eine ärztliche Abklärung erforderlich.",
+          "**Muss ich bei Darmkrebs in der Familie bis 50 warten?** Nicht unbedingt. Je nach Verwandtschaftsgrad und Erkrankungsalter kann eine frühere Koloskopie oder genetische Beratung sinnvoll sein.",
+          "**Ist die Darmspiegelung schmerzhaft?** Viele Untersuchungen werden mit Sedierung durchgeführt und sind dann meist nicht bewusst wahrnehmbar. Ohne Sedierung kann die Untersuchung als unangenehm empfunden werden. Das Vorgehen kann vorab besprochen werden.",
+          "**Ist Darmkrebs trotz Vorsorge möglich?** Ja. Keine Früherkennungsmethode erkennt alle Veränderungen. Neue Warnzeichen müssen deshalb immer abgeklärt werden."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Beratung oder Untersuchung. Die Anspruchsregeln beschreiben das organisierte Früherkennungsprogramm für gesetzlich Versicherte in Deutschland und können angepasst werden. Bei Beschwerden oder familiärem beziehungsweise erblichem Risiko ist eine individuelle medizinische Abklärung erforderlich."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "Programm zur Früherkennung von Darmkrebs",
+        publisher: "Gemeinsamer Bundesausschuss (G-BA)",
+        url: "https://www.g-ba.de/themen/methodenbewertung/erwachsene/krebsfrueherkennung/darmkrebs-screening/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Richtlinie für organisierte Krebsfrüherkennungsprogramme (oKFE-RL), Fassung 2026",
+        publisher: "Gemeinsamer Bundesausschuss (G-BA)",
+        url: "https://www.g-ba.de/downloads/62-492-4233/oKFE-RL-2026-08-20-iK-2026-10-02.pdf",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Die wichtigsten Fragen zur Darmkrebs-Vorsorge",
+        publisher: "Bundesministerium für Gesundheit (BMG)",
+        url: "https://www.bundesgesundheitsministerium.de/themen/praevention/frueherkennung-vorsorge/fragen-zur-darmkrebs-vorsorge",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Darmkrebs-Vorsorge: Darmspiegelung und Stuhltest",
+        publisher: "Deutsches Krebsforschungszentrum (DKFZ), Krebsinformationsdienst",
+        url: "https://www.krebsinformationsdienst.de/darmkrebs/frueherkennung",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Darmkrebs: Früherkennung, Diagnose, Therapie",
+        publisher: "gesund.bund.de – Bundesministerium für Gesundheit",
+        url: "https://gesund.bund.de/darmkrebs",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Darmkrebsfrüherkennung",
+        publisher: "Deutsche Krebshilfe",
+        url: "https://www.krebshilfe.de/informieren/ueber-krebs/krebsvorsorge-und-krebsfrueherkennung/darmkrebsfrueherkennung/",
+        accessed: "2026-11-26"
+      }
+    ]
+  },
+
+
+  {
     slug: "pfefferminzoel-reizdarm",
     title: "Pfefferminzöl bei Reizdarm: Nutzen und Risiken",
     category: "natur-hausmittel",
