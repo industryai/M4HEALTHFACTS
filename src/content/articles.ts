@@ -4294,6 +4294,160 @@ export const articles: Article[] = [
         accessed: "2026-11-26"
       }
     ]
+  },,
+
+  {
+    slug: "reflux-sodbrennen-verstehen",
+    title: "Reflux und Sodbrennen: Ursachen, Diagnose, Behandlung und Ernährung",
+    category: "koerper-gesundheit",
+    tags: ["Reflux", "Sodbrennen", "GERD", "Speiseröhre", "Magen", "Ernährung"],
+    intro: "Sodbrennen entsteht häufig, wenn saurer Mageninhalt in die Speiseröhre zurückfließt. Gelegentliche Beschwerden sind verbreitet. Treten sie regelmäßig auf oder beeinträchtigen sie den Alltag, kann eine gastroösophageale Refluxkrankheit (GERD) vorliegen. Dieser Ratgeber erklärt typische Symptome, Warnzeichen, Diagnostik und evidenzbasierte Behandlungsmöglichkeiten.",
+    excerpt: "Warum Magensäure Sodbrennen auslöst, wann hinter Beschwerden eine Refluxkrankheit steckt und welche Maßnahmen bei Ernährung, Lebensstil und Medikamenten helfen können.",
+    readingMinutes: 11,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Sodbrennen entsteht meist durch den Rückfluss von Mageninhalt in die Speiseröhre; gelegentlicher Reflux ist nicht automatisch eine Erkrankung.",
+      "Typische Beschwerden sind brennender Schmerz hinter dem Brustbein und saures Aufstoßen, häufig nach Mahlzeiten oder im Liegen.",
+      "Bei typischen Beschwerden ohne Warnzeichen kann zunächst eine ärztlich begleitete Behandlung ohne invasive Diagnostik erwogen werden.",
+      "Bei Schluckbeschwerden, Blutungen, unbeabsichtigtem Gewichtsverlust oder anhaltendem Erbrechen ist eine zeitnahe medizinische Abklärung wichtig.",
+      "Protonenpumpenhemmer können bei geeigneter Indikation wirksam sein; sie sollten mit passender Indikation, Einnahme und regelmäßiger Überprüfung eingesetzt werden."
+    ],
+    sections: [
+      {
+        id: "was-ist-reflux",
+        heading: "Was sind Reflux und Sodbrennen?",
+        paragraphs: [
+          "Beim gastroösophagealen Reflux gelangt Mageninhalt zurück in die Speiseröhre. Das kann gelegentlich auch bei gesunden Menschen vorkommen. Sodbrennen bezeichnet das typische brennende Gefühl hinter dem Brustbein, das durch den Kontakt der Speiseröhrenschleimhaut mit zurückfließendem Mageninhalt entstehen kann.",
+          "Von einer gastroösophagealen Refluxkrankheit (GERD) spricht man, wenn Reflux regelmäßig Beschwerden verursacht, die Lebensqualität deutlich beeinträchtigt oder Komplikationen wie eine entzündete Speiseröhre auftreten. Nicht jeder Reflux führt zu einer Schleimhautschädigung, und nicht jede Speiseröhrenentzündung verursacht starke Symptome."
+        ]
+      },
+      {
+        id: "ursachen",
+        heading: "Wie entsteht Reflux?",
+        paragraphs: [
+          "Zwischen Speiseröhre und Magen liegt der untere Ösophagussphinkter. Dieser Muskelring soll den Rückfluss von Mageninhalt begrenzen. Wenn er vorübergehend erschlafft, dauerhaft zu schwach schließt oder eine Zwerchfellhernie (Hiatushernie) vorliegt, kann Mageninhalt leichter in die Speiseröhre gelangen.",
+          "Weitere Faktoren können den Druck im Bauchraum erhöhen oder Beschwerden verstärken. Dazu zählen große Mahlzeiten, Übergewicht, Schwangerschaft und bestimmte Körperpositionen. Auch einige Medikamente können den Schließmechanismus beeinflussen. Medikamente sollten deswegen jedoch nicht eigenständig abgesetzt werden."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Typische Symptome und weitere Beschwerden",
+        paragraphs: [
+          "Typisch sind ein brennendes Gefühl hinter dem Brustbein und saures oder bitteres Aufstoßen. Beschwerden treten oft nach dem Essen, beim Bücken oder im Liegen auf. Manche Betroffene berichten über einen Rückfluss von Flüssigkeit bis in den Rachen.",
+          "Auch Schluckbeschwerden, ein Kloßgefühl im Hals, chronischer Husten oder Heiserkeit werden mit Reflux in Verbindung gebracht. Diese Symptome haben jedoch viele mögliche Ursachen und beweisen für sich allein keine Refluxkrankheit. Bei anhaltenden Hals- oder Atemwegsbeschwerden ist eine differenzierte Abklärung wichtig.",
+          "Reflux kann auch ohne typisches Sodbrennen auftreten. Umgekehrt können Brustschmerzen oder Oberbauchbeschwerden andere Ursachen haben, die nicht vorschnell als Reflux eingeordnet werden dürfen."
+        ]
+      },
+      {
+        id: "ausloeser",
+        heading: "Welche Faktoren können Beschwerden verstärken?",
+        paragraphs: [
+          "Häufig berichten Betroffene über Beschwerden nach großen oder fettreichen Mahlzeiten, Schokolade, Pfefferminze, Kaffee, Alkohol, kohlensäurehaltigen Getränken oder scharfen Speisen. Die wissenschaftliche Evidenz für pauschale Verbotslisten ist allerdings begrenzt, und die individuellen Auslöser unterscheiden sich.",
+          "Hilfreicher als eine umfassende Ausschlussdiät ist es, wiederkehrende Zusammenhänge zu beobachten. Ein kurzes Symptom- und Ernährungstagebuch kann zeigen, ob bestimmte Speisen, Portionsgrößen oder Essenszeiten tatsächlich mit Beschwerden verbunden sind.",
+          "Rauchen, Übergewicht und späte große Mahlzeiten können Refluxbeschwerden begünstigen. Auch Schwangerschaft kann durch hormonelle Veränderungen und erhöhten Druck im Bauchraum zu vorübergehendem Reflux führen."
+        ]
+      },
+      {
+        id: "alltag",
+        heading: "Was kann im Alltag helfen?",
+        paragraphs: [
+          "Kleinere Mahlzeiten können bei manchen Betroffenen besser verträglich sein als sehr große Portionen. Wer nachts Beschwerden hat, kann versuchen, die letzte größere Mahlzeit mehrere Stunden vor dem Schlafengehen einzunehmen. Direkt nach dem Essen hinzulegen, kann den Rückfluss begünstigen.",
+          "Bei nächtlichem Reflux kann eine Erhöhung des Kopfendes des Bettes hilfreich sein. Dafür ist eine stabile Erhöhung des gesamten Oberkörpers meist geeigneter als mehrere zusätzliche Kissen, die den Körper nur abknicken.",
+          "Bei Übergewicht kann eine nachhaltige Gewichtsabnahme die Refluxsymptome reduzieren. Rauchstopp ist aus mehreren gesundheitlichen Gründen sinnvoll und kann ebenfalls helfen. Welche Maßnahmen im Einzelfall den größten Effekt haben, ist unterschiedlich."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Wie wird eine Refluxkrankheit diagnostiziert?",
+        paragraphs: [
+          "Die ärztliche Abklärung beginnt mit der Beschreibung der Beschwerden, ihrer Häufigkeit, möglicher Auslöser, Begleitsymptome und eingenommener Medikamente. Bei typischem Sodbrennen und saurem Aufstoßen ohne Warnzeichen kann die Ärztin oder der Arzt zunächst eine zeitlich begrenzte Behandlung und Verlaufskontrolle erwägen.",
+          "Eine Magenspiegelung (Ösophago-Gastro-Duodenoskopie) kann sinnvoll sein, wenn Warnzeichen bestehen, Beschwerden trotz geeigneter Behandlung anhalten, Komplikationen vermutet werden oder andere Erkrankungen ausgeschlossen werden müssen. Dabei werden Speiseröhre, Magen und Zwölffingerdarm beurteilt; bei Bedarf werden Gewebeproben entnommen.",
+          "Wenn die Diagnose unklar bleibt oder Beschwerden trotz Behandlung fortbestehen, kann eine ambulante Refluxmessung mit pH-Metrie oder kombinierter Impedanz-pH-Metrie helfen. Sie erfasst Säurekontakt und je nach Verfahren auch nicht-sauren Rückfluss. Eine Manometrie misst die Bewegungs- und Druckverhältnisse der Speiseröhre und wird bei bestimmten Fragestellungen eingesetzt.",
+          "Nicht jede Person mit Sodbrennen benötigt eine Magenspiegelung oder Langzeitmessung. Die Wahl der Untersuchung richtet sich nach Beschwerden, Warnzeichen und dem bisherigen Verlauf."
+        ]
+      },
+      {
+        id: "medikamente",
+        heading: "Medikamentöse Behandlung",
+        paragraphs: [
+          "Protonenpumpenhemmer (PPI) wie Omeprazol oder Pantoprazol reduzieren die Säureproduktion im Magen. Sie gehören bei geeigneter Indikation zu den wirksamsten Medikamenten gegen säurebedingte Refluxbeschwerden und können eine entzündete Speiseröhrenschleimhaut abheilen lassen. Die Auswahl, Behandlungsdauer und Einnahme sollten ärztlich abgestimmt werden.",
+          "PPI wirken nicht wie ein sofortiges Neutralisationsmittel. Die Einnahme erfolgt häufig vor einer Mahlzeit; maßgeblich sind die ärztliche Anweisung und die jeweilige Packungsinformation. Bei längerfristiger Anwendung sollte regelmäßig geprüft werden, ob die Indikation weiter besteht und ob die Behandlung angepasst werden kann.",
+          "Antazida neutralisieren bereits vorhandene Magensäure und können kurzfristig Beschwerden lindern. Alginate bilden eine Barriere auf dem Mageninhalt und können insbesondere nach Mahlzeiten helfen. H2-Rezeptorblocker kommen je nach Situation ebenfalls infrage. Diese Mittel unterscheiden sich in Wirkung, Dauer und möglichen Wechselwirkungen.",
+          "Medikamente gegen Reflux sollten nicht dauerhaft ohne Überprüfung eingenommen werden. PPI sind bei passender Indikation in der Regel gut verträglich; bei längerer Einnahme werden mögliche Risiken und die Notwendigkeit der Behandlung individuell abgewogen. Verordnete Medikamente nicht ohne Rücksprache absetzen."
+        ]
+      },
+      {
+        id: "komplikationen",
+        heading: "Mögliche Komplikationen",
+        paragraphs: [
+          "Bei einem Teil der Betroffenen kann wiederholter Säurekontakt eine Refluxösophagitis verursachen. Selten entstehen Geschwüre, Blutungen oder narbige Verengungen der Speiseröhre, die das Schlucken erschweren können.",
+          "Der Barrett-Ösophagus ist eine Veränderung der Schleimhaut im unteren Abschnitt der Speiseröhre, die im Zusammenhang mit langjährigem Reflux auftreten kann. Er ist mit einem erhöhten Risiko für Speiseröhrenkrebs verbunden, das absolute Risiko bleibt jedoch bei den meisten Betroffenen niedrig. Ob Kontrollen sinnvoll sind, hängt von individuellen Risikofaktoren und dem Befund ab.",
+          "Nicht jede Person mit Reflux entwickelt Komplikationen. Eine angemessene Diagnostik und Behandlung richtet sich nach dem individuellen Risiko und den Beschwerden."
+        ]
+      },
+      {
+        id: "brustschmerz",
+        heading: "Brustschmerzen nicht automatisch als Sodbrennen deuten",
+        paragraphs: [
+          "Ein brennender Schmerz hinter dem Brustbein kann durch Reflux entstehen, aber auch ein Zeichen einer Herz-Kreislauf-Erkrankung sein. Neue, starke, drückende oder belastungsabhängige Brustschmerzen dürfen nicht eigenständig als Sodbrennen eingeordnet werden.",
+          "Bei plötzlich auftretendem Brustschmerz, Atemnot, kaltem Schweiß, Übelkeit, Schwindel oder Ausstrahlung in Arm, Rücken, Hals oder Kiefer ist sofort der Rettungsdienst unter 112 zu alarmieren. Im Zweifel gilt: lieber akut abklären lassen."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Wann sollte man ärztlichen Rat einholen?",
+        paragraphs: [
+          "Eine ärztliche Abklärung ist sinnvoll, wenn Sodbrennen häufig auftritt, über längere Zeit anhält, nachts regelmäßig den Schlaf stört oder trotz geeigneter Maßnahmen nicht besser wird. Auch wenn Medikamente wiederholt benötigt werden, sollte die Ursache geprüft werden.",
+          "Warnzeichen sind insbesondere Schluckbeschwerden oder Schmerzen beim Schlucken, das Gefühl, dass Nahrung stecken bleibt, unbeabsichtigter Gewichtsverlust, Blut im Erbrochenen, schwarzer Stuhl, Blutarmut und anhaltendes Erbrechen. Diese Beschwerden erfordern eine zeitnahe medizinische Untersuchung.",
+          "Bei starken akuten Brustschmerzen oder Begleitsymptomen, die auf einen Herzinfarkt hindeuten können, ist 112 zu wählen."
+        ]
+      },
+      {
+        id: "faq",
+        heading: "Häufige Fragen zu Reflux und Sodbrennen",
+        paragraphs: [
+          "Ist gelegentliches Sodbrennen gefährlich? Gelegentlicher Reflux ist häufig und nicht automatisch eine Krankheit. Häufige, anhaltende oder belastende Beschwerden sollten ärztlich beurteilt werden.",
+          "Hilft Milch gegen Sodbrennen? Milch ist keine verlässliche Behandlung. Sie kann kurzfristig ein anderes Gefühl im Mund erzeugen, beseitigt die Refluxursache aber nicht; fettreiche Milch kann Beschwerden bei manchen Menschen sogar verstärken.",
+          "Muss ich Kaffee, Tomaten und scharfe Speisen vollständig meiden? Nein. Es gibt keine allgemeingültige Verbotsliste. Entscheidend ist, welche Lebensmittel bei der einzelnen Person nachvollziehbar Beschwerden auslösen.",
+          "Sind Protonenpumpenhemmer schädlich? Sie sind bei richtiger Indikation wirksam und meist gut verträglich. Bei längerer Einnahme sollte regelmäßig geprüft werden, ob sie weiterhin erforderlich sind.",
+          "Kann Reflux Husten oder Heiserkeit verursachen? Ein Zusammenhang ist möglich, aber diese Symptome haben viele andere Ursachen. Eine vorschnelle Refluxdiagnose ohne passende Abklärung ist nicht sinnvoll.",
+          "Wann ist Sodbrennen ein Notfall? Bei neuen starken Brustschmerzen, Atemnot, kaltem Schweiß, Kreislaufproblemen oder Ausstrahlung in Arm, Rücken oder Kiefer muss sofort 112 gerufen werden."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "S2k-Leitlinie Gastroösophageale Refluxkrankheit und eosinophile Ösophagitis",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) / AWMF",
+        url: "https://register.awmf.org/de/leitlinien/detail/021-013",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Gastroösophageale Refluxkrankheit (GERD)",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG) – Gesundheitsinformation.de",
+        url: "https://www.gesundheitsinformation.de/gastrooesophageale-refluxkrankheit-gerd.html",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Gastroesophageal reflux disease (GERD)",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        url: "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease",
+        publisher: "American College of Gastroenterology, 2022",
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Heart attack: First aid",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/conditions/heart-attack/",
+        accessed: "2026-11-26"
+      }
+    ]
   },
 
 ];
