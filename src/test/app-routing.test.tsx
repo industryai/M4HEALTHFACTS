@@ -54,7 +54,12 @@ describe("App routing", () => {
     expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
   });
 
-  it.each(categories.map((category) => `/${category.slug}/`))("matches category routes with GitHub Pages trailing slashes %s", (path) => {\n    const matches = router.matchRoutes(path);\n    expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);\n  });\n\n  it("has at least one article in every category", () => {
+  it.each(categories.map((category) => `/${category.slug}/`))("matches category routes with GitHub Pages trailing slashes %s", (path) => {
+    const matches = router.matchRoutes(path);
+    expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
+  });
+
+  it("has at least one article in every category", () => {
     for (const category of categories) {
       expect(articles.some((article) => article.category === category.slug), category.name).toBe(true);
     }
