@@ -2796,6 +2796,191 @@ export const articles: Article[] = [
 
 
   {
+    slug: "blaehbauch-blaehungen-ursachen",
+    title: "Blähbauch und Blähungen: Ursachen, Ernährung und Behandlung",
+    category: "koerper-gesundheit",
+    tags: ["Blähbauch", "Blähungen", "Flatulenz", "Verdauung", "Darm", "Ernährung", "Laktose"],
+    intro: "Ein aufgeblähter Bauch, Druckgefühl und vermehrte Darmgase sind häufige Beschwerden. Oft hängen sie mit Essgewohnheiten, bestimmten Lebensmitteln oder Verstopfung zusammen. Wenn die Beschwerden anhalten, neu auftreten oder von Warnzeichen begleitet werden, sollte die Ursache medizinisch abgeklärt werden.",
+    excerpt: "Was hinter Blähbauch und Darmgasen steckt, welche Lebensmittel Beschwerden verstärken können und wann Diagnostik oder Behandlung sinnvoll ist.",
+    readingMinutes: 10,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Blähungen bezeichnen vermehrten Gasabgang; ein Blähbauch kann ein Druck- oder Völlegefühl sein oder als sichtbare Bauchumfangszunahme auftreten.",
+      "Häufige Einflussfaktoren sind geschluckte Luft, fermentierbare Kohlenhydrate, Verstopfung und funktionelle Darmbeschwerden.",
+      "Ein Ernährungstagebuch und gezielte, zeitlich begrenzte Anpassungen sind meist sinnvoller als viele Lebensmittel dauerhaft zu meiden.",
+      "Bei anhaltenden Beschwerden können unter anderem Laktoseintoleranz, Zöliakie, Reizdarm oder andere Erkrankungen abgeklärt werden.",
+      "Probiotika sind keine pauschal empfohlene Behandlung für Blähbauch und abdominelle Distension."
+    ],
+    sections: [
+      {
+        id: "unterschied",
+        heading: "Blähungen, Blähbauch und Völlegefühl: Was ist der Unterschied?",
+        paragraphs: [
+          "Blähungen (Flatulenz) bezeichnen den Abgang von Darmgasen über den After. Ein Blähbauch oder Bloating beschreibt dagegen häufig das subjektive Gefühl von Druck, Spannung oder übermäßiger Fülle im Bauch. Eine sichtbare Zunahme des Bauchumfangs wird medizinisch als abdominale Distension bezeichnet.",
+          "Diese Beschwerden können gemeinsam auftreten, müssen es aber nicht. Manche Menschen fühlen sich stark aufgebläht, obwohl der Bauch äußerlich kaum verändert ist. Bei anderen nimmt der Bauchumfang im Tagesverlauf sichtbar zu.",
+          "Die Unterscheidung ist wichtig, weil nicht jede Beschwerde durch eine große Gasmenge entsteht. Auch eine erhöhte Empfindlichkeit der Darmorgane oder eine veränderte Koordination von Zwerchfell und Bauchwand kann das Gefühl oder das sichtbare Hervortreten des Bauches erklären."
+        ]
+      },
+      {
+        id: "entstehung",
+        heading: "Wie entstehen Darmgase?",
+        paragraphs: [
+          "Darmgase entstehen unter anderem, wenn Darmbakterien unverdaute oder nur teilweise aufgenommene Nahrungsbestandteile fermentieren. Dabei entstehen Gase wie Wasserstoff, Kohlendioxid und – bei bestimmten Menschen – Methan. Ein Teil der Gase wird über die Darmwand aufgenommen und ausgeatmet, ein Teil verlässt den Körper als Darmwind.",
+          "Zusätzlich wird beim Essen, Trinken und Sprechen Luft geschluckt. Wer sehr schnell isst, Kaugummi kaut, häufig kohlensäurehaltige Getränke trinkt oder beim Trinken durch einen Strohhalm viel Luft aufnimmt, kann dadurch Beschwerden verstärken.",
+          "Wie stark Gas wahrgenommen wird, hängt nicht nur von der Menge ab. Darmbewegung, Entleerung, Empfindlichkeit der Darmnerven und die Verarbeitung von Signalen zwischen Darm und Gehirn beeinflussen ebenfalls, ob ein normales Gasvolumen als unangenehm erlebt wird."
+        ]
+      },
+      {
+        id: "haeufige-ursachen",
+        heading: "Häufige Ursachen für einen Blähbauch",
+        paragraphs: [
+          "Häufig spielen Ernährungsgewohnheiten und bestimmte Kohlenhydrate eine Rolle. Dazu zählen beispielsweise Laktose bei Menschen mit Laktosemalabsorption, Fruktose in größeren Mengen sowie fermentierbare Kohlenhydrate aus bestimmten Obst- und Gemüsesorten, Hülsenfrüchten, Weizenprodukten und Süßungsmitteln wie Sorbit oder Mannit.",
+          "Verstopfung kann ebenfalls zu Blähungen und einem Druckgefühl führen. Wenn Stuhl länger im Darm bleibt oder die Entleerung erschwert ist, können sich Beschwerden verstärken. Auch ein Reizdarmsyndrom kann mit Blähungen, Bauchschmerzen und Veränderungen des Stuhlgangs einhergehen.",
+          "Weitere mögliche Ursachen sind Zöliakie, andere Nahrungsmittelunverträglichkeiten, funktionelle Verdauungsstörungen und – in ausgewählten Fällen – eine bakterielle Fehlbesiedlung des Dünndarms (SIBO). SIBO ist nicht die Erklärung für jeden Blähbauch und sollte nicht allein aufgrund unspezifischer Beschwerden angenommen werden.",
+          "Seltener können entzündliche oder andere organische Erkrankungen, Störungen der Darmbewegung, Flüssigkeitsansammlungen im Bauch oder Raumforderungen dahinterstecken. Bei neu auftretenden, zunehmenden oder anhaltenden Beschwerden ist deshalb die Gesamtsituation entscheidend."
+        ]
+      },
+      {
+        id: "lebensmittel",
+        heading: "Welche Lebensmittel können Blähungen fördern?",
+        paragraphs: [
+          "Hülsenfrüchte, Kohl, Zwiebeln, Knoblauch, einige Obstsorten, Vollkornprodukte und bestimmte Milchprodukte können bei empfindlichen Menschen mehr Gasbildung oder Beschwerden auslösen. Das bedeutet nicht, dass diese Lebensmittel grundsätzlich ungesund sind oder von allen gemieden werden sollten.",
+          "Auch kohlensäurehaltige Getränke, große und sehr fettreiche Mahlzeiten sowie zuckerfreie Produkte mit Zuckeralkoholen können bei manchen Menschen Beschwerden verstärken. Die individuelle Verträglichkeit unterscheidet sich deutlich.",
+          "Eine pauschale Verbotsliste ist nicht sinnvoll. Beobachten Sie, ob Beschwerden wiederholt nach bestimmten Lebensmitteln auftreten und ob Menge, Zubereitung oder Kombination eine Rolle spielen. Ein einzelner schlechter Tag beweist keine Unverträglichkeit."
+        ]
+      },
+      {
+        id: "essgewohnheiten",
+        heading: "Essgewohnheiten: Kleine Veränderungen testen",
+        paragraphs: [
+          "Langsames Essen und gründliches Kauen können helfen, weniger Luft zu schlucken. Regelmäßige, eher kleinere Mahlzeiten sind für manche Menschen angenehmer als sehr große Portionen. Auch häufiges Kaugummikauen, hastiges Trinken und viel Kohlensäure können probeweise reduziert werden.",
+          "Eine ausreichende Flüssigkeitszufuhr und regelmäßige Bewegung unterstützen die Darmfunktion. Wer zu Verstopfung neigt, sollte diese gezielt angehen, statt nur einzelne blähende Lebensmittel zu streichen.",
+          "Verändern Sie möglichst nicht alles gleichzeitig. Wenn mehrere Maßnahmen auf einmal begonnen werden, lässt sich kaum erkennen, welche davon tatsächlich einen Unterschied macht."
+        ]
+      },
+      {
+        id: "ballaststoffe",
+        heading: "Ballaststoffe: Gesund, aber langsam steigern",
+        paragraphs: [
+          "Ballaststoffe sind wichtig für die Darmgesundheit und können bei Verstopfung helfen. Werden sie jedoch plötzlich in großen Mengen aufgenommen, kann die bakterielle Fermentation vorübergehend zunehmen und Blähungen verstärken.",
+          "Steigern Sie Vollkornprodukte, Hülsenfrüchte, Gemüse und andere ballaststoffreiche Lebensmittel schrittweise. Die Verträglichkeit verschiedener Ballaststoffquellen ist unterschiedlich. Lösliche Ballaststoffe wie Flohsamenschalen können bei bestimmten Beschwerden hilfreich sein, sollten aber mit ausreichend Flüssigkeit und langsam beginnend verwendet werden.",
+          "Bei ausgeprägten Beschwerden, bekannten Darmverengungen oder anhaltender Verstopfung sollte die Auswahl und Menge mit medizinischem Fachpersonal abgestimmt werden."
+        ]
+      },
+      {
+        id: "laktose-fruktose",
+        heading: "Laktose, Fruktose und andere Unverträglichkeiten",
+        paragraphs: [
+          "Bei einer Laktoseintoleranz wird Milchzucker im Dünndarm nicht ausreichend gespalten. Gelangt mehr Laktose in den Dickdarm, können Bakterien sie vergären. Mögliche Folgen sind Blähungen, Bauchschmerzen und Durchfall. Die Beschwerden hängen häufig von der aufgenommenen Menge und der individuellen Restaktivität des Enzyms Laktase ab.",
+          "Auch eine eingeschränkte Aufnahme von Fruktose oder bestimmten Zuckeralkoholen kann Beschwerden verursachen. Eine Unverträglichkeit sollte nicht allein anhand eines Bauchgefühls diagnostiziert werden: Krankengeschichte, gezielte Ernährungsbeobachtung und gegebenenfalls geeignete Atemtests können bei der Einordnung helfen.",
+          "Wer eine Unverträglichkeit vermutet, sollte nicht vorsorglich ganze Lebensmittelgruppen dauerhaft streichen. Eine unnötig eingeschränkte Ernährung kann die Nährstoffversorgung und Lebensmittelauswahl beeinträchtigen."
+        ]
+      },
+      {
+        id: "low-fodmap",
+        heading: "Low-FODMAP-Ernährung: Für wen kann sie sinnvoll sein?",
+        paragraphs: [
+          "FODMAP ist die Abkürzung für bestimmte fermentierbare Kohlenhydrate, die im Dünndarm teilweise schlecht aufgenommen werden. Sie können Wasser in den Darm ziehen und im Dickdarm vergoren werden. Bei Menschen mit Reizdarm oder erhöhter Darmempfindlichkeit können sie dadurch Beschwerden verstärken.",
+          "Eine Low-FODMAP-Ernährung kann bei ausgewählten Betroffenen mit Reizdarmsyndrom helfen. Sie ist jedoch keine allgemeine Diät für jeden Blähbauch und sollte idealerweise durch eine qualifizierte Ernährungsfachkraft begleitet werden.",
+          "Das Vorgehen umfasst üblicherweise eine begrenzte Reduktionsphase, danach die systematische Wiedereinführung einzelner FODMAP-Gruppen und schließlich eine möglichst vielfältige, individuell verträgliche Ernährung. Eine dauerhaft strenge Einschränkung ist nicht das Ziel."
+        ]
+      },
+      {
+        id: "diagnostik",
+        heading: "Wie wird die Ursache abgeklärt?",
+        paragraphs: [
+          "Die Abklärung beginnt mit Fragen zu Beginn und Verlauf der Beschwerden, Ernährung, Stuhlgang, Medikamenten, Vorerkrankungen und möglichen Warnzeichen. Eine körperliche Untersuchung hilft zu beurteilen, ob der Bauch auffällig gebläht ist oder andere Befunde vorliegen.",
+          "Weitere Untersuchungen richten sich nach der vermuteten Ursache. Bei passender Symptomatik können Bluttests auf Zöliakie, Untersuchungen auf Entzündungszeichen oder gezielte Atemtests auf Laktose- beziehungsweise Fruktosemalabsorption sinnvoll sein. Nicht jeder Mensch mit Blähungen benötigt umfangreiche Laboruntersuchungen, Bildgebung oder eine Endoskopie.",
+          "Eine Untersuchung auf SIBO kann bei ausgewählten Risikokonstellationen erwogen werden. Atemtests haben Grenzen und müssen im klinischen Zusammenhang interpretiert werden. Ein positiver Test allein erklärt nicht automatisch alle Beschwerden.",
+          "Bildgebung oder eine Magen-Darm-Spiegelung kommen insbesondere bei Warnzeichen, deutlicher Verschlechterung, auffälliger körperlicher Untersuchung oder konkretem Verdacht auf eine organische Erkrankung infrage."
+        ]
+      },
+      {
+        id: "behandlung",
+        heading: "Was hilft gegen Blähbauch und Blähungen?",
+        paragraphs: [
+          "Die Behandlung richtet sich nach der Ursache. Bei Verstopfung kann eine gezielte Behandlung der Entleerungsstörung die Blähungen bessern. Bei nachgewiesener Laktosemalabsorption kann eine Anpassung der Laktosemenge oder ein geeignetes Laktasepräparat helfen. Bei Zöliakie ist eine konsequent glutenfreie Ernährung unter fachlicher Begleitung erforderlich.",
+          "Bei funktionellen Beschwerden können regelmäßige Mahlzeiten, Bewegung, langsames Essen und eine gezielte Anpassung einzelner Lebensmittelgruppen sinnvoll sein. Bei ausgeprägten oder anhaltenden Beschwerden kann eine gastroenterologische und ernährungstherapeutische Betreuung helfen.",
+          "Simeticon wird als Mittel gegen gasbedingte Beschwerden angeboten. Die Wirksamkeit ist je nach Situation unterschiedlich und nicht für jede Ursache überzeugend belegt. Fragen Sie bei regelmäßiger Einnahme oder zusätzlichen Erkrankungen in der Apotheke oder Arztpraxis nach.",
+          "Probiotika sollten nicht pauschal zur Behandlung eines Blähbauchs eingesetzt werden. Die AGA empfiehlt sie nicht zur Behandlung von abdominellem Bloating und Distension, da ein verlässlicher Nutzen hierfür nicht ausreichend belegt ist.",
+          "Wenn eine ausgeprägte Überempfindlichkeit oder eine Störung der Darm-Hirn-Interaktion vorliegt, können je nach Diagnose auch verhaltensmedizinische Verfahren, kognitive Verhaltenstherapie oder bauchgerichtete Hypnose Teil der Behandlung sein."
+        ]
+      },
+      {
+        id: "bewegung",
+        heading: "Bewegung und Alltag",
+        paragraphs: [
+          "Regelmäßige Bewegung unterstützt die Darmbewegung und kann insbesondere bei Verstopfung hilfreich sein. Schon Spaziergänge und kurze Aktivitätsphasen im Tagesverlauf können eine sinnvolle Ergänzung sein.",
+          "Bei manchen Menschen hilft es, nach dem Essen nicht direkt lange zu liegen und Mahlzeiten in Ruhe einzunehmen. Ein regelmäßiger Toilettenrhythmus kann bei Verstopfung unterstützen.",
+          "Ein kurzes Tagebuch zu Mahlzeiten, Beschwerden und Stuhlgang kann Zusammenhänge sichtbar machen. Es sollte aber nicht zu dauerhaften Verboten oder unnötiger Angst vor Lebensmitteln führen."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Wann sollte ein Blähbauch ärztlich abgeklärt werden?",
+        paragraphs: [
+          "Lassen Sie wiederkehrende, anhaltende oder neu aufgetretene Blähungen ärztlich beurteilen, insbesondere wenn sich die Beschwerden verstärken oder die Ernährung bereits deutlich eingeschränkt wurde.",
+          "Warnzeichen sind ungewollter Gewichtsverlust, Blut im Stuhl, schwarzer Stuhl, Fieber, anhaltendes Erbrechen, nächtliche Beschwerden, ausgeprägte Müdigkeit mit möglicher Blutarmut oder eine neu tastbare Schwellung im Bauch. Auch eine neu anhaltende Bauchumfangszunahme sollte abgeklärt werden.",
+          "Bei starken plötzlich einsetzenden Bauchschmerzen, stark gespanntem Bauch, wiederholtem Erbrechen oder wenn weder Stuhl noch Winde abgehen, ist eine sofortige medizinische Abklärung erforderlich. Das kann auf einen Darmverschluss oder eine andere akute Erkrankung hinweisen."
+        ]
+      },
+      {
+        id: "haeufige-fragen",
+        heading: "Häufige Fragen zu Blähbauch und Blähungen",
+        paragraphs: [
+          "**Ist ein Blähbauch immer durch zu viel Gas verursacht?** Nein. Auch eine erhöhte Empfindlichkeit der Darmnerven, Verstopfung oder eine veränderte Koordination von Zwerchfell und Bauchwand können das Gefühl oder die sichtbare Ausdehnung erklären.",
+          "**Sind Hülsenfrüchte ungesund, wenn sie Blähungen verursachen?** Nein. Sie liefern wertvolle Ballaststoffe und pflanzliches Eiweiß. Kleinere Portionen, gründliches Einweichen und langsame Gewöhnung können die Verträglichkeit verbessern.",
+          "**Sollte ich Gluten weglassen?** Nicht ohne Anlass. Bei Verdacht auf Zöliakie sollte zuerst die Diagnostik erfolgen, solange noch Gluten gegessen wird. Eine glutenfreie Ernährung ist nur bei entsprechender Indikation notwendig.",
+          "**Helfen Probiotika gegen Blähungen?** Ein allgemeiner Nutzen ist nicht ausreichend belegt. Die AGA rät davon ab, Probiotika routinemäßig zur Behandlung von Blähbauch und Distension einzusetzen.",
+          "**Ist eine Low-FODMAP-Diät dauerhaft sinnvoll?** Sie ist bei ausgewählten Menschen mit Reizdarm eine zeitlich begrenzte diagnostisch-therapeutische Strategie. Danach sollten Lebensmittel schrittweise wieder eingeführt werden.",
+          "**Wann ist ein Atemtest sinnvoll?** Bei konkretem Verdacht auf eine bestimmte Kohlenhydratmalabsorption oder in ausgewählten Fällen auf SIBO. Die Auswahl sollte anhand der Beschwerden und Risikofaktoren erfolgen."
+        ]
+      },
+      {
+        id: "medizinischer-hinweis",
+        heading: "Medizinischer Hinweis",
+        paragraphs: [
+          "Dieser Beitrag dient der allgemeinen Gesundheitsinformation und ersetzt keine ärztliche Untersuchung, Diagnose oder Behandlung. Anhaltende, zunehmende oder mit Warnzeichen verbundene Beschwerden sollten medizinisch abgeklärt werden. Dauerhafte Ernährungsrestriktionen, Medikamente und Nahrungsergänzungsmittel sollten nicht ohne passende Indikation begonnen werden."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "European Consensus on Functional Bloating and Abdominal Distension – ESNM/UEG Recommendations for Clinical Management",
+        publisher: "United European Gastroenterology Journal, 2025",
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12606050/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "AGA Clinical Practice Update on Evaluation and Management of Belching, Abdominal Bloating, and Distention",
+        publisher: "American Gastroenterological Association (AGA), Gastroenterology, 2023",
+        url: "https://gastro.org/clinical-guidance/evaluation-and-management-of-belching-abdominal-bloating-and-distention/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Bloating",
+        publisher: "National Health Service (NHS)",
+        url: "https://www.nhs.uk/symptoms/bloating/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Low FODMAP Diet",
+        publisher: "Monash University",
+        url: "https://www.monashfodmap.com/about-fodmap-and-ibs/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Reizdarmsyndrom – S3-Leitlinie",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) / AWMF",
+        url: "https://www.dgvs.de/leitlinien/unterer-gi-trakt/reizdarmsyndrom/",
+        accessed: "2026-11-26"
+      }
+    ]
+  },
+
+
+  {
     slug: "pfefferminzoel-reizdarm",
     title: "Pfefferminzöl bei Reizdarm: Nutzen und Risiken",
     category: "natur-hausmittel",
