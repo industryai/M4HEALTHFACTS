@@ -3648,6 +3648,169 @@ export const articles: Article[] = [
       { title: "Stress", publisher: "World Health Organization (WHO)", url: "https://www.who.int/news-room/questions-and-answers/item/stress", accessed: "2026-11-26" },
       { title: "Cortisol", publisher: "MedlinePlus", url: "https://medlineplus.gov/lab-tests/cortisol-test/", accessed: "2026-11-26" }
     ]
+  },,
+
+  {
+    slug: "laktoseintoleranz-verstehen",
+    title: "Laktoseintoleranz: Symptome, Atemtest, Ernährung und Behandlung",
+    category: "ernaehrung",
+    tags: ["Laktoseintoleranz", "Laktose", "Milchzucker", "H2-Atemtest", "Ernährung", "Verdauung"],
+    intro: "Laktoseintoleranz bedeutet, dass Milchzucker nach dem Verzehr Beschwerden auslöst. Ursache ist meist eine verminderte Aktivität des Enzyms Laktase im Dünndarm. Nicht jede nachgewiesene Laktosemalabsorption führt jedoch zu Symptomen – entscheidend sind die individuelle Verträglichkeit und eine passende Abklärung.",
+    excerpt: "Wie Laktose verdaut wird, welche Symptome typisch sind, wie der H2-Atemtest funktioniert und wie sich die Ernährung ohne unnötige Einschränkungen anpassen lässt.",
+    readingMinutes: 10,
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    keyFacts: [
+      "Laktosemalabsorption beschreibt die unvollständige Aufnahme von Milchzucker; von einer Laktoseintoleranz spricht man, wenn dadurch typische Beschwerden entstehen.",
+      "Häufige Symptome sind Blähungen, Bauchschmerzen, Darmgeräusche und Durchfall. Sie hängen unter anderem von der aufgenommenen Menge ab.",
+      "In Deutschland ist der H2-Atemtest ein übliches Standardverfahren. Messwerte müssen zusammen mit den während des Tests auftretenden Beschwerden bewertet werden.",
+      "Viele Betroffene vertragen kleine Mengen Laktose. Eine vollständig milchfreie Ernährung ist daher nicht automatisch erforderlich.",
+      "Bei einer sekundären Laktoseintoleranz kann sich die Verträglichkeit verbessern, wenn die zugrunde liegende Darmerkrankung behandelt wird."
+    ],
+    sections: [
+      {
+        id: "was-ist-laktose",
+        heading: "Was ist Laktose und wie wird sie verdaut?",
+        paragraphs: [
+          "Laktose ist Milchzucker und kommt natürlicherweise in Milch sowie daraus hergestellten Produkten vor. Im Dünndarm spaltet das Enzym Laktase Laktose in Glukose und Galaktose. Diese Einfachzucker können anschließend über die Darmschleimhaut aufgenommen werden.",
+          "Ist zu wenig Laktase vorhanden, gelangt ein Teil der Laktose unverdaut in den Dickdarm. Dort wird sie von Darmbakterien verarbeitet. Dabei entstehen unter anderem Gase; zugleich kann Wasser in den Darm gezogen werden. Das kann Blähungen, Schmerzen und Durchfall auslösen."
+        ]
+      },
+      {
+        id: "malabsorption-intoleranz",
+        heading: "Laktosemalabsorption ist nicht automatisch eine Intoleranz",
+        paragraphs: [
+          "Laktosemalabsorption bezeichnet die eingeschränkte Verdauung beziehungsweise Aufnahme von Milchzucker. Eine Laktoseintoleranz liegt erst dann vor, wenn nach dem Verzehr relevante, typische Beschwerden auftreten. Manche Menschen haben einen auffälligen Atemtest, bleiben aber beschwerdefrei.",
+          "Die Unterscheidung ist wichtig: Ein Testergebnis allein erklärt nicht zwangsläufig die Beschwerden und ist kein Grund, vorsorglich sämtliche Milchprodukte zu streichen."
+        ]
+      },
+      {
+        id: "ursachen",
+        heading: "Ursachen: primärer und sekundärer Laktasemangel",
+        paragraphs: [
+          "Bei der primären Form nimmt die Laktaseaktivität nach der Kindheit genetisch bedingt ab. Das ist weltweit unterschiedlich häufig und entwickelt sich meist schrittweise. Die Beschwerden können deshalb erst im Jugend- oder Erwachsenenalter auffallen.",
+          "Eine sekundäre Laktosemalabsorption kann entstehen, wenn die Dünndarmschleimhaut vorübergehend oder dauerhaft geschädigt ist – beispielsweise durch eine Darminfektion, Zöliakie, chronisch-entzündliche Darmerkrankungen oder bestimmte medizinische Behandlungen. Wird die Ursache erfolgreich behandelt und heilt die Schleimhaut aus, kann sich die Laktoseverträglichkeit wieder bessern.",
+          "Ein angeborener vollständiger Laktasemangel ist sehr selten. Bei Säuglingen können schwere Durchfälle und Gedeihstörungen auftreten; das gehört umgehend kinderärztlich abgeklärt."
+        ]
+      },
+      {
+        id: "symptome",
+        heading: "Typische Symptome und ihr zeitlicher Verlauf",
+        paragraphs: [
+          "Häufig sind Blähbauch, Völlegefühl, Darmgeräusche, vermehrte Darmgase, krampfartige Bauchschmerzen und wässriger Durchfall. Gelegentlich treten Übelkeit auf. Die Beschwerden beginnen oft innerhalb einiger Stunden nach dem Verzehr, können aber individuell unterschiedlich einsetzen.",
+          "Wie stark die Symptome ausfallen, hängt unter anderem von der Laktosemenge, der Restaktivität der Laktase, der Zusammensetzung der Mahlzeit und der individuellen Darmempfindlichkeit ab. Eine feste Menge, die für alle Betroffenen Beschwerden auslöst, gibt es nicht.",
+          "Eine Laktoseintoleranz ist keine Milchproteinallergie. Bei einer Allergie reagiert das Immunsystem auf Bestandteile der Milch; dabei können auch Haut, Atemwege oder Kreislauf betroffen sein. Atemnot, Schwellungen oder Kreislaufprobleme nach Milchverzehr sind kein typisches Bild einer Laktoseintoleranz und müssen akut medizinisch beurteilt werden."
+        ]
+      },
+      {
+        id: "diagnose",
+        heading: "Diagnose: Anamnese und H2-Atemtest",
+        paragraphs: [
+          "Am Anfang stehen die Krankengeschichte, die zeitliche Beziehung zwischen Mahlzeiten und Beschwerden sowie mögliche andere Ursachen. Ein Ernährungs- und Symptomtagebuch kann dabei helfen, Muster zu erkennen. Eine eigenständige langfristige Ausschlussdiät ersetzt keine Diagnostik.",
+          "Beim H2-Atemtest wird zunächst eine Ausgangsprobe der Atemluft gemessen. Danach trinkt die untersuchte Person eine standardisierte Laktoselösung. In festgelegten Abständen wird über mehrere Stunden erneut die Wasserstoffkonzentration in der Ausatemluft bestimmt und gleichzeitig dokumentiert, ob typische Beschwerden auftreten.",
+          "Ein Anstieg des Wasserstoffs spricht dafür, dass Laktose nicht vollständig im Dünndarm aufgenommen wurde. Für die Diagnose einer klinisch relevanten Intoleranz ist zusätzlich wichtig, ob während der Untersuchung passende Symptome entstehen. Nicht alle Menschen bilden messbare Mengen Wasserstoff; je nach Labor und Fragestellung können deshalb weitere Aspekte der Testinterpretation relevant sein.",
+          "Die Vorbereitung ist entscheidend. Die Praxis informiert über Nüchternheit, Ernährung am Vortag, Rauchen, Bewegung und Medikamente. Diese Vorgaben sollten eingehalten werden, weil verschiedene Faktoren das Ergebnis beeinflussen können. Ein Gentest kann bestimmte genetische Veranlagungen erfassen, sagt aber nicht zuverlässig aus, ob aktuell Beschwerden auftreten oder ob eine sekundäre Ursache vorliegt."
+        ]
+      },
+      {
+        id: "differentialdiagnosen",
+        heading: "Welche anderen Ursachen kommen infrage?",
+        paragraphs: [
+          "Blähungen, Bauchschmerzen und Durchfall sind unspezifisch. Ähnliche Beschwerden können unter anderem bei Reizdarmsyndrom, Zöliakie, Fruktosemalabsorption, einer bakteriellen Fehlbesiedlung des Dünndarms oder chronisch-entzündlichen Darmerkrankungen auftreten. Auch eine Milchproteinallergie muss bei passenden Symptomen anders abgeklärt werden.",
+          "Bei anhaltenden oder zunehmenden Beschwerden sollte deshalb nicht allein aufgrund eines Selbsttests eine Laktoseintoleranz angenommen werden. Ärztlich kann entschieden werden, welche Untersuchungen sinnvoll sind."
+        ]
+      },
+      {
+        id: "ernaehrung",
+        heading: "Ernährung: Verträgliche Mengen statt unnötiger Verbote",
+        paragraphs: [
+          "Die Ernährung sollte sich an der persönlichen Verträglichkeit orientieren. Viele Betroffene müssen nicht vollständig auf Laktose verzichten. Häufig werden kleinere Portionen besser vertragen, besonders wenn sie zusammen mit einer Mahlzeit gegessen und über den Tag verteilt werden.",
+          "Laktosefreie Milch und Milchprodukte enthalten weiterhin wichtige Nährstoffe, die Laktose wurde lediglich bereits gespalten. Lange gereifte Hartkäse enthalten häufig nur sehr geringe Laktosemengen. Joghurt und andere fermentierte Produkte können je nach Herstellung und individueller Verträglichkeit ebenfalls besser verträglich sein – das ist jedoch nicht bei allen Menschen gleich.",
+          "Eine praktische Vorgehensweise besteht aus einer zeitlich begrenzten Beschwerdeberuhigung, einer schrittweisen Wiedereinführung unterschiedlicher Mengen und einer langfristigen Ernährung, die möglichst vielfältig bleibt. Bei deutlichen Beschwerden oder Unsicherheit sollte die Umstellung mit einer qualifizierten Ernährungsfachkraft abgestimmt werden."
+        ]
+      },
+      {
+        id: "naehrstoffe",
+        heading: "Calcium und Vitamin D ausreichend aufnehmen",
+        paragraphs: [
+          "Wer Milchprodukte stark reduziert, sollte auf eine ausreichende Calciumzufuhr achten. Geeignete Möglichkeiten können laktosefreie Milchprodukte, calciumreiches Mineralwasser, calciumreiches Gemüse sowie mit Calcium angereicherte Pflanzendrinks sein. Bei Pflanzendrinks lohnt sich ein Blick auf die Nährwert- und Zutatenangaben; nicht jedes Produkt ist gleichwertig angereichert.",
+          "Vitamin D ist ebenfalls für den Knochenstoffwechsel wichtig. Ob eine zusätzliche Einnahme sinnvoll ist, hängt von der individuellen Versorgung und medizinischen Situation ab. Eine pauschale Supplementierung ist nicht allein wegen einer Laktoseintoleranz erforderlich."
+        ]
+      },
+      {
+        id: "laktase",
+        heading: "Laktasepräparate: mögliche Unterstützung",
+        paragraphs: [
+          "Laktasepräparate enthalten das Enzym, das Milchzucker spaltet. Sie können bei manchen Menschen vor einer laktosehaltigen Mahlzeit helfen, Beschwerden zu verringern. Die Wirkung ist individuell und hängt unter anderem von Produkt, Enzymaktivität und Laktosemenge ab. Deshalb sollte die Anwendung nach Produktinformation und bei Bedarf nach fachlicher Beratung erfolgen.",
+          "Solche Präparate beseitigen die Ursache eines primären Laktasemangels nicht. Bei einer sekundären Form steht die Abklärung und Behandlung der Grunderkrankung im Vordergrund."
+        ]
+      },
+      {
+        id: "kinder",
+        heading: "Laktoseintoleranz bei Kindern",
+        paragraphs: [
+          "Eine primäre Laktoseintoleranz ist bei kleinen Kindern eher ungewöhnlich und tritt typischerweise erst später auf. Nach Magen-Darm-Infekten kann vorübergehend eine sekundäre Laktosemalabsorption vorkommen. Seltene angeborene Formen zeigen sich bereits im Säuglingsalter.",
+          "Bei Kindern sollten Milchprodukte nicht ohne fachliche Begleitung dauerhaft gestrichen werden. Anhaltender Durchfall, Gewichtsverlust, fehlende Gewichtszunahme oder Zeichen einer Austrocknung erfordern eine zeitnahe kinderärztliche Abklärung."
+        ]
+      },
+      {
+        id: "warnzeichen",
+        heading: "Wann sollte man ärztlichen Rat einholen?",
+        paragraphs: [
+          "Eine ärztliche Abklärung ist sinnvoll, wenn Beschwerden regelmäßig auftreten, länger anhalten, neu im Erwachsenenalter beginnen oder die Ernährung stark eingeschränkt wird. Besonders wichtig sind Warnzeichen wie Blut im Stuhl, unbeabsichtigter Gewichtsverlust, Fieber, nächtlicher Durchfall, starke oder zunehmende Schmerzen und wiederkehrendes Erbrechen.",
+          "Bei ausgeprägtem Flüssigkeitsverlust, Kreislaufproblemen, Atemnot oder Schwellungen ist eine dringende medizinische Beurteilung erforderlich."
+        ]
+      },
+      {
+        id: "faq",
+        heading: "Häufige Fragen zur Laktoseintoleranz",
+        paragraphs: [
+          "Muss ich vollständig auf Milch verzichten? Nein. Viele Betroffene vertragen bestimmte Mengen oder einzelne Milchprodukte. Entscheidend ist die individuell ermittelte Verträglichkeit.",
+          "Ist ein positiver H2-Atemtest bereits die Diagnose? Nicht allein. Der Test muss zusammen mit den während der Untersuchung auftretenden typischen Beschwerden und der klinischen Situation bewertet werden.",
+          "Kann eine Laktoseintoleranz wieder verschwinden? Eine primäre Form bleibt in der Regel bestehen. Eine sekundäre Form kann sich nach Behandlung und Erholung der Darmschleimhaut zurückbilden.",
+          "Sind Laktoseintoleranz und Milchallergie dasselbe? Nein. Die Intoleranz betrifft die Verdauung von Milchzucker; eine Milchallergie ist eine Immunreaktion auf Milchbestandteile.",
+          "Sind Selbsttests aus dem Internet ausreichend? Nein. Für eine verlässliche Einordnung sind Anamnese und geeignete medizinische Tests erforderlich."
+        ]
+      }
+    ],
+    sources: [
+      {
+        title: "Laktoseintoleranz: Symptome und Therapie",
+        publisher: "Bundesministerium für Gesundheit – gesund.bund.de",
+        url: "https://gesund.bund.de/laktoseintoleranz",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Lactoseintoleranz: Milch und Milchprodukte individuell verträglich",
+        publisher: "Deutsche Gesellschaft für Ernährung (DGE), 2026",
+        url: "https://www.dge.de/presse/meldungen/2026/lactoseintoleranz-milch-und-milchprodukte-individuell-vertraeglich/",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Diagnosis of Lactose Intolerance",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        url: "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/diagnosis",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Treatment for Lactose Intolerance",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        url: "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/treatment",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Laktoseintoleranz – Milchzucker-Unverträglichkeit",
+        publisher: "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWiG)",
+        url: "https://www.gesundheitsinformation.de/laktoseintoleranz-milchzucker-unvertraeglichkeit.html",
+        accessed: "2026-11-26"
+      },
+      {
+        title: "Diagnosesicherung – S3-Leitlinie Reizdarmsyndrom",
+        publisher: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS)",
+        url: "https://www.dgvs.de/new-leitlinien/chapter_69c5514d98b79/",
+        accessed: "2026-11-26"
+      }
+    ]
   },
 
 ];
