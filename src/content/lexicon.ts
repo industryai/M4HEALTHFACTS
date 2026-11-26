@@ -1,6 +1,8 @@
 import type { LexiconEntry } from "./types";
 
 const raw: Omit<LexiconEntry, "slug">[] = [
+  { term: "Ausdauertraining", definition: "Körperliche Aktivität über einen längeren Zeitraum, die vor allem Herz und Kreislauf beansprucht, zum Beispiel zügiges Gehen, Radfahren oder Schwimmen.", relatedArticle: "bewegung-im-alltag" },
+  { term: "Bewegung", definition: "Körperliche Aktivität im Alltag, bei der der Körper in Bewegung kommt – etwa beim Gehen, Radfahren, Sport oder bei Haus- und Gartenarbeit.", relatedArticle: "bewegung-im-alltag" },
   { term: "Antioxidantien", definition: "Stoffe, die bestimmte chemische Reaktionen (Oxidation) hemmen können. Sie kommen u. a. in pflanzlichen Lebensmitteln vor." },
   { term: "Ballaststoffe", definition: "Weitgehend unverdauliche Bestandteile pflanzlicher Lebensmittel, etwa aus Vollkorn, Gemüse und Hülsenfrüchten." },
   { term: "Blutdruck", definition: "Der Druck, den das Blut auf die Gefäßwände ausübt. Er wird in zwei Werten angegeben: systolisch und diastolisch." },
@@ -15,6 +17,7 @@ const raw: Omit<LexiconEntry, "slug">[] = [
   { term: "Hausmittel", definition: "Überlieferte, meist einfache Anwendungen aus dem Haushalt. Ihre Wirksamkeit ist oft nicht wissenschaftlich belegt." },
   { term: "Immunsystem", definition: "Das körpereigene Abwehrsystem gegen Krankheitserreger und fremde Stoffe." },
   { term: "Jod", definition: "Spurenelement, das für die Bildung von Schilddrüsenhormonen benötigt wird." },
+  { term: "Krafttraining", definition: "Trainingsform, bei der die Muskulatur durch Widerstände gezielt beansprucht und gekräftigt wird.", relatedArticle: "bewegung-im-alltag" },
   { term: "Kalorie", definition: "Maßeinheit für Energie, im Alltag meist als Kilokalorie (kcal) für den Energiegehalt von Lebensmitteln verwendet." },
   { term: "Kamille", definition: "Korbblütler, dessen getrocknete Blüten traditionell als Tee verwendet werden." },
   { term: "Lymphe", definition: "Gewebsflüssigkeit, die über das Lymphsystem transportiert wird und an der Immunabwehr beteiligt ist." },
